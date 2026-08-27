@@ -529,19 +529,22 @@ button:focus-visible{ outline:2px solid var(--gold); outline-offset:2px; }
   .stage{ padding:28px 20px 22px; }
 }
 
-/* ---------- Нижня панель навігації ---------- */
-body{ padding-bottom:96px; }
+/* ---------- Верхня панель навігації ---------- */
+/* Навмисно вгорі, а не внизу: у мобільному браузері (не встановленому як PWA)
+   нижня панель браузера з'їдає частину видимої висоти й перекривала фіксовану
+   нижню навігацію разом з кнопками "Знаю"/"Забув". */
+body{ padding-top:100px; padding-bottom:60px; }
 .tabbar{
   position:fixed;
-  bottom:0; left:0; right:0;
+  top:0; left:0; right:0;
   z-index:5;
   display:flex;
   justify-content:space-around;
   align-items:center;
   background:rgba(12,14,22,0.92);
   backdrop-filter:blur(10px);
-  border-top:1px solid var(--line);
-  padding:10px 8px calc(10px + env(safe-area-inset-bottom));
+  border-bottom:1px solid var(--line);
+  padding:calc(10px + env(safe-area-inset-top)) 8px 10px;
 }
 .tab-item{
   display:flex;
