@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0c0e16">
+<title>Базис — тренажер</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="bg-fx">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+  <div id="fireflies"></div>
+</div>
+
+<div class="card">
+  <div class="eyebrow">
+    <a href="index.html" class="back-link">← Теми</a>
+    <span id="topicLabel">…</span>
+  </div>
+
+  <div class="stats">
+    <span>На повторення: <b id="dueCount">0</b></span>
+    <span>Нових: <b id="newCount">0</b></span>
+    <span>Вивчено: <b id="masteredCount">0</b></span>
+  </div>
+
+  <div class="stage" id="stage"><div class="empty"><div class="big">Завантаження…</div></div></div>
+
+  <div class="reset-row">
+    <button class="reset-link" id="resetBtn">Скинути прогрес цієї теми</button>
+  </div>
+
+  <div class="footnote">Прогрес зберігається лише на цьому пристрої й у цьому браузері.<br>Можна встановити як застосунок: меню браузера → «Додати на головний екран».</div>
+</div>
+
+<script>
+/* ---------- Визначення теми з URL ---------- */
+const params = new URLSearchParams(window.location.search);
+const TOPIC_ID = params.get('topic') || 'core';
+
+const TOPIC_META = {
+  core: { name:"Основні слова", file:"data/core.json" },
+  environment: { name:"Environment", file:"data/environment.json" }
+};
+
+const meta = TOPIC_META[TOPIC_ID] || TOPIC_META.core;
+document.getElementById('topicLabel').textContent = meta.name;
+
+const STORAGE_KEY = "basis_progress_" + TOPIC_ID;
+const INTERVALS_DAYS = [1, 3, 7, 14, 30];
+
+let ITEMS = [];
+let progress = loadProgress();
+let currentId = null;
+
+function loadProgress(){
+  try{
+    const raw = localStorage.getItem(STORAGE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  }catch(e){ return {}; }
+}
+function saveProgress(p){
+  try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(p)); }catch(e){}
+}
+
+function now(){ return Date.now(); }
+function daysToMs(d){ return d * 24 * 60 * 60 * 1000; }
+
+function buildQueue(){
+  const t = now();
+  const due = [];
+  const fresh = [];
+  for(const item of ITEMS){
+    const p = progress[item.id];
+    if(!p){ fresh.push(item.id); }
+    else if(p.next <= t){ due.push({id:item.id, next:p.next}); }
+  }
+  due.sort((a,b) => a.next - b.next);
+  return due.map(d => d.id).concat(fresh);
+}
+
+function updateStats(){
+  const t = now();
+  let due = 0, fresh = 0, mastered = 0;
+  for(const item of ITEMS){
+    const p = progress[item.id];
+    if(!p) fresh++;
+    else if(p.next <= t) due++;
+    if(p && p.box >= 5) mastered++;
+  }
+  document.getElementById('dueCount').textContent = due;
+  document.getElementById('newCount').textContent = fresh;
+  document.getElementById('masteredCount').textContent = mastered;
+}
+
+function findItem(id){ return ITEMS.find(i => i.id === id); }
+
+function renderCard(id){
+  const item = findItem(id);
+  const stage = document.getElementById('stage');
+
+  let formsHtml = '';
+  if(item.forms){
+    formsHtml = `<div class="forms">
+      <span>Present: <b>${item.forms.base}</b><br><i>${item.forms.phBase}</i></span>
+      <span>Past: <b>${item.forms.past}</b><br><i>${item.forms.phPast}</i></span>
+      <span>Participle: <b>${item.forms.part}</b><br><i>${item.forms.phPart}</i></span>
+    </div>`;
+  }
+
+  // Повний формат (core): масив прикладів по часах. Легкий формат (теми): одне речення.
+  let exHtml = '';
+  if(item.examples){
+    exHtml = item.examples.map(([tense, sentence]) =>
+      `<div class="ex-item">
+        <div class="ex-tense">${tense}</div>
+        <div class="ex-sentence">"${sentence}"</div>
+      </div>`
+    ).join('');
+  } else if(item.example){
+    exHtml = `<div class="ex-item">
+      <div class="ex-sentence">"${item.example}"</div>
+    </div>`;
+  }
+
+  const noteHtml = item.note ? `<div class="note">${item.note}</div>` : '';
+
+  stage.innerHTML = `
+    <div class="head-row">
+      <p class="word">${item.en}</p>
+      <span class="pos">${item.pos}</span>
+    </div>
+    <div class="phonetic">${item.ph}</div>
+    <div class="translation">${item.uk}</div>
+    ${formsHtml}
+    <div class="divider">✦</div>
+    <div class="label">${item.examples ? 'Приклади в різних часах' : 'Приклад'}</div>
+    <div class="ex-list">${exHtml}</div>
+    ${noteHtml}
+    <div class="actions">
+      <button class="btn-forgot" id="forgotBtn">Забув</button>
+      <button class="btn-know" id="knowBtn">Знаю</button>
+    </div>
+  `;
+
+  document.getElementById('forgotBtn').addEventListener('click', () => answer(id, false));
+  document.getElementById('knowBtn').addEventListener('click', () => answer(id, true));
+}
+
+function renderEmpty(){
+  const stage = document.getElementById('stage');
+  stage.innerHTML = `
+    <div class="empty">
+      <div class="big">На сьогодні все 🌿</div>
+      <p>Ти пройшов усі слова цієї теми, заплановані на повторення. Повертайся завтра — розклад з'явиться автоматично.</p>
+    </div>
+  `;
+}
+
+function renderError(){
+  const stage = document.getElementById('stage');
+  stage.innerHTML = `
+    <div class="empty">
+      <div class="big">Немає з'єднання</div>
+      <p>Дані цієї теми ще не завантажені на пристрій. Відкрий сторінку хоч раз з інтернетом, щоб вона закешувалась для офлайн-використання.</p>
+    </div>
+  `;
+}
+
+function answer(id, knew){
+  const p = progress[id] || {box: 0, next: 0};
+  if(knew){
+    p.box = Math.min((p.box || 0) + 1, 5);
+  } else {
+    p.box = 1;
+  }
+  const intervalIdx = Math.min(p.box - 1, INTERVALS_DAYS.length - 1);
+  p.next = now() + daysToMs(INTERVALS_DAYS[intervalIdx]);
+  progress[id] = p;
+  saveProgress(progress);
+  updateStats();
+  nextCard();
+}
+
+function nextCard(){
+  const queue = buildQueue();
+  if(queue.length === 0){
+    currentId = null;
+    renderEmpty();
+    return;
+  }
+  currentId = queue[0];
+  renderCard(currentId);
+}
+
+document.getElementById('resetBtn').addEventListener('click', () => {
+  if(confirm('Точно скинути прогрес цієї теми? Це не можна відмінити.')){
+    progress = {};
+    saveProgress(progress);
+    updateStats();
+    nextCard();
+  }
+});
+
+/* ---------- Завантаження даних теми ---------- */
+fetch(meta.file)
+  .then(res => {
+    if(!res.ok) throw new Error('fetch failed');
+    return res.json();
+  })
+  .then(items => {
+    ITEMS = items;
+    updateStats();
+    nextCard();
+  })
+  .catch(() => {
+    renderError();
+  });
+
+/* ---------- Фонові світлячки ---------- */
+(function initFireflies(){
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduceMotion) return;
+  const container = document.getElementById('fireflies');
+  const COUNT = 18;
+  for(let i = 0; i < COUNT; i++){
+    const el = document.createElement('div');
+    el.className = 'firefly';
+    const left = Math.random() * 100;
+    const duration = 14 + Math.random() * 14;
+    const delay = Math.random() * 20;
+    const drift = (Math.random() * 80 - 40).toFixed(0) + 'px';
+    const size = (2 + Math.random() * 2.5).toFixed(1) + 'px';
+    el.style.left = left + 'vw';
+    el.style.width = size;
+    el.style.height = size;
+    el.style.animationDuration = duration + 's';
+    el.style.animationDelay = '-' + delay + 's';
+    el.style.setProperty('--drift', drift);
+    container.appendChild(el);
+  }
+})();
+
+if('serviceWorker' in navigator){
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  });
+}
+</script>
+
+</body>
+</html>

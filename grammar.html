@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0c0e16">
+<title>Базис — граматика</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="bg-fx">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+  <div id="fireflies"></div>
+</div>
+
+<div class="card">
+  <div class="eyebrow">
+    <a href="index.html" class="back-link">← Теми</a>
+    <span>граматика</span>
+  </div>
+
+  <div class="stage">
+    <p class="word" style="font-size:28px;">Часи англійської мови</p>
+    <div class="g-tier-sub" style="margin-top:10px; margin-bottom:0;">
+      В англійській 12 комбінацій часу й виду, але дослідження розмовної мови показують: приблизно 96% усього, що люди кажуть, вкладається лише в 5 із них. Тому нижче — три рівні за реальною частотою використання, а не за підручниковою складністю. Рівень 1 варто довести до автоматизму. Рівень 3 — просто впізнавати при читанні.
+    </div>
+
+    <div class="divider">✦</div>
+
+    <!-- ===== РІВЕНЬ 1 ===== -->
+    <div class="g-tier">
+      <div class="g-tier-head">
+        <span class="g-tier-num">1</span>
+        <span class="g-tier-title">Обов'язковий мінімум</span>
+      </div>
+      <div class="g-tier-sub">Це те, чим ти говориш 90%+ часу. Present Simple сам по собі — це майже 57% усіх дієслів у живій розмові.</div>
+
+      <div class="g-item">
+        <div class="g-item-name">Present Simple</div>
+        <div class="g-item-formula">I work / I don't work / Do I work?</div>
+        <div class="g-item-text">Факти, звички, розклади, загальні істини. Дія не прив'язана до конкретного моменту — вона просто «є правдою».</div>
+        <div class="g-item-example">"I take out the trash every evening." — звичка<br>"Water boils at 100°C." — факт</div>
+      </div>
+
+      <div class="g-item">
+        <div class="g-item-name">Past Simple</div>
+        <div class="g-item-formula">I worked / I didn't work / Did I work?</div>
+        <div class="g-item-text">Завершена дія в конкретний момент у минулому. Момент часто названий прямо: yesterday, last week, in 2020.</div>
+        <div class="g-item-example">"I threw away the trash yesterday."</div>
+      </div>
+
+      <div class="g-item">
+        <div class="g-item-name">Present Continuous</div>
+        <div class="g-item-formula">I am working / I'm not working / Am I working?</div>
+        <div class="g-item-text">Дія відбувається прямо зараз, у момент мовлення, або запланована на найближче майбутнє.</div>
+        <div class="g-item-example">"I'm writing an email right now."<br>"I'm meeting him tomorrow." — запланована зустріч</div>
+      </div>
+
+      <div class="g-item">
+        <div class="g-item-name">Present Perfect</div>
+        <div class="g-item-formula">I have worked / I haven't worked / Have I worked?</div>
+        <div class="g-item-text">Найскладніший для носіїв слов'янських мов, бо прямого відповідника в українській немає. Зв'язує минулу дію з теперішнім моментом: результат важливіший за час, коли це сталось.</div>
+        <div class="g-item-example">"I've already thrown away the trash." — важливий результат зараз, не коли саме<br>"I've known her for ten years." — почалось у минулому, триває й зараз</div>
+      </div>
+
+      <div class="g-item">
+        <div class="g-item-name">Future (going to / will)</div>
+        <div class="g-item-formula">I'm going to work / I will work</div>
+        <div class="g-item-text"><b>Going to</b> — вже є план чи очевидний намір. <b>Will</b> — рішення в момент мовлення, обіцянка, прогноз без конкретного плану.</div>
+        <div class="g-item-example">"I'm going to fix the car this weekend." — вже вирішив, є план<br>"I'll help you with that." — рішення прямо зараз, спонтанно</div>
+      </div>
+    </div>
+
+    <div class="divider">✦</div>
+
+    <!-- ===== РІВЕНЬ 2 ===== -->
+    <div class="g-tier">
+      <div class="g-tier-head">
+        <span class="g-tier-num">2</span>
+        <span class="g-tier-title">Регулярно трапляються</span>
+      </div>
+      <div class="g-tier-sub">Не щодня, але досить часто, щоб розуміти твердо і вміти вжити, коли потрібно.</div>
+
+      <div class="g-item">
+        <div class="g-item-name">Past Continuous</div>
+        <div class="g-item-formula">I was working / I wasn't working</div>
+        <div class="g-item-text">Дія-фон у минулому, під час якої сталось щось інше (зазвичай у Past Simple).</div>
+        <div class="g-item-example">"I was cooking dinner when he called."</div>
+      </div>
+
+      <div class="g-item">
+        <div class="g-item-name">Present Perfect Continuous</div>
+        <div class="g-item-formula">I have been working / I haven't been working</div>
+        <div class="g-item-text">Наголос саме на тривалості дії, яка почалась у минулому і триває (чи щойно закінчилась, залишивши видимий ефект).</div>
+        <div class="g-item-example">"I've been waiting for an hour." — акцент на тривалості чекання<br>"I'm tired — I've been working all day."</div>
+      </div>
+
+      <div class="g-item">
+        <div class="g-item-name">Past Perfect</div>
+        <div class="g-item-formula">I had worked / I hadn't worked</div>
+        <div class="g-item-text">«Минуле в минулому» — дія, яка сталась раніше за іншу минулу дію. Часто в розповідях.</div>
+        <div class="g-item-example">"I had already left when she arrived."</div>
+      </div>
+    </div>
+
+    <div class="divider">✦</div>
+
+    <!-- ===== РІВЕНЬ 3 ===== -->
+    <div class="g-tier">
+      <div class="g-tier-head">
+        <span class="g-tier-num">3</span>
+        <span class="g-tier-title">Існують, але рідкість</span>
+      </div>
+      <div class="g-tier-sub">Трапляються в офіційних текстах, новинах, художній літературі. Мета — впізнавати при читанні, а не активно вживати в розмові.</div>
+
+      <div class="g-item">
+        <div class="g-item-name">Future Continuous</div>
+        <div class="g-item-formula">I will be working</div>
+        <div class="g-item-text">Дія триватиме в певний момент у майбутньому.</div>
+        <div class="g-item-example">"This time tomorrow, I'll be flying to Toronto."</div>
+      </div>
+
+      <div class="g-item">
+        <div class="g-item-name">Future Perfect</div>
+        <div class="g-item-formula">I will have worked</div>
+        <div class="g-item-text">Дія завершиться до певного моменту в майбутньому.</div>
+        <div class="g-item-example">"By next year, I will have finished this project."</div>
+      </div>
+
+      <div class="g-item">
+        <div class="g-item-name">Past Perfect Continuous</div>
+        <div class="g-item-formula">I had been working</div>
+        <div class="g-item-text">Тривала дія в минулому, яка закінчилась перед іншою минулою подією.</div>
+        <div class="g-item-example">"She had been working there for years before she quit."</div>
+      </div>
+
+      <div class="g-item">
+        <div class="g-item-name">Future Perfect Continuous</div>
+        <div class="g-item-formula">I will have been working</div>
+        <div class="g-item-text">Найрідкісніша форма — тривалість дії, яка закінчиться до певного моменту в майбутньому. Зустрічається майже виключно в формальному письмі.</div>
+        <div class="g-item-example">"By June, I will have been living here for five years."</div>
+      </div>
+    </div>
+
+    <div class="divider">✦</div>
+
+    <div class="note">
+      Ці нотатки в картках слів («know не вживається в Continuous», «think about vs think of») — це, по суті, зернята майбутніх окремих статей саме тут. З часом кожна плутанина отримає власний розділ з детальнішим поясненням: артиклі, прийменники, фразові дієслова, обчислювані/необчислювані іменники.
+    </div>
+  </div>
+</div>
+
+<script>
+(function initFireflies(){
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduceMotion) return;
+  const container = document.getElementById('fireflies');
+  const COUNT = 18;
+  for(let i = 0; i < COUNT; i++){
+    const el = document.createElement('div');
+    el.className = 'firefly';
+    const left = Math.random() * 100;
+    const duration = 14 + Math.random() * 14;
+    const delay = Math.random() * 20;
+    const drift = (Math.random() * 80 - 40).toFixed(0) + 'px';
+    const size = (2 + Math.random() * 2.5).toFixed(1) + 'px';
+    el.style.left = left + 'vw';
+    el.style.width = size;
+    el.style.height = size;
+    el.style.animationDuration = duration + 's';
+    el.style.animationDelay = '-' + delay + 's';
+    el.style.setProperty('--drift', drift);
+    container.appendChild(el);
+  }
+})();
+
+if('serviceWorker' in navigator){
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  });
+}
+</script>
+
+</body>
+</html>

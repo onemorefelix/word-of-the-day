@@ -1,0 +1,227 @@
+[
+  {
+    "id": "sustainable",
+    "en": "sustainable",
+    "ph": "/səˈsteɪnəbl/",
+    "uk": "сталий, екологічно стійкий",
+    "pos": "adjective",
+    "example": "The company switched to sustainable packaging last year.",
+    "note": "Ключове слово IELTS-есе про довкілля. Часта колокація: <b>sustainable development</b>, <b>sustainable practices</b>."
+  },
+  {
+    "id": "emission",
+    "en": "emission",
+    "ph": "/ɪˈmɪʃən/",
+    "uk": "викид (у повітря)",
+    "pos": "noun",
+    "example": "Carbon emissions have risen sharply over the past decade.",
+    "note": "Майже завжди у виразі <b>carbon emissions</b> / <b>greenhouse gas emissions</b>."
+  },
+  {
+    "id": "pollution",
+    "en": "pollution",
+    "ph": "/pəˈluːʃən/",
+    "uk": "забруднення",
+    "pos": "noun",
+    "example": "Air pollution is a major problem in big cities.",
+    "note": "Незлічуваний іменник — без артикля «a» і без множини."
+  },
+  {
+    "id": "biodiversity",
+    "en": "biodiversity",
+    "ph": "/ˌbaɪoʊdaɪˈvɜːrsəti/",
+    "uk": "біорізноманіття",
+    "pos": "noun",
+    "example": "Deforestation threatens biodiversity across the region.",
+    "note": "Часто в парі з дієсловом <b>threaten</b> або <b>preserve</b>."
+  },
+  {
+    "id": "ecosystem",
+    "en": "ecosystem",
+    "ph": "/ˈiːkoʊsɪstəm/",
+    "uk": "екосистема",
+    "pos": "noun",
+    "example": "Coral reefs support a fragile ecosystem.",
+    "note": ""
+  },
+  {
+    "id": "renewable",
+    "en": "renewable",
+    "ph": "/rɪˈnuːəbl/",
+    "uk": "відновлюваний",
+    "pos": "adjective",
+    "example": "The government is investing heavily in renewable energy.",
+    "note": "Стандартна колокація: <b>renewable energy / resources</b>."
+  },
+  {
+    "id": "fossil_fuel",
+    "en": "fossil fuel",
+    "ph": "/ˈfɑːsəl fjuːəl/",
+    "uk": "викопне паливо",
+    "pos": "noun",
+    "example": "Many countries still rely on fossil fuels for electricity.",
+    "note": "Завжди два слова разом, часто у множині: <b>fossil fuels</b>."
+  },
+  {
+    "id": "deforestation",
+    "en": "deforestation",
+    "ph": "/diːˌfɒrɪˈsteɪʃən/",
+    "uk": "вирубка лісів",
+    "pos": "noun",
+    "example": "Deforestation is one of the leading causes of climate change.",
+    "note": ""
+  },
+  {
+    "id": "conservation",
+    "en": "conservation",
+    "ph": "/ˌkɒnsərˈveɪʃən/",
+    "uk": "збереження (природи)",
+    "pos": "noun",
+    "example": "The park was created for wildlife conservation.",
+    "note": "Колокація: <b>wildlife conservation</b>, <b>conservation efforts</b>."
+  },
+  {
+    "id": "habitat",
+    "en": "habitat",
+    "ph": "/ˈhæbɪtæt/",
+    "uk": "середовище існування",
+    "pos": "noun",
+    "example": "Rising temperatures are destroying the polar bear's habitat.",
+    "note": ""
+  },
+  {
+    "id": "drought",
+    "en": "drought",
+    "ph": "/draʊt/",
+    "uk": "посуха",
+    "pos": "noun",
+    "example": "The region has suffered from severe drought for three years.",
+    "note": ""
+  },
+  {
+    "id": "greenhouse_gas",
+    "en": "greenhouse gas",
+    "ph": "/ˈɡriːnhaʊs ɡæs/",
+    "uk": "парниковий газ",
+    "pos": "noun",
+    "example": "Carbon dioxide is the most common greenhouse gas.",
+    "note": ""
+  },
+  {
+    "id": "recycle",
+    "en": "recycle",
+    "ph": "/riːˈsaɪkl/",
+    "uk": "переробляти (сміття)",
+    "pos": "verb",
+    "example": "We recycle paper, glass, and plastic at home.",
+    "note": "Іменник — <b>recycling</b> (не «recyclement»)."
+  },
+  {
+    "id": "waste",
+    "en": "waste",
+    "ph": "/weɪst/",
+    "uk": "відходи",
+    "pos": "noun",
+    "example": "The factory produces a lot of industrial waste.",
+    "note": "Незлічуваний. Колокація: <b>waste management</b>, <b>reduce waste</b>."
+  },
+  {
+    "id": "contaminate",
+    "en": "contaminate",
+    "ph": "/kənˈtæmɪneɪt/",
+    "uk": "забруднювати, отруювати",
+    "pos": "verb",
+    "example": "Chemical runoff contaminated the local water supply.",
+    "note": "Сильніше за «pollute» — часто про воду/їжу з небезпечним ефектом."
+  },
+  {
+    "id": "depletion",
+    "en": "depletion",
+    "ph": "/dɪˈpliːʃən/",
+    "uk": "виснаження (ресурсів)",
+    "pos": "noun",
+    "example": "Ozone depletion was a major concern in the 1990s.",
+    "note": "Колокація: <b>resource depletion</b>, <b>ozone depletion</b>."
+  },
+  {
+    "id": "carbon_footprint",
+    "en": "carbon footprint",
+    "ph": "/ˈkɑːrbən ˈfʊtprɪnt/",
+    "uk": "вуглецевий слід",
+    "pos": "noun",
+    "example": "Flying frequently increases your carbon footprint significantly.",
+    "note": "Дуже поширений вираз у IELTS Writing Task 2 про довкілля."
+  },
+  {
+    "id": "endangered",
+    "en": "endangered",
+    "ph": "/ɪnˈdeɪndʒərd/",
+    "uk": "той, що під загрозою зникнення",
+    "pos": "adjective",
+    "example": "Several endangered species live in this national park.",
+    "note": "Колокація: <b>endangered species</b>."
+  },
+  {
+    "id": "erosion",
+    "en": "erosion",
+    "ph": "/ɪˈroʊʒən/",
+    "uk": "ерозія",
+    "pos": "noun",
+    "example": "Coastal erosion is destroying beaches around the world.",
+    "note": "Колокація: <b>soil erosion</b>, <b>coastal erosion</b>."
+  },
+  {
+    "id": "urbanization",
+    "en": "urbanization",
+    "ph": "/ˌɜːrbənaɪˈzeɪʃən/",
+    "uk": "урбанізація",
+    "pos": "noun",
+    "example": "Rapid urbanization has put pressure on natural resources.",
+    "note": ""
+  },
+  {
+    "id": "mitigate",
+    "en": "mitigate",
+    "ph": "/ˈmɪtɪɡeɪt/",
+    "uk": "пом'якшувати (наслідки)",
+    "pos": "verb",
+    "example": "Governments must act quickly to mitigate climate change.",
+    "note": "Дуже частотне у формальних текстах про політику й довкілля."
+  },
+  {
+    "id": "consumption",
+    "en": "consumption",
+    "ph": "/kənˈsʌmpʃən/",
+    "uk": "споживання",
+    "pos": "noun",
+    "example": "Reducing meat consumption can lower your environmental impact.",
+    "note": "Колокація: <b>energy consumption</b>, <b>water consumption</b>."
+  },
+  {
+    "id": "toxic",
+    "en": "toxic",
+    "ph": "/ˈtɑːksɪk/",
+    "uk": "токсичний",
+    "pos": "adjective",
+    "example": "The factory released toxic chemicals into the river.",
+    "note": ""
+  },
+  {
+    "id": "regulation",
+    "en": "regulation",
+    "ph": "/ˌreɡjəˈleɪʃən/",
+    "uk": "регулювання, норма",
+    "pos": "noun",
+    "example": "Stricter environmental regulations were introduced last year.",
+    "note": "Часто у множині: <b>environmental regulations</b>."
+  },
+  {
+    "id": "footprint",
+    "en": "footprint",
+    "ph": "/ˈfʊtprɪnt/",
+    "uk": "слід, вплив (переносно)",
+    "pos": "noun",
+    "example": "The company aims to reduce its environmental footprint.",
+    "note": "У переносному сенсі — «вплив», не тільки слід на землі."
+  }
+]
