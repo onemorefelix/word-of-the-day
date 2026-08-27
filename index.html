@@ -193,10 +193,12 @@
   .forms span{
     background:rgba(244,239,228,0.05);
     border:1px solid var(--line);
-    padding:3px 9px;
+    padding:6px 9px;
     border-radius:2px;
+    line-height:1.6;
   }
   .forms b{ color:var(--ink); }
+  .forms i{ color:var(--dim); font-style:normal; font-size:11.5px; }
 
   .divider{ height:1px; background:var(--line); margin:22px 0; }
 
@@ -346,94 +348,94 @@
 // Кожне слово: en, ph (транскрипція IPA), uk, pos, forms (тільки для дієслів), examples (Present/Past/Perfect), note.
 // Список легко розширюється — просто додай ще один об'єкт у ITEMS у тому ж форматі.
 const ITEMS = [
-  {id:"throw_away", en:"throw away", ph:"/θroʊ əˈweɪ/", uk:"викидати (сміття)", pos:"verb", forms:{base:"throw away",past:"threw away",part:"thrown away"},
+  {id:"throw_away", en:"throw away", ph:"/θroʊ əˈweɪ/", uk:"викидати (сміття)", pos:"verb", forms:{base:"throw away",past:"threw away",part:"thrown away",phBase:"/θroʊ əˈweɪ/",phPast:"/θruː əˈweɪ/",phPart:"/θroʊn əˈweɪ/"},
     examples:[["Present Simple","I throw away the trash every evening."],["Past Simple","I threw away the trash yesterday."],["Present Perfect","I've already thrown away the trash."]],
     note:"«Throw away» = <b>викидати</b> непотрібне. Просто «throw» — кидати (м'яч), не сміття."},
-  {id:"forget", en:"forget", ph:"/fərˈɡɛt/", uk:"забувати", pos:"verb", forms:{base:"forget",past:"forgot",part:"forgotten"},
+  {id:"forget", en:"forget", ph:"/fərˈɡɛt/", uk:"забувати", pos:"verb", forms:{base:"forget",past:"forgot",part:"forgotten",phBase:"/fərˈɡɛt/",phPast:"/fərˈɡɑːt/",phPart:"/fərˈɡɑːtən/"},
     examples:[["Present Simple","I always forget his name."],["Past Simple","I forgot my keys this morning."],["Present Perfect","I've forgotten what she said."]],
     note:"«Forget to do» — забути зробити щось (наперед). «Forget doing» — забути, що вже робив."},
-  {id:"remember", en:"remember", ph:"/rɪˈmɛmbər/", uk:"пам'ятати", pos:"verb", forms:{base:"remember",past:"remembered",part:"remembered"},
+  {id:"remember", en:"remember", ph:"/rɪˈmɛmbər/", uk:"пам'ятати", pos:"verb", forms:{base:"remember",past:"remembered",part:"remembered",phBase:"/rɪˈmɛmbər/",phPast:"/rɪˈmɛmbərd/",phPart:"/rɪˈmɛmbərd/"},
     examples:[["Present Simple","I remember that day clearly."],["Past Simple","I remembered his birthday just in time."],["Present Perfect","I've never forgotten his birthday."]],
     note:"«Remember to do» — не забути зробити. «Remember doing» — пам'ятати, що робив."},
-  {id:"buy", en:"buy", ph:"/baɪ/", uk:"купувати", pos:"verb", forms:{base:"buy",past:"bought",part:"bought"},
+  {id:"buy", en:"buy", ph:"/baɪ/", uk:"купувати", pos:"verb", forms:{base:"buy",past:"bought",part:"bought",phBase:"/baɪ/",phPast:"/bɔːt/",phPart:"/bɔːt/"},
     examples:[["Present Simple","I buy groceries on Fridays."],["Past Simple","I bought a new laptop last week."],["Present Perfect","I've bought too many books this year."]],
     note:""},
-  {id:"bring", en:"bring", ph:"/brɪŋ/", uk:"приносити", pos:"verb", forms:{base:"bring",past:"brought",part:"brought"},
+  {id:"bring", en:"bring", ph:"/brɪŋ/", uk:"приносити", pos:"verb", forms:{base:"bring",past:"brought",part:"brought",phBase:"/brɪŋ/",phPast:"/brɔːt/",phPart:"/brɔːt/"},
     examples:[["Present Simple","Can you bring your laptop tomorrow?"],["Past Simple","She brought coffee for everyone."],["Present Perfect","He's brought his dog to work again."]],
     note:"«Bring» — сюди (до мовця). «Take» — туди (від мовця)."},
-  {id:"take", en:"take", ph:"/teɪk/", uk:"брати, забирати", pos:"verb", forms:{base:"take",past:"took",part:"taken"},
+  {id:"take", en:"take", ph:"/teɪk/", uk:"брати, забирати", pos:"verb", forms:{base:"take",past:"took",part:"taken",phBase:"/teɪk/",phPast:"/tʊk/",phPart:"/ˈteɪkən/"},
     examples:[["Present Simple","I take the bus every morning."],["Past Simple","I took my dog for a walk."],["Present Perfect","I've taken this route before."]],
     note:"Див. різницю bring/take вище."},
-  {id:"go", en:"go", ph:"/ɡoʊ/", uk:"йти, їхати", pos:"verb", forms:{base:"go",past:"went",part:"gone"},
+  {id:"go", en:"go", ph:"/ɡoʊ/", uk:"йти, їхати", pos:"verb", forms:{base:"go",past:"went",part:"gone",phBase:"/ɡoʊ/",phPast:"/wɛnt/",phPart:"/ɡɔːn/"},
     examples:[["Present Simple","I go to the gym twice a week."],["Past Simple","I went to the gym yesterday."],["Present Perfect","He's gone to the store."]],
     note:"«I've been to Kyiv» — їздив і повернувся. «He's gone to Kyiv» — поїхав і ще там."},
-  {id:"do", en:"do", ph:"/duː/", uk:"робити (справи, дії)", pos:"verb", forms:{base:"do",past:"did",part:"done"},
+  {id:"do", en:"do", ph:"/duː/", uk:"робити (справи, дії)", pos:"verb", forms:{base:"do",past:"did",part:"done",phBase:"/duː/",phPast:"/dɪd/",phPart:"/dʌn/"},
     examples:[["Present Simple","I do my chores on Sundays."],["Past Simple","I did my homework already."],["Present Perfect","I've done everything on the list."]],
     note:"«Do» — виконувати дію/обов'язок. «Make» — створювати щось нове."},
-  {id:"make", en:"make", ph:"/meɪk/", uk:"робити, створювати", pos:"verb", forms:{base:"make",past:"made",part:"made"},
+  {id:"make", en:"make", ph:"/meɪk/", uk:"робити, створювати", pos:"verb", forms:{base:"make",past:"made",part:"made",phBase:"/meɪk/",phPast:"/meɪd/",phPart:"/meɪd/"},
     examples:[["Present Simple","I make dinner every night."],["Past Simple","I made a mistake."],["Present Perfect","I've made this recipe many times."]],
     note:"Див. різницю do/make вище."},
-  {id:"get", en:"get", ph:"/ɡɛt/", uk:"отримувати, ставати", pos:"verb", forms:{base:"get",past:"got",part:"gotten / got"},
+  {id:"get", en:"get", ph:"/ɡɛt/", uk:"отримувати, ставати", pos:"verb", forms:{base:"get",past:"got",part:"gotten / got",phBase:"/ɡɛt/",phPast:"/ɡɑːt/",phPart:"/ˈɡɑːtən/"},
     examples:[["Present Simple","I get tired after work."],["Past Simple","I got a new job."],["Present Perfect","I've gotten used to the cold winters."]],
     note:"«Get» має купу значень — отримувати, ставати, приходити. Орієнтуйся по контексту речення."},
-  {id:"give", en:"give", ph:"/ɡɪv/", uk:"давати", pos:"verb", forms:{base:"give",past:"gave",part:"given"},
+  {id:"give", en:"give", ph:"/ɡɪv/", uk:"давати", pos:"verb", forms:{base:"give",past:"gave",part:"given",phBase:"/ɡɪv/",phPast:"/ɡeɪv/",phPart:"/ˈɡɪvən/"},
     examples:[["Present Simple","I give him a ride every day."],["Past Simple","I gave her my old phone."],["Present Perfect","I've given up sugar."]],
     note:"«Give up» — кинути / відмовитись від чогось."},
-  {id:"put", en:"put", ph:"/pʊt/", uk:"класти, ставити", pos:"verb", forms:{base:"put",past:"put",part:"put"},
+  {id:"put", en:"put", ph:"/pʊt/", uk:"класти, ставити", pos:"verb", forms:{base:"put",past:"put",part:"put",phBase:"/pʊt/",phPast:"/pʊt/",phPart:"/pʊt/"},
     examples:[["Present Simple","I put my keys on the table every day."],["Past Simple","I put my keys on the table yesterday."],["Present Perfect","I've put it in the wrong place again."]],
     note:"Форма однакова у всіх часах — слухай контекст (every day / yesterday / already)."},
-  {id:"run", en:"run", ph:"/rʌn/", uk:"бігати, керувати (бізнесом)", pos:"verb", forms:{base:"run",past:"ran",part:"run"},
+  {id:"run", en:"run", ph:"/rʌn/", uk:"бігати, керувати (бізнесом)", pos:"verb", forms:{base:"run",past:"ran",part:"run",phBase:"/rʌn/",phPast:"/ræn/",phPart:"/rʌn/"},
     examples:[["Present Simple","I run three times a week."],["Past Simple","I ran five kilometers yesterday."],["Present Perfect","I've run this business for two years."]],
     note:"«Run a business» — керувати бізнесом, не тільки бігати."},
-  {id:"drive", en:"drive", ph:"/draɪv/", uk:"керувати авто", pos:"verb", forms:{base:"drive",past:"drove",part:"driven"},
+  {id:"drive", en:"drive", ph:"/draɪv/", uk:"керувати авто", pos:"verb", forms:{base:"drive",past:"drove",part:"driven",phBase:"/draɪv/",phPast:"/droʊv/",phPart:"/ˈdrɪvən/"},
     examples:[["Present Simple","I drive to work every day."],["Past Simple","I drove to Charlottetown yesterday."],["Present Perfect","I've driven this Jeep for years."]],
     note:""},
-  {id:"eat", en:"eat", ph:"/iːt/", uk:"їсти", pos:"verb", forms:{base:"eat",past:"ate",part:"eaten"},
+  {id:"eat", en:"eat", ph:"/iːt/", uk:"їсти", pos:"verb", forms:{base:"eat",past:"ate",part:"eaten",phBase:"/iːt/",phPast:"/eɪt/",phPart:"/ˈiːtən/"},
     examples:[["Present Simple","I eat breakfast at 7."],["Past Simple","I ate breakfast an hour ago."],["Present Perfect","I've already eaten."]],
     note:""},
-  {id:"drink", en:"drink", ph:"/drɪŋk/", uk:"пити", pos:"verb", forms:{base:"drink",past:"drank",part:"drunk"},
+  {id:"drink", en:"drink", ph:"/drɪŋk/", uk:"пити", pos:"verb", forms:{base:"drink",past:"drank",part:"drunk",phBase:"/drɪŋk/",phPast:"/dræŋk/",phPart:"/drʌŋk/"},
     examples:[["Present Simple","I drink coffee every morning."],["Past Simple","I drank too much coffee today."],["Present Perfect","I've drunk three cups already."]],
     note:"Не плутай з «drunk» як прикметником (п'яний)."},
-  {id:"break", en:"break", ph:"/breɪk/", uk:"ламати", pos:"verb", forms:{base:"break",past:"broke",part:"broken"},
+  {id:"break", en:"break", ph:"/breɪk/", uk:"ламати", pos:"verb", forms:{base:"break",past:"broke",part:"broken",phBase:"/breɪk/",phPast:"/broʊk/",phPart:"/ˈbroʊkən/"},
     examples:[["Present Simple","I break things when I'm tired."],["Past Simple","I broke my phone screen."],["Present Perfect","I've broken this rule before."]],
     note:"«Break down» — ламатись (про техніку) або зривати нерви."},
-  {id:"catch", en:"catch", ph:"/kætʃ/", uk:"ловити, встигати", pos:"verb", forms:{base:"catch",past:"caught",part:"caught"},
+  {id:"catch", en:"catch", ph:"/kætʃ/", uk:"ловити, встигати", pos:"verb", forms:{base:"catch",past:"caught",part:"caught",phBase:"/kætʃ/",phPast:"/kɔːt/",phPart:"/kɔːt/"},
     examples:[["Present Simple","I catch the bus at 8."],["Past Simple","I caught a cold last week."],["Present Perfect","I've caught up on all my emails."]],
     note:"«Catch up» — наздогнати / встигнути зробити."},
-  {id:"wear", en:"wear", ph:"/wɛr/", uk:"носити (одяг)", pos:"verb", forms:{base:"wear",past:"wore",part:"worn"},
+  {id:"wear", en:"wear", ph:"/wɛr/", uk:"носити (одяг)", pos:"verb", forms:{base:"wear",past:"wore",part:"worn",phBase:"/wɛr/",phPast:"/wɔːr/",phPart:"/wɔːrn/"},
     examples:[["Present Simple","I wear a jacket in winter."],["Past Simple","I wore my old boots yesterday."],["Present Perfect","I've worn this shirt too many times."]],
     note:"«Wear out» — зношувати (річ) або сильно втомитись."},
-  {id:"meet", en:"meet", ph:"/miːt/", uk:"зустрічати", pos:"verb", forms:{base:"meet",past:"met",part:"met"},
+  {id:"meet", en:"meet", ph:"/miːt/", uk:"зустрічати", pos:"verb", forms:{base:"meet",past:"met",part:"met",phBase:"/miːt/",phPast:"/mɛt/",phPart:"/mɛt/"},
     examples:[["Present Simple","I meet clients on Mondays."],["Past Simple","I met him at the gym."],["Present Perfect","I've met her before."]],
     note:""},
-  {id:"leave", en:"leave", ph:"/liːv/", uk:"залишати, вирушати", pos:"verb", forms:{base:"leave",past:"left",part:"left"},
+  {id:"leave", en:"leave", ph:"/liːv/", uk:"залишати, вирушати", pos:"verb", forms:{base:"leave",past:"left",part:"left",phBase:"/liːv/",phPast:"/lɛft/",phPart:"/lɛft/"},
     examples:[["Present Simple","I leave home at 8."],["Past Simple","I left my umbrella at work."],["Present Perfect","I've left this job once already."]],
     note:"Не плутай дієслово «left» (past) з прикметником «left» (лівий)."},
-  {id:"come", en:"come", ph:"/kʌm/", uk:"приходити", pos:"verb", forms:{base:"come",past:"came",part:"come"},
+  {id:"come", en:"come", ph:"/kʌm/", uk:"приходити", pos:"verb", forms:{base:"come",past:"came",part:"come",phBase:"/kʌm/",phPast:"/keɪm/",phPart:"/kʌm/"},
     examples:[["Present Simple","I come home late on Fridays."],["Past Simple","I came home late yesterday."],["Present Perfect","I've come to this cafe many times."]],
     note:""},
-  {id:"know", en:"know", ph:"/noʊ/", uk:"знати", pos:"verb", forms:{base:"know",past:"knew",part:"known"},
+  {id:"know", en:"know", ph:"/noʊ/", uk:"знати", pos:"verb", forms:{base:"know",past:"knew",part:"known",phBase:"/noʊ/",phPast:"/nuː/",phPart:"/noʊn/"},
     examples:[["Present Simple","I know this area well."],["Past Simple","I knew him back in college."],["Present Perfect","I've known her for ten years."]],
     note:"«Know» не вживається у Continuous — не кажемо «I'm knowing»."},
-  {id:"think", en:"think", ph:"/θɪŋk/", uk:"думати", pos:"verb", forms:{base:"think",past:"thought",part:"thought"},
+  {id:"think", en:"think", ph:"/θɪŋk/", uk:"думати", pos:"verb", forms:{base:"think",past:"thought",part:"thought",phBase:"/θɪŋk/",phPast:"/θɔːt/",phPart:"/θɔːt/"},
     examples:[["Present Simple","I think about this often."],["Past Simple","I thought about quitting once."],["Present Perfect","I've thought about this for a while."]],
     note:"«Think about» — роздумувати над чимось. «Think of» — щось спадає на думку."},
-  {id:"feel", en:"feel", ph:"/fiːl/", uk:"почуватись", pos:"verb", forms:{base:"feel",past:"felt",part:"felt"},
+  {id:"feel", en:"feel", ph:"/fiːl/", uk:"почуватись", pos:"verb", forms:{base:"feel",past:"felt",part:"felt",phBase:"/fiːl/",phPast:"/fɛlt/",phPart:"/fɛlt/"},
     examples:[["Present Simple","I feel tired today."],["Past Simple","I felt sick yesterday."],["Present Perfect","I've felt this way before."]],
     note:""},
-  {id:"see", en:"see", ph:"/siː/", uk:"бачити", pos:"verb", forms:{base:"see",past:"saw",part:"seen"},
+  {id:"see", en:"see", ph:"/siː/", uk:"бачити", pos:"verb", forms:{base:"see",past:"saw",part:"seen",phBase:"/siː/",phPast:"/sɔː/",phPart:"/siːn/"},
     examples:[["Present Simple","I see him every week."],["Past Simple","I saw a moose near the farm."],["Present Perfect","I've seen this movie twice."]],
     note:"«See» — мимоволі бачити, «watch» — дивитись цілеспрямовано, «look» — глянути."},
-  {id:"say", en:"say", ph:"/seɪ/", uk:"казати", pos:"verb", forms:{base:"say",past:"said",part:"said"},
+  {id:"say", en:"say", ph:"/seɪ/", uk:"казати", pos:"verb", forms:{base:"say",past:"said",part:"said",phBase:"/seɪ/",phPast:"/sɛd/",phPart:"/sɛd/"},
     examples:[["Present Simple","I say hello to my neighbors."],["Past Simple","I said thank you."],["Present Perfect","I've said this before."]],
     note:"«Say something» — без особи-об'єкта. «Tell someone something» — обов'язково з особою."},
-  {id:"tell", en:"tell", ph:"/tɛl/", uk:"розповідати (комусь)", pos:"verb", forms:{base:"tell",past:"told",part:"told"},
+  {id:"tell", en:"tell", ph:"/tɛl/", uk:"розповідати (комусь)", pos:"verb", forms:{base:"tell",past:"told",part:"told",phBase:"/tɛl/",phPast:"/toʊld/",phPart:"/toʊld/"},
     examples:[["Present Simple","I tell my dogs to sit."],["Past Simple","I told her the truth."],["Present Perfect","I've told him twice already."]],
     note:"Див. різницю say/tell вище."},
-  {id:"pay", en:"pay", ph:"/peɪ/", uk:"платити", pos:"verb", forms:{base:"pay",past:"paid",part:"paid"},
+  {id:"pay", en:"pay", ph:"/peɪ/", uk:"платити", pos:"verb", forms:{base:"pay",past:"paid",part:"paid",phBase:"/peɪ/",phPast:"/peɪd/",phPart:"/peɪd/"},
     examples:[["Present Simple","I pay my bills online."],["Past Simple","I paid the invoice yesterday."],["Present Perfect","I've paid this bill already."]],
     note:""},
-  {id:"lose", en:"lose", ph:"/luːz/", uk:"губити, програвати", pos:"verb", forms:{base:"lose",past:"lost",part:"lost"},
+  {id:"lose", en:"lose", ph:"/luːz/", uk:"губити, програвати", pos:"verb", forms:{base:"lose",past:"lost",part:"lost",phBase:"/luːz/",phPast:"/lɔːst/",phPart:"/lɔːst/"},
     examples:[["Present Simple","I lose my keys constantly."],["Past Simple","I lost my wallet last week."],["Present Perfect","I've lost track of time."]],
     note:"«Lose» (губити) не плутай з «loose» (вільний, прикметник) — часта помилка написання."},
 
@@ -555,9 +557,9 @@ function renderCard(id){
   let formsHtml = '';
   if(item.forms){
     formsHtml = `<div class="forms">
-      <span>Present: <b>${item.forms.base}</b></span>
-      <span>Past: <b>${item.forms.past}</b></span>
-      <span>Participle: <b>${item.forms.part}</b></span>
+      <span>Present: <b>${item.forms.base}</b><br><i>${item.forms.phBase}</i></span>
+      <span>Past: <b>${item.forms.past}</b><br><i>${item.forms.phPast}</i></span>
+      <span>Participle: <b>${item.forms.part}</b><br><i>${item.forms.phPart}</i></span>
     </div>`;
   }
 
