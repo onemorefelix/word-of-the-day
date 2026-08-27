@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#0c0e16">
+<title>Базис — довідка</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .ipa-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(78px, 1fr));
+    gap:8px;
+    margin-bottom:8px;
+  }
+  .ipa-cell{
+    background:rgba(236,230,216,0.035);
+    border:1px solid var(--line);
+    border-radius:3px;
+    padding:8px 6px;
+    text-align:center;
+  }
+  .ipa-symbol{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:calc(16px * var(--fs));
+    color:var(--gold);
+    margin-bottom:3px;
+  }
+  .ipa-word{
+    font-size:calc(11px * var(--fs));
+    color:var(--dim);
+  }
+  .pos-grid{ display:flex; flex-direction:column; gap:10px; }
+  .pos-item{
+    display:flex;
+    gap:12px;
+    align-items:baseline;
+    border-left:2px solid var(--line);
+    padding-left:14px;
+  }
+  .pos-en{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:calc(11px * var(--fs));
+    color:var(--gold);
+    text-transform:uppercase;
+    min-width:64px;
+    flex-shrink:0;
+  }
+  .pos-uk{ font-weight:600; color:var(--ink); }
+  .pos-text{ color:var(--dim); font-size:calc(13.5px * var(--fs)); }
+</style>
+</head>
+<body>
+
+<div id="bg-fx">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+  <div id="fireflies"></div>
+</div>
+
+<div class="card">
+  <div class="eyebrow">
+    <span>Базис</span>
+    <span><span class="dot">●</span> довідка</span>
+  </div>
+
+  <div class="stage" style="max-height:none; overflow:visible;">
+    <p class="word" style="font-size:calc(26px * var(--fs));">Як читати транскрипцію</p>
+    <div class="g-tier-sub" style="margin-top:8px;">
+      Транскрипція в застосунку записана міжнародним фонетичним алфавітом (IPA) — стандартом, який використовують усі великі словники (Cambridge, Oxford). Символи в квадратних дужках /.../ не завжди збігаються зі звичними літерами, тому кожен варто асоціювати зі знайомим словом.
+    </div>
+
+    <div class="divider">✦</div>
+
+    <div class="label">Голосні (12)</div>
+    <div class="ipa-grid">
+      <div class="ipa-cell"><div class="ipa-symbol">ɪ</div><div class="ipa-word">sit</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">iː</div><div class="ipa-word">see</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">ʊ</div><div class="ipa-word">put</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">uː</div><div class="ipa-word">too</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">e</div><div class="ipa-word">bed</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">ə</div><div class="ipa-word">about</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">ɜː</div><div class="ipa-word">bird</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">ɔː</div><div class="ipa-word">door</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">æ</div><div class="ipa-word">cat</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">ʌ</div><div class="ipa-word">cup</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">ɑː</div><div class="ipa-word">car</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">ɒ</div><div class="ipa-word">hot</div></div>
+    </div>
+    <div class="note" style="margin-bottom:20px;">Символ <b>ə</b> («шва») — найчастіший звук в англійській. Це нейтральний, ненаголошений звук, майже «е» впівголоса. Двокрапка <b>ː</b> означає, що звук довгий.</div>
+
+    <div class="label">Дифтонги — подвійні голосні (8)</div>
+    <div class="ipa-grid">
+      <div class="ipa-cell"><div class="ipa-symbol">eɪ</div><div class="ipa-word">day</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">aɪ</div><div class="ipa-word">my</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">ɔɪ</div><div class="ipa-word">boy</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">əʊ</div><div class="ipa-word">go</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">aʊ</div><div class="ipa-word">now</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">ɪə</div><div class="ipa-word">here</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">eə</div><div class="ipa-word">hair</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">ʊə</div><div class="ipa-word">tour</div></div>
+    </div>
+    <div class="note" style="margin-bottom:20px;">Дифтонг — це коли два голосні звуки зливаються в один склад, і звук ніби «зʼїжджає» з одного в інший.</div>
+
+    <div class="label">Приголосні, що відрізняються від звичних літер (вибірково)</div>
+    <div class="ipa-grid">
+      <div class="ipa-cell"><div class="ipa-symbol">ʃ</div><div class="ipa-word">she</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">ʒ</div><div class="ipa-word">vision</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">tʃ</div><div class="ipa-word">chin</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">dʒ</div><div class="ipa-word">June</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">θ</div><div class="ipa-word">think</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">ð</div><div class="ipa-word">this</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">ŋ</div><div class="ipa-word">sing</div></div>
+      <div class="ipa-cell"><div class="ipa-symbol">j</div><div class="ipa-word">yes</div></div>
+    </div>
+    <div class="note">
+      <b>θ</b> і <b>ð</b> — це два різні «th»: перший глухий (як видих без голосу — think), другий дзвінкий (з голосом — this). Решта приголосних (p, b, t, d, k, g, f, v, s, z, h, m, n, l, r, w) читаються майже як звичні літери.
+    </div>
+
+    <div class="divider">✦</div>
+
+    <p class="word" style="font-size:calc(24px * var(--fs));">Частини мови</p>
+    <div class="g-tier-sub" style="margin-top:6px; margin-bottom:16px;">
+      У жовтому кружечку біля кожного слова в тренажері — скорочена англійська назва частини мови. Ось що вони означають.
+    </div>
+
+    <div class="pos-grid">
+      <div class="pos-item">
+        <span class="pos-en">noun</span>
+        <span><span class="pos-uk">іменник</span> <span class="pos-text">— назва предмета, явища чи поняття: table, love, water.</span></span>
+      </div>
+      <div class="pos-item">
+        <span class="pos-en">verb</span>
+        <span><span class="pos-uk">дієслово</span> <span class="pos-text">— дія чи стан: run, think, exist.</span></span>
+      </div>
+      <div class="pos-item">
+        <span class="pos-en">adjective</span>
+        <span><span class="pos-uk">прикметник</span> <span class="pos-text">— ознака предмета: fast, blue, expensive.</span></span>
+      </div>
+      <div class="pos-item">
+        <span class="pos-en">adverb</span>
+        <span><span class="pos-uk">прислівник</span> <span class="pos-text">— ознака дії: quickly, well, often.</span></span>
+      </div>
+      <div class="pos-item">
+        <span class="pos-en">pronoun</span>
+        <span><span class="pos-uk">займенник</span> <span class="pos-text">— заміняє іменник: he, it, this.</span></span>
+      </div>
+      <div class="pos-item">
+        <span class="pos-en">preposition</span>
+        <span><span class="pos-uk">прийменник</span> <span class="pos-text">— показує зв'язок між словами: in, on, at.</span></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<nav class="tabbar">
+  <a href="index.html" class="tab-item"><span class="tab-dot"></span>Слова</a>
+  <a href="grammar.html" class="tab-item"><span class="tab-dot"></span>Граматика</a>
+  <a href="reference.html" class="tab-item active"><span class="tab-dot"></span>Довідка</a>
+  <a href="settings.html" class="tab-item"><span class="tab-dot"></span>Налаштування</a>
+</nav>
+
+<script src="app.js"></script>
+</body>
+</html>

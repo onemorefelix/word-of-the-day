@@ -2,7 +2,7 @@
 <html lang="uk">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="theme-color" content="#0c0e16">
 <title>Базис</title>
 <link rel="manifest" href="manifest.json">
@@ -21,7 +21,7 @@
 <div class="card">
   <div class="eyebrow">
     <span>Базис</span>
-    <span><a href="grammar.html">Граматика →</a></span>
+    <span><span class="dot">●</span> обери тему</span>
   </div>
 
   <div class="topic-list" id="topicList"></div>
@@ -29,9 +29,16 @@
   <div class="footnote">Прогрес зберігається лише на цьому пристрої й у цьому браузері.<br>Можна встановити як застосунок: меню браузера → «Додати на головний екран».</div>
 </div>
 
+<nav class="tabbar">
+  <a href="index.html" class="tab-item active"><span class="tab-dot"></span>Слова</a>
+  <a href="grammar.html" class="tab-item"><span class="tab-dot"></span>Граматика</a>
+  <a href="reference.html" class="tab-item"><span class="tab-dot"></span>Довідка</a>
+  <a href="settings.html" class="tab-item"><span class="tab-dot"></span>Налаштування</a>
+</nav>
+
+<script src="app.js"></script>
 <script>
 /* ---------- Реєстр тем ---------- */
-// Щоб додати нову тему пізніше: додай сюди запис і поклади відповідний data/*.json поруч.
 const TOPICS = [
   {
     id:"core",
@@ -112,36 +119,6 @@ async function render(){
 }
 
 render();
-
-/* ---------- Фонові світлячки ---------- */
-(function initFireflies(){
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if(reduceMotion) return;
-  const container = document.getElementById('fireflies');
-  const COUNT = 18;
-  for(let i = 0; i < COUNT; i++){
-    const el = document.createElement('div');
-    el.className = 'firefly';
-    const left = Math.random() * 100;
-    const duration = 14 + Math.random() * 14;
-    const delay = Math.random() * 20;
-    const drift = (Math.random() * 80 - 40).toFixed(0) + 'px';
-    const size = (2 + Math.random() * 2.5).toFixed(1) + 'px';
-    el.style.left = left + 'vw';
-    el.style.width = size;
-    el.style.height = size;
-    el.style.animationDuration = duration + 's';
-    el.style.animationDelay = '-' + delay + 's';
-    el.style.setProperty('--drift', drift);
-    container.appendChild(el);
-  }
-})();
-
-if('serviceWorker' in navigator){
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('sw.js').catch(() => {});
-  });
-}
 </script>
 
 </body>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#0c0e16">
+<title>Базис — налаштування</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .settings-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:16px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .settings-row:last-child{ border-bottom:none; }
+  .settings-label{ font-family:'Fraunces',serif; font-weight:600; font-size:calc(16px * var(--fs)); }
+  .settings-desc{ font-size:calc(12.5px * var(--fs)); color:var(--dim); margin-top:2px; }
+  .fs-buttons{ display:flex; gap:6px; }
+  .fs-btn{
+    width:38px; height:38px;
+    border-radius:50%;
+    border:1px solid var(--line);
+    background:transparent;
+    color:var(--ink);
+    font-family:'IBM Plex Mono',monospace;
+    cursor:pointer;
+    flex:none;
+    padding:0;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .fs-btn.active{ border-color:var(--gold); color:var(--gold); box-shadow:0 0 10px rgba(201,163,93,0.25); }
+  .preview-box{
+    margin-top:6px;
+    padding:14px;
+    background:rgba(236,230,216,0.03);
+    border:1px solid var(--line);
+    border-radius:3px;
+    font-size:calc(15px * var(--fs));
+    line-height:1.5;
+  }
+</style>
+</head>
+<body>
+
+<div id="bg-fx">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+  <div id="fireflies"></div>
+</div>
+
+<div class="card">
+  <div class="eyebrow">
+    <span>Базис</span>
+    <span><span class="dot">●</span> налаштування</span>
+  </div>
+
+  <div class="stage" style="max-height:none; overflow:visible;">
+    <div class="settings-row">
+      <div>
+        <div class="settings-label">Розмір шрифту</div>
+        <div class="settings-desc">Впливає на всі сторінки застосунку.</div>
+      </div>
+      <div class="fs-buttons" id="fsButtons">
+        <button class="fs-btn" data-scale="0.9">A⁻</button>
+        <button class="fs-btn" data-scale="1">A</button>
+        <button class="fs-btn" data-scale="1.15">A⁺</button>
+        <button class="fs-btn" data-scale="1.3">A⁺⁺</button>
+      </div>
+    </div>
+
+    <div class="preview-box" id="previewBox">
+      Так виглядатиме текст карток і пояснень зі щойно обраним розміром.
+    </div>
+  </div>
+</div>
+
+<nav class="tabbar">
+  <a href="index.html" class="tab-item"><span class="tab-dot"></span>Слова</a>
+  <a href="grammar.html" class="tab-item"><span class="tab-dot"></span>Граматика</a>
+  <a href="reference.html" class="tab-item"><span class="tab-dot"></span>Довідка</a>
+  <a href="settings.html" class="tab-item active"><span class="tab-dot"></span>Налаштування</a>
+</nav>
+
+<script src="app.js"></script>
+<script>
+const STORAGE_KEY = 'basis_font_scale';
+const buttons = document.querySelectorAll('.fs-btn');
+
+function currentScale(){
+  const saved = localStorage.getItem(STORAGE_KEY);
+  return saved ? parseFloat(saved) : 1;
+}
+
+function setScale(scale){
+  document.documentElement.style.setProperty('--fs', scale);
+  try{ localStorage.setItem(STORAGE_KEY, scale); }catch(e){}
+  buttons.forEach(b => b.classList.toggle('active', parseFloat(b.dataset.scale) === scale));
+}
+
+buttons.forEach(btn => {
+  btn.addEventListener('click', () => setScale(parseFloat(btn.dataset.scale)));
+});
+
+setScale(currentScale());
+</script>
+</body>
+</html>

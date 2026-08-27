@@ -2,7 +2,7 @@
 <html lang="uk">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="theme-color" content="#0c0e16">
 <title>Базис — тренажер</title>
 <link rel="manifest" href="manifest.json">
@@ -19,9 +19,9 @@
 </div>
 
 <div class="card">
-  <div class="eyebrow">
-    <a href="index.html" class="back-link">← Теми</a>
-    <span id="topicLabel">…</span>
+  <div class="detail-header">
+    <a href="index.html" class="detail-back">← Теми</a>
+    <span class="detail-title" id="topicLabel">…</span>
   </div>
 
   <div class="stats">
@@ -30,15 +30,31 @@
     <span>Вивчено: <b id="masteredCount">0</b></span>
   </div>
 
-  <div class="stage" id="stage"><div class="empty"><div class="big">Завантаження…</div></div></div>
+  <div class="stage" id="stage">
+    <div class="stage-scroll" id="stageScroll">
+      <div class="empty"><div class="big">Завантаження…</div></div>
+    </div>
+    <div class="stage-fade" id="stageFade"></div>
+  </div>
+
+  <div class="actions" id="actions" style="display:none;">
+    <button class="btn-forgot" id="forgotBtn">Забув</button>
+    <button class="btn-know" id="knowBtn">Знаю</button>
+  </div>
 
   <div class="reset-row">
     <button class="reset-link" id="resetBtn">Скинути прогрес цієї теми</button>
   </div>
-
-  <div class="footnote">Прогрес зберігається лише на цьому пристрої й у цьому браузері.<br>Можна встановити як застосунок: меню браузера → «Додати на головний екран».</div>
 </div>
 
+<nav class="tabbar">
+  <a href="index.html" class="tab-item active"><span class="tab-dot"></span>Слова</a>
+  <a href="grammar.html" class="tab-item"><span class="tab-dot"></span>Граматика</a>
+  <a href="reference.html" class="tab-item"><span class="tab-dot"></span>Довідка</a>
+  <a href="settings.html" class="tab-item"><span class="tab-dot"></span>Налаштування</a>
+</nav>
+
+<script src="app.js"></script>
 <script>
 /* ---------- Визначення теми з URL ---------- */
 const params = new URLSearchParams(window.location.search);
@@ -58,6 +74,7 @@ const INTERVALS_DAYS = [1, 3, 7, 14, 30];
 let ITEMS = [];
 let progress = loadProgress();
 let currentId = null;
+let updateFade = null;
 
 function loadProgress(){
   try{
@@ -103,7 +120,7 @@ function findItem(id){ return ITEMS.find(i => i.id === id); }
 
 function renderCard(id){
   const item = findItem(id);
-  const stage = document.getElementById('stage');
+  const scroll = document.getElementById('stageScroll');
 
   let formsHtml = '';
   if(item.forms){
@@ -114,7 +131,7 @@ function renderCard(id){
     </div>`;
   }
 
-  // Повний формат (core): масив прикладів по часах. Легкий формат (теми): одне речення.
+  // Повний формат (core): масив прикладів по часах. Легкий формат (теми): 1-2 речення.
   let exHtml = '';
   if(item.examples){
     exHtml = item.examples.map(([tense, sentence]) =>
@@ -124,14 +141,15 @@ function renderCard(id){
       </div>`
     ).join('');
   } else if(item.example){
-    exHtml = `<div class="ex-item">
-      <div class="ex-sentence">"${item.example}"</div>
-    </div>`;
+    exHtml = `<div class="ex-item"><div class="ex-sentence">"${item.example}"</div></div>`;
+    if(item.example2){
+      exHtml += `<div class="ex-item"><div class="ex-sentence">"${item.example2}"</div></div>`;
+    }
   }
 
   const noteHtml = item.note ? `<div class="note">${item.note}</div>` : '';
 
-  stage.innerHTML = `
+  scroll.innerHTML = `
     <div class="head-row">
       <p class="word">${item.en}</p>
       <span class="pos">${item.pos}</span>
@@ -143,34 +161,52 @@ function renderCard(id){
     <div class="label">${item.examples ? 'Приклади в різних часах' : 'Приклад'}</div>
     <div class="ex-list">${exHtml}</div>
     ${noteHtml}
-    <div class="actions">
-      <button class="btn-forgot" id="forgotBtn">Забув</button>
-      <button class="btn-know" id="knowBtn">Знаю</button>
-    </div>
   `;
 
-  document.getElementById('forgotBtn').addEventListener('click', () => answer(id, false));
-  document.getElementById('knowBtn').addEventListener('click', () => answer(id, true));
+  scroll.scrollTop = 0;
+  if(updateFade) setTimeout(updateFade, 60);
+
+  renderActions(id);
+}
+
+function renderActions(id){
+  const actions = document.getElementById('actions');
+  actions.style.display = 'flex';
+  const forgotBtn = document.getElementById('forgotBtn');
+  const knowBtn = document.getElementById('knowBtn');
+  const newForgot = forgotBtn.cloneNode(true);
+  const newKnow = knowBtn.cloneNode(true);
+  forgotBtn.replaceWith(newForgot);
+  knowBtn.replaceWith(newKnow);
+  newForgot.addEventListener('click', () => answer(id, false));
+  newKnow.addEventListener('click', () => answer(id, true));
+}
+
+function removeActions(){
+  document.getElementById('actions').style.display = 'none';
 }
 
 function renderEmpty(){
-  const stage = document.getElementById('stage');
-  stage.innerHTML = `
+  const scroll = document.getElementById('stageScroll');
+  scroll.innerHTML = `
     <div class="empty">
       <div class="big">На сьогодні все 🌿</div>
       <p>Ти пройшов усі слова цієї теми, заплановані на повторення. Повертайся завтра — розклад з'явиться автоматично.</p>
     </div>
   `;
+  removeActions();
+  if(updateFade) setTimeout(updateFade, 60);
 }
 
 function renderError(){
-  const stage = document.getElementById('stage');
-  stage.innerHTML = `
+  const scroll = document.getElementById('stageScroll');
+  scroll.innerHTML = `
     <div class="empty">
       <div class="big">Немає з'єднання</div>
       <p>Дані цієї теми ще не завантажені на пристрій. Відкрий сторінку хоч раз з інтернетом, щоб вона закешувалась для офлайн-використання.</p>
     </div>
   `;
+  removeActions();
 }
 
 function answer(id, knew){
@@ -223,35 +259,7 @@ fetch(meta.file)
     renderError();
   });
 
-/* ---------- Фонові світлячки ---------- */
-(function initFireflies(){
-  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if(reduceMotion) return;
-  const container = document.getElementById('fireflies');
-  const COUNT = 18;
-  for(let i = 0; i < COUNT; i++){
-    const el = document.createElement('div');
-    el.className = 'firefly';
-    const left = Math.random() * 100;
-    const duration = 14 + Math.random() * 14;
-    const delay = Math.random() * 20;
-    const drift = (Math.random() * 80 - 40).toFixed(0) + 'px';
-    const size = (2 + Math.random() * 2.5).toFixed(1) + 'px';
-    el.style.left = left + 'vw';
-    el.style.width = size;
-    el.style.height = size;
-    el.style.animationDuration = duration + 's';
-    el.style.animationDelay = '-' + delay + 's';
-    el.style.setProperty('--drift', drift);
-    container.appendChild(el);
-  }
-})();
-
-if('serviceWorker' in navigator){
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('sw.js').catch(() => {});
-  });
-}
+updateFade = initScrollFade('stageScroll', 'stageFade');
 </script>
 
 </body>
