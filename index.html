@@ -4,8 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#1c2b28">
-<title>Слово дня</title>
+<title>Базис — тренажер слів і часів</title>
 <link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap');
 
@@ -15,6 +16,7 @@
     --paper-deep:#12201d;
     --moss:#7fa88c;
     --gold:#c9a35d;
+    --rust:#c9705d;
     --dim:#9db3a9;
     --line:rgba(244,239,228,0.14);
   }
@@ -23,23 +25,90 @@
   html,body{margin:0;padding:0;}
   body{
     min-height:100vh;
-    background:
-      radial-gradient(ellipse at 20% -10%, rgba(127,168,140,0.18), transparent 55%),
-      radial-gradient(ellipse at 100% 110%, rgba(201,163,93,0.10), transparent 50%),
-      var(--paper);
+    background:var(--paper);
     color:var(--ink);
     font-family:'Inter',sans-serif;
     display:flex;
-    align-items:center;
+    align-items:flex-start;
     justify-content:center;
-    padding:32px 18px;
+    padding:32px 18px 60px;
+    position:relative;
+    overflow-x:hidden;
   }
 
-  .card{
-    width:100%;
-    max-width:480px;
-    position:relative;
+  #bg-fx{
+    position:fixed;
+    inset:0;
+    z-index:0;
+    overflow:hidden;
+    pointer-events:none;
   }
+  .blob{
+    position:absolute;
+    border-radius:50%;
+    filter:blur(60px);
+    opacity:0.35;
+    will-change:transform;
+  }
+  .blob-1{
+    width:520px; height:520px;
+    top:-180px; left:-140px;
+    background:radial-gradient(circle, rgba(127,168,140,0.55), transparent 70%);
+    animation:drift1 26s ease-in-out infinite alternate;
+  }
+  .blob-2{
+    width:460px; height:460px;
+    bottom:-160px; right:-120px;
+    background:radial-gradient(circle, rgba(201,163,93,0.4), transparent 70%);
+    animation:drift2 32s ease-in-out infinite alternate;
+  }
+  .blob-3{
+    width:380px; height:380px;
+    top:40%; left:60%;
+    background:radial-gradient(circle, rgba(127,168,140,0.3), transparent 70%);
+    animation:drift3 22s ease-in-out infinite alternate;
+  }
+
+  @keyframes drift1{
+    0%{ transform:translate(0,0) scale(1); }
+    100%{ transform:translate(60px,80px) scale(1.15); }
+  }
+  @keyframes drift2{
+    0%{ transform:translate(0,0) scale(1); }
+    100%{ transform:translate(-70px,-50px) scale(1.1); }
+  }
+  @keyframes drift3{
+    0%{ transform:translate(0,0) scale(1); }
+    100%{ transform:translate(-40px,60px) scale(0.9); }
+  }
+
+  .firefly{
+    position:absolute;
+    bottom:-10px;
+    width:3px;
+    height:3px;
+    border-radius:50%;
+    background:var(--gold);
+    box-shadow:0 0 6px 1px rgba(201,163,93,0.8);
+    opacity:0;
+    animation-name:rise;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+  }
+  @keyframes rise{
+    0%{ transform:translate(0,0); opacity:0; }
+    10%{ opacity:0.9; }
+    50%{ transform:translate(var(--drift,20px), -55vh); opacity:0.7; }
+    90%{ opacity:0.3; }
+    100%{ transform:translate(calc(var(--drift,20px) * 1.6), -100vh); opacity:0; }
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    .blob, .firefly{ animation:none !important; }
+    .firefly{ display:none; }
+  }
+
+  .card{ width:100%; max-width:520px; position:relative; z-index:1; }
 
   .eyebrow{
     display:flex;
@@ -50,17 +119,26 @@
     letter-spacing:0.12em;
     text-transform:uppercase;
     color:var(--dim);
-    margin-bottom:22px;
+    margin-bottom:18px;
   }
   .eyebrow .dot{color:var(--gold);}
+
+  .stats{
+    display:flex;
+    gap:14px;
+    margin-bottom:18px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    color:var(--dim);
+  }
+  .stats b{ color:var(--ink); }
 
   .stage{
     background:linear-gradient(180deg, rgba(244,239,228,0.05), rgba(244,239,228,0.02));
     border:1px solid var(--line);
     border-radius:2px;
-    padding:44px 32px 32px;
+    padding:36px 30px 28px;
     position:relative;
-    overflow:hidden;
   }
   .stage::before{
     content:"";
@@ -71,22 +149,15 @@
     opacity:0.6;
   }
 
+  .head-row{ display:flex; align-items:baseline; gap:12px; flex-wrap:wrap; }
   .word{
     font-family:'Fraunces',serif;
     font-weight:600;
-    font-size:clamp(38px, 9vw, 56px);
-    line-height:1.02;
-    letter-spacing:-0.01em;
+    font-size:clamp(30px, 7vw, 42px);
+    line-height:1.05;
     margin:0;
   }
-  .phonetic{
-    font-family:'IBM Plex Mono',monospace;
-    color:var(--moss);
-    font-size:15px;
-    margin-top:8px;
-  }
   .pos{
-    display:inline-block;
     font-family:'IBM Plex Mono',monospace;
     font-size:11px;
     letter-spacing:0.08em;
@@ -95,233 +166,479 @@
     background:var(--gold);
     padding:3px 9px;
     border-radius:2px;
-    margin-top:14px;
+  }
+  .phonetic{
+    font-family:'IBM Plex Mono',monospace;
+    color:var(--dim);
+    font-size:14px;
+    margin-top:4px;
+  }
+  .translation{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:21px;
+    color:var(--moss);
+    margin-top:10px;
   }
 
-  .divider{
-    height:1px;
-    background:var(--line);
-    margin:26px 0;
+  .forms{
+    margin-top:16px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:13px;
+    color:var(--dim);
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
   }
+  .forms span{
+    background:rgba(244,239,228,0.05);
+    border:1px solid var(--line);
+    padding:3px 9px;
+    border-radius:2px;
+  }
+  .forms b{ color:var(--ink); }
 
-  .block{margin-bottom:22px;}
-  .block:last-child{margin-bottom:0;}
+  .divider{ height:1px; background:var(--line); margin:22px 0; }
+
   .label{
     font-family:'IBM Plex Mono',monospace;
     font-size:11px;
     letter-spacing:0.1em;
     text-transform:uppercase;
     color:var(--dim);
-    margin-bottom:8px;
-  }
-  .def{
-    font-size:16.5px;
-    line-height:1.55;
-    color:var(--ink);
-  }
-  .translation{
-    font-family:'Fraunces',serif;
-    font-weight:600;
-    font-size:26px;
-    color:var(--moss);
-  }
-  .example{
-    font-size:15px;
-    line-height:1.55;
-    color:var(--dim);
-    font-style:italic;
-    border-left:2px solid var(--line);
-    padding-left:14px;
+    margin-bottom:10px;
   }
 
-  .foot{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin-top:22px;
+  .ex-list{ display:flex; flex-direction:column; gap:12px; margin-bottom:20px; }
+  .ex-item{ border-left:2px solid var(--line); padding-left:14px; }
+  .ex-tense{
     font-family:'IBM Plex Mono',monospace;
-    font-size:12px;
+    font-size:11px;
+    color:var(--gold);
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    margin-bottom:3px;
+  }
+  .ex-sentence{ font-size:15.5px; line-height:1.5; font-style:italic; color:var(--ink); }
+
+  .note{
+    font-size:14px;
+    line-height:1.55;
     color:var(--dim);
+    background:rgba(201,163,93,0.06);
+    border:1px solid rgba(201,163,93,0.2);
+    padding:12px 14px;
+    border-radius:2px;
+  }
+  .note b{ color:var(--gold); font-weight:600; }
+
+  .actions{
+    display:flex;
+    gap:10px;
+    margin-top:24px;
   }
   button{
+    flex:1;
     font-family:'IBM Plex Mono',monospace;
-    font-size:12px;
-    letter-spacing:0.06em;
+    font-size:13px;
+    letter-spacing:0.04em;
     text-transform:uppercase;
-    background:transparent;
-    border:1px solid var(--line);
-    color:var(--ink);
-    padding:8px 14px;
+    padding:14px 10px;
     border-radius:2px;
     cursor:pointer;
-    transition:border-color 0.15s, color 0.15s;
+    border:1px solid var(--line);
+    background:transparent;
+    color:var(--ink);
+    transition:border-color 0.15s, color 0.15s, background 0.15s;
   }
-  button:hover{border-color:var(--gold); color:var(--gold);}
-  button:focus-visible{outline:2px solid var(--gold); outline-offset:2px;}
+  button:focus-visible{ outline:2px solid var(--gold); outline-offset:2px; }
+  .btn-forgot:hover{ border-color:var(--rust); color:var(--rust); }
+  .btn-know{ background:var(--moss); color:var(--paper-deep); border-color:var(--moss); }
+  .btn-know:hover{ opacity:0.88; }
 
-  .skeleton{opacity:0.4;}
-  .err{color:#d98b7a; font-size:13px; font-family:'IBM Plex Mono',monospace;}
+  .empty{
+    text-align:center;
+    padding:40px 20px;
+  }
+  .empty .big{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:28px;
+    margin-bottom:10px;
+  }
+  .empty p{ color:var(--dim); font-size:14px; line-height:1.5; }
+
+  .reset-row{
+    margin-top:20px;
+    text-align:center;
+  }
+  .reset-link{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:var(--dim);
+    text-decoration:underline;
+    cursor:pointer;
+    background:none;
+    border:none;
+    padding:4px;
+    flex:none;
+  }
 
   @media (max-width:420px){
-    .stage{padding:32px 22px 26px;}
+    .stage{ padding:28px 20px 22px; }
   }
 </style>
 </head>
 <body>
 
+<div id="bg-fx">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+  <div id="fireflies"></div>
+</div>
+
 <div class="card">
   <div class="eyebrow">
-    <span id="dateLabel">— — —</span>
-    <span><span class="dot">●</span> слово дня</span>
+    <span>Базис</span>
+    <span><span class="dot">●</span> тренажер слів і часів</span>
   </div>
 
-  <div class="stage" id="stage">
-    <p class="word skeleton" id="word">завантаження…</p>
-    <div class="phonetic" id="phonetic"></div>
-    <span class="pos" id="pos" style="display:none;"></span>
-
-    <div class="divider"></div>
-
-    <div class="block">
-      <div class="label">Переклад</div>
-      <div class="translation" id="translation">…</div>
-    </div>
-
-    <div class="block">
-      <div class="label">Визначення</div>
-      <div class="def" id="definition"></div>
-    </div>
-
-    <div class="block" id="exampleBlock" style="display:none;">
-      <div class="label">Приклад</div>
-      <div class="example" id="example"></div>
-    </div>
-
-    <div id="errorBox"></div>
+  <div class="stats">
+    <span>На повторення: <b id="dueCount">0</b></span>
+    <span>Нових: <b id="newCount">0</b></span>
+    <span>Вивчено: <b id="masteredCount">0</b></span>
   </div>
 
-  <div class="foot">
-    <span id="counter"></span>
-    <button id="nextBtn">Наступне слово →</button>
+  <div class="stage" id="stage"></div>
+
+  <div class="reset-row">
+    <button class="reset-link" id="resetBtn">Скинути весь прогрес</button>
   </div>
 </div>
 
 <script>
-// Curated list of moderately advanced English words worth knowing.
-// Feel free to extend this list — that's the whole point of owning the code.
-const WORDS = [
-  "ephemeral","ubiquitous","meticulous","resilient","ambiguous","candid",
-  "diligent","eloquent","frugal","genuine","hostile","imminent",
-  "juxtapose","lucid","mundane","nostalgia","obsolete","pragmatic",
-  "quaint","resonate","scrutinize","tenacious","vindicate","zealous",
-  "arbitrary","benevolent","coherent","deprecate","elusive","fickle",
-  "gregarious","hypothesis","incentive","jeopardy","keen","legitimate",
-  "malleable","nuance","obscure","pertinent","quandary","reluctant",
-  "sporadic","tangible","unprecedented","versatile","wary","abate",
-  "cynical","dubious","exacerbate","facilitate","gullible","harbinger",
-  "inevitable","lament","meager","notorious","ominous","plausible",
-  "reciprocate","staunch","tedious","viable","withhold","alleviate",
-  "boisterous","conundrum","deft","enigmatic","frivolous","grievance",
-  "hindrance","impartial","lethargic","mitigate","novice","paradox",
-  "rigorous","sagacious","tumultuous","vicarious","adversity","brevity",
-  "candor","discern","empirical","fortitude","haphazard","inherent",
-  "lucrative","meticulous","perpetual","resilience","scarce","thwart"
+/* ---------- Фонові світлячки ---------- */
+(function initFireflies(){
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduceMotion) return;
+  const container = document.getElementById('fireflies');
+  const COUNT = 18;
+  for(let i = 0; i < COUNT; i++){
+    const el = document.createElement('div');
+    el.className = 'firefly';
+    const left = Math.random() * 100;
+    const duration = 14 + Math.random() * 14;
+    const delay = Math.random() * 20;
+    const drift = (Math.random() * 80 - 40).toFixed(0) + 'px';
+    const size = (2 + Math.random() * 2.5).toFixed(1) + 'px';
+    el.style.left = left + 'vw';
+    el.style.width = size;
+    el.style.height = size;
+    el.style.animationDuration = duration + 's';
+    el.style.animationDelay = '-' + delay + 's';
+    el.style.setProperty('--drift', drift);
+    container.appendChild(el);
+  }
+})();
+
+/* ---------- Дані ---------- */
+// Кожне слово: en, ph (транскрипція IPA), uk, pos, forms (тільки для дієслів), examples (Present/Past/Perfect), note.
+// Список легко розширюється — просто додай ще один об'єкт у ITEMS у тому ж форматі.
+const ITEMS = [
+  {id:"throw_away", en:"throw away", ph:"/θroʊ əˈweɪ/", uk:"викидати (сміття)", pos:"verb", forms:{base:"throw away",past:"threw away",part:"thrown away"},
+    examples:[["Present Simple","I throw away the trash every evening."],["Past Simple","I threw away the trash yesterday."],["Present Perfect","I've already thrown away the trash."]],
+    note:"«Throw away» = <b>викидати</b> непотрібне. Просто «throw» — кидати (м'яч), не сміття."},
+  {id:"forget", en:"forget", ph:"/fərˈɡɛt/", uk:"забувати", pos:"verb", forms:{base:"forget",past:"forgot",part:"forgotten"},
+    examples:[["Present Simple","I always forget his name."],["Past Simple","I forgot my keys this morning."],["Present Perfect","I've forgotten what she said."]],
+    note:"«Forget to do» — забути зробити щось (наперед). «Forget doing» — забути, що вже робив."},
+  {id:"remember", en:"remember", ph:"/rɪˈmɛmbər/", uk:"пам'ятати", pos:"verb", forms:{base:"remember",past:"remembered",part:"remembered"},
+    examples:[["Present Simple","I remember that day clearly."],["Past Simple","I remembered his birthday just in time."],["Present Perfect","I've never forgotten his birthday."]],
+    note:"«Remember to do» — не забути зробити. «Remember doing» — пам'ятати, що робив."},
+  {id:"buy", en:"buy", ph:"/baɪ/", uk:"купувати", pos:"verb", forms:{base:"buy",past:"bought",part:"bought"},
+    examples:[["Present Simple","I buy groceries on Fridays."],["Past Simple","I bought a new laptop last week."],["Present Perfect","I've bought too many books this year."]],
+    note:""},
+  {id:"bring", en:"bring", ph:"/brɪŋ/", uk:"приносити", pos:"verb", forms:{base:"bring",past:"brought",part:"brought"},
+    examples:[["Present Simple","Can you bring your laptop tomorrow?"],["Past Simple","She brought coffee for everyone."],["Present Perfect","He's brought his dog to work again."]],
+    note:"«Bring» — сюди (до мовця). «Take» — туди (від мовця)."},
+  {id:"take", en:"take", ph:"/teɪk/", uk:"брати, забирати", pos:"verb", forms:{base:"take",past:"took",part:"taken"},
+    examples:[["Present Simple","I take the bus every morning."],["Past Simple","I took my dog for a walk."],["Present Perfect","I've taken this route before."]],
+    note:"Див. різницю bring/take вище."},
+  {id:"go", en:"go", ph:"/ɡoʊ/", uk:"йти, їхати", pos:"verb", forms:{base:"go",past:"went",part:"gone"},
+    examples:[["Present Simple","I go to the gym twice a week."],["Past Simple","I went to the gym yesterday."],["Present Perfect","He's gone to the store."]],
+    note:"«I've been to Kyiv» — їздив і повернувся. «He's gone to Kyiv» — поїхав і ще там."},
+  {id:"do", en:"do", ph:"/duː/", uk:"робити (справи, дії)", pos:"verb", forms:{base:"do",past:"did",part:"done"},
+    examples:[["Present Simple","I do my chores on Sundays."],["Past Simple","I did my homework already."],["Present Perfect","I've done everything on the list."]],
+    note:"«Do» — виконувати дію/обов'язок. «Make» — створювати щось нове."},
+  {id:"make", en:"make", ph:"/meɪk/", uk:"робити, створювати", pos:"verb", forms:{base:"make",past:"made",part:"made"},
+    examples:[["Present Simple","I make dinner every night."],["Past Simple","I made a mistake."],["Present Perfect","I've made this recipe many times."]],
+    note:"Див. різницю do/make вище."},
+  {id:"get", en:"get", ph:"/ɡɛt/", uk:"отримувати, ставати", pos:"verb", forms:{base:"get",past:"got",part:"gotten / got"},
+    examples:[["Present Simple","I get tired after work."],["Past Simple","I got a new job."],["Present Perfect","I've gotten used to the cold winters."]],
+    note:"«Get» має купу значень — отримувати, ставати, приходити. Орієнтуйся по контексту речення."},
+  {id:"give", en:"give", ph:"/ɡɪv/", uk:"давати", pos:"verb", forms:{base:"give",past:"gave",part:"given"},
+    examples:[["Present Simple","I give him a ride every day."],["Past Simple","I gave her my old phone."],["Present Perfect","I've given up sugar."]],
+    note:"«Give up» — кинути / відмовитись від чогось."},
+  {id:"put", en:"put", ph:"/pʊt/", uk:"класти, ставити", pos:"verb", forms:{base:"put",past:"put",part:"put"},
+    examples:[["Present Simple","I put my keys on the table every day."],["Past Simple","I put my keys on the table yesterday."],["Present Perfect","I've put it in the wrong place again."]],
+    note:"Форма однакова у всіх часах — слухай контекст (every day / yesterday / already)."},
+  {id:"run", en:"run", ph:"/rʌn/", uk:"бігати, керувати (бізнесом)", pos:"verb", forms:{base:"run",past:"ran",part:"run"},
+    examples:[["Present Simple","I run three times a week."],["Past Simple","I ran five kilometers yesterday."],["Present Perfect","I've run this business for two years."]],
+    note:"«Run a business» — керувати бізнесом, не тільки бігати."},
+  {id:"drive", en:"drive", ph:"/draɪv/", uk:"керувати авто", pos:"verb", forms:{base:"drive",past:"drove",part:"driven"},
+    examples:[["Present Simple","I drive to work every day."],["Past Simple","I drove to Charlottetown yesterday."],["Present Perfect","I've driven this Jeep for years."]],
+    note:""},
+  {id:"eat", en:"eat", ph:"/iːt/", uk:"їсти", pos:"verb", forms:{base:"eat",past:"ate",part:"eaten"},
+    examples:[["Present Simple","I eat breakfast at 7."],["Past Simple","I ate breakfast an hour ago."],["Present Perfect","I've already eaten."]],
+    note:""},
+  {id:"drink", en:"drink", ph:"/drɪŋk/", uk:"пити", pos:"verb", forms:{base:"drink",past:"drank",part:"drunk"},
+    examples:[["Present Simple","I drink coffee every morning."],["Past Simple","I drank too much coffee today."],["Present Perfect","I've drunk three cups already."]],
+    note:"Не плутай з «drunk» як прикметником (п'яний)."},
+  {id:"break", en:"break", ph:"/breɪk/", uk:"ламати", pos:"verb", forms:{base:"break",past:"broke",part:"broken"},
+    examples:[["Present Simple","I break things when I'm tired."],["Past Simple","I broke my phone screen."],["Present Perfect","I've broken this rule before."]],
+    note:"«Break down» — ламатись (про техніку) або зривати нерви."},
+  {id:"catch", en:"catch", ph:"/kætʃ/", uk:"ловити, встигати", pos:"verb", forms:{base:"catch",past:"caught",part:"caught"},
+    examples:[["Present Simple","I catch the bus at 8."],["Past Simple","I caught a cold last week."],["Present Perfect","I've caught up on all my emails."]],
+    note:"«Catch up» — наздогнати / встигнути зробити."},
+  {id:"wear", en:"wear", ph:"/wɛr/", uk:"носити (одяг)", pos:"verb", forms:{base:"wear",past:"wore",part:"worn"},
+    examples:[["Present Simple","I wear a jacket in winter."],["Past Simple","I wore my old boots yesterday."],["Present Perfect","I've worn this shirt too many times."]],
+    note:"«Wear out» — зношувати (річ) або сильно втомитись."},
+  {id:"meet", en:"meet", ph:"/miːt/", uk:"зустрічати", pos:"verb", forms:{base:"meet",past:"met",part:"met"},
+    examples:[["Present Simple","I meet clients on Mondays."],["Past Simple","I met him at the gym."],["Present Perfect","I've met her before."]],
+    note:""},
+  {id:"leave", en:"leave", ph:"/liːv/", uk:"залишати, вирушати", pos:"verb", forms:{base:"leave",past:"left",part:"left"},
+    examples:[["Present Simple","I leave home at 8."],["Past Simple","I left my umbrella at work."],["Present Perfect","I've left this job once already."]],
+    note:"Не плутай дієслово «left» (past) з прикметником «left» (лівий)."},
+  {id:"come", en:"come", ph:"/kʌm/", uk:"приходити", pos:"verb", forms:{base:"come",past:"came",part:"come"},
+    examples:[["Present Simple","I come home late on Fridays."],["Past Simple","I came home late yesterday."],["Present Perfect","I've come to this cafe many times."]],
+    note:""},
+  {id:"know", en:"know", ph:"/noʊ/", uk:"знати", pos:"verb", forms:{base:"know",past:"knew",part:"known"},
+    examples:[["Present Simple","I know this area well."],["Past Simple","I knew him back in college."],["Present Perfect","I've known her for ten years."]],
+    note:"«Know» не вживається у Continuous — не кажемо «I'm knowing»."},
+  {id:"think", en:"think", ph:"/θɪŋk/", uk:"думати", pos:"verb", forms:{base:"think",past:"thought",part:"thought"},
+    examples:[["Present Simple","I think about this often."],["Past Simple","I thought about quitting once."],["Present Perfect","I've thought about this for a while."]],
+    note:"«Think about» — роздумувати над чимось. «Think of» — щось спадає на думку."},
+  {id:"feel", en:"feel", ph:"/fiːl/", uk:"почуватись", pos:"verb", forms:{base:"feel",past:"felt",part:"felt"},
+    examples:[["Present Simple","I feel tired today."],["Past Simple","I felt sick yesterday."],["Present Perfect","I've felt this way before."]],
+    note:""},
+  {id:"see", en:"see", ph:"/siː/", uk:"бачити", pos:"verb", forms:{base:"see",past:"saw",part:"seen"},
+    examples:[["Present Simple","I see him every week."],["Past Simple","I saw a moose near the farm."],["Present Perfect","I've seen this movie twice."]],
+    note:"«See» — мимоволі бачити, «watch» — дивитись цілеспрямовано, «look» — глянути."},
+  {id:"say", en:"say", ph:"/seɪ/", uk:"казати", pos:"verb", forms:{base:"say",past:"said",part:"said"},
+    examples:[["Present Simple","I say hello to my neighbors."],["Past Simple","I said thank you."],["Present Perfect","I've said this before."]],
+    note:"«Say something» — без особи-об'єкта. «Tell someone something» — обов'язково з особою."},
+  {id:"tell", en:"tell", ph:"/tɛl/", uk:"розповідати (комусь)", pos:"verb", forms:{base:"tell",past:"told",part:"told"},
+    examples:[["Present Simple","I tell my dogs to sit."],["Past Simple","I told her the truth."],["Present Perfect","I've told him twice already."]],
+    note:"Див. різницю say/tell вище."},
+  {id:"pay", en:"pay", ph:"/peɪ/", uk:"платити", pos:"verb", forms:{base:"pay",past:"paid",part:"paid"},
+    examples:[["Present Simple","I pay my bills online."],["Past Simple","I paid the invoice yesterday."],["Present Perfect","I've paid this bill already."]],
+    note:""},
+  {id:"lose", en:"lose", ph:"/luːz/", uk:"губити, програвати", pos:"verb", forms:{base:"lose",past:"lost",part:"lost"},
+    examples:[["Present Simple","I lose my keys constantly."],["Past Simple","I lost my wallet last week."],["Present Perfect","I've lost track of time."]],
+    note:"«Lose» (губити) не плутай з «loose» (вільний, прикметник) — часта помилка написання."},
+
+  {id:"trash", en:"trash / garbage", ph:"/træʃ/", uk:"сміття", pos:"noun",
+    examples:[["Present Simple","I take out the trash every evening."],["Past Simple","I took out the trash this morning."],["Present Perfect","I've already taken out the trash."]],
+    note:"«Trash» (US) і «rubbish» (UK) — синоніми. «Garbage» теж американський варіант."},
+  {id:"chores", en:"chores", ph:"/tʃɔːrz/", uk:"побутові справи", pos:"noun",
+    examples:[["Present Simple","I do my chores on Saturdays."],["Past Simple","I did my chores yesterday."],["Present Perfect","I've finished my chores already."]],
+    note:"Завжди вживається у множині."},
+  {id:"laundry", en:"laundry", ph:"/ˈlɔːndri/", uk:"прання", pos:"noun",
+    examples:[["Present Simple","I do laundry every weekend."],["Past Simple","I did laundry yesterday."],["Present Perfect","I've done three loads of laundry."]],
+    note:"Кажемо «do the laundry», не «wash the laundry»."},
+  {id:"groceries", en:"groceries", ph:"/ˈɡroʊsəriz/", uk:"продукти", pos:"noun",
+    examples:[["Present Simple","I buy groceries on Fridays."],["Past Simple","I bought groceries yesterday."],["Present Perfect","I've bought all the groceries for the week."]],
+    note:""},
+  {id:"bill", en:"bill", ph:"/bɪl/", uk:"рахунок (комунальний)", pos:"noun",
+    examples:[["Present Simple","I pay this bill monthly."],["Past Simple","I paid the bill late."],["Present Perfect","I've paid all my bills this month."]],
+    note:"«Bill» — рахунок за послуги. «Receipt» — чек за покупку. Це різні речі."},
+  {id:"deadline", en:"deadline", ph:"/ˈdɛdlaɪn/", uk:"дедлайн, кінцевий термін", pos:"noun",
+    examples:[["Present Simple","I have a deadline every Friday."],["Past Simple","I missed the deadline last month."],["Present Perfect","I've never missed a deadline."]],
+    note:""},
+  {id:"commute", en:"commute", ph:"/kəˈmjuːt/", uk:"дорога на роботу", pos:"noun / verb",
+    examples:[["Present Simple","I commute to work by car."],["Past Simple","I commuted an hour yesterday."],["Present Perfect","I've commuted this route for years."]],
+    note:""},
+  {id:"appointment", en:"appointment", ph:"/əˈpɔɪntmənt/", uk:"запис (лікар, майстер)", pos:"noun",
+    examples:[["Present Simple","I have an appointment tomorrow."],["Past Simple","I had an appointment yesterday."],["Present Perfect","I've had three appointments this week."]],
+    note:"«Appointment» — запис на конкретний час. «Meeting» — ділова зустріч."},
+  {id:"refund", en:"refund", ph:"/ˈriːfʌnd/", uk:"повернення грошей", pos:"noun / verb",
+    examples:[["Present Simple","I ask for a refund if it's broken."],["Past Simple","I got a refund last week."],["Present Perfect","I've never gotten a refund from them."]],
+    note:""},
+  {id:"warranty", en:"warranty", ph:"/ˈwɔːrənti/", uk:"гарантія", pos:"noun",
+    examples:[["Present Simple","This laptop has a two-year warranty."],["Past Simple","The warranty expired last year."],["Present Perfect","I've used the warranty once."]],
+    note:""},
+  {id:"subscription", en:"subscription", ph:"/səbˈskrɪpʃən/", uk:"підписка", pos:"noun",
+    examples:[["Present Simple","I have a gym subscription."],["Past Simple","I cancelled my subscription last month."],["Present Perfect","I've had this subscription for a year."]],
+    note:""},
+  {id:"invoice", en:"invoice", ph:"/ˈɪnvɔɪs/", uk:"рахунок-фактура (бізнес)", pos:"noun",
+    examples:[["Present Simple","I send an invoice every month."],["Past Simple","I sent the invoice yesterday."],["Present Perfect","I've sent three invoices this week."]],
+    note:"«Invoice» — для бізнесу. «Bill» — побутовий рахунок."},
+  {id:"reminder", en:"reminder", ph:"/rɪˈmaɪndər/", uk:"нагадування", pos:"noun",
+    examples:[["Present Simple","I set a reminder for meetings."],["Past Simple","I set a reminder yesterday."],["Present Perfect","I've set five reminders today."]],
+    note:""},
+  {id:"errand", en:"errand", ph:"/ˈɛrənd/", uk:"доручення, коротка справа", pos:"noun",
+    examples:[["Present Simple","I run errands on Saturdays."],["Past Simple","I ran errands yesterday."],["Present Perfect","I've run all my errands already."]],
+    note:"«Run errands» — займатись дрібними справами (пошта, магазин тощо)."},
+  {id:"overdue", en:"overdue", ph:"/ˌoʊvərˈduː/", uk:"прострочений", pos:"adjective",
+    examples:[["Present Simple","This bill is overdue."],["Past Simple","The bill was overdue last month."],["Present Perfect","I've never had an overdue bill."]],
+    note:""},
+  {id:"maintenance", en:"maintenance", ph:"/ˈmeɪntənəns/", uk:"обслуговування, ремонт", pos:"noun",
+    examples:[["Present Simple","I do maintenance on my Jeep every spring."],["Past Simple","I did maintenance last week."],["Present Perfect","I've done all the scheduled maintenance."]],
+    note:""},
+  {id:"receipt", en:"receipt", ph:"/rɪˈsiːt/", uk:"чек (за покупку)", pos:"noun",
+    examples:[["Present Simple","I keep every receipt."],["Past Simple","I kept the receipt yesterday."],["Present Perfect","I've kept all my receipts this year."]],
+    note:"Див. різницю bill/receipt вище."},
+  {id:"schedule", en:"schedule", ph:"/ˈskɛdʒuːl/", uk:"розклад", pos:"noun / verb",
+    examples:[["Present Simple","I schedule my week on Sundays."],["Past Simple","I scheduled a meeting yesterday."],["Present Perfect","I've scheduled everything for next week."]],
+    note:""},
+  {id:"mortgage", en:"mortgage", ph:"/ˈmɔːrɡɪdʒ/", uk:"іпотека", pos:"noun",
+    examples:[["Present Simple","I pay my mortgage monthly."],["Past Simple","I paid the mortgage yesterday."],["Present Perfect","I've paid off part of my mortgage."]],
+    note:""},
+  {id:"rent", en:"rent", ph:"/rɛnt/", uk:"оренда, орендна плата", pos:"noun / verb",
+    examples:[["Present Simple","I pay rent on the first of the month."],["Past Simple","I paid rent yesterday."],["Present Perfect","I've never been late on rent."]],
+    note:"«Rent» — платити оренду. «Lease» — довгостроковий договір оренди."}
 ];
 
-function dayIndex(){
-  const now = new Date();
-  const start = new Date(now.getFullYear(), 0, 0);
-  const diff = now - start;
-  const oneDay = 1000 * 60 * 60 * 24;
-  return Math.floor(diff / oneDay);
-}
+/* ---------- Інтервальні повтори ---------- */
+const STORAGE_KEY = "basis_progress_v1";
+const INTERVALS_DAYS = [1, 3, 7, 14, 30]; // box 1..5, box 5+ повторюється кожні 30 днів
 
-let currentIndex = dayIndex() % WORDS.length;
-let overrideIndex = null;
-
-function currentWord(){
-  return WORDS[overrideIndex !== null ? overrideIndex : currentIndex];
-}
-
-const dateLabel = document.getElementById('dateLabel');
-dateLabel.textContent = new Date().toLocaleDateString('uk-UA', { day:'numeric', month:'long' });
-
-async function fetchDefinition(word){
-  const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`);
-  if(!res.ok) throw new Error('no definition');
-  const data = await res.json();
-  const entry = data[0];
-  const phonetic = entry.phonetic || (entry.phonetics.find(p => p.text)?.text) || '';
-  const meaning = entry.meanings[0];
-  const def = meaning.definitions[0];
-  return {
-    phonetic,
-    partOfSpeech: meaning.partOfSpeech,
-    definition: def.definition,
-    example: def.example || null
-  };
-}
-
-async function fetchTranslation(word){
-  const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=en|uk`);
-  if(!res.ok) throw new Error('no translation');
-  const data = await res.json();
-  return data.responseData.translatedText;
-}
-
-async function loadWord(){
-  const word = currentWord();
-  const wordEl = document.getElementById('word');
-  const phoneticEl = document.getElementById('phonetic');
-  const posEl = document.getElementById('pos');
-  const defEl = document.getElementById('definition');
-  const transEl = document.getElementById('translation');
-  const exBlock = document.getElementById('exampleBlock');
-  const exEl = document.getElementById('example');
-  const errBox = document.getElementById('errorBox');
-  const counter = document.getElementById('counter');
-
-  wordEl.textContent = word;
-  wordEl.classList.add('skeleton');
-  phoneticEl.textContent = '';
-  posEl.style.display = 'none';
-  defEl.textContent = 'завантаження…';
-  transEl.textContent = '…';
-  exBlock.style.display = 'none';
-  errBox.textContent = '';
-  counter.textContent = `${(overrideIndex !== null ? overrideIndex : currentIndex) + 1} / ${WORDS.length}`;
-
+function loadProgress(){
   try{
-    const [def, translation] = await Promise.all([
-      fetchDefinition(word),
-      fetchTranslation(word).catch(() => null)
-    ]);
-
-    wordEl.classList.remove('skeleton');
-    phoneticEl.textContent = def.phonetic;
-    posEl.textContent = def.partOfSpeech;
-    posEl.style.display = 'inline-block';
-    defEl.textContent = def.definition;
-    transEl.textContent = translation || '(переклад недоступний)';
-
-    if(def.example){
-      exEl.textContent = `"${def.example}"`;
-      exBlock.style.display = 'block';
-    }
-  }catch(e){
-    wordEl.classList.remove('skeleton');
-    defEl.textContent = '';
-    errBox.textContent = 'Не вдалося завантажити дані — перевір інтернет-з’єднання.';
-  }
+    const raw = localStorage.getItem(STORAGE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  }catch(e){ return {}; }
+}
+function saveProgress(p){
+  try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(p)); }catch(e){}
 }
 
-document.getElementById('nextBtn').addEventListener('click', () => {
-  const base = overrideIndex !== null ? overrideIndex : currentIndex;
-  overrideIndex = (base + 1) % WORDS.length;
-  loadWord();
+let progress = loadProgress();
+let currentId = null;
+
+function now(){ return Date.now(); }
+function daysToMs(d){ return d * 24 * 60 * 60 * 1000; }
+
+function buildQueue(){
+  const t = now();
+  const due = [];
+  const fresh = [];
+  for(const item of ITEMS){
+    const p = progress[item.id];
+    if(!p){ fresh.push(item.id); }
+    else if(p.next <= t){ due.push({id:item.id, next:p.next}); }
+  }
+  due.sort((a,b) => a.next - b.next);
+  return due.map(d => d.id).concat(fresh);
+}
+
+function updateStats(){
+  const t = now();
+  let due = 0, fresh = 0, mastered = 0;
+  for(const item of ITEMS){
+    const p = progress[item.id];
+    if(!p) fresh++;
+    else if(p.next <= t) due++;
+    if(p && p.box >= 5) mastered++;
+  }
+  document.getElementById('dueCount').textContent = due;
+  document.getElementById('newCount').textContent = fresh;
+  document.getElementById('masteredCount').textContent = mastered;
+}
+
+function findItem(id){ return ITEMS.find(i => i.id === id); }
+
+function renderCard(id){
+  const item = findItem(id);
+  const stage = document.getElementById('stage');
+
+  let formsHtml = '';
+  if(item.forms){
+    formsHtml = `<div class="forms">
+      <span>Present: <b>${item.forms.base}</b></span>
+      <span>Past: <b>${item.forms.past}</b></span>
+      <span>Participle: <b>${item.forms.part}</b></span>
+    </div>`;
+  }
+
+  const exHtml = item.examples.map(([tense, sentence]) =>
+    `<div class="ex-item">
+      <div class="ex-tense">${tense}</div>
+      <div class="ex-sentence">"${sentence}"</div>
+    </div>`
+  ).join('');
+
+  const noteHtml = item.note ? `<div class="note">${item.note}</div>` : '';
+
+  stage.innerHTML = `
+    <div class="head-row">
+      <p class="word">${item.en}</p>
+      <span class="pos">${item.pos}</span>
+    </div>
+    <div class="phonetic">${item.ph}</div>
+    <div class="translation">${item.uk}</div>
+    ${formsHtml}
+    <div class="divider"></div>
+    <div class="label">Приклади в різних часах</div>
+    <div class="ex-list">${exHtml}</div>
+    ${noteHtml}
+    <div class="actions">
+      <button class="btn-forgot" id="forgotBtn">Забув</button>
+      <button class="btn-know" id="knowBtn">Знаю</button>
+    </div>
+  `;
+
+  document.getElementById('forgotBtn').addEventListener('click', () => answer(id, false));
+  document.getElementById('knowBtn').addEventListener('click', () => answer(id, true));
+}
+
+function renderEmpty(){
+  const stage = document.getElementById('stage');
+  stage.innerHTML = `
+    <div class="empty">
+      <div class="big">На сьогодні все 🌿</div>
+      <p>Ти пройшов усі слова, які були заплановані на повторення. Повертайся завтра — розклад повторень з'явиться автоматично.</p>
+    </div>
+  `;
+}
+
+function answer(id, knew){
+  const p = progress[id] || {box: 0, next: 0};
+  if(knew){
+    p.box = Math.min((p.box || 0) + 1, 5);
+  } else {
+    p.box = 1;
+  }
+  const intervalIdx = Math.min(p.box - 1, INTERVALS_DAYS.length - 1);
+  p.next = now() + daysToMs(INTERVALS_DAYS[intervalIdx]);
+  progress[id] = p;
+  saveProgress(progress);
+  updateStats();
+  nextCard();
+}
+
+function nextCard(){
+  const queue = buildQueue();
+  if(queue.length === 0){
+    currentId = null;
+    renderEmpty();
+    return;
+  }
+  currentId = queue[0];
+  renderCard(currentId);
+}
+
+document.getElementById('resetBtn').addEventListener('click', () => {
+  if(confirm('Точно скинути весь прогрес? Це не можна відмінити.')){
+    progress = {};
+    saveProgress(progress);
+    updateStats();
+    nextCard();
+  }
 });
 
-loadWord();
+updateStats();
+nextCard();
 
 if('serviceWorker' in navigator){
   window.addEventListener('load', () => {
