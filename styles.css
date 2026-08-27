@@ -607,10 +607,16 @@ body{ padding-top:100px; padding-bottom:60px; }
 }
 
 /* ---------- Фіксовані кнопки картки + індикатор скролу ---------- */
+/* 292px = все, що займає місце над і під .stage поза нею самою (верхня навігація +
+   відступи body, детейл-хедер, статистика, кнопки, лінк скидання прогресу).
+   100vh на мобільних браузерах (не в PWA) означає висоту БЕЗ панелі браузера, тому
+   реальна видима висота менша — dvh рахує фактично видиму область і йде другим
+   рядком (де не підтримується, браузер просто ігнорує цей рядок і лишає vh). */
 .stage{
   display:flex;
   flex-direction:column;
-  max-height:calc(100vh - 260px);
+  max-height:calc(100vh - 292px);
+  max-height:calc(100dvh - 292px);
   overflow:hidden;
 }
 .stage-scroll{
@@ -636,5 +642,8 @@ body{ padding-top:100px; padding-bottom:60px; }
 button{ touch-action:manipulation; }
 
 @media (max-width:420px){
-  .stage{ max-height:calc(100vh - 230px); }
+  .stage{
+    max-height:calc(100vh - 262px);
+    max-height:calc(100dvh - 262px);
+  }
 }

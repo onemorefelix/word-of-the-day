@@ -1,4 +1,4 @@
-const CACHE_NAME = 'basis-v6';
+const CACHE_NAME = 'basis-v7';
 const SHELL = [
   './', './index.html', './trainer.html',
   './grammar.html', './grammar-tenses.html', './grammar-articles.html', './grammar-prepositions.html',
