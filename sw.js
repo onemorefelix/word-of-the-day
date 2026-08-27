@@ -1,5 +1,5 @@
-const CACHE_NAME = 'word-of-day-v1';
-const SHELL = ['./', './index.html', './manifest.json'];
+const CACHE_NAME = 'basis-v1';
+const SHELL = ['./', './basis.html', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -18,7 +18,6 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  // Only cache-first the app shell; always go to network for API calls.
   const url = new URL(event.request.url);
   if (url.origin === location.origin) {
     event.respondWith(
