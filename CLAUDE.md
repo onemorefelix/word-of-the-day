@@ -45,7 +45,7 @@ app.js                                 — спільний JS-код (світ�
 manifest.json                          — PWA-маніфест (іконка, назва, стартова сторінка)
 sw.js                                   — service worker, керує офлайн-кешуванням
 data/
-  core.json                             — 51 базове слово (дієслова + побутова лексика), повний формат
+  core.json                             — 90 базових слів (дієслова + побутова лексика), повний формат, ціль — кілька сотень найвживаніших
   environment.json                       — пілотна тема IELTS "Environment", 25 слів, легший формат
 fonts/
   fraunces-{400,600,700}.woff2            — заголовна серифна гарнітура
@@ -299,9 +299,9 @@ education: { name:"Education", file:"data/education.json" }
 Мета: довести словниковий запас до рівня, потрібного для IELTS Band 7-9 (орієнтир ~3000-4000 активних слів).
 
 **15 запланованих тем** (~200-270 слів кожна):
-1. Environment & Nature — 75/~250. Зареєстровано й активна в `TOPICS`/`TOPIC_META`. Конвертовано на American English 2026-08-27 (розділ 5)
-2. Education — 25/~250, змішаний формат (22 легких + 3 повних дієслова — enroll/graduate/drop out). Зареєстровано й активна в `index.html`/`trainer.html`/`sw.js`. Конвертовано на American English 2026-08-27 (id дієслова змінено `education_enrol` → `education_enroll` — американське/канадське написання подвоює «l»)
-3. Technology & Media — 25/~250, змішаний формат (22 легких + 3 повних дієслова — upgrade/crash/download). Зареєстровано й активна, аналогічно Education. Конвертовано на American English 2026-08-27
+1. Environment & Nature — 90/~250. Зареєстровано й активна в `TOPICS`/`TOPIC_META`. American English (розділ 5)
+2. Education — 40/~250, змішаний формат (більшість легких + кілька повних дієслів — enroll/graduate/drop out/pass/fail). Зареєстровано й активна в `index.html`/`trainer.html`/`sw.js`. American English (id дієслова змінено `education_enrol` → `education_enroll` — американське/канадське написання подвоює «l»)
+3. Technology & Media — 40/~250, змішаний формат. Зареєстровано й активна, аналогічно Education. American English
 4. Health & Fitness
 5. Work & Career
 6. Crime & Law
