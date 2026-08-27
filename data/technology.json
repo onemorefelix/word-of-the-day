@@ -1,0 +1,276 @@
+[
+  {
+    "id": "technology_innovative",
+    "en": "innovative",
+    "ph": "/ˈɪnəveɪtɪv/",
+    "uk": "інноваційний, новаторський",
+    "pos": "adjective",
+    "example": "The company is known for its innovative approach to design.",
+    "example2": "They developed an innovative solution to reduce energy waste.",
+    "note": "Іменник — <b>innovation</b>."
+  },
+  {
+    "id": "technology_breakthrough",
+    "en": "breakthrough",
+    "ph": "/ˈbreɪkθruː/",
+    "uk": "прорив (у науці/технології)",
+    "pos": "noun",
+    "example": "Scientists made a major breakthrough in cancer research.",
+    "example2": "The new battery technology is seen as a breakthrough for electric cars.",
+    "note": ""
+  },
+  {
+    "id": "technology_cutting_edge",
+    "en": "cutting-edge",
+    "ph": "/ˈkʌtɪŋ ɛdʒ/",
+    "uk": "найсучасніший, передовий",
+    "pos": "adjective",
+    "example": "The lab uses cutting-edge equipment for its experiments.",
+    "example2": "This is cutting-edge technology that didn't exist five years ago.",
+    "note": "Синонім — <b>state-of-the-art</b>."
+  },
+  {
+    "id": "technology_obsolete",
+    "en": "obsolete",
+    "ph": "/ˌɑːbsəˈliːt/",
+    "uk": "застарілий",
+    "pos": "adjective",
+    "example": "Many old computer skills have become obsolete.",
+    "example2": "The device was obsolete just two years after release.",
+    "note": ""
+  },
+  {
+    "id": "technology_automation",
+    "en": "automation",
+    "ph": "/ˌɔːtəˈmeɪʃən/",
+    "uk": "автоматизація",
+    "pos": "noun",
+    "example": "Automation has replaced many manual jobs in factories.",
+    "example2": "The report warns about job losses caused by automation.",
+    "note": ""
+  },
+  {
+    "id": "technology_artificial_intelligence",
+    "en": "artificial intelligence",
+    "ph": "/ˌɑːrtɪˈfɪʃəl ɪnˈtɛlɪdʒəns/",
+    "uk": "штучний інтелект",
+    "pos": "noun",
+    "example": "Artificial intelligence is changing the way businesses operate.",
+    "example2": "The app uses artificial intelligence to recommend content.",
+    "note": "Часто скорочують до <b>AI</b>."
+  },
+  {
+    "id": "technology_algorithm",
+    "en": "algorithm",
+    "ph": "/ˈælɡərɪðəm/",
+    "uk": "алгоритм",
+    "pos": "noun",
+    "example": "The website's algorithm decides which posts you see first.",
+    "example2": "Engineers improved the algorithm to make searches faster.",
+    "note": ""
+  },
+  {
+    "id": "technology_cybersecurity",
+    "en": "cybersecurity",
+    "ph": "/ˈsaɪbərsɪˌkjʊrəti/",
+    "uk": "кібербезпека",
+    "pos": "noun",
+    "example": "The company invested heavily in cybersecurity after the attack.",
+    "example2": "Cybersecurity experts warned about the new type of virus.",
+    "note": ""
+  },
+  {
+    "id": "technology_cybercrime",
+    "en": "cybercrime",
+    "ph": "/ˈsaɪbərkraɪm/",
+    "uk": "кіберзлочинність",
+    "pos": "noun",
+    "example": "Cybercrime has increased significantly in the last decade.",
+    "example2": "Police set up a special unit to fight cybercrime.",
+    "note": ""
+  },
+  {
+    "id": "technology_hacker",
+    "en": "hacker",
+    "ph": "/ˈhækər/",
+    "uk": "хакер",
+    "pos": "noun",
+    "example": "A hacker broke into the company's database last week.",
+    "example2": "Hackers stole millions of users' passwords.",
+    "note": "Дієслово — <b>to hack</b>."
+  },
+  {
+    "id": "technology_malware",
+    "en": "malware",
+    "ph": "/ˈmælwɛr/",
+    "uk": "шкідливе програмне забезпечення",
+    "pos": "noun",
+    "example": "The email contained a link that installed malware on her laptop.",
+    "example2": "This software protects your computer from malware.",
+    "note": "Незлічуваний. Від <b>malicious</b> + <b>software</b>."
+  },
+  {
+    "id": "technology_surveillance",
+    "en": "surveillance",
+    "ph": "/sərˈveɪləns/",
+    "uk": "стеження, спостереження",
+    "pos": "noun",
+    "example": "The city installed cameras for public surveillance.",
+    "example2": "People are increasingly worried about government surveillance.",
+    "note": "Колокація: <b>surveillance camera</b>."
+  },
+  {
+    "id": "technology_censorship",
+    "en": "censorship",
+    "ph": "/ˈsɛnsərʃɪp/",
+    "uk": "цензура",
+    "pos": "noun",
+    "example": "The government has been criticized for internet censorship.",
+    "example2": "Censorship laws vary greatly from country to country.",
+    "note": ""
+  },
+  {
+    "id": "technology_viral",
+    "en": "viral",
+    "ph": "/ˈvaɪrəl/",
+    "uk": "вірусний (про поширення в мережі)",
+    "pos": "adjective",
+    "example": "The video went viral within a few hours.",
+    "example2": "Companies try to create content that becomes viral.",
+    "note": "Колокація: <b>go viral</b>."
+  },
+  {
+    "id": "technology_e_commerce",
+    "en": "e-commerce",
+    "ph": "/ˌiː ˈkɑːmɜrs/",
+    "uk": "електронна комерція",
+    "pos": "noun",
+    "example": "E-commerce has grown rapidly since the pandemic.",
+    "example2": "Small businesses are moving into e-commerce to reach more customers.",
+    "note": ""
+  },
+  {
+    "id": "technology_gadget",
+    "en": "gadget",
+    "ph": "/ˈɡædʒɪt/",
+    "uk": "гаджет, пристрій",
+    "pos": "noun",
+    "example": "He loves buying the latest tech gadgets.",
+    "example2": "This little gadget can charge three devices at once.",
+    "note": ""
+  },
+  {
+    "id": "technology_user_friendly",
+    "en": "user-friendly",
+    "ph": "/ˈjuːzər ˈfrɛndli/",
+    "uk": "зручний у користуванні",
+    "pos": "adjective",
+    "example": "The new app is much more user-friendly than the old one.",
+    "example2": "Good design makes a website user-friendly for everyone.",
+    "note": ""
+  },
+  {
+    "id": "technology_bandwidth",
+    "en": "bandwidth",
+    "ph": "/ˈbændwɪdθ/",
+    "uk": "пропускна здатність (мережі)",
+    "pos": "noun",
+    "example": "Video calls use a lot of bandwidth.",
+    "example2": "The office needed more bandwidth to support remote work.",
+    "note": ""
+  },
+  {
+    "id": "technology_digital_divide",
+    "en": "digital divide",
+    "ph": "/ˈdɪdʒɪtl dɪˈvaɪd/",
+    "uk": "цифровий розрив (нерівний доступ до технологій)",
+    "pos": "noun",
+    "example": "The digital divide leaves many rural areas without reliable internet.",
+    "example2": "The pandemic highlighted the digital divide between rich and poor students.",
+    "note": "Частий термін у IELTS-есе про технології й нерівність."
+  },
+  {
+    "id": "technology_screen_time",
+    "en": "screen time",
+    "ph": "/skriːn taɪm/",
+    "uk": "час, проведений перед екраном",
+    "pos": "noun",
+    "example": "Parents worry about their children's screen time.",
+    "example2": "Experts recommend limiting screen time before bed.",
+    "note": ""
+  },
+  {
+    "id": "technology_streaming",
+    "en": "streaming",
+    "ph": "/ˈstriːmɪŋ/",
+    "uk": "стрімінг, потокове відтворення",
+    "pos": "noun",
+    "example": "Streaming services have largely replaced DVDs.",
+    "example2": "She spends her evenings streaming films and TV shows.",
+    "note": "Від дієслова <b>to stream</b>."
+  },
+  {
+    "id": "technology_privacy",
+    "en": "privacy",
+    "ph": "/ˈpraɪvəsi/",
+    "uk": "приватність, конфіденційність",
+    "pos": "noun",
+    "example": "Many people are concerned about their privacy online.",
+    "example2": "The app was criticized for not protecting users' privacy.",
+    "note": "Американська й канадська вимова — /ˈpraɪvəsi/, британська — /ˈprɪvəsi/."
+  },
+  {
+    "id": "technology_upgrade",
+    "en": "upgrade",
+    "ph": "/ʌpˈɡreɪd/",
+    "uk": "оновлювати, покращувати (версію)",
+    "pos": "verb",
+    "forms": {
+      "base": "upgrade", "phBase": "/ʌpˈɡreɪd/",
+      "past": "upgraded", "phPast": "/ʌpˈɡreɪdɪd/",
+      "part": "upgraded", "phPart": "/ʌpˈɡreɪdɪd/"
+    },
+    "examples": [
+      ["Present Simple", "The company upgrades its software every year."],
+      ["Past Simple", "She upgraded her phone last month."],
+      ["Present Perfect", "We have just upgraded our internet connection."]
+    ],
+    "note": "Як іменник наголос переходить на перший склад: <b>an upgrade</b> /ˈʌpɡreɪd/."
+  },
+  {
+    "id": "technology_crash",
+    "en": "crash",
+    "ph": "/kræʃ/",
+    "uk": "зависати, вилітати (про програму/систему)",
+    "pos": "verb",
+    "forms": {
+      "base": "crash", "phBase": "/kræʃ/",
+      "past": "crashed", "phPast": "/kræʃt/",
+      "part": "crashed", "phPart": "/kræʃt/"
+    },
+    "examples": [
+      ["Present Simple", "This app crashes whenever I open a large file."],
+      ["Past Simple", "My laptop crashed in the middle of the presentation."],
+      ["Present Perfect", "The website has crashed twice today."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "technology_download",
+    "en": "download",
+    "ph": "/ˌdaʊnˈloʊd/",
+    "uk": "завантажувати (файл із мережі)",
+    "pos": "verb",
+    "forms": {
+      "base": "download", "phBase": "/ˌdaʊnˈloʊd/",
+      "past": "downloaded", "phPast": "/ˌdaʊnˈloʊdɪd/",
+      "part": "downloaded", "phPart": "/ˌdaʊnˈloʊdɪd/"
+    },
+    "examples": [
+      ["Present Simple", "She downloads a new podcast every week."],
+      ["Past Simple", "He downloaded the wrong file by mistake."],
+      ["Present Perfect", "I have already downloaded the update."]
+    ],
+    "note": "Антонім — <b>upload</b>. Як іменник наголос на першому складі: /ˈdaʊnloʊd/."
+  }
+]

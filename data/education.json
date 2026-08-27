@@ -12,7 +12,7 @@
   {
     "id": "education_tuition",
     "en": "tuition",
-    "ph": "/tjuːˈɪʃən/",
+    "ph": "/tuːˈɪʃən/",
     "uk": "навчання, оплата за навчання",
     "pos": "noun",
     "example": "Tuition fees at this university have risen sharply.",
@@ -22,7 +22,7 @@
   {
     "id": "education_scholarship",
     "en": "scholarship",
-    "ph": "/ˈskɒləʃɪp/",
+    "ph": "/ˈskɑːlərʃɪp/",
     "uk": "стипендія (за успіхи/на навчання)",
     "pos": "noun",
     "example": "He was awarded a scholarship to study abroad.",
@@ -32,17 +32,17 @@
   {
     "id": "education_undergraduate",
     "en": "undergraduate",
-    "ph": "/ˌʌndəˈɡrædjuət/",
+    "ph": "/ˌʌndərˈɡrædʒuət/",
     "uk": "студент (бакалаврату)",
     "pos": "noun",
-    "example": "She is an undergraduate at Oxford University.",
+    "example": "She is an undergraduate at a large state university.",
     "example2": "Undergraduate courses usually last three or four years.",
     "note": "Студент, який ще не отримав перший ступінь (bachelor's degree). Наступний рівень — <b>postgraduate</b>."
   },
   {
     "id": "education_postgraduate",
     "en": "postgraduate",
-    "ph": "/ˌpəʊstˈɡrædjuət/",
+    "ph": "/ˌpoʊstˈɡrædʒuət/",
     "uk": "аспірант, той, хто навчається в магістратурі/аспірантурі",
     "pos": "noun",
     "example": "He's doing a postgraduate degree in economics.",
@@ -75,14 +75,14 @@
     "ph": "/kəmˈpʌlsəri/",
     "uk": "обов'язковий",
     "pos": "adjective",
-    "example": "Education is compulsory until the age of 16 in most countries.",
+    "example": "Education is compulsory until the age of 16 in most places.",
     "example2": "Attendance at these lectures is compulsory.",
     "note": "Колокація: <b>compulsory education</b>."
   },
   {
     "id": "education_vocational",
     "en": "vocational",
-    "ph": "/vəʊˈkeɪʃənəl/",
+    "ph": "/voʊˈkeɪʃənəl/",
     "uk": "професійно-технічний",
     "pos": "adjective",
     "example": "She chose a vocational course in plumbing instead of university.",
@@ -102,7 +102,7 @@
   {
     "id": "education_extracurricular",
     "en": "extracurricular",
-    "ph": "/ˌekstrəkəˈrɪkjʊlə/",
+    "ph": "/ˌɛkstrəkəˈrɪkjʊlər/",
     "uk": "позакласний, позанавчальний",
     "pos": "adjective",
     "example": "The school offers many extracurricular activities, like sports and music.",
@@ -112,17 +112,17 @@
   {
     "id": "education_distance_learning",
     "en": "distance learning",
-    "ph": "/ˈdɪstəns ˈlɜːnɪŋ/",
+    "ph": "/ˈdɪstəns ˈlɜrnɪŋ/",
     "uk": "дистанційне навчання",
     "pos": "noun",
     "example": "Distance learning allows students to study from anywhere in the world.",
-    "example2": "The university expanded its distance learning programmes during the pandemic.",
+    "example2": "The university expanded its distance learning programs during the pandemic.",
     "note": ""
   },
   {
     "id": "education_grant",
     "en": "grant",
-    "ph": "/ɡrɑːnt/",
+    "ph": "/ɡrænt/",
     "uk": "грант, державна субсидія (на навчання)",
     "pos": "noun",
     "example": "She received a government grant to cover her tuition fees.",
@@ -132,7 +132,7 @@
   {
     "id": "education_student_loan",
     "en": "student loan",
-    "ph": "/ˈstjuːdənt ləʊn/",
+    "ph": "/ˈstuːdənt loʊn/",
     "uk": "студентська позика (на навчання)",
     "pos": "noun",
     "example": "Many graduates spend years paying off their student loans.",
@@ -143,26 +143,26 @@
     "id": "education_faculty",
     "en": "faculty",
     "ph": "/ˈfækəlti/",
-    "uk": "факультет; (амер.) викладацький склад",
+    "uk": "факультет; викладацький склад",
     "pos": "noun",
     "example": "She works in the faculty of engineering.",
     "example2": "The university's law faculty is highly ranked.",
-    "note": "У британській англійській — підрозділ університету; в американській частіше означає викладачів."
+    "note": "У Північній Америці частіше означає викладачів (<b>faculty members</b>), а не сам підрозділ, як у Британії."
   },
   {
     "id": "education_dissertation",
     "en": "dissertation",
-    "ph": "/ˌdɪsəˈteɪʃən/",
+    "ph": "/ˌdɪsərˈteɪʃən/",
     "uk": "дисертація, дипломна робота",
     "pos": "noun",
     "example": "She spent a year researching her dissertation.",
     "example2": "The dissertation must be submitted by the end of May.",
-    "note": "У Британії часто менш формальна за <b>thesis</b>, хоча терміни часто взаємозамінні."
+    "note": "Часто менш формальна за <b>thesis</b>, хоча терміни часто взаємозамінні."
   },
   {
     "id": "education_seminar",
     "en": "seminar",
-    "ph": "/ˈseminɑː/",
+    "ph": "/ˈsɛmɪnɑːr/",
     "uk": "семінар",
     "pos": "noun",
     "example": "We discussed the article in today's seminar.",
@@ -192,17 +192,17 @@
   {
     "id": "education_mature_student",
     "en": "mature student",
-    "ph": "/məˈtʃʊə ˈstjuːdənt/",
+    "ph": "/məˈtʃʊr ˈstuːdənt/",
     "uk": "студент старшого віку (той, хто повернувся до навчання дорослим)",
     "pos": "noun",
     "example": "As a mature student, she found balancing work and study challenging.",
-    "example2": "Universities are seeing more mature students enrol each year.",
+    "example2": "Universities are seeing more mature students enroll each year.",
     "note": ""
   },
   {
     "id": "education_rote_learning",
     "en": "rote learning",
-    "ph": "/rəʊt ˈlɜːnɪŋ/",
+    "ph": "/roʊt ˈlɜrnɪŋ/",
     "uk": "механічне заучування (напам'ять)",
     "pos": "noun",
     "example": "The old system relied heavily on rote learning.",
@@ -210,33 +210,33 @@
     "note": ""
   },
   {
-    "id": "education_enrol",
-    "en": "enrol",
-    "ph": "/ɪnˈrəʊl/",
+    "id": "education_enroll",
+    "en": "enroll",
+    "ph": "/ɪnˈroʊl/",
     "uk": "записуватися, зараховуватися (на курс)",
     "pos": "verb",
     "forms": {
-      "base": "enrol", "phBase": "/ɪnˈrəʊl/",
-      "past": "enrolled", "phPast": "/ɪnˈrəʊld/",
-      "part": "enrolled", "phPart": "/ɪnˈrəʊld/"
+      "base": "enroll", "phBase": "/ɪnˈroʊl/",
+      "past": "enrolled", "phPast": "/ɪnˈroʊld/",
+      "part": "enrolled", "phPart": "/ɪnˈroʊld/"
     },
     "examples": [
-      ["Present Simple", "Every September, thousands of students enrol at this college."],
+      ["Present Simple", "Every September, thousands of students enroll at this college."],
       ["Past Simple", "She enrolled in a French course last year."],
       ["Present Perfect", "He has already enrolled for the next semester."]
     ],
-    "note": "Британське написання — <b>enrol</b>, американське — <b>enroll</b>."
+    "note": "Канадське й американське написання — <b>enroll</b> (подвійне l), британське — <b>enrol</b>."
   },
   {
     "id": "education_graduate",
     "en": "graduate",
-    "ph": "/ˈɡrædjueɪt/",
+    "ph": "/ˈɡrædʒueɪt/",
     "uk": "закінчувати навчання, отримувати диплом",
     "pos": "verb",
     "forms": {
-      "base": "graduate", "phBase": "/ˈɡrædjueɪt/",
-      "past": "graduated", "phPast": "/ˈɡrædjueɪtɪd/",
-      "part": "graduated", "phPart": "/ˈɡrædjueɪtɪd/"
+      "base": "graduate", "phBase": "/ˈɡrædʒueɪt/",
+      "past": "graduated", "phPast": "/ˈɡrædʒueɪtɪd/",
+      "part": "graduated", "phPart": "/ˈɡrædʒueɪtɪd/"
     },
     "examples": [
       ["Present Simple", "Most students graduate after four years of study."],
@@ -248,13 +248,13 @@
   {
     "id": "education_drop_out",
     "en": "drop out",
-    "ph": "/drɒp aʊt/",
+    "ph": "/drɑːp aʊt/",
     "uk": "кидати навчання (не закінчивши)",
     "pos": "verb",
     "forms": {
-      "base": "drop out", "phBase": "/drɒp aʊt/",
-      "past": "dropped out", "phPast": "/drɒpt aʊt/",
-      "part": "dropped out", "phPart": "/drɒpt aʊt/"
+      "base": "drop out", "phBase": "/drɑːp aʊt/",
+      "past": "dropped out", "phPast": "/drɑːpt aʊt/",
+      "part": "dropped out", "phPart": "/drɑːpt aʊt/"
     },
     "examples": [
       ["Present Simple", "Some students drop out because of financial problems."],

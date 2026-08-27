@@ -32,7 +32,7 @@
   {
     "id": "environment_biodiversity",
     "en": "biodiversity",
-    "ph": "/ˌbaɪoʊdaɪˈvɜːrsəti/",
+    "ph": "/ˌbaɪoʊdaɪˈvɜrsəti/",
     "uk": "біорізноманіття",
     "pos": "noun",
     "example": "Deforestation threatens biodiversity across the region.",
@@ -72,7 +72,7 @@
   {
     "id": "environment_deforestation",
     "en": "deforestation",
-    "ph": "/diːˌfɒrɪˈsteɪʃən/",
+    "ph": "/diːˌfɔːrɪˈsteɪʃən/",
     "uk": "вирубка лісів",
     "pos": "noun",
     "example": "Deforestation is one of the leading causes of climate change.",
@@ -82,7 +82,7 @@
   {
     "id": "environment_conservation",
     "en": "conservation",
-    "ph": "/ˌkɒnsərˈveɪʃən/",
+    "ph": "/ˌkɑːnsərˈveɪʃən/",
     "uk": "збереження (природи)",
     "pos": "noun",
     "example": "The park was created for wildlife conservation.",
@@ -162,7 +162,7 @@
   {
     "id": "environment_carbon_footprint",
     "en": "carbon footprint",
-    "ph": "/ˈkɑːrbən ˈfʊtprɪnt/",
+    "ph": "/ˈkɑrbən ˈfʊtprɪnt/",
     "uk": "вуглецевий слід",
     "pos": "noun",
     "example": "Flying frequently increases your carbon footprint significantly.",
@@ -192,7 +192,7 @@
   {
     "id": "environment_urbanization",
     "en": "urbanization",
-    "ph": "/ˌɜːrbənaɪˈzeɪʃən/",
+    "ph": "/ˌɜrbənaɪˈzeɪʃən/",
     "uk": "урбанізація",
     "pos": "noun",
     "example": "Rapid urbanization has put pressure on natural resources.",
@@ -232,7 +232,7 @@
   {
     "id": "environment_regulation",
     "en": "regulation",
-    "ph": "/ˌreɡjəˈleɪʃən/",
+    "ph": "/ˌrɛɡjəˈleɪʃən/",
     "uk": "регулювання, норма",
     "pos": "noun",
     "example": "Stricter environmental regulations were introduced last year.",
@@ -248,5 +248,553 @@
     "example": "The company aims to reduce its environmental footprint.",
     "example2": "Choosing local produce can shrink your environmental footprint.",
     "note": "У переносному сенсі — «вплив», не тільки слід на землі."
+  },
+  {
+    "id": "environment_wildlife",
+    "en": "wildlife",
+    "ph": "/ˈwaɪldlaɪf/",
+    "uk": "дика природа, дикі тварини",
+    "pos": "noun",
+    "example": "The reserve was created to protect local wildlife.",
+    "example2": "Poaching remains a serious threat to wildlife in the region.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_species",
+    "en": "species",
+    "ph": "/ˈspiːʃiːz/",
+    "uk": "вид (біологічний)",
+    "pos": "noun",
+    "example": "Scientists discovered a new species of frog in the rainforest.",
+    "example2": "Many marine species are threatened by rising sea temperatures.",
+    "note": "Однина і множина пишуться однаково — <b>species</b>."
+  },
+  {
+    "id": "environment_flora",
+    "en": "flora",
+    "ph": "/ˈflɔːrə/",
+    "uk": "флора, рослинний світ",
+    "pos": "noun",
+    "example": "The island has a unique flora found nowhere else on Earth.",
+    "example2": "The report describes the local flora and fauna in detail.",
+    "note": "Майже завжди у парі з <b>fauna</b>."
+  },
+  {
+    "id": "environment_fauna",
+    "en": "fauna",
+    "ph": "/ˈfɔːnə/",
+    "uk": "фауна, тваринний світ",
+    "pos": "noun",
+    "example": "The national park protects a wide range of native fauna.",
+    "example2": "Climate change is affecting flora and fauna across the continent.",
+    "note": "Майже завжди у парі з <b>flora</b>."
+  },
+  {
+    "id": "environment_vegetation",
+    "en": "vegetation",
+    "ph": "/ˌvɛdʒəˈteɪʃən/",
+    "uk": "рослинність",
+    "pos": "noun",
+    "example": "Thick vegetation covers most of the valley.",
+    "example2": "The fire destroyed all the vegetation in the area.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_migrate",
+    "en": "migrate",
+    "ph": "/ˈmaɪɡreɪt/",
+    "uk": "мігрувати (про тварин)",
+    "pos": "verb",
+    "forms": {
+      "base": "migrate", "phBase": "/ˈmaɪɡreɪt/",
+      "past": "migrated", "phPast": "/ˈmaɪɡreɪtɪd/",
+      "part": "migrated", "phPart": "/ˈmaɪɡreɪtɪd/"
+    },
+    "examples": [
+      ["Present Simple", "These birds migrate south every winter."],
+      ["Past Simple", "The herd migrated across the plain in search of water."],
+      ["Present Perfect", "Scientists say the species has already migrated further north."]
+    ],
+    "note": "Іменник — <b>migration</b>. Наголос на першому складі — американська відмінність від британського /maɪˈɡreɪt/."
+  },
+  {
+    "id": "environment_extinct",
+    "en": "extinct",
+    "ph": "/ɪkˈstɪŋkt/",
+    "uk": "вимерлий",
+    "pos": "adjective",
+    "example": "The dodo has been extinct for centuries.",
+    "example2": "Without protection, the species could become extinct within decades.",
+    "note": "Дієслово — <b>become extinct</b>, а не «extinct» саме по собі."
+  },
+  {
+    "id": "environment_climate_change",
+    "en": "climate change",
+    "ph": "/ˈklaɪmət tʃeɪndʒ/",
+    "uk": "зміна клімату",
+    "pos": "noun",
+    "example": "Climate change is affecting weather patterns around the world.",
+    "example2": "Governments are under pressure to act on climate change.",
+    "note": "Найчастіший термін теми в IELTS Writing Task 2."
+  },
+  {
+    "id": "environment_natural_resources",
+    "en": "natural resources",
+    "ph": "/ˈnætʃrəl rɪˈsɔːrsɪz/",
+    "uk": "природні ресурси",
+    "pos": "noun",
+    "example": "The country is rich in natural resources like oil and gas.",
+    "example2": "Overconsumption is depleting the planet's natural resources.",
+    "note": "Майже завжди у множині."
+  },
+  {
+    "id": "environment_atmosphere",
+    "en": "atmosphere",
+    "ph": "/ˈætməsfɪr/",
+    "uk": "атмосфера",
+    "pos": "noun",
+    "example": "Greenhouse gases trap heat in the Earth's atmosphere.",
+    "example2": "The atmosphere protects the planet from harmful radiation.",
+    "note": ""
+  },
+  {
+    "id": "environment_global_warming",
+    "en": "global warming",
+    "ph": "/ˈɡloʊbl ˈwɔːrmɪŋ/",
+    "uk": "глобальне потепління",
+    "pos": "noun",
+    "example": "Global warming is causing glaciers to melt at an alarming rate.",
+    "example2": "Many scientists link global warming directly to human activity.",
+    "note": "Вужче за <b>climate change</b> — стосується конкретно підвищення температури."
+  },
+  {
+    "id": "environment_acid_rain",
+    "en": "acid rain",
+    "ph": "/ˈæsɪd reɪn/",
+    "uk": "кислотний дощ",
+    "pos": "noun",
+    "example": "Acid rain has damaged forests across the region.",
+    "example2": "Factory emissions were the main cause of acid rain in the 1980s.",
+    "note": ""
+  },
+  {
+    "id": "environment_degradation",
+    "en": "degradation",
+    "ph": "/ˌdɛɡrəˈdeɪʃən/",
+    "uk": "деградація, погіршення (стану довкілля)",
+    "pos": "noun",
+    "example": "Overgrazing has led to serious land degradation.",
+    "example2": "Environmental degradation threatens millions of livelihoods.",
+    "note": "Колокація: <b>environmental degradation</b>."
+  },
+  {
+    "id": "environment_smog",
+    "en": "smog",
+    "ph": "/smɑːɡ/",
+    "uk": "смог",
+    "pos": "noun",
+    "example": "Thick smog covered the city for most of the week.",
+    "example2": "Smog levels are highest during the winter months.",
+    "note": "Незлічуваний. Поєднання слів <b>smoke</b> + <b>fog</b>."
+  },
+  {
+    "id": "environment_poaching",
+    "en": "poaching",
+    "ph": "/ˈpoʊtʃɪŋ/",
+    "uk": "браконьєрство",
+    "pos": "noun",
+    "example": "Poaching has pushed several species to the brink of extinction.",
+    "example2": "Rangers patrol the park to prevent poaching.",
+    "note": "Від дієслова <b>to poach</b> — незаконно полювати."
+  },
+  {
+    "id": "environment_flood",
+    "en": "flood",
+    "ph": "/flʌd/",
+    "uk": "повінь",
+    "pos": "noun",
+    "example": "The flood destroyed hundreds of homes along the river.",
+    "example2": "Rising sea levels are making floods more frequent.",
+    "note": ""
+  },
+  {
+    "id": "environment_preserve",
+    "en": "preserve",
+    "ph": "/prɪˈzɜrv/",
+    "uk": "зберігати, охороняти",
+    "pos": "verb",
+    "forms": {
+      "base": "preserve", "phBase": "/prɪˈzɜrv/",
+      "past": "preserved", "phPast": "/prɪˈzɜrvd/",
+      "part": "preserved", "phPart": "/prɪˈzɜrvd/"
+    },
+    "examples": [
+      ["Present Simple", "The organization works to preserve endangered habitats."],
+      ["Past Simple", "Local communities preserved the forest for generations."],
+      ["Present Perfect", "The government has preserved this coastline as a national park."]
+    ],
+    "note": "Іменник — <b>preservation</b>."
+  },
+  {
+    "id": "environment_afforestation",
+    "en": "afforestation",
+    "ph": "/əˌfɔːrɪˈsteɪʃən/",
+    "uk": "заліснення (нових територій)",
+    "pos": "noun",
+    "example": "The government launched an afforestation program to fight erosion.",
+    "example2": "Afforestation can help absorb more carbon dioxide from the air.",
+    "note": "На відміну від <b>reforestation</b> — заліснення території, де лісу раніше не було."
+  },
+  {
+    "id": "environment_solar_power",
+    "en": "solar power",
+    "ph": "/ˈsoʊlər ˈpaʊər/",
+    "uk": "сонячна енергія",
+    "pos": "noun",
+    "example": "The village now runs entirely on solar power.",
+    "example2": "Solar power is becoming cheaper every year.",
+    "note": ""
+  },
+  {
+    "id": "environment_wind_turbine",
+    "en": "wind turbine",
+    "ph": "/wɪnd ˈtɜrbaɪn/",
+    "uk": "вітрова турбіна",
+    "pos": "noun",
+    "example": "Dozens of wind turbines line the coast of the country.",
+    "example2": "A single wind turbine can power hundreds of homes.",
+    "note": ""
+  },
+  {
+    "id": "environment_organic_farming",
+    "en": "organic farming",
+    "ph": "/ɔːrˈɡænɪk ˈfɑrmɪŋ/",
+    "uk": "органічне землеробство",
+    "pos": "noun",
+    "example": "Organic farming avoids the use of artificial pesticides.",
+    "example2": "More farmers are switching to organic farming methods.",
+    "note": ""
+  },
+  {
+    "id": "environment_desertification",
+    "en": "desertification",
+    "ph": "/dɪˌzɜrtɪfɪˈkeɪʃən/",
+    "uk": "опустелювання",
+    "pos": "noun",
+    "example": "Overgrazing is a major cause of desertification in the region.",
+    "example2": "Desertification threatens the livelihoods of millions of farmers.",
+    "note": ""
+  },
+  {
+    "id": "environment_biodegradable",
+    "en": "biodegradable",
+    "ph": "/ˌbaɪoʊdɪˈɡreɪdəbl/",
+    "uk": "біорозкладний",
+    "pos": "adjective",
+    "example": "The company now uses biodegradable packaging for all its products.",
+    "example2": "Plastic bags are not biodegradable and can pollute for centuries.",
+    "note": ""
+  },
+  {
+    "id": "environment_carbon_neutral",
+    "en": "carbon-neutral",
+    "ph": "/ˈkɑrbən ˈnuːtrəl/",
+    "uk": "вуглецево-нейтральний",
+    "pos": "adjective",
+    "example": "The city aims to become carbon-neutral by 2040.",
+    "example2": "Several airlines have promised to go carbon-neutral within a decade.",
+    "note": "Пов'язане поняття — <b>net zero</b>."
+  },
+  {
+    "id": "environment_rural",
+    "en": "rural",
+    "ph": "/ˈrʊrəl/",
+    "uk": "сільський",
+    "pos": "adjective",
+    "example": "Many rural areas still lack reliable electricity.",
+    "example2": "The charity supports farming projects in rural communities.",
+    "note": "Антонім — <b>urban</b>."
+  },
+  {
+    "id": "environment_urban",
+    "en": "urban",
+    "ph": "/ˈɜrbən/",
+    "uk": "міський",
+    "pos": "adjective",
+    "example": "Urban areas are usually several degrees warmer than the countryside.",
+    "example2": "Green spaces are essential for urban wildlife.",
+    "note": "Антонім — <b>rural</b>. Іменник — <b>urbanization</b>."
+  },
+  {
+    "id": "environment_sustainability",
+    "en": "sustainability",
+    "ph": "/səˌsteɪnəˈbɪləti/",
+    "uk": "сталість, екологічна стійкість",
+    "pos": "noun",
+    "example": "Sustainability is now a key concern for most large businesses.",
+    "example2": "The university offers a course in environmental sustainability.",
+    "note": "Іменникова форма прикметника <b>sustainable</b>."
+  },
+  {
+    "id": "environment_eco_friendly",
+    "en": "eco-friendly",
+    "ph": "/ˈiːkoʊ ˈfrɛndli/",
+    "uk": "екологічно чистий, безпечний для довкілля",
+    "pos": "adjective",
+    "example": "More shoppers are choosing eco-friendly products.",
+    "example2": "The hotel switched to eco-friendly cleaning products last year.",
+    "note": "Синонім — <b>environmentally friendly</b>."
+  },
+  {
+    "id": "environment_net_zero",
+    "en": "net zero",
+    "ph": "/nɛt ˈzɪroʊ/",
+    "uk": "чисто нульовий (про викиди вуглецю)",
+    "pos": "adjective",
+    "example": "The country has pledged to reach net zero emissions by 2050.",
+    "example2": "Reaching net zero will require major changes to how we produce energy.",
+    "note": "Означає баланс між викидами й поглинанням CO2, а не повну відсутність викидів."
+  },
+  {
+    "id": "environment_overfishing",
+    "en": "overfishing",
+    "ph": "/ˈoʊvərˌfɪʃɪŋ/",
+    "uk": "перелов риби",
+    "pos": "noun",
+    "example": "Overfishing has severely reduced fish stocks in the region.",
+    "example2": "New quotas were introduced to prevent overfishing.",
+    "note": ""
+  },
+  {
+    "id": "environment_oil_spill",
+    "en": "oil spill",
+    "ph": "/ˈɔɪl spɪl/",
+    "uk": "розлив нафти",
+    "pos": "noun",
+    "example": "The oil spill killed thousands of seabirds along the coast.",
+    "example2": "It took years for the ecosystem to recover from the oil spill.",
+    "note": ""
+  },
+  {
+    "id": "environment_landfill",
+    "en": "landfill",
+    "ph": "/ˈlændfɪl/",
+    "uk": "звалище, полігон відходів",
+    "pos": "noun",
+    "example": "Most household waste ends up in landfill.",
+    "example2": "The city is running out of space for landfill sites.",
+    "note": ""
+  },
+  {
+    "id": "environment_safeguard",
+    "en": "safeguard",
+    "ph": "/ˈseɪfɡɑrd/",
+    "uk": "захищати, охороняти",
+    "pos": "verb",
+    "forms": {
+      "base": "safeguard", "phBase": "/ˈseɪfɡɑrd/",
+      "past": "safeguarded", "phPast": "/ˈseɪfɡɑrdɪd/",
+      "part": "safeguarded", "phPart": "/ˈseɪfɡɑrdɪd/"
+    },
+    "examples": [
+      ["Present Simple", "The law safeguards several endangered species."],
+      ["Past Simple", "The treaty safeguarded the forest from logging."],
+      ["Present Perfect", "The new policy has safeguarded thousands of hectares of wetland."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "environment_threaten",
+    "en": "threaten",
+    "ph": "/ˈθrɛtn/",
+    "uk": "загрожувати",
+    "pos": "verb",
+    "forms": {
+      "base": "threaten", "phBase": "/ˈθrɛtn/",
+      "past": "threatened", "phPast": "/ˈθrɛtnd/",
+      "part": "threatened", "phPart": "/ˈθrɛtnd/"
+    },
+    "examples": [
+      ["Present Simple", "Pollution threatens marine life across the region."],
+      ["Past Simple", "Rising waters threatened the entire village last year."],
+      ["Present Perfect", "Deforestation has threatened dozens of species in the area."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "environment_restore",
+    "en": "restore",
+    "ph": "/rɪˈstɔːr/",
+    "uk": "відновлювати",
+    "pos": "verb",
+    "forms": {
+      "base": "restore", "phBase": "/rɪˈstɔːr/",
+      "past": "restored", "phPast": "/rɪˈstɔːrd/",
+      "part": "restored", "phPart": "/rɪˈstɔːrd/"
+    },
+    "examples": [
+      ["Present Simple", "The project restores damaged wetlands across the country."],
+      ["Past Simple", "Volunteers restored the riverbank after the flood."],
+      ["Present Perfect", "Conservationists have restored much of the original forest."]
+    ],
+    "note": "Іменник — <b>restoration</b>."
+  },
+  {
+    "id": "environment_ban",
+    "en": "ban",
+    "ph": "/bæn/",
+    "uk": "забороняти",
+    "pos": "verb",
+    "forms": {
+      "base": "ban", "phBase": "/bæn/",
+      "past": "banned", "phPast": "/bænd/",
+      "part": "banned", "phPart": "/bænd/"
+    },
+    "examples": [
+      ["Present Simple", "The city bans single-use plastic bags in supermarkets."],
+      ["Past Simple", "The country banned single-use plastics in 2021."],
+      ["Present Perfect", "Several nations have already banned plastic straws."]
+    ],
+    "note": "Іменник — <b>a ban</b> (заборона)."
+  },
+  {
+    "id": "environment_reforestation",
+    "en": "reforestation",
+    "ph": "/ˌriːfɔːrɪˈsteɪʃən/",
+    "uk": "відновлення лісів (на місці вирубаних)",
+    "pos": "noun",
+    "example": "The reforestation project aims to plant a million trees.",
+    "example2": "Reforestation helps restore habitats lost to logging.",
+    "note": "На відміну від <b>afforestation</b> — саме відновлення лісу там, де він раніше був."
+  },
+  {
+    "id": "environment_wetland",
+    "en": "wetland",
+    "ph": "/ˈwɛtlænd/",
+    "uk": "водно-болотні угіддя",
+    "pos": "noun",
+    "example": "Wetlands provide a home for hundreds of bird species.",
+    "example2": "Draining the wetland destroyed a unique habitat.",
+    "note": "Часто у множині — <b>wetlands</b>."
+  },
+  {
+    "id": "environment_coral_reef",
+    "en": "coral reef",
+    "ph": "/ˈkɔːrəl riːf/",
+    "uk": "коралові рифи",
+    "pos": "noun",
+    "example": "Rising sea temperatures are bleaching coral reefs worldwide.",
+    "example2": "The coral reef supports an enormous variety of marine life.",
+    "note": ""
+  },
+  {
+    "id": "environment_glacier",
+    "en": "glacier",
+    "ph": "/ˈɡleɪʃər/",
+    "uk": "льодовик",
+    "pos": "noun",
+    "example": "The glacier has retreated significantly over the past fifty years.",
+    "example2": "Melting glaciers are a major cause of rising sea levels.",
+    "note": ""
+  },
+  {
+    "id": "environment_permafrost",
+    "en": "permafrost",
+    "ph": "/ˈpɜrməfrɔːst/",
+    "uk": "вічна мерзлота",
+    "pos": "noun",
+    "example": "Thawing permafrost releases large amounts of methane.",
+    "example2": "Buildings in the region are built on permafrost.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_sea_level_rise",
+    "en": "sea level rise",
+    "ph": "/siː ˈlɛvl raɪz/",
+    "uk": "підняття рівня моря",
+    "pos": "noun",
+    "example": "Sea level rise threatens low-lying island nations.",
+    "example2": "Scientists are monitoring the rate of sea level rise closely.",
+    "note": ""
+  },
+  {
+    "id": "environment_ozone_layer",
+    "en": "ozone layer",
+    "ph": "/ˈoʊzoʊn ˈleɪər/",
+    "uk": "озоновий шар",
+    "pos": "noun",
+    "example": "The ozone layer protects the Earth from harmful UV radiation.",
+    "example2": "Certain chemicals were banned to protect the ozone layer.",
+    "note": ""
+  },
+  {
+    "id": "environment_water_scarcity",
+    "en": "water scarcity",
+    "ph": "/ˈwɔːtər ˈskɛrsəti/",
+    "uk": "дефіцит води",
+    "pos": "noun",
+    "example": "Water scarcity affects millions of people in the region.",
+    "example2": "Climate change is expected to worsen water scarcity worldwide.",
+    "note": ""
+  },
+  {
+    "id": "environment_air_quality",
+    "en": "air quality",
+    "ph": "/ɛr ˈkwɑːləti/",
+    "uk": "якість повітря",
+    "pos": "noun",
+    "example": "Air quality in the capital has improved since the new regulations.",
+    "example2": "Poor air quality is linked to a range of health problems.",
+    "note": ""
+  },
+  {
+    "id": "environment_hazardous",
+    "en": "hazardous",
+    "ph": "/ˈhæzərdəs/",
+    "uk": "небезпечний, шкідливий",
+    "pos": "adjective",
+    "example": "The factory was fined for dumping hazardous waste into the river.",
+    "example2": "Workers wear protective gear when handling hazardous materials.",
+    "note": "Іменник — <b>hazard</b>."
+  },
+  {
+    "id": "environment_non_renewable",
+    "en": "non-renewable",
+    "ph": "/ˌnɑːnrɪˈnuːəbl/",
+    "uk": "невідновлюваний",
+    "pos": "adjective",
+    "example": "Coal and oil are non-renewable sources of energy.",
+    "example2": "Non-renewable resources will eventually run out.",
+    "note": "Антонім — <b>renewable</b>."
+  },
+  {
+    "id": "environment_overconsumption",
+    "en": "overconsumption",
+    "ph": "/ˌoʊvərkənˈsʌmpʃən/",
+    "uk": "надмірне споживання",
+    "pos": "noun",
+    "example": "Overconsumption in wealthy countries drives much of global waste.",
+    "example2": "The documentary examines the effects of overconsumption on the planet.",
+    "note": ""
+  },
+  {
+    "id": "environment_biosphere",
+    "en": "biosphere",
+    "ph": "/ˈbaɪoʊsfɪr/",
+    "uk": "біосфера",
+    "pos": "noun",
+    "example": "Human activity is having a growing impact on the Earth's biosphere.",
+    "example2": "The reserve was designated a UNESCO biosphere site.",
+    "note": ""
+  },
+  {
+    "id": "environment_protected_area",
+    "en": "protected area",
+    "ph": "/prəˈtɛktɪd ˈɛriə/",
+    "uk": "природоохоронна територія",
+    "pos": "noun",
+    "example": "The forest was declared a protected area in 2015.",
+    "example2": "Hunting is strictly forbidden in protected areas.",
+    "note": ""
   }
 ]
