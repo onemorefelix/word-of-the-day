@@ -1,10 +1,10 @@
-const CACHE_NAME = 'basis-v7';
+const CACHE_NAME = 'basis-v8';
 const SHELL = [
   './', './index.html', './trainer.html',
   './grammar.html', './grammar-tenses.html', './grammar-articles.html', './grammar-prepositions.html',
   './reference.html', './settings.html',
   './styles.css', './app.js', './manifest.json', './icon-192.png', './icon-512.png',
-  './data/core.json', './data/environment.json',
+  './data/core.json', './data/environment.json', './data/education.json',
   './fonts/fraunces-400.woff2', './fonts/fraunces-600.woff2', './fonts/fraunces-700.woff2',
   './fonts/plexmono-400.woff2', './fonts/plexmono-500.woff2',
   './fonts/inter-400.woff2', './fonts/inter-500.woff2', './fonts/inter-600.woff2'

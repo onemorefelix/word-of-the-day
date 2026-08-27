@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="theme-color" content="#0c0e16">
-<title>Базис</title>
+<title>Англійська</title>
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icon-192.png">
 <link rel="stylesheet" href="styles.css">
@@ -20,7 +20,7 @@
 
 <div class="card">
   <div class="eyebrow">
-    <span>Базис</span>
+    <span>Англійська</span>
     <span><span class="dot">●</span> обери тему</span>
   </div>
 
@@ -53,6 +53,91 @@ const TOPICS = [
     desc:"Лексика IELTS про довкілля: сталий розвиток, забруднення, зміна клімату.",
     file:"data/environment.json",
     tag:"IELTS · пілот"
+  },
+  {
+    id:"education",
+    name:"Education",
+    desc:"Освіта: навчання, кваліфікації, шкільна й вища освіта.",
+    file:"data/education.json",
+    tag:"IELTS"
+  },
+  {
+    id:"technology",
+    name:"Technology & Media",
+    desc:"Технології та медіа: цифрові пристрої, інтернет, соцмережі, ЗМІ.",
+    tag:"IELTS"
+  },
+  {
+    id:"health",
+    name:"Health & Fitness",
+    desc:"Здоров'я: медицина, хвороби, здоровий спосіб життя.",
+    tag:"IELTS"
+  },
+  {
+    id:"work",
+    name:"Work & Career",
+    desc:"Робота й кар'єра: працевлаштування, професії, робоче середовище.",
+    tag:"IELTS"
+  },
+  {
+    id:"crime",
+    name:"Crime & Law",
+    desc:"Злочинність і право: закони, правопорушення, судова система.",
+    tag:"IELTS"
+  },
+  {
+    id:"government",
+    name:"Government & Society",
+    desc:"Уряд і суспільство: влада, політика, громадянські права, соціальні інститути.",
+    tag:"IELTS"
+  },
+  {
+    id:"globalization",
+    name:"Globalization & Culture",
+    desc:"Глобалізація та культура: міжнародні зв'язки, культурний обмін, традиції.",
+    tag:"IELTS"
+  },
+  {
+    id:"travel",
+    name:"Travel & Transport",
+    desc:"Подорожі й транспорт: види транспорту, туризм, інфраструктура.",
+    tag:"IELTS"
+  },
+  {
+    id:"family",
+    name:"Family & Relationships",
+    desc:"Сім'я і стосунки: родинні зв'язки, виховання дітей, міжособистісні стосунки.",
+    tag:"IELTS"
+  },
+  {
+    id:"food",
+    name:"Food & Diet",
+    desc:"Їжа і харчування: продукти, кулінарія, дієти, харчові звички.",
+    tag:"IELTS"
+  },
+  {
+    id:"city",
+    name:"City & Urban Life",
+    desc:"Місто і міське життя: урбанізація, інфраструктура, міські проблеми.",
+    tag:"IELTS"
+  },
+  {
+    id:"money",
+    name:"Money & Economy",
+    desc:"Гроші й економіка: фінанси, торгівля, споживання, економічні системи.",
+    tag:"IELTS"
+  },
+  {
+    id:"sport",
+    name:"Sport & Leisure",
+    desc:"Спорт і дозвілля: види спорту, змагання, активний відпочинок.",
+    tag:"IELTS"
+  },
+  {
+    id:"science",
+    name:"Science & Innovation",
+    desc:"Наука та інновації: наукові відкриття, технологічний прогрес, дослідження.",
+    tag:"IELTS"
   }
 ];
 
@@ -97,10 +182,17 @@ async function render(){
   </div>`).join('');
 
   for(const topic of TOPICS){
-    const stats = await computeTopicStats(topic);
     const el = list.querySelector(`[data-id="${topic.id}"]`);
     if(!el) continue;
     el.style.opacity = 1;
+
+    if(!topic.file){
+      el.classList.add('locked');
+      el.querySelector('.t-count').textContent = 'скоро';
+      continue;
+    }
+
+    const stats = await computeTopicStats(topic);
 
     if(!stats.ok){
       el.classList.add('locked');
