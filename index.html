@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#1c2b28">
+<title>Слово дня</title>
+<link rel="manifest" href="manifest.json">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap');
+
+  :root{
+    --ink:#f4efe4;
+    --paper:#1c2b28;
+    --paper-deep:#12201d;
+    --moss:#7fa88c;
+    --gold:#c9a35d;
+    --dim:#9db3a9;
+    --line:rgba(244,239,228,0.14);
+  }
+
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    min-height:100vh;
+    background:
+      radial-gradient(ellipse at 20% -10%, rgba(127,168,140,0.18), transparent 55%),
+      radial-gradient(ellipse at 100% 110%, rgba(201,163,93,0.10), transparent 50%),
+      var(--paper);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:32px 18px;
+  }
+
+  .card{
+    width:100%;
+    max-width:480px;
+    position:relative;
+  }
+
+  .eyebrow{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    color:var(--dim);
+    margin-bottom:22px;
+  }
+  .eyebrow .dot{color:var(--gold);}
+
+  .stage{
+    background:linear-gradient(180deg, rgba(244,239,228,0.05), rgba(244,239,228,0.02));
+    border:1px solid var(--line);
+    border-radius:2px;
+    padding:44px 32px 32px;
+    position:relative;
+    overflow:hidden;
+  }
+  .stage::before{
+    content:"";
+    position:absolute;
+    top:0;left:0;right:0;
+    height:1px;
+    background:linear-gradient(90deg, transparent, var(--gold), transparent);
+    opacity:0.6;
+  }
+
+  .word{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:clamp(38px, 9vw, 56px);
+    line-height:1.02;
+    letter-spacing:-0.01em;
+    margin:0;
+  }
+  .phonetic{
+    font-family:'IBM Plex Mono',monospace;
+    color:var(--moss);
+    font-size:15px;
+    margin-top:8px;
+  }
+  .pos{
+    display:inline-block;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--paper-deep);
+    background:var(--gold);
+    padding:3px 9px;
+    border-radius:2px;
+    margin-top:14px;
+  }
+
+  .divider{
+    height:1px;
+    background:var(--line);
+    margin:26px 0;
+  }
+
+  .block{margin-bottom:22px;}
+  .block:last-child{margin-bottom:0;}
+  .label{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--dim);
+    margin-bottom:8px;
+  }
+  .def{
+    font-size:16.5px;
+    line-height:1.55;
+    color:var(--ink);
+  }
+  .translation{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:26px;
+    color:var(--moss);
+  }
+  .example{
+    font-size:15px;
+    line-height:1.55;
+    color:var(--dim);
+    font-style:italic;
+    border-left:2px solid var(--line);
+    padding-left:14px;
+  }
+
+  .foot{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:22px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    color:var(--dim);
+  }
+  button{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    background:transparent;
+    border:1px solid var(--line);
+    color:var(--ink);
+    padding:8px 14px;
+    border-radius:2px;
+    cursor:pointer;
+    transition:border-color 0.15s, color 0.15s;
+  }
+  button:hover{border-color:var(--gold); color:var(--gold);}
+  button:focus-visible{outline:2px solid var(--gold); outline-offset:2px;}
+
+  .skeleton{opacity:0.4;}
+  .err{color:#d98b7a; font-size:13px; font-family:'IBM Plex Mono',monospace;}
+
+  @media (max-width:420px){
+    .stage{padding:32px 22px 26px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="eyebrow">
+    <span id="dateLabel">— — —</span>
+    <span><span class="dot">●</span> слово дня</span>
+  </div>
+
+  <div class="stage" id="stage">
+    <p class="word skeleton" id="word">завантаження…</p>
+    <div class="phonetic" id="phonetic"></div>
+    <span class="pos" id="pos" style="display:none;"></span>
+
+    <div class="divider"></div>
+
+    <div class="block">
+      <div class="label">Переклад</div>
+      <div class="translation" id="translation">…</div>
+    </div>
+
+    <div class="block">
+      <div class="label">Визначення</div>
+      <div class="def" id="definition"></div>
+    </div>
+
+    <div class="block" id="exampleBlock" style="display:none;">
+      <div class="label">Приклад</div>
+      <div class="example" id="example"></div>
+    </div>
+
+    <div id="errorBox"></div>
+  </div>
+
+  <div class="foot">
+    <span id="counter"></span>
+    <button id="nextBtn">Наступне слово →</button>
+  </div>
+</div>
+
+<script>
+// Curated list of moderately advanced English words worth knowing.
+// Feel free to extend this list — that's the whole point of owning the code.
+const WORDS = [
+  "ephemeral","ubiquitous","meticulous","resilient","ambiguous","candid",
+  "diligent","eloquent","frugal","genuine","hostile","imminent",
+  "juxtapose","lucid","mundane","nostalgia","obsolete","pragmatic",
+  "quaint","resonate","scrutinize","tenacious","vindicate","zealous",
+  "arbitrary","benevolent","coherent","deprecate","elusive","fickle",
+  "gregarious","hypothesis","incentive","jeopardy","keen","legitimate",
+  "malleable","nuance","obscure","pertinent","quandary","reluctant",
+  "sporadic","tangible","unprecedented","versatile","wary","abate",
+  "cynical","dubious","exacerbate","facilitate","gullible","harbinger",
+  "inevitable","lament","meager","notorious","ominous","plausible",
+  "reciprocate","staunch","tedious","viable","withhold","alleviate",
+  "boisterous","conundrum","deft","enigmatic","frivolous","grievance",
+  "hindrance","impartial","lethargic","mitigate","novice","paradox",
+  "rigorous","sagacious","tumultuous","vicarious","adversity","brevity",
+  "candor","discern","empirical","fortitude","haphazard","inherent",
+  "lucrative","meticulous","perpetual","resilience","scarce","thwart"
+];
+
+function dayIndex(){
+  const now = new Date();
+  const start = new Date(now.getFullYear(), 0, 0);
+  const diff = now - start;
+  const oneDay = 1000 * 60 * 60 * 24;
+  return Math.floor(diff / oneDay);
+}
+
+let currentIndex = dayIndex() % WORDS.length;
+let overrideIndex = null;
+
+function currentWord(){
+  return WORDS[overrideIndex !== null ? overrideIndex : currentIndex];
+}
+
+const dateLabel = document.getElementById('dateLabel');
+dateLabel.textContent = new Date().toLocaleDateString('uk-UA', { day:'numeric', month:'long' });
+
+async function fetchDefinition(word){
+  const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`);
+  if(!res.ok) throw new Error('no definition');
+  const data = await res.json();
+  const entry = data[0];
+  const phonetic = entry.phonetic || (entry.phonetics.find(p => p.text)?.text) || '';
+  const meaning = entry.meanings[0];
+  const def = meaning.definitions[0];
+  return {
+    phonetic,
+    partOfSpeech: meaning.partOfSpeech,
+    definition: def.definition,
+    example: def.example || null
+  };
+}
+
+async function fetchTranslation(word){
+  const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=en|uk`);
+  if(!res.ok) throw new Error('no translation');
+  const data = await res.json();
+  return data.responseData.translatedText;
+}
+
+async function loadWord(){
+  const word = currentWord();
+  const wordEl = document.getElementById('word');
+  const phoneticEl = document.getElementById('phonetic');
+  const posEl = document.getElementById('pos');
+  const defEl = document.getElementById('definition');
+  const transEl = document.getElementById('translation');
+  const exBlock = document.getElementById('exampleBlock');
+  const exEl = document.getElementById('example');
+  const errBox = document.getElementById('errorBox');
+  const counter = document.getElementById('counter');
+
+  wordEl.textContent = word;
+  wordEl.classList.add('skeleton');
+  phoneticEl.textContent = '';
+  posEl.style.display = 'none';
+  defEl.textContent = 'завантаження…';
+  transEl.textContent = '…';
+  exBlock.style.display = 'none';
+  errBox.textContent = '';
+  counter.textContent = `${(overrideIndex !== null ? overrideIndex : currentIndex) + 1} / ${WORDS.length}`;
+
+  try{
+    const [def, translation] = await Promise.all([
+      fetchDefinition(word),
+      fetchTranslation(word).catch(() => null)
+    ]);
+
+    wordEl.classList.remove('skeleton');
+    phoneticEl.textContent = def.phonetic;
+    posEl.textContent = def.partOfSpeech;
+    posEl.style.display = 'inline-block';
+    defEl.textContent = def.definition;
+    transEl.textContent = translation || '(переклад недоступний)';
+
+    if(def.example){
+      exEl.textContent = `"${def.example}"`;
+      exBlock.style.display = 'block';
+    }
+  }catch(e){
+    wordEl.classList.remove('skeleton');
+    defEl.textContent = '';
+    errBox.textContent = 'Не вдалося завантажити дані — перевір інтернет-з’єднання.';
+  }
+}
+
+document.getElementById('nextBtn').addEventListener('click', () => {
+  const base = overrideIndex !== null ? overrideIndex : currentIndex;
+  overrideIndex = (base + 1) % WORDS.length;
+  loadWord();
+});
+
+loadWord();
+
+if('serviceWorker' in navigator){
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  });
+}
+</script>
+
+</body>
+</html>
