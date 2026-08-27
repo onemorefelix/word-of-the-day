@@ -1368,5 +1368,636 @@
       ]
     ],
     "note": "«Rent» — платити оренду. «Lease» — довгостроковий договір оренди."
+  },
+  {
+    "id": "begin",
+    "en": "begin",
+    "ph": "/bɪˈɡɪn/",
+    "uk": "починати",
+    "pos": "verb",
+    "forms": {
+      "base": "begin", "past": "began", "part": "begun",
+      "phBase": "/bɪˈɡɪn/", "phPast": "/bɪˈɡæn/", "phPart": "/bɪˈɡʌn/"
+    },
+    "examples": [
+      ["Present Simple", "The meeting begins at 9."],
+      ["Past Simple", "The meeting began late yesterday."],
+      ["Present Perfect", "The project has already begun."]
+    ],
+    "note": "Формальніший синонім — «start», взаємозамінні в більшості контекстів."
+  },
+  {
+    "id": "build",
+    "en": "build",
+    "ph": "/bɪld/",
+    "uk": "будувати",
+    "pos": "verb",
+    "forms": {
+      "base": "build", "past": "built", "part": "built",
+      "phBase": "/bɪld/", "phPast": "/bɪlt/", "phPart": "/bɪlt/"
+    },
+    "examples": [
+      ["Present Simple", "They build houses in this neighborhood."],
+      ["Past Simple", "They built this house in 2010."],
+      ["Present Perfect", "We've built a good relationship with our neighbors."]
+    ],
+    "note": "Часто переносно — «build a relationship/career», не тільки про будівлі."
+  },
+  {
+    "id": "choose",
+    "en": "choose",
+    "ph": "/tʃuːz/",
+    "uk": "обирати",
+    "pos": "verb",
+    "forms": {
+      "base": "choose", "past": "chose", "part": "chosen",
+      "phBase": "/tʃuːz/", "phPast": "/tʃoʊz/", "phPart": "/ˈtʃoʊzən/"
+    },
+    "examples": [
+      ["Present Simple", "I always choose the window seat."],
+      ["Past Simple", "I chose the blue one."],
+      ["Present Perfect", "I've chosen a new dentist."]
+    ],
+    "note": "Не плутай «choose» /tʃuːz/ (дієслово) з «chose» — це вже минулий час, а не інше слово."
+  },
+  {
+    "id": "cut",
+    "en": "cut",
+    "ph": "/kʌt/",
+    "uk": "різати, скорочувати",
+    "pos": "verb",
+    "forms": {
+      "base": "cut", "past": "cut", "part": "cut",
+      "phBase": "/kʌt/", "phPast": "/kʌt/", "phPart": "/kʌt/"
+    },
+    "examples": [
+      ["Present Simple", "I cut my own hair sometimes."],
+      ["Past Simple", "I cut my finger yesterday."],
+      ["Present Perfect", "I've already cut the budget for this month."]
+    ],
+    "note": "Форма однакова у всіх часах — слухай контекст."
+  },
+  {
+    "id": "fall",
+    "en": "fall",
+    "ph": "/fɔːl/",
+    "uk": "падати",
+    "pos": "verb",
+    "forms": {
+      "base": "fall", "past": "fell", "part": "fallen",
+      "phBase": "/fɔːl/", "phPast": "/fɛl/", "phPart": "/ˈfɔːlən/"
+    },
+    "examples": [
+      ["Present Simple", "Prices usually fall in January."],
+      ["Past Simple", "I fell on the ice last winter."],
+      ["Present Perfect", "Gas prices have fallen this month."]
+    ],
+    "note": "«Fall for» — закохатись або повестись на щось (обман)."
+  },
+  {
+    "id": "find",
+    "en": "find",
+    "ph": "/faɪnd/",
+    "uk": "знаходити",
+    "pos": "verb",
+    "forms": {
+      "base": "find", "past": "found", "part": "found",
+      "phBase": "/faɪnd/", "phPast": "/faʊnd/", "phPart": "/faʊnd/"
+    },
+    "examples": [
+      ["Present Simple", "I always find good deals online."],
+      ["Past Simple", "I found my keys under the couch."],
+      ["Present Perfect", "I've found a great new mechanic."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "fly",
+    "en": "fly",
+    "ph": "/flaɪ/",
+    "uk": "летіти",
+    "pos": "verb",
+    "forms": {
+      "base": "fly", "past": "flew", "part": "flown",
+      "phBase": "/flaɪ/", "phPast": "/fluː/", "phPart": "/floʊn/"
+    },
+    "examples": [
+      ["Present Simple", "I fly home twice a year."],
+      ["Past Simple", "I flew to Toronto last week."],
+      ["Present Perfect", "I've flown this route many times."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "forgive",
+    "en": "forgive",
+    "ph": "/fərˈɡɪv/",
+    "uk": "вибачати",
+    "pos": "verb",
+    "forms": {
+      "base": "forgive", "past": "forgave", "part": "forgiven",
+      "phBase": "/fərˈɡɪv/", "phPast": "/fərˈɡeɪv/", "phPart": "/fərˈɡɪvən/"
+    },
+    "examples": [
+      ["Present Simple", "I forgive him for that."],
+      ["Past Simple", "I forgave her a long time ago."],
+      ["Present Perfect", "I've forgiven him, but I haven't forgotten."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "hang",
+    "en": "hang",
+    "ph": "/hæŋ/",
+    "uk": "вішати",
+    "pos": "verb",
+    "forms": {
+      "base": "hang", "past": "hung", "part": "hung",
+      "phBase": "/hæŋ/", "phPast": "/hʌŋ/", "phPart": "/hʌŋ/"
+    },
+    "examples": [
+      ["Present Simple", "I hang my coat by the door."],
+      ["Past Simple", "I hung the picture on the wall."],
+      ["Present Perfect", "I've hung all the laundry to dry."]
+    ],
+    "note": "«Hang out» — проводити час з кимось неформально."
+  },
+  {
+    "id": "hear",
+    "en": "hear",
+    "ph": "/hɪr/",
+    "uk": "чути",
+    "pos": "verb",
+    "forms": {
+      "base": "hear", "past": "heard", "part": "heard",
+      "phBase": "/hɪr/", "phPast": "/hɜrd/", "phPart": "/hɜrd/"
+    },
+    "examples": [
+      ["Present Simple", "I hear him every morning through the wall."],
+      ["Past Simple", "I heard a strange noise last night."],
+      ["Present Perfect", "I've heard that song a hundred times."]
+    ],
+    "note": "«Hear» — мимоволі чути, «listen» — слухати цілеспрямовано. Та сама логіка, що see/watch."
+  },
+  {
+    "id": "hide",
+    "en": "hide",
+    "ph": "/haɪd/",
+    "uk": "ховати(ся)",
+    "pos": "verb",
+    "forms": {
+      "base": "hide", "past": "hid", "part": "hidden",
+      "phBase": "/haɪd/", "phPast": "/hɪd/", "phPart": "/ˈhɪdən/"
+    },
+    "examples": [
+      ["Present Simple", "I hide the good snacks from the kids."],
+      ["Past Simple", "I hid the gift in the closet."],
+      ["Present Perfect", "I've hidden the spare key outside."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "hold",
+    "en": "hold",
+    "ph": "/hoʊld/",
+    "uk": "тримати",
+    "pos": "verb",
+    "forms": {
+      "base": "hold", "past": "held", "part": "held",
+      "phBase": "/hoʊld/", "phPast": "/hɛld/", "phPart": "/hɛld/"
+    },
+    "examples": [
+      ["Present Simple", "I hold the door for people behind me."],
+      ["Past Simple", "I held the baby for an hour."],
+      ["Present Perfect", "I've held this position for two years."]
+    ],
+    "note": "«Hold on» — почекати. «Hold a job/position» — обіймати посаду."
+  },
+  {
+    "id": "hurt",
+    "en": "hurt",
+    "ph": "/hɜrt/",
+    "uk": "завдавати болю, боліти",
+    "pos": "verb",
+    "forms": {
+      "base": "hurt", "past": "hurt", "part": "hurt",
+      "phBase": "/hɜrt/", "phPast": "/hɜrt/", "phPart": "/hɜrt/"
+    },
+    "examples": [
+      ["Present Simple", "My back hurts after long drives."],
+      ["Past Simple", "I hurt my shoulder at the gym."],
+      ["Present Perfect", "I've hurt my knee twice this year."]
+    ],
+    "note": "Форма однакова у всіх часах."
+  },
+  {
+    "id": "keep",
+    "en": "keep",
+    "ph": "/kiːp/",
+    "uk": "зберігати, продовжувати",
+    "pos": "verb",
+    "forms": {
+      "base": "keep", "past": "kept", "part": "kept",
+      "phBase": "/kiːp/", "phPast": "/kɛpt/", "phPart": "/kɛpt/"
+    },
+    "examples": [
+      ["Present Simple", "I keep my receipts in a folder."],
+      ["Past Simple", "I kept the change."],
+      ["Present Perfect", "I've kept this habit for years."]
+    ],
+    "note": "«Keep doing» — продовжувати робити щось."
+  },
+  {
+    "id": "lend",
+    "en": "lend",
+    "ph": "/lɛnd/",
+    "uk": "позичати (комусь)",
+    "pos": "verb",
+    "forms": {
+      "base": "lend", "past": "lent", "part": "lent",
+      "phBase": "/lɛnd/", "phPast": "/lɛnt/", "phPart": "/lɛnt/"
+    },
+    "examples": [
+      ["Present Simple", "I lend tools to my neighbor sometimes."],
+      ["Past Simple", "I lent him twenty dollars."],
+      ["Present Perfect", "I've never lent money to a stranger."]
+    ],
+    "note": "«Lend» — давати в позику (я комусь). «Borrow» — брати в позику (я в когось)."
+  },
+  {
+    "id": "read",
+    "en": "read",
+    "ph": "/riːd/",
+    "uk": "читати",
+    "pos": "verb",
+    "forms": {
+      "base": "read", "past": "read", "part": "read",
+      "phBase": "/riːd/", "phPast": "/rɛd/", "phPart": "/rɛd/"
+    },
+    "examples": [
+      ["Present Simple", "I read the news every morning."],
+      ["Past Simple", "I read that book last month."],
+      ["Present Perfect", "I've read this article twice."]
+    ],
+    "note": "Пастка: пишеться однаково в усіх формах, але минулий час звучить як «red» /rɛd/, не /riːd/."
+  },
+  {
+    "id": "ride",
+    "en": "ride",
+    "ph": "/raɪd/",
+    "uk": "їхати верхи / на велосипеді",
+    "pos": "verb",
+    "forms": {
+      "base": "ride", "past": "rode", "part": "ridden",
+      "phBase": "/raɪd/", "phPast": "/roʊd/", "phPart": "/ˈrɪdən/"
+    },
+    "examples": [
+      ["Present Simple", "I ride my bike to work in summer."],
+      ["Past Simple", "I rode the ferry to the island."],
+      ["Present Perfect", "I've ridden this trail before."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "send",
+    "en": "send",
+    "ph": "/sɛnd/",
+    "uk": "надсилати",
+    "pos": "verb",
+    "forms": {
+      "base": "send", "past": "sent", "part": "sent",
+      "phBase": "/sɛnd/", "phPast": "/sɛnt/", "phPart": "/sɛnt/"
+    },
+    "examples": [
+      ["Present Simple", "I send invoices at the end of the month."],
+      ["Past Simple", "I sent the email yesterday."],
+      ["Present Perfect", "I've already sent the package."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "set",
+    "en": "set",
+    "ph": "/sɛt/",
+    "uk": "встановлювати, ставити",
+    "pos": "verb",
+    "forms": {
+      "base": "set", "past": "set", "part": "set",
+      "phBase": "/sɛt/", "phPast": "/sɛt/", "phPart": "/sɛt/"
+    },
+    "examples": [
+      ["Present Simple", "I set my alarm for 6."],
+      ["Past Simple", "I set the table before dinner."],
+      ["Present Perfect", "I've already set a reminder."]
+    ],
+    "note": "Форма однакова у всіх часах. «Set up» — налаштувати щось."
+  },
+  {
+    "id": "sit",
+    "en": "sit",
+    "ph": "/sɪt/",
+    "uk": "сидіти",
+    "pos": "verb",
+    "forms": {
+      "base": "sit", "past": "sat", "part": "sat",
+      "phBase": "/sɪt/", "phPast": "/sæt/", "phPart": "/sæt/"
+    },
+    "examples": [
+      ["Present Simple", "I sit by the window at work."],
+      ["Past Simple", "I sat in traffic for an hour."],
+      ["Present Perfect", "I've sat here all morning."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "sleep",
+    "en": "sleep",
+    "ph": "/sliːp/",
+    "uk": "спати",
+    "pos": "verb",
+    "forms": {
+      "base": "sleep", "past": "slept", "part": "slept",
+      "phBase": "/sliːp/", "phPast": "/slɛpt/", "phPart": "/slɛpt/"
+    },
+    "examples": [
+      ["Present Simple", "I sleep about seven hours a night."],
+      ["Past Simple", "I slept badly last night."],
+      ["Present Perfect", "I haven't slept well this week."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "speak",
+    "en": "speak",
+    "ph": "/spiːk/",
+    "uk": "говорити",
+    "pos": "verb",
+    "forms": {
+      "base": "speak", "past": "spoke", "part": "spoken",
+      "phBase": "/spiːk/", "phPast": "/spoʊk/", "phPart": "/ˈspoʊkən/"
+    },
+    "examples": [
+      ["Present Simple", "I speak English at work."],
+      ["Past Simple", "I spoke to him yesterday."],
+      ["Present Perfect", "I've spoken to the landlord about it."]
+    ],
+    "note": "«Speak» — трохи формальніше за «talk», часто про мови чи офіційні розмови."
+  },
+  {
+    "id": "spend",
+    "en": "spend",
+    "ph": "/spɛnd/",
+    "uk": "витрачати",
+    "pos": "verb",
+    "forms": {
+      "base": "spend", "past": "spent", "part": "spent",
+      "phBase": "/spɛnd/", "phPast": "/spɛnt/", "phPart": "/spɛnt/"
+    },
+    "examples": [
+      ["Present Simple", "I spend too much on groceries."],
+      ["Past Simple", "I spent the whole weekend fixing the fence."],
+      ["Present Perfect", "I've spent all my savings on the car."]
+    ],
+    "note": "Про гроші й час однаково — «spend money» / «spend time»."
+  },
+  {
+    "id": "stand",
+    "en": "stand",
+    "ph": "/stænd/",
+    "uk": "стояти",
+    "pos": "verb",
+    "forms": {
+      "base": "stand", "past": "stood", "part": "stood",
+      "phBase": "/stænd/", "phPast": "/stʊd/", "phPart": "/stʊd/"
+    },
+    "examples": [
+      ["Present Simple", "I stand all day at this job."],
+      ["Past Simple", "I stood in line for an hour."],
+      ["Present Perfect", "I've stood here before, this line never moves."]
+    ],
+    "note": "«Can't stand» — терпіти не можу (ідіома, не про фізичне стояння)."
+  },
+  {
+    "id": "steal",
+    "en": "steal",
+    "ph": "/stiːl/",
+    "uk": "красти",
+    "pos": "verb",
+    "forms": {
+      "base": "steal", "past": "stole", "part": "stolen",
+      "phBase": "/stiːl/", "phPast": "/stoʊl/", "phPart": "/ˈstoʊlən/"
+    },
+    "examples": [
+      ["Present Simple", "Someone steals packages from porches around here."],
+      ["Past Simple", "Someone stole my bike last week."],
+      ["Present Perfect", "My wallet has been stolen twice."]
+    ],
+    "note": "Не плутай зі «still» /stɪl/ — «досі», геть інше слово."
+  },
+  {
+    "id": "teach",
+    "en": "teach",
+    "ph": "/tiːtʃ/",
+    "uk": "навчати",
+    "pos": "verb",
+    "forms": {
+      "base": "teach", "past": "taught", "part": "taught",
+      "phBase": "/tiːtʃ/", "phPast": "/tɔːt/", "phPart": "/tɔːt/"
+    },
+    "examples": [
+      ["Present Simple", "I teach my kids to drive on weekends."],
+      ["Past Simple", "I taught myself to code."],
+      ["Present Perfect", "I've taught him everything I know."]
+    ],
+    "note": "«Teach» — навчати когось. «Learn» — вчитись самому."
+  },
+  {
+    "id": "understand",
+    "en": "understand",
+    "ph": "/ˌʌndərˈstænd/",
+    "uk": "розуміти",
+    "pos": "verb",
+    "forms": {
+      "base": "understand", "past": "understood", "part": "understood",
+      "phBase": "/ˌʌndərˈstænd/", "phPast": "/ˌʌndərˈstʊd/", "phPart": "/ˌʌndərˈstʊd/"
+    },
+    "examples": [
+      ["Present Simple", "I understand the instructions now."],
+      ["Past Simple", "I didn't understand him at first."],
+      ["Present Perfect", "I've never understood this rule."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "wake",
+    "en": "wake up",
+    "ph": "/weɪk ʌp/",
+    "uk": "прокидатися",
+    "pos": "verb",
+    "forms": {
+      "base": "wake up", "past": "woke up", "part": "woken up",
+      "phBase": "/weɪk ʌp/", "phPast": "/woʊk ʌp/", "phPart": "/ˈwoʊkən ʌp/"
+    },
+    "examples": [
+      ["Present Simple", "I wake up at 6 every day."],
+      ["Past Simple", "I woke up late this morning."],
+      ["Present Perfect", "I've woken up early all week."]
+    ],
+    "note": "«Wake up» — прокинутись (сам). «Wake someone up» — розбудити когось."
+  },
+  {
+    "id": "win",
+    "en": "win",
+    "ph": "/wɪn/",
+    "uk": "вигравати",
+    "pos": "verb",
+    "forms": {
+      "base": "win", "past": "won", "part": "won",
+      "phBase": "/wɪn/", "phPast": "/wʌn/", "phPart": "/wʌn/"
+    },
+    "examples": [
+      ["Present Simple", "Our team rarely wins on the road."],
+      ["Past Simple", "We won the game last night."],
+      ["Present Perfect", "We've won three games in a row."]
+    ],
+    "note": "«Won» /wʌn/ звучить так само, як «one» — різні слова, той самий звук."
+  },
+  {
+    "id": "write",
+    "en": "write",
+    "ph": "/raɪt/",
+    "uk": "писати",
+    "pos": "verb",
+    "forms": {
+      "base": "write", "past": "wrote", "part": "written",
+      "phBase": "/raɪt/", "phPast": "/roʊt/", "phPart": "/ˈrɪtən/"
+    },
+    "examples": [
+      ["Present Simple", "I write in a journal every night."],
+      ["Past Simple", "I wrote him a long email."],
+      ["Present Perfect", "I've written three drafts already."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "apologize",
+    "en": "apologize",
+    "ph": "/əˈpɑːlədʒaɪz/",
+    "uk": "вибачатися",
+    "pos": "verb",
+    "forms": {
+      "base": "apologize", "past": "apologized", "part": "apologized",
+      "phBase": "/əˈpɑːlədʒaɪz/", "phPast": "/əˈpɑːlədʒaɪzd/", "phPart": "/əˈpɑːlədʒaɪzd/"
+    },
+    "examples": [
+      ["Present Simple", "I always apologize first, even when it's not my fault."],
+      ["Past Simple", "I apologized for being late."],
+      ["Present Perfect", "I've already apologized twice."]
+    ],
+    "note": "Канадське/американське написання — <b>apologize</b> (не apologise). «Apologize for doing something»."
+  },
+  {
+    "id": "shift",
+    "en": "shift",
+    "ph": "/ʃɪft/",
+    "uk": "зміна (робоча)",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I work the night shift on weekends."],
+      ["Past Simple", "I worked a double shift yesterday."],
+      ["Present Perfect", "I've picked up an extra shift this week."]
+    ],
+    "note": "Колокація: <b>night shift</b>, <b>double shift</b>, <b>pick up a shift</b>."
+  },
+  {
+    "id": "raise",
+    "en": "raise",
+    "ph": "/reɪz/",
+    "uk": "підвищення (зарплати)",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I ask for a raise once a year."],
+      ["Past Simple", "I got a raise last month."],
+      ["Present Perfect", "I've never gotten a raise here."]
+    ],
+    "note": "Американське/канадське слово; британський відповідник — <b>a rise</b>."
+  },
+  {
+    "id": "coworker",
+    "en": "coworker",
+    "ph": "/ˈkoʊwɜrkər/",
+    "uk": "колега (по роботі)",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I carpool with a coworker."],
+      ["Past Simple", "I had lunch with a coworker yesterday."],
+      ["Present Perfect", "I've become good friends with a few coworkers."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "paycheck",
+    "en": "paycheck",
+    "ph": "/ˈpeɪtʃɛk/",
+    "uk": "зарплатний чек, виплата",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I get my paycheck every two weeks."],
+      ["Past Simple", "I got my paycheck yesterday."],
+      ["Present Perfect", "I've already spent this paycheck."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "password",
+    "en": "password",
+    "ph": "/ˈpæswɜrd/",
+    "uk": "пароль",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I change my password every few months."],
+      ["Past Simple", "I forgot my password yesterday."],
+      ["Present Perfect", "I've already reset my password twice this week."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "traffic",
+    "en": "traffic",
+    "ph": "/ˈtræfɪk/",
+    "uk": "затори, дорожній рух",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "Traffic is bad on Fridays."],
+      ["Past Simple", "I sat in traffic for an hour yesterday."],
+      ["Present Perfect", "I've never seen traffic this bad."]
+    ],
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "parking_ticket",
+    "en": "parking ticket",
+    "ph": "/ˈpɑrkɪŋ ˈtɪkɪt/",
+    "uk": "штраф за паркування",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I get a parking ticket at least once a year."],
+      ["Past Simple", "I got a parking ticket yesterday."],
+      ["Present Perfect", "I've gotten two parking tickets this month."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "drivers_license",
+    "en": "driver's license",
+    "ph": "/ˈdraɪvərz ˈlaɪsəns/",
+    "uk": "водійське посвідчення",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I renew my driver's license every five years."],
+      ["Past Simple", "I renewed my driver's license last month."],
+      ["Present Perfect", "I've had my driver's license for ten years."]
+    ],
+    "note": "Написання <b>license</b> — американське/канадське; британське — <b>licence</b> (іменник)."
   }
 ]

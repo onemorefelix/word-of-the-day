@@ -796,5 +796,155 @@
     "example": "The forest was declared a protected area in 2015.",
     "example2": "Hunting is strictly forbidden in protected areas.",
     "note": ""
+  },
+  {
+    "id": "environment_pesticide",
+    "en": "pesticide",
+    "ph": "/ˈpɛstɪsaɪd/",
+    "uk": "пестицид",
+    "pos": "noun",
+    "example": "Farmers here still rely heavily on pesticides.",
+    "example2": "Pesticides can run off into nearby rivers and lakes.",
+    "note": ""
+  },
+  {
+    "id": "environment_fertilizer",
+    "en": "fertilizer",
+    "ph": "/ˈfɜrtəlaɪzər/",
+    "uk": "добриво",
+    "pos": "noun",
+    "example": "Too much fertilizer can damage the soil over time.",
+    "example2": "The farm switched to organic fertilizer last year.",
+    "note": "Написання <b>fertilizer</b> (з -izer), не fertiliser."
+  },
+  {
+    "id": "environment_herbicide",
+    "en": "herbicide",
+    "ph": "/ˈhɜrbɪsaɪd/",
+    "uk": "гербіцид",
+    "pos": "noun",
+    "example": "The company was fined for spraying herbicide near the river.",
+    "example2": "Herbicides are used to kill unwanted plants.",
+    "note": ""
+  },
+  {
+    "id": "environment_biofuel",
+    "en": "biofuel",
+    "ph": "/ˈbaɪoʊfjuːəl/",
+    "uk": "біопаливо",
+    "pos": "noun",
+    "example": "The bus fleet now runs on biofuel.",
+    "example2": "Biofuel is made from plants and organic waste.",
+    "note": ""
+  },
+  {
+    "id": "environment_hydroelectric",
+    "en": "hydroelectric",
+    "ph": "/ˌhaɪdroʊɪˈlɛktrɪk/",
+    "uk": "гідроелектричний",
+    "pos": "adjective",
+    "example": "The province gets most of its power from hydroelectric dams.",
+    "example2": "Hydroelectric energy doesn't produce carbon emissions directly.",
+    "note": "Колокація: <b>hydroelectric power/dam</b>."
+  },
+  {
+    "id": "environment_geothermal",
+    "en": "geothermal",
+    "ph": "/ˌdʒiːoʊˈθɜrməl/",
+    "uk": "геотермальний",
+    "pos": "adjective",
+    "example": "Iceland relies heavily on geothermal energy.",
+    "example2": "Geothermal heating uses the natural heat under the ground.",
+    "note": ""
+  },
+  {
+    "id": "environment_nuclear_energy",
+    "en": "nuclear energy",
+    "ph": "/ˈnuːkliər ˈɛnərdʒi/",
+    "uk": "ядерна енергія",
+    "pos": "noun",
+    "example": "Nuclear energy doesn't produce greenhouse gases directly.",
+    "example2": "The country plans to build two new nuclear energy plants.",
+    "note": ""
+  },
+  {
+    "id": "environment_methane",
+    "en": "methane",
+    "ph": "/ˈmɛθeɪn/",
+    "uk": "метан",
+    "pos": "noun",
+    "example": "Cattle farming produces a large amount of methane.",
+    "example2": "Methane traps far more heat than carbon dioxide.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_carbon_capture",
+    "en": "carbon capture",
+    "ph": "/ˈkɑrbən ˈkæptʃər/",
+    "uk": "уловлювання вуглецю",
+    "pos": "noun",
+    "example": "The plant uses carbon capture technology to reduce emissions.",
+    "example2": "Carbon capture is still expensive on a large scale.",
+    "note": ""
+  },
+  {
+    "id": "environment_microplastic",
+    "en": "microplastic",
+    "ph": "/ˈmaɪkroʊˌplæstɪk/",
+    "uk": "мікропластик",
+    "pos": "noun",
+    "example": "Microplastics have been found in drinking water around the world.",
+    "example2": "Fish often mistake microplastics for food.",
+    "note": "Часто у множині — <b>microplastics</b>."
+  },
+  {
+    "id": "environment_compost",
+    "en": "compost",
+    "ph": "/ˈkɑːmpoʊst/",
+    "uk": "компост",
+    "pos": "noun",
+    "example": "We compost most of our kitchen scraps.",
+    "example2": "Compost makes excellent fertilizer for the garden.",
+    "note": "Може бути й дієсловом — <b>to compost</b>."
+  },
+  {
+    "id": "environment_invasive_species",
+    "en": "invasive species",
+    "ph": "/ɪnˈveɪsɪv ˈspiːʃiːz/",
+    "uk": "інвазивний вид",
+    "pos": "noun",
+    "example": "The invasive species has no natural predators here.",
+    "example2": "Invasive species can seriously damage local ecosystems.",
+    "note": ""
+  },
+  {
+    "id": "environment_food_waste",
+    "en": "food waste",
+    "ph": "/fuːd weɪst/",
+    "uk": "харчові відходи",
+    "pos": "noun",
+    "example": "Supermarkets throw away huge amounts of food waste every day.",
+    "example2": "The city launched a program to reduce food waste.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_climate_crisis",
+    "en": "climate crisis",
+    "ph": "/ˈklaɪmət ˈkraɪsɪs/",
+    "uk": "кліматична криза",
+    "pos": "noun",
+    "example": "Young people are demanding faster action on the climate crisis.",
+    "example2": "The report calls climate change a global climate crisis.",
+    "note": "Сильніший, тривожніший синонім до <b>climate change</b>."
+  },
+  {
+    "id": "environment_monoculture",
+    "en": "monoculture",
+    "ph": "/ˈmɑːnoʊˌkʌltʃər/",
+    "uk": "монокультура",
+    "pos": "noun",
+    "example": "Monoculture farming makes crops more vulnerable to disease.",
+    "example2": "The region switched from monoculture to mixed farming.",
+    "note": ""
   }
 ]

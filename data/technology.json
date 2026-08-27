@@ -272,5 +272,163 @@
       ["Present Perfect", "I have already downloaded the update."]
     ],
     "note": "Антонім — <b>upload</b>. Як іменник наголос на першому складі: /ˈdaʊnloʊd/."
+  },
+  {
+    "id": "technology_firmware",
+    "en": "firmware",
+    "ph": "/ˈfɜrmwɛr/",
+    "uk": "мікропрограма, прошивка",
+    "pos": "noun",
+    "example": "The manufacturer released a firmware update to fix the bug.",
+    "example2": "Firmware controls the basic functions of the device.",
+    "note": "Незлічуваний. Постійніший за <b>software</b> — вшитий у сам пристрій."
+  },
+  {
+    "id": "technology_encryption",
+    "en": "encryption",
+    "ph": "/ɪnˈkrɪpʃən/",
+    "uk": "шифрування",
+    "pos": "noun",
+    "example": "The app uses end-to-end encryption to protect messages.",
+    "example2": "Without encryption, this data would be easy to steal.",
+    "note": ""
+  },
+  {
+    "id": "technology_decrypt",
+    "en": "decrypt",
+    "ph": "/diːˈkrɪpt/",
+    "uk": "розшифровувати",
+    "pos": "verb",
+    "forms": {
+      "base": "decrypt", "phBase": "/diːˈkrɪpt/",
+      "past": "decrypted", "phPast": "/diːˈkrɪptɪd/",
+      "part": "decrypted", "phPart": "/diːˈkrɪptɪd/"
+    },
+    "examples": [
+      ["Present Simple", "Only the recipient can decrypt the message."],
+      ["Past Simple", "The analyst decrypted the file within minutes."],
+      ["Present Perfect", "Investigators have finally decrypted the hard drive."]
+    ],
+    "note": "Антонім — <b>encrypt</b>."
+  },
+  {
+    "id": "technology_phishing",
+    "en": "phishing",
+    "ph": "/ˈfɪʃɪŋ/",
+    "uk": "фішинг (шахрайські листи/сайти)",
+    "pos": "noun",
+    "example": "She almost fell for a phishing email pretending to be her bank.",
+    "example2": "Phishing attacks have become much more convincing in recent years.",
+    "note": "Звучить так само, як <b>fishing</b> — навмисна гра слів."
+  },
+  {
+    "id": "technology_ransomware",
+    "en": "ransomware",
+    "ph": "/ˈrænsəmwɛr/",
+    "uk": "програма-вимагач",
+    "pos": "noun",
+    "example": "The hospital's systems were shut down by a ransomware attack.",
+    "example2": "Ransomware locks your files until you pay to unlock them.",
+    "note": ""
+  },
+  {
+    "id": "technology_biometric",
+    "en": "biometric",
+    "ph": "/ˌbaɪoʊˈmɛtrɪk/",
+    "uk": "біометричний",
+    "pos": "adjective",
+    "example": "The airport uses biometric scanners at passport control.",
+    "example2": "Biometric data includes fingerprints and facial recognition.",
+    "note": "Колокація: <b>biometric data/scanner</b>."
+  },
+  {
+    "id": "technology_blockchain",
+    "en": "blockchain",
+    "ph": "/ˈblɑːktʃeɪn/",
+    "uk": "блокчейн",
+    "pos": "noun",
+    "example": "Blockchain technology records transactions across many computers.",
+    "example2": "Some voting systems are experimenting with blockchain.",
+    "note": ""
+  },
+  {
+    "id": "technology_cloud_computing",
+    "en": "cloud computing",
+    "ph": "/klaʊd kəmˈpjuːtɪŋ/",
+    "uk": "хмарні обчислення",
+    "pos": "noun",
+    "example": "Cloud computing lets companies avoid buying their own servers.",
+    "example2": "The startup relies entirely on cloud computing for storage.",
+    "note": ""
+  },
+  {
+    "id": "technology_augmented_reality",
+    "en": "augmented reality",
+    "ph": "/ɔːɡˈmɛntɪd riˈæləti/",
+    "uk": "доповнена реальність",
+    "pos": "noun",
+    "example": "The app uses augmented reality to show furniture in your room.",
+    "example2": "Augmented reality overlays digital images onto the real world.",
+    "note": "Часто скорочують до <b>AR</b>. Не плутати з <b>virtual reality (VR)</b>, яка повністю замінює реальність."
+  },
+  {
+    "id": "technology_chatbot",
+    "en": "chatbot",
+    "ph": "/ˈtʃætbɑːt/",
+    "uk": "чат-бот",
+    "pos": "noun",
+    "example": "The company's chatbot answers most customer questions automatically.",
+    "example2": "I ended up talking to a chatbot instead of a real person.",
+    "note": ""
+  },
+  {
+    "id": "technology_machine_learning",
+    "en": "machine learning",
+    "ph": "/məˈʃiːn ˈlɜrnɪŋ/",
+    "uk": "машинне навчання",
+    "pos": "noun",
+    "example": "Machine learning allows the system to improve without being reprogrammed.",
+    "example2": "The recommendation engine is built on machine learning.",
+    "note": "Підрозділ штучного інтелекту (<b>artificial intelligence</b>)."
+  },
+  {
+    "id": "technology_big_data",
+    "en": "big data",
+    "ph": "/bɪɡ ˈdeɪtə/",
+    "uk": "великі дані",
+    "pos": "noun",
+    "example": "Big data helps companies predict what customers will buy next.",
+    "example2": "Analyzing big data requires powerful computing resources.",
+    "note": ""
+  },
+  {
+    "id": "technology_digital_footprint",
+    "en": "digital footprint",
+    "ph": "/ˈdɪdʒɪtl ˈfʊtprɪnt/",
+    "uk": "цифровий слід",
+    "pos": "noun",
+    "example": "Everything you post online adds to your digital footprint.",
+    "example2": "Employers sometimes check a candidate's digital footprint.",
+    "note": ""
+  },
+  {
+    "id": "technology_firewall",
+    "en": "firewall",
+    "ph": "/ˈfaɪərwɔːl/",
+    "uk": "брандмауер, файрвол",
+    "pos": "noun",
+    "example": "The firewall blocked several suspicious connection attempts.",
+    "example2": "Every device on the network is protected by a firewall.",
+    "note": ""
+  },
+  {
+    "id": "technology_database",
+    "en": "database",
+    "ph": "/ˈdeɪtəbeɪs/",
+    "uk": "база даних",
+    "pos": "noun",
+    "example": "The company stores customer information in a secure database.",
+    "example2": "The database crashed during the update last night.",
+    "note": ""
   }
 ]

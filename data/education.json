@@ -272,5 +272,171 @@
     "example": "She had to resit the exam in September.",
     "example2": "Students who fail can resit up to two modules.",
     "note": "Як іменник — <b>a resit</b> (перескладання)."
+  },
+  {
+    "id": "education_transcript",
+    "en": "transcript",
+    "ph": "/ˈtrænskrɪpt/",
+    "uk": "виписка оцінок, академічна довідка",
+    "pos": "noun",
+    "example": "You'll need to request an official transcript from the registrar.",
+    "example2": "Her transcript shows straight A's in every course.",
+    "note": ""
+  },
+  {
+    "id": "education_alumni",
+    "en": "alumni",
+    "ph": "/əˈlʌmnaɪ/",
+    "uk": "випускники",
+    "pos": "noun",
+    "example": "The university relies on donations from its alumni.",
+    "example2": "Many alumni return to campus for the annual reunion.",
+    "note": "Множина (чоловічий рід або змішана група). Одна випускниця — <b>alumna</b>, один випускник — <b>alumnus</b>."
+  },
+  {
+    "id": "education_campus",
+    "en": "campus",
+    "ph": "/ˈkæmpəs/",
+    "uk": "кампус, територія навчального закладу",
+    "pos": "noun",
+    "example": "The campus has its own library and gym.",
+    "example2": "Most students live on campus during their first year.",
+    "note": "Колокація: <b>on campus</b> (без артикля)."
+  },
+  {
+    "id": "education_tutor",
+    "en": "tutor",
+    "ph": "/ˈtuːtər/",
+    "uk": "репетитор",
+    "pos": "noun",
+    "example": "She hired a tutor to help with calculus.",
+    "example2": "The tutor meets with him twice a week.",
+    "note": "Приватний, індивідуальний викладач — не плутати з <b>lecturer</b>."
+  },
+  {
+    "id": "education_lecturer",
+    "en": "lecturer",
+    "ph": "/ˈlɛktʃərər/",
+    "uk": "викладач (лектор)",
+    "pos": "noun",
+    "example": "The lecturer posted the slides online after class.",
+    "example2": "She's worked as a lecturer for over a decade.",
+    "note": "Нижчий за посадою за <b>professor</b> у більшості університетів Північної Америки."
+  },
+  {
+    "id": "education_professor",
+    "en": "professor",
+    "ph": "/prəˈfɛsər/",
+    "uk": "професор",
+    "pos": "noun",
+    "example": "The professor holds office hours every Wednesday.",
+    "example2": "She became a full professor at thirty-five.",
+    "note": ""
+  },
+  {
+    "id": "education_thesis",
+    "en": "thesis",
+    "ph": "/ˈθiːsɪs/",
+    "uk": "теза, дипломна робота",
+    "pos": "noun",
+    "example": "His thesis argues that the policy failed for economic reasons.",
+    "example2": "She's defending her thesis next month.",
+    "note": "Множина — <b>theses</b> /ˈθiːsiːz/."
+  },
+  {
+    "id": "education_internship",
+    "en": "internship",
+    "ph": "/ˈɪntɜrnʃɪp/",
+    "uk": "стажування",
+    "pos": "noun",
+    "example": "She completed a summer internship at a law firm.",
+    "example2": "The internship gave him valuable hands-on experience.",
+    "note": ""
+  },
+  {
+    "id": "education_apprenticeship",
+    "en": "apprenticeship",
+    "ph": "/əˈprɛntɪsʃɪp/",
+    "uk": "учнівство, стажування (у ремеслі)",
+    "pos": "noun",
+    "example": "He started an apprenticeship as an electrician after high school.",
+    "example2": "Apprenticeships combine paid work with formal training.",
+    "note": "На відміну від <b>internship</b>, зазвичай стосується ремесла/трейду і триває довше."
+  },
+  {
+    "id": "education_homeschooling",
+    "en": "homeschooling",
+    "ph": "/ˈhoʊmˌskuːlɪŋ/",
+    "uk": "домашнє навчання",
+    "pos": "noun",
+    "example": "Homeschooling gives parents more control over the curriculum.",
+    "example2": "The family switched to homeschooling during the pandemic.",
+    "note": "Дієслово — <b>to homeschool</b>."
+  },
+  {
+    "id": "education_gpa",
+    "en": "GPA",
+    "ph": "/ˌdʒiː piː ˈeɪ/",
+    "uk": "середній бал успішності",
+    "pos": "noun",
+    "example": "You need a GPA of at least 3.0 to keep the scholarship.",
+    "example2": "Her GPA improved a lot in her final year.",
+    "note": "Абревіатура від <b>grade point average</b>. Північноамериканська система оцінювання."
+  },
+  {
+    "id": "education_attendance",
+    "en": "attendance",
+    "ph": "/əˈtɛndəns/",
+    "uk": "відвідуваність",
+    "pos": "noun",
+    "example": "Attendance is mandatory for this course.",
+    "example2": "The teacher takes attendance at the start of every class.",
+    "note": "Незлічуваний. Колокація: <b>take attendance</b>."
+  },
+  {
+    "id": "education_pass",
+    "en": "pass",
+    "ph": "/pæs/",
+    "uk": "складати, здавати (іспит) успішно",
+    "pos": "verb",
+    "forms": {
+      "base": "pass", "phBase": "/pæs/",
+      "past": "passed", "phPast": "/pæst/",
+      "part": "passed", "phPart": "/pæst/"
+    },
+    "examples": [
+      ["Present Simple", "Most students pass this course on the first try."],
+      ["Past Simple", "She passed the bar exam last spring."],
+      ["Present Perfect", "He has passed every course this semester."]
+    ],
+    "note": "Не плутай зі словом «passed» (дієслово) і «past» (прийменник/іменник «минуле») — звучать однаково."
+  },
+  {
+    "id": "education_fail",
+    "en": "fail",
+    "ph": "/feɪl/",
+    "uk": "провалювати, не складати (іспит)",
+    "pos": "verb",
+    "forms": {
+      "base": "fail", "phBase": "/feɪl/",
+      "past": "failed", "phPast": "/feɪld/",
+      "part": "failed", "phPart": "/feɪld/"
+    },
+    "examples": [
+      ["Present Simple", "About a third of students fail this exam the first time."],
+      ["Past Simple", "He failed his driving test twice."],
+      ["Present Perfect", "She has never failed a class."]
+    ],
+    "note": "Іменник — <b>a failure</b>."
+  },
+  {
+    "id": "education_entrance_exam",
+    "en": "entrance exam",
+    "ph": "/ˈɛntrəns ɪɡˈzæm/",
+    "uk": "вступний іспит",
+    "pos": "noun",
+    "example": "She's studying hard for the entrance exam.",
+    "example2": "The entrance exam is required for admission to the program.",
+    "note": ""
   }
 ]
