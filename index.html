@@ -286,6 +286,15 @@
     flex:none;
   }
 
+  .footnote{
+    margin-top:14px;
+    text-align:center;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10.5px;
+    line-height:1.6;
+    color:rgba(157,179,169,0.55);
+  }
+
   @media (max-width:420px){
     .stage{ padding:28px 20px 22px; }
   }
@@ -317,6 +326,8 @@
   <div class="reset-row">
     <button class="reset-link" id="resetBtn">Скинути весь прогрес</button>
   </div>
+
+  <div class="footnote">Прогрес зберігається лише на цьому пристрої й у цьому браузері.<br>Можна встановити як застосунок: меню браузера → «Додати на головний екран».</div>
 </div>
 
 <script>
@@ -350,7 +361,10 @@
 const ITEMS = [
   {id:"throw_away", en:"throw away", ph:"/θroʊ əˈweɪ/", uk:"викидати (сміття)", pos:"verb", forms:{base:"throw away",past:"threw away",part:"thrown away",phBase:"/θroʊ əˈweɪ/",phPast:"/θruː əˈweɪ/",phPart:"/θroʊn əˈweɪ/"},
     examples:[["Present Simple","I throw away the trash every evening."],["Past Simple","I threw away the trash yesterday."],["Present Perfect","I've already thrown away the trash."]],
-    note:"«Throw away» = <b>викидати</b> непотрібне. Просто «throw» — кидати (м'яч), не сміття."},
+    note:"«Throw away» = <b>викидати</b> непотрібне. Просто «throw» — кидати (м'яч), не сміття. Із займенником частка йде <b>після</b> нього: «throw it away» / «throw it out», а не «throw away it»."},
+  {id:"throw_out", en:"throw out", ph:"/θroʊ aʊt/", uk:"викидати (синонім throw away)", pos:"verb", forms:{base:"throw out",past:"threw out",part:"thrown out",phBase:"/θroʊ aʊt/",phPast:"/θruː aʊt/",phPart:"/θroʊn aʊt/"},
+    examples:[["Present Simple","I throw out old food every week."],["Past Simple","I threw out the broken chair yesterday."],["Present Perfect","I've thrown out three bags of trash already."]],
+    note:"Практично те саме, що «throw away» — вибір частки (out/away) не міняє суті. Головне правило те саме: з займенником — «throw it out», не «throw out it»."},
   {id:"forget", en:"forget", ph:"/fərˈɡɛt/", uk:"забувати", pos:"verb", forms:{base:"forget",past:"forgot",part:"forgotten",phBase:"/fərˈɡɛt/",phPast:"/fərˈɡɑːt/",phPart:"/fərˈɡɑːtən/"},
     examples:[["Present Simple","I always forget his name."],["Past Simple","I forgot my keys this morning."],["Present Perfect","I've forgotten what she said."]],
     note:"«Forget to do» — забути зробити щось (наперед). «Forget doing» — забути, що вже робив."},
@@ -380,7 +394,7 @@ const ITEMS = [
     note:"«Get» має купу значень — отримувати, ставати, приходити. Орієнтуйся по контексту речення."},
   {id:"give", en:"give", ph:"/ɡɪv/", uk:"давати", pos:"verb", forms:{base:"give",past:"gave",part:"given",phBase:"/ɡɪv/",phPast:"/ɡeɪv/",phPart:"/ˈɡɪvən/"},
     examples:[["Present Simple","I give him a ride every day."],["Past Simple","I gave her my old phone."],["Present Perfect","I've given up sugar."]],
-    note:"«Give up» — кинути / відмовитись від чогось."},
+    note:"«Give up» — кинути / відмовитись від чогось. Із займенником: «give it up», не «give up it»."},
   {id:"put", en:"put", ph:"/pʊt/", uk:"класти, ставити", pos:"verb", forms:{base:"put",past:"put",part:"put",phBase:"/pʊt/",phPast:"/pʊt/",phPart:"/pʊt/"},
     examples:[["Present Simple","I put my keys on the table every day."],["Past Simple","I put my keys on the table yesterday."],["Present Perfect","I've put it in the wrong place again."]],
     note:"Форма однакова у всіх часах — слухай контекст (every day / yesterday / already)."},
@@ -404,7 +418,7 @@ const ITEMS = [
     note:"«Catch up» — наздогнати / встигнути зробити."},
   {id:"wear", en:"wear", ph:"/wɛr/", uk:"носити (одяг)", pos:"verb", forms:{base:"wear",past:"wore",part:"worn",phBase:"/wɛr/",phPast:"/wɔːr/",phPart:"/wɔːrn/"},
     examples:[["Present Simple","I wear a jacket in winter."],["Past Simple","I wore my old boots yesterday."],["Present Perfect","I've worn this shirt too many times."]],
-    note:"«Wear out» — зношувати (річ) або сильно втомитись."},
+    note:"«Wear out» — зношувати (річ) або сильно втомитись. Із займенником: «wear them out» (напр. про взуття), не «wear out them»."},
   {id:"meet", en:"meet", ph:"/miːt/", uk:"зустрічати", pos:"verb", forms:{base:"meet",past:"met",part:"met",phBase:"/miːt/",phPast:"/mɛt/",phPart:"/mɛt/"},
     examples:[["Present Simple","I meet clients on Mondays."],["Past Simple","I met him at the gym."],["Present Perfect","I've met her before."]],
     note:""},
