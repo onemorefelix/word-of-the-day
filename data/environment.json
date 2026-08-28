@@ -1274,5 +1274,827 @@
     "example": "Eco-tourism brings much-needed income to the local community.",
     "example2": "The park limits visitor numbers to protect it from eco-tourism itself.",
     "note": ""
+  },
+  {
+    "id": "environment_energy_efficiency",
+    "en": "energy efficiency",
+    "ph": "/ˈɛnərdʒi ɪˈfɪʃənsi/",
+    "uk": "енергоефективність",
+    "pos": "noun",
+    "example": "New building codes require higher energy efficiency.",
+    "example2": "Energy efficiency is the cheapest way to cut emissions.",
+    "note": ""
+  },
+  {
+    "id": "environment_power_plant",
+    "en": "power plant",
+    "ph": "/ˈpaʊər plænt/",
+    "uk": "електростанція",
+    "pos": "noun",
+    "example": "The coal power plant closed down last year.",
+    "example2": "A new power plant is being built outside the city.",
+    "note": ""
+  },
+  {
+    "id": "environment_fracking",
+    "en": "fracking",
+    "ph": "/ˈfrækɪŋ/",
+    "uk": "гідророзрив пласта (видобуток газу)",
+    "pos": "noun",
+    "example": "Fracking has made natural gas much cheaper to extract.",
+    "example2": "Local residents protested against fracking near the town.",
+    "note": "Незлічуваний. Скорочення від <b>hydraulic fracturing</b>."
+  },
+  {
+    "id": "environment_offshore_wind",
+    "en": "offshore wind",
+    "ph": "/ˌɔːfˈʃɔːr wɪnd/",
+    "uk": "офшорна вітроенергетика",
+    "pos": "noun",
+    "example": "The province is investing heavily in offshore wind.",
+    "example2": "Offshore wind farms can generate power more consistently than onshore ones.",
+    "note": ""
+  },
+  {
+    "id": "environment_tidal_energy",
+    "en": "tidal energy",
+    "ph": "/ˈtaɪdl ˈɛnərdʒi/",
+    "uk": "приливна енергія",
+    "pos": "noun",
+    "example": "Tidal energy is still a small part of the country's power supply.",
+    "example2": "Tidal energy is more predictable than wind or solar.",
+    "note": ""
+  },
+  {
+    "id": "environment_biomass",
+    "en": "biomass",
+    "ph": "/ˈbaɪoʊmæs/",
+    "uk": "біомаса",
+    "pos": "noun",
+    "example": "The plant burns biomass instead of coal.",
+    "example2": "Biomass includes wood chips, crop waste, and other organic material.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_natural_gas",
+    "en": "natural gas",
+    "ph": "/ˈnætʃrəl ɡæs/",
+    "uk": "природний газ",
+    "pos": "noun",
+    "example": "Many homes here are heated with natural gas.",
+    "example2": "Natural gas burns cleaner than coal but still releases CO2.",
+    "note": ""
+  },
+  {
+    "id": "environment_crude_oil",
+    "en": "crude oil",
+    "ph": "/kruːd ɔɪl/",
+    "uk": "сира нафта",
+    "pos": "noun",
+    "example": "Crude oil prices rose sharply last month.",
+    "example2": "The tanker was carrying crude oil when it ran aground.",
+    "note": ""
+  },
+  {
+    "id": "environment_oil_rig",
+    "en": "oil rig",
+    "ph": "/ɔɪl rɪɡ/",
+    "uk": "нафтова вишка",
+    "pos": "noun",
+    "example": "The oil rig employs about two hundred workers.",
+    "example2": "An explosion on the oil rig caused a major spill.",
+    "note": ""
+  },
+  {
+    "id": "environment_blackout",
+    "en": "blackout",
+    "ph": "/ˈblækaʊt/",
+    "uk": "відключення електроенергії",
+    "pos": "noun",
+    "example": "The storm caused a blackout across the whole region.",
+    "example2": "Rolling blackouts became common during the heat wave.",
+    "note": ""
+  },
+  {
+    "id": "environment_carbon_dioxide",
+    "en": "carbon dioxide",
+    "ph": "/ˈkɑrbən ˌdaɪˈɑːksaɪd/",
+    "uk": "вуглекислий газ",
+    "pos": "noun",
+    "example": "Trees absorb carbon dioxide from the atmosphere.",
+    "example2": "Carbon dioxide levels have risen sharply since the industrial era.",
+    "note": "Часто скорочують до <b>CO2</b>. Незлічуваний."
+  },
+  {
+    "id": "environment_ozone",
+    "en": "ozone",
+    "ph": "/ˈoʊzoʊn/",
+    "uk": "озон",
+    "pos": "noun",
+    "example": "Ozone near the ground is actually harmful to breathe.",
+    "example2": "Ozone high in the atmosphere blocks harmful UV rays.",
+    "note": "Незлічуваний. Не плутати з <b>ozone layer</b> — це сам газ, а не шар атмосфери."
+  },
+  {
+    "id": "environment_uv_radiation",
+    "en": "UV radiation",
+    "ph": "/ˌjuː ˈviː ˌreɪdiˈeɪʃən/",
+    "uk": "ультрафіолетове випромінювання",
+    "pos": "noun",
+    "example": "UV radiation is stronger at higher altitudes.",
+    "example2": "The ozone layer protects us from most UV radiation.",
+    "note": "Незлічуваний. UV — скорочення від <b>ultraviolet</b>."
+  },
+  {
+    "id": "environment_temperature_rise",
+    "en": "temperature rise",
+    "ph": "/ˈtɛmprətʃər raɪz/",
+    "uk": "підвищення температури",
+    "pos": "noun",
+    "example": "Scientists warn against a temperature rise of more than 1.5 degrees.",
+    "example2": "The temperature rise has already affected crop yields.",
+    "note": ""
+  },
+  {
+    "id": "environment_heatwave",
+    "en": "heatwave",
+    "ph": "/ˈhiːtweɪv/",
+    "uk": "спека, аномальна спекотна погода",
+    "pos": "noun",
+    "example": "The heatwave lasted almost two weeks.",
+    "example2": "Heatwaves are becoming more frequent and more intense.",
+    "note": ""
+  },
+  {
+    "id": "environment_extreme_weather",
+    "en": "extreme weather",
+    "ph": "/ɪkˈstriːm ˈwɛðər/",
+    "uk": "екстремальні погодні явища",
+    "pos": "noun",
+    "example": "Extreme weather events have become more common in recent years.",
+    "example2": "The insurance industry is struggling with the cost of extreme weather.",
+    "note": ""
+  },
+  {
+    "id": "environment_tipping_point",
+    "en": "tipping point",
+    "ph": "/ˈtɪpɪŋ pɔɪnt/",
+    "uk": "точка неповернення",
+    "pos": "noun",
+    "example": "Scientists warn we may be close to a climate tipping point.",
+    "example2": "Once it passes a tipping point, the ice sheet may not recover.",
+    "note": ""
+  },
+  {
+    "id": "environment_ice_cap",
+    "en": "ice cap",
+    "ph": "/aɪs kæp/",
+    "uk": "льодовиковий покрив",
+    "pos": "noun",
+    "example": "The polar ice caps are melting faster than predicted.",
+    "example2": "Satellite images show the ice cap shrinking every decade.",
+    "note": ""
+  },
+  {
+    "id": "environment_arctic",
+    "en": "Arctic",
+    "ph": "/ˈɑrktɪk/",
+    "uk": "Арктика",
+    "pos": "noun",
+    "example": "The Arctic is warming faster than anywhere else on Earth.",
+    "example2": "Sea ice in the Arctic has shrunk dramatically since the 1980s.",
+    "note": "Пишеться з великої літери, як власна назва."
+  },
+  {
+    "id": "environment_thaw",
+    "en": "thaw",
+    "ph": "/θɔː/",
+    "uk": "танути, розморожуватися",
+    "pos": "verb",
+    "forms": { "base": "thaw", "phBase": "/θɔː/", "past": "thawed", "phPast": "/θɔːd/", "part": "thawed", "phPart": "/θɔːd/" },
+    "examples": [
+      ["Present Simple", "The ground thaws for only a few months each year."],
+      ["Past Simple", "The permafrost thawed earlier than usual this spring."],
+      ["Present Perfect", "Large areas of permafrost have already thawed."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "environment_melt",
+    "en": "melt",
+    "ph": "/mɛlt/",
+    "uk": "танути (про лід, сніг)",
+    "pos": "verb",
+    "forms": { "base": "melt", "phBase": "/mɛlt/", "past": "melted", "phPast": "/ˈmɛltɪd/", "part": "melted", "phPart": "/ˈmɛltɪd/" },
+    "examples": [
+      ["Present Simple", "The glacier melts a little more every summer."],
+      ["Past Simple", "The snow melted early this year."],
+      ["Present Perfect", "The ice sheet has melted faster than expected."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "environment_sea_ice",
+    "en": "sea ice",
+    "ph": "/siː aɪs/",
+    "uk": "морський лід",
+    "pos": "noun",
+    "example": "Sea ice in the region has declined for the tenth year in a row.",
+    "example2": "Polar bears depend on sea ice to hunt for seals.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_hurricane",
+    "en": "hurricane",
+    "ph": "/ˈhɜrəkeɪn/",
+    "uk": "ураган",
+    "pos": "noun",
+    "example": "The hurricane made landfall early Saturday morning.",
+    "example2": "Warmer oceans are making hurricanes more powerful.",
+    "note": ""
+  },
+  {
+    "id": "environment_tsunami",
+    "en": "tsunami",
+    "ph": "/tsuːˈnɑːmi/",
+    "uk": "цунамі",
+    "pos": "noun",
+    "example": "The earthquake triggered a tsunami along the coast.",
+    "example2": "Warning systems now give coastal towns more time before a tsunami hits.",
+    "note": ""
+  },
+  {
+    "id": "environment_wildfire",
+    "en": "wildfire",
+    "ph": "/ˈwaɪldfaɪər/",
+    "uk": "лісова пожежа",
+    "pos": "noun",
+    "example": "The wildfire burned for almost three weeks.",
+    "example2": "Drier summers have made wildfires more frequent.",
+    "note": ""
+  },
+  {
+    "id": "environment_landslide",
+    "en": "landslide",
+    "ph": "/ˈlændslaɪd/",
+    "uk": "зсув ґрунту",
+    "pos": "noun",
+    "example": "Heavy rain triggered a landslide that blocked the highway.",
+    "example2": "Deforestation makes hillsides more prone to landslides.",
+    "note": ""
+  },
+  {
+    "id": "environment_storm_surge",
+    "en": "storm surge",
+    "ph": "/stɔrm sɜrdʒ/",
+    "uk": "штормовий нагін (води)",
+    "pos": "noun",
+    "example": "The storm surge flooded most of the waterfront.",
+    "example2": "Rising sea levels make storm surges more dangerous.",
+    "note": ""
+  },
+  {
+    "id": "environment_natural_disaster",
+    "en": "natural disaster",
+    "ph": "/ˈnætʃrəl dɪˈzæstər/",
+    "uk": "стихійне лихо",
+    "pos": "noun",
+    "example": "The region has faced three natural disasters this decade.",
+    "example2": "Climate change is increasing the frequency of natural disasters.",
+    "note": ""
+  },
+  {
+    "id": "environment_evacuate",
+    "en": "evacuate",
+    "ph": "/ɪˈvækjueɪt/",
+    "uk": "евакуювати(ся)",
+    "pos": "verb",
+    "forms": { "base": "evacuate", "phBase": "/ɪˈvækjueɪt/", "past": "evacuated", "phPast": "/ɪˈvækjueɪtɪd/", "part": "evacuated", "phPart": "/ɪˈvækjueɪtɪd/" },
+    "examples": [
+      ["Present Simple", "Officials evacuate the coast whenever a big storm is coming."],
+      ["Past Simple", "Thousands of people evacuated before the hurricane hit."],
+      ["Present Perfect", "The whole town has already evacuated."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "environment_disaster_relief",
+    "en": "disaster relief",
+    "ph": "/dɪˈzæstər rɪˈliːf/",
+    "uk": "допомога постраждалим від лиха",
+    "pos": "noun",
+    "example": "The government sent disaster relief funds to the region.",
+    "example2": "Volunteers helped distribute disaster relief supplies.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_crop_rotation",
+    "en": "crop rotation",
+    "ph": "/krɑːp roʊˈteɪʃən/",
+    "uk": "сівозміна",
+    "pos": "noun",
+    "example": "Crop rotation helps keep the soil healthy.",
+    "example2": "Farmers here have used crop rotation for generations.",
+    "note": ""
+  },
+  {
+    "id": "environment_irrigation",
+    "en": "irrigation",
+    "ph": "/ˌɪrɪˈɡeɪʃən/",
+    "uk": "зрошення",
+    "pos": "noun",
+    "example": "The farm relies on irrigation during the dry months.",
+    "example2": "Poor irrigation systems waste enormous amounts of water.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_overgrazing",
+    "en": "overgrazing",
+    "ph": "/ˈoʊvərˌɡreɪzɪŋ/",
+    "uk": "перевипас худоби",
+    "pos": "noun",
+    "example": "Overgrazing has left large areas of land bare.",
+    "example2": "Overgrazing is one of the main causes of desertification.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_arable_land",
+    "en": "arable land",
+    "ph": "/ˈærəbl lænd/",
+    "uk": "орна земля",
+    "pos": "noun",
+    "example": "The country has very little arable land left.",
+    "example2": "Urban expansion keeps eating into arable land.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_subsistence_farming",
+    "en": "subsistence farming",
+    "ph": "/səbˈsɪstəns ˈfɑrmɪŋ/",
+    "uk": "натуральне (для власного споживання) сільське господарство",
+    "pos": "noun",
+    "example": "Many families in the region still rely on subsistence farming.",
+    "example2": "Subsistence farming leaves little surplus to sell.",
+    "note": "Незлічуваний. Протилежність — <b>commercial farming</b>."
+  },
+  {
+    "id": "environment_cash_crop",
+    "en": "cash crop",
+    "ph": "/kæʃ krɑːp/",
+    "uk": "товарна культура (на продаж)",
+    "pos": "noun",
+    "example": "Coffee is the region's main cash crop.",
+    "example2": "Farmers switched from food crops to cash crops for export.",
+    "note": ""
+  },
+  {
+    "id": "environment_genetically_modified",
+    "en": "genetically modified",
+    "ph": "/dʒəˈnɛtɪkli ˈmɑːdəfaɪd/",
+    "uk": "генетично модифікований",
+    "pos": "adjective",
+    "example": "Some countries ban genetically modified crops entirely.",
+    "example2": "Genetically modified seeds can be more resistant to drought.",
+    "note": "Часто скорочують до <b>GM</b> або <b>GMO</b> (genetically modified organism)."
+  },
+  {
+    "id": "environment_livestock",
+    "en": "livestock",
+    "ph": "/ˈlaɪvstɑːk/",
+    "uk": "домашня худоба",
+    "pos": "noun",
+    "example": "Raising livestock produces a significant amount of methane.",
+    "example2": "The farm keeps livestock and grows crops side by side.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_deforest",
+    "en": "deforest",
+    "ph": "/diːˈfɔːrɪst/",
+    "uk": "вирубувати ліс",
+    "pos": "verb",
+    "forms": { "base": "deforest", "phBase": "/diːˈfɔːrɪst/", "past": "deforested", "phPast": "/diːˈfɔːrɪstɪd/", "part": "deforested", "phPart": "/diːˈfɔːrɪstɪd/" },
+    "examples": [
+      ["Present Simple", "Companies deforest large areas for cattle ranching."],
+      ["Past Simple", "They deforested the hillside for farmland."],
+      ["Present Perfect", "Loggers have deforested most of the valley."]
+    ],
+    "note": "Іменник — <b>deforestation</b>."
+  },
+  {
+    "id": "environment_farmland",
+    "en": "farmland",
+    "ph": "/ˈfɑrmlænd/",
+    "uk": "сільськогосподарські угіддя",
+    "pos": "noun",
+    "example": "The village is surrounded by farmland.",
+    "example2": "Development has replaced much of the region's farmland.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_fertile",
+    "en": "fertile",
+    "ph": "/ˈfɜrtl/",
+    "uk": "родючий",
+    "pos": "adjective",
+    "example": "The valley has some of the most fertile soil in the country.",
+    "example2": "Flooding actually left the land more fertile.",
+    "note": "Антонім — <b>barren</b>."
+  },
+  {
+    "id": "environment_barren",
+    "en": "barren",
+    "ph": "/ˈbærən/",
+    "uk": "неродючий, безплідний",
+    "pos": "adjective",
+    "example": "Overgrazing turned the once-green hills barren.",
+    "example2": "The land looked barren after years of drought.",
+    "note": "Антонім — <b>fertile</b>."
+  },
+  {
+    "id": "environment_predator",
+    "en": "predator",
+    "ph": "/ˈprɛdətər/",
+    "uk": "хижак",
+    "pos": "noun",
+    "example": "Wolves are the region's main predator.",
+    "example2": "Without natural predators, the deer population grew rapidly.",
+    "note": ""
+  },
+  {
+    "id": "environment_prey",
+    "en": "prey",
+    "ph": "/preɪ/",
+    "uk": "здобич, жертва (хижака)",
+    "pos": "noun",
+    "example": "Rabbits are common prey for foxes here.",
+    "example2": "The eagle spotted its prey from high above.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_migratory",
+    "en": "migratory",
+    "ph": "/ˈmaɪɡrəˌtɔːri/",
+    "uk": "перелітний, мігруючий",
+    "pos": "adjective",
+    "example": "The wetland is an important stop for migratory birds.",
+    "example2": "Migratory species are especially vulnerable to habitat loss.",
+    "note": ""
+  },
+  {
+    "id": "environment_breeding_ground",
+    "en": "breeding ground",
+    "ph": "/ˈbriːdɪŋ ɡraʊnd/",
+    "uk": "місце розмноження",
+    "pos": "noun",
+    "example": "The reef is a breeding ground for dozens of fish species.",
+    "example2": "The marsh serves as a breeding ground for local birds.",
+    "note": ""
+  },
+  {
+    "id": "environment_marine_life",
+    "en": "marine life",
+    "ph": "/məˈriːn laɪf/",
+    "uk": "морське життя",
+    "pos": "noun",
+    "example": "The oil spill devastated marine life along the coast.",
+    "example2": "Warmer oceans are pushing marine life toward the poles.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_terrestrial",
+    "en": "terrestrial",
+    "ph": "/təˈrɛstriəl/",
+    "uk": "наземний",
+    "pos": "adjective",
+    "example": "The reserve protects both terrestrial and aquatic species.",
+    "example2": "Most terrestrial animals in the park are nocturnal.",
+    "note": "Антонім — <b>aquatic</b>."
+  },
+  {
+    "id": "environment_aquatic",
+    "en": "aquatic",
+    "ph": "/əˈkwɑːtɪk/",
+    "uk": "водний",
+    "pos": "adjective",
+    "example": "The lake supports a wide range of aquatic life.",
+    "example2": "Pollution has reduced aquatic biodiversity in the river.",
+    "note": "Антонім — <b>terrestrial</b>."
+  },
+  {
+    "id": "environment_genetic_diversity",
+    "en": "genetic diversity",
+    "ph": "/dʒəˈnɛtɪk dəˈvɜrsəti/",
+    "uk": "генетичне різноманіття",
+    "pos": "noun",
+    "example": "Small populations often have low genetic diversity.",
+    "example2": "Genetic diversity helps a species survive disease and change.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_rewilding",
+    "en": "rewilding",
+    "ph": "/riːˈwaɪldɪŋ/",
+    "uk": "реінтродукція дикої природи",
+    "pos": "noun",
+    "example": "The rewilding project reintroduced wolves to the region.",
+    "example2": "Rewilding aims to restore ecosystems to their natural state.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_conservationist",
+    "en": "conservationist",
+    "ph": "/ˌkɑːnsərˈveɪʃənɪst/",
+    "uk": "природоохоронець",
+    "pos": "noun",
+    "example": "Conservationists have fought to protect the wetland for years.",
+    "example2": "She works as a conservationist for a wildlife charity.",
+    "note": ""
+  },
+  {
+    "id": "environment_sanctuary",
+    "en": "sanctuary",
+    "ph": "/ˈsæŋktʃuˌɛri/",
+    "uk": "заповідник, притулок для тварин",
+    "pos": "noun",
+    "example": "The sanctuary takes in injured and orphaned animals.",
+    "example2": "The bird sanctuary attracts thousands of visitors every spring.",
+    "note": ""
+  },
+  {
+    "id": "environment_national_park",
+    "en": "national park",
+    "ph": "/ˈnæʃənl pɑrk/",
+    "uk": "національний парк",
+    "pos": "noun",
+    "example": "The national park protects one of the last old-growth forests.",
+    "example2": "We spent a week hiking through the national park.",
+    "note": ""
+  },
+  {
+    "id": "environment_environmental_policy",
+    "en": "environmental policy",
+    "ph": "/ɪnˌvaɪrənˈmɛntl ˈpɑːləsi/",
+    "uk": "екологічна політика",
+    "pos": "noun",
+    "example": "The new government promised stronger environmental policy.",
+    "example2": "Environmental policy varies a lot between provinces.",
+    "note": ""
+  },
+  {
+    "id": "environment_subsidy",
+    "en": "subsidy",
+    "ph": "/ˈsʌbsədi/",
+    "uk": "субсидія",
+    "pos": "noun",
+    "example": "The government offers a subsidy for solar panel installation.",
+    "example2": "Fossil fuel subsidies are still common around the world.",
+    "note": ""
+  },
+  {
+    "id": "environment_incentive",
+    "en": "incentive",
+    "ph": "/ɪnˈsɛntɪv/",
+    "uk": "стимул, заохочення",
+    "pos": "noun",
+    "example": "Tax incentives encourage people to buy electric cars.",
+    "example2": "The city offers incentives for businesses that reduce waste.",
+    "note": ""
+  },
+  {
+    "id": "environment_emissions_target",
+    "en": "emissions target",
+    "ph": "/ɪˈmɪʃənz ˈtɑrɡɪt/",
+    "uk": "цільовий показник викидів",
+    "pos": "noun",
+    "example": "The country missed its emissions target for the third year running.",
+    "example2": "The new plan sets a stricter emissions target for 2035.",
+    "note": ""
+  },
+  {
+    "id": "environment_environmental_impact",
+    "en": "environmental impact",
+    "ph": "/ɪnˌvaɪrənˈmɛntl ˈɪmpækt/",
+    "uk": "вплив на довкілля",
+    "pos": "noun",
+    "example": "The company had to assess the environmental impact before building.",
+    "example2": "Air travel has a significant environmental impact.",
+    "note": ""
+  },
+  {
+    "id": "environment_activism",
+    "en": "activism",
+    "ph": "/ˈæktɪvɪzəm/",
+    "uk": "активізм",
+    "pos": "noun",
+    "example": "Youth activism has pushed climate change up the political agenda.",
+    "example2": "She got involved in environmental activism in university.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_protest",
+    "en": "protest",
+    "ph": "/ˈproʊtɛst/",
+    "uk": "протест",
+    "pos": "noun",
+    "example": "Thousands joined the climate protest downtown.",
+    "example2": "The protest was organized by local students.",
+    "note": "Як дієслово наголос переходить на другий склад: <b>protest</b> /prəˈtɛst/."
+  },
+  {
+    "id": "environment_advocate",
+    "en": "advocate",
+    "ph": "/ˈædvəkeɪt/",
+    "uk": "виступати на захист, пропагувати",
+    "pos": "verb",
+    "forms": { "base": "advocate", "phBase": "/ˈædvəkeɪt/", "past": "advocated", "phPast": "/ˈædvəkeɪtɪd/", "part": "advocated", "phPart": "/ˈædvəkeɪtɪd/" },
+    "examples": [
+      ["Present Simple", "The group advocates for stronger environmental laws."],
+      ["Past Simple", "She advocated for the new recycling program."],
+      ["Present Perfect", "Scientists have advocated for this policy for years."]
+    ],
+    "note": "«Advocate for». Як іменник (людина) вимова та сама, наголос не змінюється: /ˈædvəkət/."
+  },
+  {
+    "id": "environment_upcycle",
+    "en": "upcycle",
+    "ph": "/ˈʌpsaɪkl/",
+    "uk": "переробляти у щось краще (апсайклінг)",
+    "pos": "verb",
+    "forms": { "base": "upcycle", "phBase": "/ˈʌpsaɪkl/", "past": "upcycled", "phPast": "/ˈʌpsaɪkld/", "part": "upcycled", "phPart": "/ˈʌpsaɪkld/" },
+    "examples": [
+      ["Present Simple", "She upcycles old furniture instead of throwing it out."],
+      ["Past Simple", "I upcycled an old dresser into a bookshelf."],
+      ["Present Perfect", "We've upcycled most of our old clothes into rags and bags."]
+    ],
+    "note": "На відміну від <b>recycle</b> — перетворення на річ вищої якості/цінності, а не переробка сировини."
+  },
+  {
+    "id": "environment_reuse",
+    "en": "reuse",
+    "ph": "/riːˈjuːz/",
+    "uk": "використовувати повторно",
+    "pos": "verb",
+    "forms": { "base": "reuse", "phBase": "/riːˈjuːz/", "past": "reused", "phPast": "/riːˈjuːzd/", "part": "reused", "phPart": "/riːˈjuːzd/" },
+    "examples": [
+      ["Present Simple", "We reuse glass jars for storage."],
+      ["Past Simple", "I reused the box for shipping."],
+      ["Present Perfect", "We've reused this bag dozens of times."]
+    ],
+    "note": "Частина відомої тріади <b>reduce, reuse, recycle</b>."
+  },
+  {
+    "id": "environment_circular_economy",
+    "en": "circular economy",
+    "ph": "/ˈsɜrkjələr ɪˈkɑːnəmi/",
+    "uk": "циркулярна економіка",
+    "pos": "noun",
+    "example": "A circular economy aims to eliminate waste entirely.",
+    "example2": "The company redesigned its products for a circular economy.",
+    "note": ""
+  },
+  {
+    "id": "environment_zero_waste",
+    "en": "zero waste",
+    "ph": "/ˈzɪroʊ weɪst/",
+    "uk": "нульові відходи",
+    "pos": "noun",
+    "example": "The store follows a zero waste policy for packaging.",
+    "example2": "She's tried to live a zero waste lifestyle for a year now.",
+    "note": ""
+  },
+  {
+    "id": "environment_carbon_offset",
+    "en": "carbon offset",
+    "ph": "/ˈkɑrbən ˈɔːfsɛt/",
+    "uk": "вуглецева компенсація",
+    "pos": "noun",
+    "example": "The airline lets passengers buy a carbon offset for their flight.",
+    "example2": "Critics say carbon offsets don't really solve the problem.",
+    "note": ""
+  },
+  {
+    "id": "environment_plant_based",
+    "en": "plant-based",
+    "ph": "/plænt beɪst/",
+    "uk": "рослинний (про їжу/раціон)",
+    "pos": "adjective",
+    "example": "More restaurants are adding plant-based options to the menu.",
+    "example2": "A plant-based diet has a much smaller carbon footprint.",
+    "note": ""
+  },
+  {
+    "id": "environment_locally_sourced",
+    "en": "locally sourced",
+    "ph": "/ˈloʊkəli sɔːrst/",
+    "uk": "місцевого походження",
+    "pos": "adjective",
+    "example": "The restaurant only uses locally sourced ingredients.",
+    "example2": "Locally sourced food usually has a smaller carbon footprint.",
+    "note": ""
+  },
+  {
+    "id": "environment_green_building",
+    "en": "green building",
+    "ph": "/ɡriːn ˈbɪldɪŋ/",
+    "uk": "«зелена» (екологічна) будівля",
+    "pos": "noun",
+    "example": "The new office tower was designed as a green building.",
+    "example2": "Green building standards are becoming mandatory in some cities.",
+    "note": ""
+  },
+  {
+    "id": "environment_insulation",
+    "en": "insulation",
+    "ph": "/ˌɪnsəˈleɪʃən/",
+    "uk": "теплоізоляція",
+    "pos": "noun",
+    "example": "Better insulation cut our heating bill in half.",
+    "example2": "The house needed new insulation before winter.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_retrofit",
+    "en": "retrofit",
+    "ph": "/ˈrɛtroʊfɪt/",
+    "uk": "модернізувати (стару будівлю/систему)",
+    "pos": "verb",
+    "forms": { "base": "retrofit", "phBase": "/ˈrɛtroʊfɪt/", "past": "retrofitted", "phPast": "/ˈrɛtroʊfɪtɪd/", "part": "retrofitted", "phPart": "/ˈrɛtroʊfɪtɪd/" },
+    "examples": [
+      ["Present Simple", "The city retrofits old buildings to save energy."],
+      ["Past Simple", "They retrofitted the school with solar panels."],
+      ["Present Perfect", "We've retrofitted most of the older homes on this street."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "environment_environmentalist",
+    "en": "environmentalist",
+    "ph": "/ɪnˌvaɪrənˈmɛntəlɪst/",
+    "uk": "прихильник охорони довкілля, еколог-активіст",
+    "pos": "noun",
+    "example": "Environmentalists have long warned about the risks of fracking.",
+    "example2": "She's been an environmentalist since her university days.",
+    "note": ""
+  },
+  {
+    "id": "environment_mitigation",
+    "en": "mitigation",
+    "ph": "/ˌmɪtɪˈɡeɪʃən/",
+    "uk": "пом'якшення (наслідків)",
+    "pos": "noun",
+    "example": "The plan focuses on both mitigation and adaptation.",
+    "example2": "Mitigation efforts include cutting emissions and planting trees.",
+    "note": "Дієслово — <b>mitigate</b>."
+  },
+  {
+    "id": "environment_adaptation",
+    "en": "adaptation",
+    "ph": "/ˌædæpˈteɪʃən/",
+    "uk": "адаптація (до змін клімату)",
+    "pos": "noun",
+    "example": "Coastal cities need adaptation plans for rising sea levels.",
+    "example2": "Adaptation is just as important as reducing emissions.",
+    "note": ""
+  },
+  {
+    "id": "environment_resilience",
+    "en": "resilience",
+    "ph": "/rɪˈzɪliəns/",
+    "uk": "стійкість (до змін/потрясінь)",
+    "pos": "noun",
+    "example": "The city invested in flood defences to build resilience.",
+    "example2": "Diverse ecosystems tend to have greater resilience.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_vulnerable",
+    "en": "vulnerable",
+    "ph": "/ˈvʌlnərəbl/",
+    "uk": "вразливий",
+    "pos": "adjective",
+    "example": "Low-lying island nations are especially vulnerable to flooding.",
+    "example2": "Coral reefs are highly vulnerable to warming oceans.",
+    "note": ""
+  },
+  {
+    "id": "environment_awareness",
+    "en": "awareness",
+    "ph": "/əˈwɛrnəs/",
+    "uk": "обізнаність, усвідомлення",
+    "pos": "noun",
+    "example": "The campaign raised awareness about plastic pollution.",
+    "example2": "Public awareness of climate change has grown over the past decade.",
+    "note": "Незлічуваний. Колокація: <b>raise awareness</b>."
+  },
+  {
+    "id": "environment_summit",
+    "en": "summit",
+    "ph": "/ˈsʌmɪt/",
+    "uk": "саміт",
+    "pos": "noun",
+    "example": "World leaders met at the climate summit last week.",
+    "example2": "The summit ended without a firm agreement.",
+    "note": ""
   }
 ]
