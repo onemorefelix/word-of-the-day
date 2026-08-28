@@ -1580,5 +1580,639 @@
     "example": "She was granted tenure after six years at the university.",
     "example2": "Getting tenure usually requires a strong record of published research.",
     "note": "Незлічуваний."
+  },
+  {
+    "id": "education_bibliography",
+    "en": "bibliography",
+    "ph": "/ˌbɪbliˈɑːɡrəfi/",
+    "uk": "бібліографія (список джерел)",
+    "pos": "noun",
+    "example": "Every essay needs a full bibliography at the end.",
+    "example2": "The bibliography lists over fifty sources.",
+    "note": ""
+  },
+  {
+    "id": "education_citation",
+    "en": "citation",
+    "ph": "/saɪˈteɪʃən/",
+    "uk": "цитування, посилання",
+    "pos": "noun",
+    "example": "The professor deducted marks for missing citations.",
+    "example2": "Each claim in the paper needs a proper citation.",
+    "note": ""
+  },
+  {
+    "id": "education_footnote",
+    "en": "footnote",
+    "ph": "/ˈfʊtnoʊt/",
+    "uk": "виноска",
+    "pos": "noun",
+    "example": "She explained the term in a footnote.",
+    "example2": "The article has more footnotes than actual text.",
+    "note": ""
+  },
+  {
+    "id": "education_plagiarize",
+    "en": "plagiarize",
+    "ph": "/ˈpleɪdʒəraɪz/",
+    "uk": "плагіатити, красти чужий текст",
+    "pos": "verb",
+    "forms": { "base": "plagiarize", "phBase": "/ˈpleɪdʒəraɪz/", "past": "plagiarized", "phPast": "/ˈpleɪdʒəraɪzd/", "part": "plagiarized", "phPart": "/ˈpleɪdʒəraɪzd/" },
+    "examples": [
+      ["Present Simple", "The software checks whether students plagiarize."],
+      ["Past Simple", "He plagiarized most of his essay from a website."],
+      ["Present Perfect", "She's never plagiarized anything in her life."]
+    ],
+    "note": "Написання <b>plagiarize</b> (не plagiarise). Іменник — <b>plagiarism</b>."
+  },
+  {
+    "id": "education_paraphrase",
+    "en": "paraphrase",
+    "ph": "/ˈpærəfreɪz/",
+    "uk": "переказувати своїми словами",
+    "pos": "verb",
+    "forms": { "base": "paraphrase", "phBase": "/ˈpærəfreɪz/", "past": "paraphrased", "phPast": "/ˈpærəfreɪzd/", "part": "paraphrased", "phPart": "/ˈpærəfreɪzd/" },
+    "examples": [
+      ["Present Simple", "Good writers paraphrase instead of copying directly."],
+      ["Past Simple", "I paraphrased the quote to fit the word count."],
+      ["Present Perfect", "I've paraphrased this paragraph three times already."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "education_abstract",
+    "en": "abstract",
+    "ph": "/ˈæbstrækt/",
+    "uk": "анотація (наукової статті)",
+    "pos": "noun",
+    "example": "The abstract summarizes the whole paper in about 200 words.",
+    "example2": "Read the abstract first to see if the study is relevant.",
+    "note": ""
+  },
+  {
+    "id": "education_peer_reviewed",
+    "en": "peer-reviewed",
+    "ph": "/pɪr rɪˈvjuːd/",
+    "uk": "рецензований (науковцями)",
+    "pos": "adjective",
+    "example": "The claim was based on a peer-reviewed study.",
+    "example2": "Not every peer-reviewed journal has the same reputation.",
+    "note": ""
+  },
+  {
+    "id": "education_publish",
+    "en": "publish",
+    "ph": "/ˈpʌblɪʃ/",
+    "uk": "публікувати (наукову роботу)",
+    "pos": "verb",
+    "forms": { "base": "publish", "phBase": "/ˈpʌblɪʃ/", "past": "published", "phPast": "/ˈpʌblɪʃt/", "part": "published", "phPart": "/ˈpʌblɪʃt/" },
+    "examples": [
+      ["Present Simple", "She publishes at least two papers a year."],
+      ["Past Simple", "He published his first paper as a grad student."],
+      ["Present Perfect", "She's published extensively on this topic."]
+    ],
+    "note": "Колокація: <b>publish or perish</b> — тиск публікуватись, типовий для академії."
+  },
+  {
+    "id": "education_journal",
+    "en": "journal",
+    "ph": "/ˈdʒɜrnl/",
+    "uk": "науковий журнал",
+    "pos": "noun",
+    "example": "The study was published in a well-known medical journal.",
+    "example2": "It took over a year to get the paper into the journal.",
+    "note": ""
+  },
+  {
+    "id": "education_methodology",
+    "en": "methodology",
+    "ph": "/ˌmɛθəˈdɑːlədʒi/",
+    "uk": "методологія",
+    "pos": "noun",
+    "example": "The methodology section explains how the data was collected.",
+    "example2": "Reviewers questioned the study's methodology.",
+    "note": ""
+  },
+  {
+    "id": "education_hypothesis",
+    "en": "hypothesis",
+    "ph": "/haɪˈpɑːθəsɪs/",
+    "uk": "гіпотеза",
+    "pos": "noun",
+    "example": "The experiment was designed to test a simple hypothesis.",
+    "example2": "The results didn't support her original hypothesis.",
+    "note": "Множина — <b>hypotheses</b> /haɪˈpɑːθəsiːz/."
+  },
+  {
+    "id": "education_literature_review",
+    "en": "literature review",
+    "ph": "/ˈlɪtərətʃər rɪˈvjuː/",
+    "uk": "огляд літератури",
+    "pos": "noun",
+    "example": "The first chapter is a literature review of previous studies.",
+    "example2": "Writing the literature review took longer than the rest of the thesis.",
+    "note": ""
+  },
+  {
+    "id": "education_research_paper",
+    "en": "research paper",
+    "ph": "/rɪˈsɜrtʃ ˈpeɪpər/",
+    "uk": "наукова стаття, дослідницька робота",
+    "pos": "noun",
+    "example": "Our final assignment is a ten-page research paper.",
+    "example2": "She's writing a research paper on renewable energy policy.",
+    "note": ""
+  },
+  {
+    "id": "education_scholarly",
+    "en": "scholarly",
+    "ph": "/ˈskɑːlərli/",
+    "uk": "науковий, академічний",
+    "pos": "adjective",
+    "example": "You need at least three scholarly sources for this assignment.",
+    "example2": "The article isn't really scholarly — it's more of an opinion piece.",
+    "note": ""
+  },
+  {
+    "id": "education_primary_source",
+    "en": "primary source",
+    "ph": "/ˈpraɪmɛri sɔːrs/",
+    "uk": "першоджерело",
+    "pos": "noun",
+    "example": "Historians rely on primary sources like letters and diaries.",
+    "example2": "The assignment requires at least one primary source.",
+    "note": ""
+  },
+  {
+    "id": "education_secondary_source",
+    "en": "secondary source",
+    "ph": "/ˈsɛkəndɛri sɔːrs/",
+    "uk": "вторинне джерело",
+    "pos": "noun",
+    "example": "Textbooks are usually considered secondary sources.",
+    "example2": "The essay leans too heavily on secondary sources.",
+    "note": ""
+  },
+  {
+    "id": "education_detention",
+    "en": "detention",
+    "ph": "/dɪˈtɛnʃən/",
+    "uk": "залишення після уроків (покарання)",
+    "pos": "noun",
+    "example": "He got detention for skipping class.",
+    "example2": "Detention lasts an hour after school on Fridays.",
+    "note": ""
+  },
+  {
+    "id": "education_suspension",
+    "en": "suspension",
+    "ph": "/səˈspɛnʃən/",
+    "uk": "відсторонення від навчання",
+    "pos": "noun",
+    "example": "The fight resulted in a three-day suspension.",
+    "example2": "A suspension goes on the student's permanent record.",
+    "note": ""
+  },
+  {
+    "id": "education_expulsion",
+    "en": "expulsion",
+    "ph": "/ɪkˈspʌlʃən/",
+    "uk": "відрахування (з навчального закладу)",
+    "pos": "noun",
+    "example": "Cheating on a final exam can lead to expulsion.",
+    "example2": "The board voted for expulsion after the second incident.",
+    "note": ""
+  },
+  {
+    "id": "education_expel",
+    "en": "expel",
+    "ph": "/ɪkˈspɛl/",
+    "uk": "відраховувати (з навчального закладу)",
+    "pos": "verb",
+    "forms": { "base": "expel", "phBase": "/ɪkˈspɛl/", "past": "expelled", "phPast": "/ɪkˈspɛld/", "part": "expelled", "phPart": "/ɪkˈspɛld/" },
+    "examples": [
+      ["Present Simple", "The school rarely expels students."],
+      ["Past Simple", "They expelled him after the third offence."],
+      ["Present Perfect", "The university has expelled two students this year."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "education_suspend",
+    "en": "suspend",
+    "ph": "/səˈspɛnd/",
+    "uk": "відстороняти (від навчання)",
+    "pos": "verb",
+    "forms": { "base": "suspend", "phBase": "/səˈspɛnd/", "past": "suspended", "phPast": "/səˈspɛndɪd/", "part": "suspended", "phPart": "/səˈspɛndɪd/" },
+    "examples": [
+      ["Present Simple", "The school suspends students for fighting."],
+      ["Past Simple", "They suspended her for a week."],
+      ["Present Perfect", "He's been suspended twice this year."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "education_misconduct",
+    "en": "misconduct",
+    "ph": "/ˌmɪsˈkɑːndʌkt/",
+    "uk": "порушення дисципліни, неналежна поведінка",
+    "pos": "noun",
+    "example": "Academic misconduct includes cheating and plagiarism.",
+    "example2": "The professor reported the misconduct to the dean's office.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_code_of_conduct",
+    "en": "code of conduct",
+    "ph": "/koʊd ʌv ˈkɑːndʌkt/",
+    "uk": "кодекс поведінки",
+    "pos": "noun",
+    "example": "All students must sign the school's code of conduct.",
+    "example2": "The code of conduct was updated after last year's incident.",
+    "note": ""
+  },
+  {
+    "id": "education_bullying",
+    "en": "bullying",
+    "ph": "/ˈbʊliɪŋ/",
+    "uk": "булінг, цькування",
+    "pos": "noun",
+    "example": "The school introduced a zero-tolerance policy on bullying.",
+    "example2": "Bullying can have long-lasting effects on mental health.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_discipline",
+    "en": "discipline",
+    "ph": "/ˈdɪsəplɪn/",
+    "uk": "дисципліна",
+    "pos": "noun",
+    "example": "The school has strict rules about discipline.",
+    "example2": "Discipline problems have gone down since the new policy.",
+    "note": "Незлічуваний. Також означає окрему галузь науки — «an academic discipline»."
+  },
+  {
+    "id": "education_learning_disability",
+    "en": "learning disability",
+    "ph": "/ˈlɜrnɪŋ ˌdɪsəˈbɪləti/",
+    "uk": "порушення навчання",
+    "pos": "noun",
+    "example": "The school offers extra support for students with a learning disability.",
+    "example2": "A learning disability doesn't reflect a student's intelligence.",
+    "note": ""
+  },
+  {
+    "id": "education_dyslexia",
+    "en": "dyslexia",
+    "ph": "/dɪsˈlɛksiə/",
+    "uk": "дислексія",
+    "pos": "noun",
+    "example": "She was diagnosed with dyslexia in the second grade.",
+    "example2": "Dyslexia makes reading and spelling more difficult, not less intelligent.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_accommodation",
+    "en": "accommodation",
+    "ph": "/əˌkɑːməˈdeɪʃən/",
+    "uk": "адаптація умов (навчання) для потреб студента",
+    "pos": "noun",
+    "example": "Students with disabilities can request extra time as an accommodation.",
+    "example2": "The office arranges accommodations for exams.",
+    "note": "У цьому значенні часто в множині — <b>accommodations</b>."
+  },
+  {
+    "id": "education_inclusive_education",
+    "en": "inclusive education",
+    "ph": "/ɪnˈkluːsɪv ˌɛdʒəˈkeɪʃən/",
+    "uk": "інклюзивна освіта",
+    "pos": "noun",
+    "example": "The province has committed to inclusive education for all students.",
+    "example2": "Inclusive education means teaching students of all abilities together.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_disability_support",
+    "en": "disability support",
+    "ph": "/ˌdɪsəˈbɪləti səˈpɔːrt/",
+    "uk": "підтримка для студентів з інвалідністю",
+    "pos": "noun",
+    "example": "She registered with disability support before the semester started.",
+    "example2": "Disability support arranged a note-taker for his lectures.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_bilingual_education",
+    "en": "bilingual education",
+    "ph": "/baɪˈlɪŋɡwəl ˌɛdʒəˈkeɪʃən/",
+    "uk": "білінгвальна освіта",
+    "pos": "noun",
+    "example": "The school offers bilingual education in English and French.",
+    "example2": "Bilingual education programs are common across Canada.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_immersion_program",
+    "en": "immersion program",
+    "ph": "/ɪˈmɜrʒən ˈproʊɡræm/",
+    "uk": "програма мовного занурення",
+    "pos": "noun",
+    "example": "She enrolled her son in a French immersion program.",
+    "example2": "Immersion programs teach most subjects in the second language.",
+    "note": ""
+  },
+  {
+    "id": "education_gifted_program",
+    "en": "gifted program",
+    "ph": "/ˈɡɪftɪd ˈproʊɡræm/",
+    "uk": "програма для обдарованих дітей",
+    "pos": "noun",
+    "example": "He was tested for the gifted program in grade three.",
+    "example2": "The gifted program moves through material much faster.",
+    "note": ""
+  },
+  {
+    "id": "education_co_op_program",
+    "en": "co-op program",
+    "ph": "/ˈkoʊ ɑːp ˈproʊɡræm/",
+    "uk": "програма поєднання навчання з роботою",
+    "pos": "noun",
+    "example": "The co-op program alternates a semester of study with a semester of work.",
+    "example2": "She found her first job through the university's co-op program.",
+    "note": "Скорочення від <b>cooperative education</b>, поширене в Канаді."
+  },
+  {
+    "id": "education_practicum",
+    "en": "practicum",
+    "ph": "/ˈpræktɪkəm/",
+    "uk": "практика (педагогічна/клінічна)",
+    "pos": "noun",
+    "example": "She completed her teaching practicum at a local elementary school.",
+    "example2": "The practicum runs for eight weeks in the final year.",
+    "note": ""
+  },
+  {
+    "id": "education_lecture",
+    "en": "lecture",
+    "ph": "/ˈlɛktʃər/",
+    "uk": "читати лекцію",
+    "pos": "verb",
+    "forms": { "base": "lecture", "phBase": "/ˈlɛktʃər/", "past": "lectured", "phPast": "/ˈlɛktʃərd/", "part": "lectured", "phPart": "/ˈlɛktʃərd/" },
+    "examples": [
+      ["Present Simple", "She lectures on Tuesdays and Thursdays."],
+      ["Past Simple", "He lectured for almost two hours."],
+      ["Present Perfect", "She's lectured on this topic many times before."]
+    ],
+    "note": "Іменник — теж <b>lecture</b> (сама лекція)."
+  },
+  {
+    "id": "education_demonstration",
+    "en": "demonstration",
+    "ph": "/ˌdɛmənˈstreɪʃən/",
+    "uk": "демонстрація, показ",
+    "pos": "noun",
+    "example": "The lab began with a short demonstration.",
+    "example2": "She learns better from a demonstration than from reading instructions.",
+    "note": ""
+  },
+  {
+    "id": "education_simulation",
+    "en": "simulation",
+    "ph": "/ˌsɪmjəˈleɪʃən/",
+    "uk": "симуляція",
+    "pos": "noun",
+    "example": "Nursing students practise on a medical simulation before working with patients.",
+    "example2": "The flight simulation lets pilots train without any real risk.",
+    "note": ""
+  },
+  {
+    "id": "education_case_study",
+    "en": "case study",
+    "ph": "/keɪs ˈstʌdi/",
+    "uk": "кейс-стаді, розбір конкретного випадку",
+    "pos": "noun",
+    "example": "The class analyzed a case study of a failed business.",
+    "example2": "Each case study takes about a week to work through.",
+    "note": ""
+  },
+  {
+    "id": "education_role_play",
+    "en": "role play",
+    "ph": "/roʊl pleɪ/",
+    "uk": "рольова гра",
+    "pos": "noun",
+    "example": "We practised the interview through a role play exercise.",
+    "example2": "Role play helps students use new vocabulary in context.",
+    "note": ""
+  },
+  {
+    "id": "education_debate",
+    "en": "debate",
+    "ph": "/dɪˈbeɪt/",
+    "uk": "дебати",
+    "pos": "noun",
+    "example": "The class held a debate on school uniforms.",
+    "example2": "She joined the debate team in grade ten.",
+    "note": "Може бути й дієсловом — «to debate a topic»."
+  },
+  {
+    "id": "education_discussion",
+    "en": "discussion",
+    "ph": "/dɪˈskʌʃən/",
+    "uk": "обговорення (у класі)",
+    "pos": "noun",
+    "example": "Class discussion counts toward your participation grade.",
+    "example2": "The discussion ran well past the end of class.",
+    "note": ""
+  },
+  {
+    "id": "education_doctorate",
+    "en": "doctorate",
+    "ph": "/ˈdɑːktərət/",
+    "uk": "докторський ступінь",
+    "pos": "noun",
+    "example": "She's finishing her doctorate in chemistry.",
+    "example2": "A doctorate usually takes four to six years.",
+    "note": "Часто скорочують до <b>PhD</b>."
+  },
+  {
+    "id": "education_sabbatical",
+    "en": "sabbatical",
+    "ph": "/səˈbætɪkl/",
+    "uk": "творча відпустка (для викладачів)",
+    "pos": "noun",
+    "example": "He's spending his sabbatical writing a book.",
+    "example2": "Professors are usually eligible for sabbatical every seven years.",
+    "note": ""
+  },
+  {
+    "id": "education_fellowship",
+    "en": "fellowship",
+    "ph": "/ˈfɛloʊʃɪp/",
+    "uk": "стипендія для дослідників, фелоушип",
+    "pos": "noun",
+    "example": "She was awarded a research fellowship for two years.",
+    "example2": "The fellowship covers tuition and a small living stipend.",
+    "note": ""
+  },
+  {
+    "id": "education_bursary",
+    "en": "bursary",
+    "ph": "/ˈbɜrsəri/",
+    "uk": "матеріальна допомога на навчання (за потребою)",
+    "pos": "noun",
+    "example": "He received a bursary based on financial need.",
+    "example2": "Unlike a scholarship, a bursary doesn't require top grades.",
+    "note": "Канадський/британський термін; в США частіше кажуть просто <b>need-based grant</b>."
+  },
+  {
+    "id": "education_orientation",
+    "en": "orientation",
+    "ph": "/ˌɔːriənˈteɪʃən/",
+    "uk": "орієнтаційний тиждень (для новачків)",
+    "pos": "noun",
+    "example": "Orientation week helps new students find their way around campus.",
+    "example2": "I met my roommate during orientation.",
+    "note": ""
+  },
+  {
+    "id": "education_commencement",
+    "en": "commencement",
+    "ph": "/kəˈmɛnsmənt/",
+    "uk": "випускна церемонія",
+    "pos": "noun",
+    "example": "Commencement is held on the football field every June.",
+    "example2": "Her whole family came to commencement.",
+    "note": "Північноамериканський термін."
+  },
+  {
+    "id": "education_convocation",
+    "en": "convocation",
+    "ph": "/ˌkɑːnvəˈkeɪʃən/",
+    "uk": "урочистий випуск (церемонія вручення дипломів)",
+    "pos": "noun",
+    "example": "She walked across the stage at convocation last spring.",
+    "example2": "Convocation ceremonies are held twice a year at this university.",
+    "note": "Канадський термін, близький синонім до <b>commencement</b>."
+  },
+  {
+    "id": "education_alma_mater",
+    "en": "alma mater",
+    "ph": "/ˈælmə ˈmɑːtər/",
+    "uk": "альма-матер (рідний навчальний заклад)",
+    "pos": "noun",
+    "example": "He still donates to his alma mater every year.",
+    "example2": "She returned to her alma mater as a guest speaker.",
+    "note": ""
+  },
+  {
+    "id": "education_first_year_student",
+    "en": "first-year student",
+    "ph": "/ˈfɜrst jɪr ˈstuːdənt/",
+    "uk": "першокурсник",
+    "pos": "noun",
+    "example": "First-year students live in residence by default.",
+    "example2": "As a first-year student, everything felt overwhelming at first.",
+    "note": "Північноамериканський, нейтральний термін (замість застарілого <b>freshman</b>)."
+  },
+  {
+    "id": "education_student_body",
+    "en": "student body",
+    "ph": "/ˈstuːdənt ˈbɑːdi/",
+    "uk": "студентство, весь контингент студентів",
+    "pos": "noun",
+    "example": "The student body voted on the new policy.",
+    "example2": "International students make up a third of the student body.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_curriculum_vitae",
+    "en": "curriculum vitae",
+    "ph": "/kəˈrɪkjələm ˈviːtaɪ/",
+    "uk": "резюме (академічне)",
+    "pos": "noun",
+    "example": "Applicants must submit a curriculum vitae with their application.",
+    "example2": "Her curriculum vitae lists over twenty publications.",
+    "note": "Часто скорочують до <b>CV</b>."
+  },
+  {
+    "id": "education_letter_of_recommendation",
+    "en": "letter of recommendation",
+    "ph": "/ˈlɛtər ʌv ˌrɛkəmənˈdeɪʃən/",
+    "uk": "рекомендаційний лист",
+    "pos": "noun",
+    "example": "You'll need two letters of recommendation to apply.",
+    "example2": "I asked my professor for a letter of recommendation.",
+    "note": ""
+  },
+  {
+    "id": "education_student_council",
+    "en": "student council",
+    "ph": "/ˈstuːdənt ˈkaʊnsl/",
+    "uk": "студентська рада",
+    "pos": "noun",
+    "example": "She was elected to student council in her final year.",
+    "example2": "Student council organizes most of the school's social events.",
+    "note": ""
+  },
+  {
+    "id": "education_academic_probation",
+    "en": "academic probation",
+    "ph": "/ˌækəˈdɛmɪk proʊˈbeɪʃən/",
+    "uk": "академічний випробувальний термін",
+    "pos": "noun",
+    "example": "His grades dropped low enough to put him on academic probation.",
+    "example2": "Students on academic probation must meet with an advisor.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_good_standing",
+    "en": "good standing",
+    "ph": "/ɡʊd ˈstændɪŋ/",
+    "uk": "у статусі без порушень (академічних вимог)",
+    "pos": "noun",
+    "example": "You need to be in good standing to keep your scholarship.",
+    "example2": "She left the program in good standing.",
+    "note": "Незлічуваний. Колокація: <b>in good standing</b>."
+  },
+  {
+    "id": "education_student_id",
+    "en": "student ID",
+    "ph": "/ˈstuːdənt ˌaɪ ˈdiː/",
+    "uk": "студентський квиток",
+    "pos": "noun",
+    "example": "You need your student ID to get into the library.",
+    "example2": "I lost my student ID during the first week of classes.",
+    "note": ""
+  },
+  {
+    "id": "education_open_house",
+    "en": "open house",
+    "ph": "/ˈoʊpən haʊs/",
+    "uk": "день відкритих дверей",
+    "pos": "noun",
+    "example": "The university holds an open house every October.",
+    "example2": "We visited three schools during their open house events.",
+    "note": ""
+  },
+  {
+    "id": "education_class_rank",
+    "en": "class rank",
+    "ph": "/klæs ræŋk/",
+    "uk": "місце в рейтингу класу",
+    "pos": "noun",
+    "example": "Her class rank helped her get into a competitive program.",
+    "example2": "Some schools no longer report class rank at all.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_personal_statement",
+    "en": "personal statement",
+    "ph": "/ˈpɜrsənl ˈsteɪtmənt/",
+    "uk": "мотиваційний лист",
+    "pos": "noun",
+    "example": "Her personal statement focused on why she wanted to study medicine.",
+    "example2": "The personal statement is limited to 500 words.",
+    "note": ""
   }
 ]
