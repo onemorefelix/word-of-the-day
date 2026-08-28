@@ -854,5 +854,727 @@
     "example": "A software glitch delayed the flight for two hours.",
     "example2": "There's a small glitch in the checkout page.",
     "note": ""
+  },
+  {
+    "id": "technology_microchip",
+    "en": "microchip",
+    "ph": "/ˈmaɪkroʊtʃɪp/",
+    "uk": "мікрочіп",
+    "pos": "noun",
+    "example": "A tiny microchip controls the whole device.",
+    "example2": "Global microchip shortages delayed production for months.",
+    "note": ""
+  },
+  {
+    "id": "technology_processor",
+    "en": "processor",
+    "ph": "/ˈprɑːsɛsər/",
+    "uk": "процесор",
+    "pos": "noun",
+    "example": "The new phone has a much faster processor.",
+    "example2": "This laptop's processor struggles with video editing.",
+    "note": "Часто скорочують до <b>CPU</b>."
+  },
+  {
+    "id": "technology_hard_drive",
+    "en": "hard drive",
+    "ph": "/hɑrd draɪv/",
+    "uk": "жорсткий диск",
+    "pos": "noun",
+    "example": "My hard drive is almost full.",
+    "example2": "The hard drive failed and I lost everything on it.",
+    "note": ""
+  },
+  {
+    "id": "technology_webcam",
+    "en": "webcam",
+    "ph": "/ˈwɛbkæm/",
+    "uk": "веб-камера",
+    "pos": "noun",
+    "example": "I cover my webcam when I'm not using it.",
+    "example2": "The laptop's built-in webcam isn't great in low light.",
+    "note": ""
+  },
+  {
+    "id": "technology_sensor",
+    "en": "sensor",
+    "ph": "/ˈsɛnsər/",
+    "uk": "датчик",
+    "pos": "noun",
+    "example": "A motion sensor turns on the lights automatically.",
+    "example2": "The car has sensors that detect nearby obstacles.",
+    "note": ""
+  },
+  {
+    "id": "technology_semiconductor",
+    "en": "semiconductor",
+    "ph": "/ˌsɛmikənˈdʌktər/",
+    "uk": "напівпровідник",
+    "pos": "noun",
+    "example": "The plant manufactures semiconductors for the auto industry.",
+    "example2": "Semiconductor shortages affected car production worldwide.",
+    "note": ""
+  },
+  {
+    "id": "technology_battery_life",
+    "en": "battery life",
+    "ph": "/ˈbætəri laɪf/",
+    "uk": "час роботи від батареї",
+    "pos": "noun",
+    "example": "The new model has much better battery life.",
+    "example2": "Battery life drops fast once the phone gets older.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_wireless",
+    "en": "wireless",
+    "ph": "/ˈwaɪərləs/",
+    "uk": "бездротовий",
+    "pos": "adjective",
+    "example": "I switched to wireless headphones last year.",
+    "example2": "The wireless connection keeps dropping in this room.",
+    "note": ""
+  },
+  {
+    "id": "technology_bluetooth",
+    "en": "Bluetooth",
+    "ph": "/ˈbluːtuːθ/",
+    "uk": "блютус",
+    "pos": "noun",
+    "example": "I connected my speaker over Bluetooth.",
+    "example2": "Turn on Bluetooth to pair the two devices.",
+    "note": "Пишеться з великої літери, як власна назва."
+  },
+  {
+    "id": "technology_broadband",
+    "en": "broadband",
+    "ph": "/ˈbrɔːdbænd/",
+    "uk": "широкосмуговий інтернет",
+    "pos": "noun",
+    "example": "Broadband is still unreliable in rural areas.",
+    "example2": "We upgraded to a faster broadband plan.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_software",
+    "en": "software",
+    "ph": "/ˈsɔːftwɛr/",
+    "uk": "програмне забезпечення",
+    "pos": "noun",
+    "example": "The company sells software for small businesses.",
+    "example2": "We need to update the software before the meeting.",
+    "note": "Незлічуваний. Антонім — <b>hardware</b>."
+  },
+  {
+    "id": "technology_hardware",
+    "en": "hardware",
+    "ph": "/ˈhɑrdwɛr/",
+    "uk": "апаратне забезпечення",
+    "pos": "noun",
+    "example": "The problem is with the hardware, not the software.",
+    "example2": "Upgrading the hardware made the computer much faster.",
+    "note": "Незлічуваний. Антонім — <b>software</b>."
+  },
+  {
+    "id": "technology_website",
+    "en": "website",
+    "ph": "/ˈwɛbsaɪt/",
+    "uk": "вебсайт",
+    "pos": "noun",
+    "example": "The company redesigned its website last month.",
+    "example2": "I found the recipe on a cooking website.",
+    "note": ""
+  },
+  {
+    "id": "technology_domain",
+    "en": "domain",
+    "ph": "/doʊˈmeɪn/",
+    "uk": "домен",
+    "pos": "noun",
+    "example": "She registered the domain for her new business.",
+    "example2": "The domain expires next month unless we renew it.",
+    "note": ""
+  },
+  {
+    "id": "technology_upload",
+    "en": "upload",
+    "ph": "/ʌpˈloʊd/",
+    "uk": "завантажувати (на сервер, у мережу)",
+    "pos": "verb",
+    "forms": { "base": "upload", "phBase": "/ʌpˈloʊd/", "past": "uploaded", "phPast": "/ʌpˈloʊdɪd/", "part": "uploaded", "phPart": "/ʌpˈloʊdɪd/" },
+    "examples": [
+      ["Present Simple", "She uploads a new video every Friday."],
+      ["Past Simple", "I uploaded the photos last night."],
+      ["Present Perfect", "I've already uploaded the report."]
+    ],
+    "note": "Антонім — <b>download</b>. Як іменник наголос на першому складі: /ˈʌploʊd/."
+  },
+  {
+    "id": "technology_sync",
+    "en": "sync",
+    "ph": "/sɪŋk/",
+    "uk": "синхронізувати",
+    "pos": "verb",
+    "forms": { "base": "sync", "phBase": "/sɪŋk/", "past": "synced", "phPast": "/sɪŋkt/", "part": "synced", "phPart": "/sɪŋkt/" },
+    "examples": [
+      ["Present Simple", "The app syncs across all your devices."],
+      ["Past Simple", "My phone synced with the laptop automatically."],
+      ["Present Perfect", "I've already synced my calendar."]
+    ],
+    "note": "Скорочення від <b>synchronize</b>."
+  },
+  {
+    "id": "technology_backup",
+    "en": "backup",
+    "ph": "/ˈbækʌp/",
+    "uk": "резервна копія",
+    "pos": "noun",
+    "example": "I keep a backup of everything on an external drive.",
+    "example2": "The backup saved us when the server crashed.",
+    "note": "Дієслово пишеться окремо — «back up your files»."
+  },
+  {
+    "id": "technology_cookie",
+    "en": "cookie",
+    "ph": "/ˈkʊki/",
+    "uk": "кукі (файл-трекер сайту)",
+    "pos": "noun",
+    "example": "The site asks you to accept cookies before you can continue.",
+    "example2": "I cleared my cookies to stop the ads from following me.",
+    "note": ""
+  },
+  {
+    "id": "technology_spyware",
+    "en": "spyware",
+    "ph": "/ˈspaɪwɛr/",
+    "uk": "шпигунське програмне забезпечення",
+    "pos": "noun",
+    "example": "The app was secretly collecting data through spyware.",
+    "example2": "Spyware can track everything you type.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_computer_virus",
+    "en": "computer virus",
+    "ph": "/kəmˈpjuːtər ˈvaɪrəs/",
+    "uk": "комп'ютерний вірус",
+    "pos": "noun",
+    "example": "A computer virus wiped out half the files on the server.",
+    "example2": "The email had a computer virus attached to it.",
+    "note": ""
+  },
+  {
+    "id": "technology_antivirus",
+    "en": "antivirus",
+    "ph": "/ˌæntiˈvaɪrəs/",
+    "uk": "антивірус",
+    "pos": "noun",
+    "example": "Make sure your antivirus is up to date.",
+    "example2": "The antivirus flagged the file as suspicious.",
+    "note": ""
+  },
+  {
+    "id": "technology_username",
+    "en": "username",
+    "ph": "/ˈjuːzərneɪm/",
+    "uk": "ім'я користувача",
+    "pos": "noun",
+    "example": "I forgot my username for this site.",
+    "example2": "Your username has to be unique.",
+    "note": ""
+  },
+  {
+    "id": "technology_login",
+    "en": "log in",
+    "ph": "/lɔːɡ ɪn/",
+    "uk": "заходити (в систему), логінитися",
+    "pos": "verb",
+    "forms": { "base": "log in", "phBase": "/lɔːɡ ɪn/", "past": "logged in", "phPast": "/lɔːɡd ɪn/", "part": "logged in", "phPart": "/lɔːɡd ɪn/" },
+    "examples": [
+      ["Present Simple", "I log in every morning to check my email."],
+      ["Past Simple", "I logged in from a new device yesterday."],
+      ["Present Perfect", "I've already logged in on this computer."]
+    ],
+    "note": "Як іменник пишеться разом — <b>a login</b>."
+  },
+  {
+    "id": "technology_account",
+    "en": "account",
+    "ph": "/əˈkaʊnt/",
+    "uk": "обліковий запис",
+    "pos": "noun",
+    "example": "I created a new account for work.",
+    "example2": "Someone tried to log into my account from another country.",
+    "note": ""
+  },
+  {
+    "id": "technology_neural_network",
+    "en": "neural network",
+    "ph": "/ˈnʊrəl ˈnɛtwɜrk/",
+    "uk": "нейронна мережа",
+    "pos": "noun",
+    "example": "The system uses a neural network to recognize faces.",
+    "example2": "Neural networks are loosely modelled on the human brain.",
+    "note": ""
+  },
+  {
+    "id": "technology_deep_learning",
+    "en": "deep learning",
+    "ph": "/diːp ˈlɜrnɪŋ/",
+    "uk": "глибинне навчання",
+    "pos": "noun",
+    "example": "Deep learning powers most modern image recognition.",
+    "example2": "The model was trained using deep learning techniques.",
+    "note": "Незлічуваний. Підрозділ <b>machine learning</b>."
+  },
+  {
+    "id": "technology_generative_ai",
+    "en": "generative AI",
+    "ph": "/ˈdʒɛnərətɪv ˌeɪ ˈaɪ/",
+    "uk": "генеративний штучний інтелект",
+    "pos": "noun",
+    "example": "Generative AI can now write essays and create images.",
+    "example2": "Schools are still figuring out how to handle generative AI.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_bias",
+    "en": "bias",
+    "ph": "/ˈbaɪəs/",
+    "uk": "упередженість (алгоритму)",
+    "pos": "noun",
+    "example": "Researchers found racial bias in the facial recognition system.",
+    "example2": "Algorithmic bias often reflects bias already present in the training data.",
+    "note": ""
+  },
+  {
+    "id": "technology_robot",
+    "en": "robot",
+    "ph": "/ˈroʊbɑːt/",
+    "uk": "робот",
+    "pos": "noun",
+    "example": "A robot assembles most of the parts on this line.",
+    "example2": "The hospital uses a robot to deliver medication.",
+    "note": ""
+  },
+  {
+    "id": "technology_robotics",
+    "en": "robotics",
+    "ph": "/roʊˈbɑːtɪks/",
+    "uk": "робототехніка",
+    "pos": "noun",
+    "example": "She's studying robotics at university.",
+    "example2": "Robotics has transformed manufacturing over the past decade.",
+    "note": "Незлічуваний, попри закінчення -s."
+  },
+  {
+    "id": "technology_drone",
+    "en": "drone",
+    "ph": "/droʊn/",
+    "uk": "дрон",
+    "pos": "noun",
+    "example": "The company delivers small packages by drone.",
+    "example2": "He flew his drone over the field to check the crops.",
+    "note": ""
+  },
+  {
+    "id": "technology_autonomous_vehicle",
+    "en": "autonomous vehicle",
+    "ph": "/ɔːˈtɑːnəməs ˈviːɪkl/",
+    "uk": "автономний (безпілотний) транспортний засіб",
+    "pos": "noun",
+    "example": "Autonomous vehicles are already being tested on public roads.",
+    "example2": "Regulators are still working out the rules for autonomous vehicles.",
+    "note": "Часто скорочують до <b>self-driving car</b>."
+  },
+  {
+    "id": "technology_3d_printing",
+    "en": "3D printing",
+    "ph": "/ˌθriː ˈdiː ˈprɪntɪŋ/",
+    "uk": "3D-друк",
+    "pos": "noun",
+    "example": "3D printing lets designers test prototypes quickly.",
+    "example2": "The clinic uses 3D printing to make custom prosthetics.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_nanotechnology",
+    "en": "nanotechnology",
+    "ph": "/ˌnænoʊtɛkˈnɑːlədʒi/",
+    "uk": "нанотехнологія",
+    "pos": "noun",
+    "example": "Nanotechnology is being used to develop more effective medicines.",
+    "example2": "The lab specializes in nanotechnology research.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_biotechnology",
+    "en": "biotechnology",
+    "ph": "/ˌbaɪoʊtɛkˈnɑːlədʒi/",
+    "uk": "біотехнологія",
+    "pos": "noun",
+    "example": "The biotechnology sector has grown rapidly in the past decade.",
+    "example2": "Biotechnology made it possible to develop the vaccine so quickly.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_digital_literacy",
+    "en": "digital literacy",
+    "ph": "/ˈdɪdʒɪtl ˈlɪtərəsi/",
+    "uk": "цифрова грамотність",
+    "pos": "noun",
+    "example": "Digital literacy is now taught alongside reading and writing.",
+    "example2": "Older adults often need extra support to build digital literacy.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_cyberbullying",
+    "en": "cyberbullying",
+    "ph": "/ˈsaɪbərˌbʊliɪŋ/",
+    "uk": "кібербулінг",
+    "pos": "noun",
+    "example": "The school introduced a new policy to deal with cyberbullying.",
+    "example2": "Cyberbullying can follow a child home in a way regular bullying can't.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_remote_work",
+    "en": "remote work",
+    "ph": "/rɪˈmoʊt wɜrk/",
+    "uk": "дистанційна робота",
+    "pos": "noun",
+    "example": "Remote work became far more common after 2020.",
+    "example2": "Not every job can be done as remote work.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_video_conferencing",
+    "en": "video conferencing",
+    "ph": "/ˈvɪdioʊ ˈkɑːnfərənsɪŋ/",
+    "uk": "відеоконференції",
+    "pos": "noun",
+    "example": "The team relies on video conferencing for daily meetings.",
+    "example2": "Video conferencing software improved a lot in recent years.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_digitalization",
+    "en": "digitalization",
+    "ph": "/ˌdɪdʒɪtələˈzeɪʃən/",
+    "uk": "діджиталізація",
+    "pos": "noun",
+    "example": "The digitalization of records made searching much faster.",
+    "example2": "The pandemic accelerated digitalization across most industries.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_connectivity",
+    "en": "connectivity",
+    "ph": "/ˌkəˌnɛkˈtɪvəti/",
+    "uk": "зв'язок, підключення",
+    "pos": "noun",
+    "example": "Connectivity in the countryside is still patchy.",
+    "example2": "The new tower improved connectivity across the whole valley.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_offline",
+    "en": "offline",
+    "ph": "/ˌɔːfˈlaɪn/",
+    "uk": "офлайн, без підключення",
+    "pos": "adjective",
+    "example": "The app still works offline once it's downloaded.",
+    "example2": "I went offline for the whole weekend and it felt great.",
+    "note": "Антонім — <b>online</b>."
+  },
+  {
+    "id": "technology_online",
+    "en": "online",
+    "ph": "/ˌɔːnˈlaɪn/",
+    "uk": "онлайн, у мережі",
+    "pos": "adjective",
+    "example": "Most of our shopping is online now.",
+    "example2": "She teaches an online course in the evenings.",
+    "note": "Антонім — <b>offline</b>."
+  },
+  {
+    "id": "technology_install",
+    "en": "install",
+    "ph": "/ɪnˈstɔːl/",
+    "uk": "встановлювати (програму)",
+    "pos": "verb",
+    "forms": { "base": "install", "phBase": "/ɪnˈstɔːl/", "past": "installed", "phPast": "/ɪnˈstɔːld/", "part": "installed", "phPart": "/ɪnˈstɔːld/" },
+    "examples": [
+      ["Present Simple", "The system installs updates automatically overnight."],
+      ["Past Simple", "I installed the app last week."],
+      ["Present Perfect", "I've already installed the new version."]
+    ],
+    "note": "Антонім — <b>uninstall</b>."
+  },
+  {
+    "id": "technology_uninstall",
+    "en": "uninstall",
+    "ph": "/ˌʌnɪnˈstɔːl/",
+    "uk": "видаляти (програму)",
+    "pos": "verb",
+    "forms": { "base": "uninstall", "phBase": "/ˌʌnɪnˈstɔːl/", "past": "uninstalled", "phPast": "/ˌʌnɪnˈstɔːld/", "part": "uninstalled", "phPart": "/ˌʌnɪnˈstɔːld/" },
+    "examples": [
+      ["Present Simple", "I uninstall apps I haven't used in months."],
+      ["Past Simple", "I uninstalled the game after finishing it."],
+      ["Present Perfect", "I've already uninstalled the trial version."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "technology_reboot",
+    "en": "reboot",
+    "ph": "/riːˈbuːt/",
+    "uk": "перезавантажувати",
+    "pos": "verb",
+    "forms": { "base": "reboot", "phBase": "/riːˈbuːt/", "past": "rebooted", "phPast": "/riːˈbuːtɪd/", "part": "rebooted", "phPart": "/riːˈbuːtɪd/" },
+    "examples": [
+      ["Present Simple", "IT reboots the servers every Sunday night."],
+      ["Past Simple", "I rebooted my laptop and the problem went away."],
+      ["Present Perfect", "I've already rebooted it twice today."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "technology_troubleshoot",
+    "en": "troubleshoot",
+    "ph": "/ˈtrʌblʃuːt/",
+    "uk": "усувати несправності, діагностувати проблему",
+    "pos": "verb",
+    "forms": { "base": "troubleshoot", "phBase": "/ˈtrʌblʃuːt/", "past": "troubleshot", "phPast": "/ˈtrʌblʃɑːt/", "part": "troubleshot", "phPart": "/ˈtrʌblʃɑːt/" },
+    "examples": [
+      ["Present Simple", "IT support troubleshoots most issues remotely."],
+      ["Past Simple", "I troubleshot the connection problem myself."],
+      ["Present Perfect", "I've already troubleshot the printer issue."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "technology_configure",
+    "en": "configure",
+    "ph": "/kənˈfɪɡjər/",
+    "uk": "налаштовувати",
+    "pos": "verb",
+    "forms": { "base": "configure", "phBase": "/kənˈfɪɡjər/", "past": "configured", "phPast": "/kənˈfɪɡjərd/", "part": "configured", "phPart": "/kənˈfɪɡjərd/" },
+    "examples": [
+      ["Present Simple", "The technician configures each laptop before shipping."],
+      ["Past Simple", "I configured the router myself."],
+      ["Present Perfect", "I've already configured the printer for the office."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "technology_customize",
+    "en": "customize",
+    "ph": "/ˈkʌstəmaɪz/",
+    "uk": "налаштовувати під себе",
+    "pos": "verb",
+    "forms": { "base": "customize", "phBase": "/ˈkʌstəmaɪz/", "past": "customized", "phPast": "/ˈkʌstəmaɪzd/", "part": "customized", "phPart": "/ˈkʌstəmaɪzd/" },
+    "examples": [
+      ["Present Simple", "You can customize the layout however you like."],
+      ["Past Simple", "I customized my homepage last week."],
+      ["Present Perfect", "I've customized almost every setting."]
+    ],
+    "note": "Написання <b>customize</b> (не customise)."
+  },
+  {
+    "id": "technology_lag",
+    "en": "lag",
+    "ph": "/læɡ/",
+    "uk": "затримка, лаги",
+    "pos": "noun",
+    "example": "There's a noticeable lag when I'm on the office Wi-Fi.",
+    "example2": "Video calls always have some lag over a slow connection.",
+    "note": "Може бути й дієсловом — «the video lags»."
+  },
+  {
+    "id": "technology_buffer",
+    "en": "buffer",
+    "ph": "/ˈbʌfər/",
+    "uk": "буферизуватися (про відео)",
+    "pos": "verb",
+    "forms": { "base": "buffer", "phBase": "/ˈbʌfər/", "past": "buffered", "phPast": "/ˈbʌfərd/", "part": "buffered", "phPart": "/ˈbʌfərd/" },
+    "examples": [
+      ["Present Simple", "The stream buffers whenever too many people are on the network."],
+      ["Past Simple", "The video buffered for almost a minute."],
+      ["Present Perfect", "It's buffered three times during this call already."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "technology_paywall",
+    "en": "paywall",
+    "ph": "/ˈpeɪwɔːl/",
+    "uk": "платний доступ (до контенту)",
+    "pos": "noun",
+    "example": "The article is behind a paywall.",
+    "example2": "The newspaper put most of its content behind a paywall.",
+    "note": ""
+  },
+  {
+    "id": "technology_filter_bubble",
+    "en": "filter bubble",
+    "ph": "/ˈfɪltər ˈbʌbl/",
+    "uk": "інформаційна бульбашка",
+    "pos": "noun",
+    "example": "Social media algorithms can trap users in a filter bubble.",
+    "example2": "A filter bubble shows you only content you already agree with.",
+    "note": ""
+  },
+  {
+    "id": "technology_echo_chamber",
+    "en": "echo chamber",
+    "ph": "/ˈɛkoʊ ˈtʃeɪmbər/",
+    "uk": "ефект відлуння (замкнене інформаційне середовище)",
+    "pos": "noun",
+    "example": "Social media can turn into an echo chamber of similar opinions.",
+    "example2": "It's easy to end up in an echo chamber without noticing.",
+    "note": "Близький, часто взаємозамінний термін до <b>filter bubble</b>."
+  },
+  {
+    "id": "technology_clickbait",
+    "en": "clickbait",
+    "ph": "/ˈklɪkbeɪt/",
+    "uk": "клікбейт",
+    "pos": "noun",
+    "example": "The headline was pure clickbait and the article said almost nothing.",
+    "example2": "Clickbait titles promise more than the article delivers.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_block",
+    "en": "block",
+    "ph": "/blɑːk/",
+    "uk": "блокувати (користувача)",
+    "pos": "verb",
+    "forms": { "base": "block", "phBase": "/blɑːk/", "past": "blocked", "phPast": "/blɑːkt/", "part": "blocked", "phPart": "/blɑːkt/" },
+    "examples": [
+      ["Present Simple", "I block spam accounts as soon as I see them."],
+      ["Past Simple", "I blocked him after he kept messaging me."],
+      ["Present Perfect", "I've blocked three accounts this week."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "technology_mute",
+    "en": "mute",
+    "ph": "/mjuːt/",
+    "uk": "вимикати звук, заглушувати (сповіщення)",
+    "pos": "verb",
+    "forms": { "base": "mute", "phBase": "/mjuːt/", "past": "muted", "phPast": "/ˈmjuːtɪd/", "part": "muted", "phPart": "/ˈmjuːtɪd/" },
+    "examples": [
+      ["Present Simple", "I mute group chats that get too busy."],
+      ["Past Simple", "I muted the notifications during the meeting."],
+      ["Present Perfect", "I've muted this thread already."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "technology_ad_blocker",
+    "en": "ad blocker",
+    "ph": "/æd ˈblɑːkər/",
+    "uk": "блокувальник реклами",
+    "pos": "noun",
+    "example": "I installed an ad blocker to speed up my browsing.",
+    "example2": "Some websites won't load if you have an ad blocker on.",
+    "note": ""
+  },
+  {
+    "id": "technology_targeted_advertising",
+    "en": "targeted advertising",
+    "ph": "/ˈtɑrɡɪtɪd ˈædvərˌtaɪzɪŋ/",
+    "uk": "таргетована реклама",
+    "pos": "noun",
+    "example": "Targeted advertising relies on tracking what you do online.",
+    "example2": "The app uses your location for targeted advertising.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_crowdfunding",
+    "en": "crowdfunding",
+    "ph": "/ˈkraʊdˌfʌndɪŋ/",
+    "uk": "краудфандинг",
+    "pos": "noun",
+    "example": "They raised the money for the app through crowdfunding.",
+    "example2": "Crowdfunding let small creators bypass traditional investors.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_gig_economy",
+    "en": "gig economy",
+    "ph": "/ɡɪɡ ɪˈkɑːnəmi/",
+    "uk": "економіка підробітків",
+    "pos": "noun",
+    "example": "The gig economy has grown fast thanks to apps like these.",
+    "example2": "Critics say the gig economy offers little job security.",
+    "note": ""
+  },
+  {
+    "id": "technology_freelance",
+    "en": "freelance",
+    "ph": "/ˈfriːlæns/",
+    "uk": "фрілансити, працювати незалежно",
+    "pos": "verb",
+    "forms": { "base": "freelance", "phBase": "/ˈfriːlæns/", "past": "freelanced", "phPast": "/ˈfriːlænst/", "part": "freelanced", "phPart": "/ˈfriːlænst/" },
+    "examples": [
+      ["Present Simple", "She freelances as a designer between contracts."],
+      ["Past Simple", "I freelanced for two years before joining a company."],
+      ["Present Perfect", "I've freelanced on and off for most of my career."]
+    ],
+    "note": "Також іменник/прикметник — «a freelancer», «freelance work»."
+  },
+  {
+    "id": "technology_telemedicine",
+    "en": "telemedicine",
+    "ph": "/ˌtɛləˈmɛdəsən/",
+    "uk": "телемедицина",
+    "pos": "noun",
+    "example": "Telemedicine appointments save patients a trip to the clinic.",
+    "example2": "Telemedicine became far more common during the pandemic.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_online_banking",
+    "en": "online banking",
+    "ph": "/ˌɔːnˈlaɪn ˈbæŋkɪŋ/",
+    "uk": "онлайн-банкінг",
+    "pos": "noun",
+    "example": "I do almost all my banking through online banking now.",
+    "example2": "Online banking makes it easy to check your balance anytime.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_digital_payment",
+    "en": "digital payment",
+    "ph": "/ˈdɪdʒɪtl ˈpeɪmənt/",
+    "uk": "цифровий платіж",
+    "pos": "noun",
+    "example": "Digital payments have mostly replaced cash at this store.",
+    "example2": "Digital payment apps make splitting a bill much easier.",
+    "note": ""
+  },
+  {
+    "id": "technology_contactless",
+    "en": "contactless",
+    "ph": "/ˈkɑːntæktləs/",
+    "uk": "безконтактний",
+    "pos": "adjective",
+    "example": "Almost every store here accepts contactless payment.",
+    "example2": "Contactless cards make checkout much faster.",
+    "note": ""
+  },
+  {
+    "id": "technology_smart_watch",
+    "en": "smartwatch",
+    "ph": "/ˈsmɑrtwɑːtʃ/",
+    "uk": "розумний годинник",
+    "pos": "noun",
+    "example": "My smartwatch tracks my sleep and heart rate.",
+    "example2": "He got a smartwatch for his birthday.",
+    "note": ""
   }
 ]
