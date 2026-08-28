@@ -2214,5 +2214,365 @@
     "example": "Her personal statement focused on why she wanted to study medicine.",
     "example2": "The personal statement is limited to 500 words.",
     "note": ""
+  },
+  {
+    "id": "education_anthropology",
+    "en": "anthropology",
+    "ph": "/ˌænθrəˈpɑːlədʒi/",
+    "uk": "антропологія",
+    "pos": "noun",
+    "example": "She's majoring in anthropology with a focus on migration.",
+    "example2": "Anthropology looks at human societies and cultures.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_sociology",
+    "en": "sociology",
+    "ph": "/ˌsoʊsiˈɑːlədʒi/",
+    "uk": "соціологія",
+    "pos": "noun",
+    "example": "Sociology examines how societies are structured and how they change.",
+    "example2": "He took an introductory sociology course in first year.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_psychology",
+    "en": "psychology",
+    "ph": "/saɪˈkɑːlədʒi/",
+    "uk": "психологія",
+    "pos": "noun",
+    "example": "Psychology is one of the most popular majors on campus.",
+    "example2": "She's fascinated by the psychology of decision-making.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_economics",
+    "en": "economics",
+    "ph": "/ˌɛkəˈnɑːmɪks/",
+    "uk": "економіка (наука)",
+    "pos": "noun",
+    "example": "He studied economics before switching to law.",
+    "example2": "Economics explains how resources get allocated in a society.",
+    "note": "Незлічуваний, попри закінчення -s."
+  },
+  {
+    "id": "education_political_science",
+    "en": "political science",
+    "ph": "/pəˈlɪtɪkl ˈsaɪəns/",
+    "uk": "політологія",
+    "pos": "noun",
+    "example": "She's doing a degree in political science.",
+    "example2": "Political science covers government systems and international relations.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_computer_science",
+    "en": "computer science",
+    "ph": "/kəmˈpjuːtər ˈsaɪəns/",
+    "uk": "інформатика (спеціальність)",
+    "pos": "noun",
+    "example": "Computer science is one of the hardest programs to get into.",
+    "example2": "He switched from engineering to computer science.",
+    "note": "Незлічуваний. Часто скорочують до <b>CS</b>."
+  },
+  {
+    "id": "education_engineering",
+    "en": "engineering",
+    "ph": "/ˌɛndʒəˈnɪrɪŋ/",
+    "uk": "інженерія",
+    "pos": "noun",
+    "example": "She's in her third year of civil engineering.",
+    "example2": "Engineering programs usually take four to five years.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_philosophy",
+    "en": "philosophy",
+    "ph": "/fəˈlɑːsəfi/",
+    "uk": "філософія",
+    "pos": "noun",
+    "example": "Philosophy taught me how to build a real argument.",
+    "example2": "He minored in philosophy alongside his economics degree.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_linguistics",
+    "en": "linguistics",
+    "ph": "/lɪŋˈɡwɪstɪks/",
+    "uk": "лінгвістика",
+    "pos": "noun",
+    "example": "Linguistics looks at how language works, not just how to speak one.",
+    "example2": "She's writing her thesis in applied linguistics.",
+    "note": "Незлічуваний, попри закінчення -s."
+  },
+  {
+    "id": "education_statistics",
+    "en": "statistics",
+    "ph": "/stəˈtɪstɪks/",
+    "uk": "статистика (предмет)",
+    "pos": "noun",
+    "example": "Statistics is a required course for the program.",
+    "example2": "I struggled with statistics more than any other course.",
+    "note": "Незлічуваний як назва предмета, попри закінчення -s."
+  },
+  {
+    "id": "education_office_hours",
+    "en": "office hours",
+    "ph": "/ˈɔːfɪs aʊərz/",
+    "uk": "консультаційні години (викладача)",
+    "pos": "noun",
+    "example": "I went to office hours to ask about the essay topic.",
+    "example2": "Her office hours are Tuesday afternoons.",
+    "note": "Завжди у множині."
+  },
+  {
+    "id": "education_study_group",
+    "en": "study group",
+    "ph": "/ˈstʌdi ɡruːp/",
+    "uk": "навчальна група (для спільного вивчення)",
+    "pos": "noun",
+    "example": "We formed a study group before the final exam.",
+    "example2": "The study group meets in the library every Wednesday.",
+    "note": ""
+  },
+  {
+    "id": "education_study_abroad",
+    "en": "study abroad",
+    "ph": "/ˈstʌdi əˈbrɔːd/",
+    "uk": "навчання за кордоном",
+    "pos": "noun",
+    "example": "She spent a semester on a study abroad program in Spain.",
+    "example2": "Study abroad applications are due in February.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_gap_year",
+    "en": "gap year",
+    "ph": "/ɡæp jɪr/",
+    "uk": "рік перерви (перед вступом)",
+    "pos": "noun",
+    "example": "He took a gap year to travel before starting university.",
+    "example2": "A gap year can help students figure out what they actually want to study.",
+    "note": ""
+  },
+  {
+    "id": "education_e_learning",
+    "en": "e-learning",
+    "ph": "/ˈiː ˌlɜrnɪŋ/",
+    "uk": "електронне навчання",
+    "pos": "noun",
+    "example": "The company built its own e-learning platform for training.",
+    "example2": "E-learning makes it easier to fit study around a full-time job.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_virtual_classroom",
+    "en": "virtual classroom",
+    "ph": "/ˈvɜrtʃuəl ˈklæsrum/",
+    "uk": "віртуальний клас",
+    "pos": "noun",
+    "example": "Students log into a virtual classroom for the live session.",
+    "example2": "The virtual classroom lets students raise a hand digitally.",
+    "note": ""
+  },
+  {
+    "id": "education_asynchronous",
+    "en": "asynchronous",
+    "ph": "/eɪˈsɪŋkrənəs/",
+    "uk": "асинхронний (про навчання, не в реальному часі)",
+    "pos": "adjective",
+    "example": "The course is fully asynchronous, so you can watch lectures anytime.",
+    "example2": "Asynchronous learning suits students in different time zones.",
+    "note": "Антонім — <b>synchronous</b>."
+  },
+  {
+    "id": "education_synchronous",
+    "en": "synchronous",
+    "ph": "/ˈsɪŋkrənəs/",
+    "uk": "синхронний (у реальному часі)",
+    "pos": "adjective",
+    "example": "The course has one synchronous session per week.",
+    "example2": "Synchronous classes require everyone to log in at the same time.",
+    "note": "Антонім — <b>asynchronous</b>."
+  },
+  {
+    "id": "education_self_taught",
+    "en": "self-taught",
+    "ph": "/sɛlf tɔːt/",
+    "uk": "самоучка, самостійно вивчений",
+    "pos": "adjective",
+    "example": "He's a self-taught programmer with no formal degree.",
+    "example2": "She's entirely self-taught when it comes to painting.",
+    "note": ""
+  },
+  {
+    "id": "education_keynote_speaker",
+    "en": "keynote speaker",
+    "ph": "/ˈkiːnoʊt ˈspiːkər/",
+    "uk": "головний доповідач",
+    "pos": "noun",
+    "example": "A former astronaut was the keynote speaker at convocation.",
+    "example2": "The keynote speaker talked for almost an hour.",
+    "note": ""
+  },
+  {
+    "id": "education_panel_discussion",
+    "en": "panel discussion",
+    "ph": "/ˈpænl dɪˈskʌʃən/",
+    "uk": "панельна дискусія",
+    "pos": "noun",
+    "example": "The conference ended with a panel discussion on climate policy.",
+    "example2": "Four professors took part in the panel discussion.",
+    "note": ""
+  },
+  {
+    "id": "education_networking",
+    "en": "networking",
+    "ph": "/ˈnɛtwɜrkɪŋ/",
+    "uk": "нетворкінг, налагодження зв'язків",
+    "pos": "noun",
+    "example": "She got her first job through networking, not applications.",
+    "example2": "The event is mostly about networking, not the presentations.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_career_fair",
+    "en": "career fair",
+    "ph": "/kəˈrɪr fɛr/",
+    "uk": "ярмарок кар'єри",
+    "pos": "noun",
+    "example": "Dozens of companies set up booths at the career fair.",
+    "example2": "I handed out my resume to five companies at the career fair.",
+    "note": ""
+  },
+  {
+    "id": "education_resume",
+    "en": "resume",
+    "ph": "/ˈrɛzəmeɪ/",
+    "uk": "резюме (для роботи)",
+    "pos": "noun",
+    "example": "I updated my resume before applying for the internship.",
+    "example2": "Her resume lists three years of relevant experience.",
+    "note": "У Північній Америці частіше, ніж <b>CV</b>, для звичайної роботи."
+  },
+  {
+    "id": "education_cover_letter",
+    "en": "cover letter",
+    "ph": "/ˈkʌvər ˈlɛtər/",
+    "uk": "супровідний лист",
+    "pos": "noun",
+    "example": "Every application needs a short cover letter.",
+    "example2": "She tailors her cover letter for each job she applies to.",
+    "note": ""
+  },
+  {
+    "id": "education_peer_tutoring",
+    "en": "peer tutoring",
+    "ph": "/pɪr ˈtuːtərɪŋ/",
+    "uk": "взаємне навчання між однолітками",
+    "pos": "noun",
+    "example": "The school runs a peer tutoring program for struggling students.",
+    "example2": "Peer tutoring helps both the student and the tutor understand the material better.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_study_skills",
+    "en": "study skills",
+    "ph": "/ˈstʌdi skɪlz/",
+    "uk": "навички навчання",
+    "pos": "noun",
+    "example": "The workshop teaches basic study skills to first-year students.",
+    "example2": "Good study skills matter more than raw talent in the long run.",
+    "note": "Завжди у множині."
+  },
+  {
+    "id": "education_time_management",
+    "en": "time management",
+    "ph": "/taɪm ˈmænɪdʒmənt/",
+    "uk": "тайм-менеджмент",
+    "pos": "noun",
+    "example": "Time management is the hardest part of studying online.",
+    "example2": "She took a short course on time management before the semester started.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_burnout",
+    "en": "burnout",
+    "ph": "/ˈbɜrnaʊt/",
+    "uk": "вигорання",
+    "pos": "noun",
+    "example": "Burnout is common among students during exam season.",
+    "example2": "She took a semester off to deal with burnout.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_academic_pressure",
+    "en": "academic pressure",
+    "ph": "/ˌækəˈdɛmɪk ˈprɛʃər/",
+    "uk": "академічний тиск",
+    "pos": "noun",
+    "example": "Academic pressure has pushed some students toward cheating.",
+    "example2": "Counsellors reported a rise in academic pressure among younger students.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_leadership",
+    "en": "leadership",
+    "ph": "/ˈliːdərʃɪp/",
+    "uk": "лідерство",
+    "pos": "noun",
+    "example": "Student council builds real leadership experience.",
+    "example2": "The scholarship looks for leadership as much as grades.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_teamwork",
+    "en": "teamwork",
+    "ph": "/ˈtiːmwɜrk/",
+    "uk": "командна робота",
+    "pos": "noun",
+    "example": "Group projects are supposed to build teamwork skills.",
+    "example2": "The course grades teamwork as well as individual contribution.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_communication_skills",
+    "en": "communication skills",
+    "ph": "/kəˌmjuːnəˈkeɪʃən skɪlz/",
+    "uk": "комунікативні навички",
+    "pos": "noun",
+    "example": "The program is designed to build strong communication skills.",
+    "example2": "Employers consistently rank communication skills as a top priority.",
+    "note": "Завжди у множині."
+  },
+  {
+    "id": "education_soft_skills",
+    "en": "soft skills",
+    "ph": "/sɔːft skɪlz/",
+    "uk": "гнучкі навички (комунікація, командна робота тощо)",
+    "pos": "noun",
+    "example": "Technical knowledge matters, but soft skills often decide who gets hired.",
+    "example2": "The course includes a whole unit on soft skills.",
+    "note": "Завжди у множині. Протилежність — <b>hard skills</b> (технічні навички)."
+  },
+  {
+    "id": "education_transferable_skills",
+    "en": "transferable skills",
+    "ph": "/trænsˈfɜrəbl skɪlz/",
+    "uk": "переносні (універсальні) навички",
+    "pos": "noun",
+    "example": "A history degree still builds transferable skills like research and writing.",
+    "example2": "Volunteering can teach transferable skills relevant to almost any job.",
+    "note": "Завжди у множині."
+  },
+  {
+    "id": "education_work_experience",
+    "en": "work experience",
+    "ph": "/wɜrk ɪkˈspɪriəns/",
+    "uk": "досвід роботи",
+    "pos": "noun",
+    "example": "Even part-time work experience looks good on a resume.",
+    "example2": "The program includes a work experience placement in the final term.",
+    "note": "Незлічуваний."
   }
 ]
