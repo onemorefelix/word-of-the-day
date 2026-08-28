@@ -2927,5 +2927,1213 @@
       ["Present Perfect", "I've volunteered here for two years now."]
     ],
     "note": "Також іменник — «a volunteer» (волонтер)."
+  },
+  {
+    "id": "lie",
+    "en": "lie down",
+    "ph": "/laɪ daʊn/",
+    "uk": "лягати, лежати",
+    "pos": "verb",
+    "forms": { "base": "lie down", "past": "lay down", "part": "lain down", "phBase": "/laɪ daʊn/", "phPast": "/leɪ daʊn/", "phPart": "/leɪn daʊn/" },
+    "examples": [
+      ["Present Simple", "I lie down for twenty minutes after work."],
+      ["Past Simple", "I lay down as soon as I got home."],
+      ["Present Perfect", "I've lain down for an hour and still can't sleep."]
+    ],
+    "note": "Найплутаніша пара в англійській: «lie» (лежати самому, без об'єкта) проти «lay» (класти щось, з об'єктом). Плюс минулий час «lie» — це саме «lay», що збігається з базовою формою іншого дієслова."
+  },
+  {
+    "id": "let",
+    "en": "let",
+    "ph": "/lɛt/",
+    "uk": "дозволяти",
+    "pos": "verb",
+    "forms": { "base": "let", "past": "let", "part": "let", "phBase": "/lɛt/", "phPast": "/lɛt/", "phPart": "/lɛt/" },
+    "examples": [
+      ["Present Simple", "My boss lets us work from home on Fridays."],
+      ["Past Simple", "I let my kid stay up late last night."],
+      ["Present Perfect", "I've never let him borrow the car before."]
+    ],
+    "note": "Форма однакова у всіх часах. «Let someone do something», без «to»."
+  },
+  {
+    "id": "prove",
+    "en": "prove",
+    "ph": "/pruːv/",
+    "uk": "доводити",
+    "pos": "verb",
+    "forms": { "base": "prove", "past": "proved", "part": "proven", "phBase": "/pruːv/", "phPast": "/pruːvd/", "phPart": "/ˈpruːvən/" },
+    "examples": [
+      ["Present Simple", "The results prove the theory works."],
+      ["Past Simple", "He proved his point with the receipts."],
+      ["Present Perfect", "She's proven herself many times at this job."]
+    ],
+    "note": "Дієприкметник — <b>proven</b> або <b>proved</b>, обидва вживані."
+  },
+  {
+    "id": "shut",
+    "en": "shut",
+    "ph": "/ʃʌt/",
+    "uk": "зачиняти",
+    "pos": "verb",
+    "forms": { "base": "shut", "past": "shut", "part": "shut", "phBase": "/ʃʌt/", "phPast": "/ʃʌt/", "phPart": "/ʃʌt/" },
+    "examples": [
+      ["Present Simple", "The store shuts at 9 on weekdays."],
+      ["Past Simple", "I shut the window before the storm."],
+      ["Present Perfect", "I've already shut all the blinds."]
+    ],
+    "note": "Форма однакова у всіх часах. «Shut down» — закритись (про бізнес) або вимкнутись (про техніку)."
+  },
+  {
+    "id": "split",
+    "en": "split",
+    "ph": "/splɪt/",
+    "uk": "ділити, розколювати",
+    "pos": "verb",
+    "forms": { "base": "split", "past": "split", "part": "split", "phBase": "/splɪt/", "phPast": "/splɪt/", "phPart": "/splɪt/" },
+    "examples": [
+      ["Present Simple", "We split the bill evenly every time."],
+      ["Past Simple", "We split the cost of the gift."],
+      ["Present Perfect", "We've already split the rent for this month."]
+    ],
+    "note": "Форма однакова у всіх часах."
+  },
+  {
+    "id": "swing",
+    "en": "swing",
+    "ph": "/swɪŋ/",
+    "uk": "розмахувати, коливатись",
+    "pos": "verb",
+    "forms": { "base": "swing", "past": "swung", "part": "swung", "phBase": "/swɪŋ/", "phPast": "/swʌŋ/", "phPart": "/swʌŋ/" },
+    "examples": [
+      ["Present Simple", "Prices swing a lot in this market."],
+      ["Past Simple", "He swung the bat and missed."],
+      ["Present Perfect", "Public opinion has swung the other way."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "bear",
+    "en": "bear",
+    "ph": "/bɛr/",
+    "uk": "терпіти, витримувати",
+    "pos": "verb",
+    "forms": { "base": "bear", "past": "bore", "part": "borne", "phBase": "/bɛr/", "phPast": "/bɔːr/", "phPart": "/bɔːrn/" },
+    "examples": [
+      ["Present Simple", "I can't bear this heat."],
+      ["Past Simple", "She bore the criticism without complaint."],
+      ["Present Perfect", "I've borne worse than this before."]
+    ],
+    "note": "«Can't bear» — не терпіти, ненавидіти. Не плутати з твариною «bear» /bɛr/ — звучить так само."
+  },
+  {
+    "id": "bend",
+    "en": "bend",
+    "ph": "/bɛnd/",
+    "uk": "згинати(ся)",
+    "pos": "verb",
+    "forms": { "base": "bend", "past": "bent", "part": "bent", "phBase": "/bɛnd/", "phPast": "/bɛnt/", "phPart": "/bɛnt/" },
+    "examples": [
+      ["Present Simple", "This metal bends easily."],
+      ["Past Simple", "I bent down to tie my shoe."],
+      ["Present Perfect", "The frame has bent slightly from the weight."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "burst",
+    "en": "burst",
+    "ph": "/bɜrst/",
+    "uk": "лопатися, вибухати",
+    "pos": "verb",
+    "forms": { "base": "burst", "past": "burst", "part": "burst", "phBase": "/bɜrst/", "phPast": "/bɜrst/", "phPart": "/bɜrst/" },
+    "examples": [
+      ["Present Simple", "This pipe bursts every winter if it's not insulated."],
+      ["Past Simple", "The balloon burst right in my hand."],
+      ["Present Perfect", "A pipe has burst in the basement."]
+    ],
+    "note": "Форма однакова у всіх часах."
+  },
+  {
+    "id": "feed",
+    "en": "feed",
+    "ph": "/fiːd/",
+    "uk": "годувати",
+    "pos": "verb",
+    "forms": { "base": "feed", "past": "fed", "part": "fed", "phBase": "/fiːd/", "phPast": "/fɛd/", "phPart": "/fɛd/" },
+    "examples": [
+      ["Present Simple", "I feed the dog at 7 every morning."],
+      ["Past Simple", "I fed the cat before I left."],
+      ["Present Perfect", "I've already fed the kids."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "forecast",
+    "en": "forecast",
+    "ph": "/ˈfɔːrkæst/",
+    "uk": "прогнозувати",
+    "pos": "verb",
+    "forms": { "base": "forecast", "past": "forecast", "part": "forecast", "phBase": "/ˈfɔːrkæst/", "phPast": "/ˈfɔːrkæst/", "phPart": "/ˈfɔːrkæst/" },
+    "examples": [
+      ["Present Simple", "The service forecasts snow for the weekend."],
+      ["Past Simple", "They forecast rain, but it stayed dry all day."],
+      ["Present Perfect", "They've forecast a mild winter this year."]
+    ],
+    "note": "Форма однакова у всіх часах. Як іменник — «the forecast» (прогноз погоди)."
+  },
+  {
+    "id": "lease",
+    "en": "lease",
+    "ph": "/liːs/",
+    "uk": "договір оренди",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "Our lease renews every August."],
+      ["Past Simple", "We signed the lease last spring."],
+      ["Present Perfect", "We've broken a lease once before."]
+    ],
+    "note": "Довгостроковий договір оренди, на відміну від щомісячного «rent»."
+  },
+  {
+    "id": "renovation",
+    "en": "renovation",
+    "ph": "/ˌrɛnəˈveɪʃən/",
+    "uk": "ремонт (капітальний)",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "We do a small renovation almost every year."],
+      ["Past Simple", "We finished the kitchen renovation last month."],
+      ["Present Perfect", "We've renovated the bathroom already."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "contractor",
+    "en": "contractor",
+    "ph": "/ˈkɑːntræktər/",
+    "uk": "підрядник, будівельник",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "We hire the same contractor every time."],
+      ["Past Simple", "The contractor finished ahead of schedule."],
+      ["Present Perfect", "I've already called three contractors for quotes."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "furnace",
+    "en": "furnace",
+    "ph": "/ˈfɜrnəs/",
+    "uk": "піч, опалювальний котел",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "The furnace runs constantly in January."],
+      ["Past Simple", "The furnace broke down last winter."],
+      ["Present Perfect", "I've already had the furnace serviced this year."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "roommate",
+    "en": "roommate",
+    "ph": "/ˈruːmˌmeɪt/",
+    "uk": "співмешканець",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I split rent with my roommate."],
+      ["Past Simple", "My roommate moved out last month."],
+      ["Present Perfect", "I've had three roommates this year."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "neighbor",
+    "en": "neighbor",
+    "ph": "/ˈneɪbər/",
+    "uk": "сусід",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I wave to my neighbor every morning."],
+      ["Past Simple", "I met my new neighbor yesterday."],
+      ["Present Perfect", "I've never really spoken to that neighbor."]
+    ],
+    "note": "Написання <b>neighbor</b> — американське; канадське/британське — <b>neighbour</b>."
+  },
+  {
+    "id": "neighborhood",
+    "en": "neighborhood",
+    "ph": "/ˈneɪbərˌhʊd/",
+    "uk": "район, сусідство",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I walk around the neighborhood every evening."],
+      ["Past Simple", "We explored the new neighborhood last weekend."],
+      ["Present Perfect", "I've lived in this neighborhood for six years."]
+    ],
+    "note": "Написання <b>neighborhood</b> — американське; канадське/британське — <b>neighbourhood</b>."
+  },
+  {
+    "id": "apartment",
+    "en": "apartment",
+    "ph": "/əˈpɑrtmənt/",
+    "uk": "квартира",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I rent a small apartment downtown."],
+      ["Past Simple", "We moved into this apartment last year."],
+      ["Present Perfect", "I've lived in this apartment for two years."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "basement",
+    "en": "basement",
+    "ph": "/ˈbeɪsmənt/",
+    "uk": "підвал",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "We store the extra furniture in the basement."],
+      ["Past Simple", "The basement flooded last spring."],
+      ["Present Perfect", "We've finished half the basement already."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "backyard",
+    "en": "backyard",
+    "ph": "/ˈbækˌjɑrd/",
+    "uk": "задній двір",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "The kids play in the backyard after school."],
+      ["Past Simple", "We had a barbecue in the backyard yesterday."],
+      ["Present Perfect", "I've already mowed the backyard."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "driveway",
+    "en": "driveway",
+    "ph": "/ˈdraɪvweɪ/",
+    "uk": "під'їзна доріжка",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I shovel the driveway every snowfall."],
+      ["Past Simple", "I parked in the driveway last night."],
+      ["Present Perfect", "I've already cleared the driveway this morning."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "garage",
+    "en": "garage",
+    "ph": "/ɡəˈrɑːʒ/",
+    "uk": "гараж",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I keep my tools in the garage."],
+      ["Past Simple", "I parked in the garage because of the storm."],
+      ["Present Perfect", "I've already cleaned out the garage this year."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "pharmacy",
+    "en": "pharmacy",
+    "ph": "/ˈfɑrməsi/",
+    "uk": "аптека",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I pick up my prescription at this pharmacy."],
+      ["Past Simple", "I stopped by the pharmacy on my way home."],
+      ["Present Perfect", "I've already been to the pharmacy today."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "dentist",
+    "en": "dentist",
+    "ph": "/ˈdɛntɪst/",
+    "uk": "стоматолог",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I see the dentist twice a year."],
+      ["Past Simple", "I went to the dentist yesterday."],
+      ["Present Perfect", "I've already booked my next dentist appointment."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "allergy",
+    "en": "allergy",
+    "ph": "/ˈælərdʒi/",
+    "uk": "алергія",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "My allergy acts up every spring."],
+      ["Past Simple", "My allergy was worse than usual last week."],
+      ["Present Perfect", "I've had this allergy since childhood."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "vaccine",
+    "en": "vaccine",
+    "ph": "/vækˈsiːn/",
+    "uk": "вакцина",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I get the flu vaccine every fall."],
+      ["Past Simple", "I got the vaccine last week."],
+      ["Present Perfect", "I've already gotten this year's vaccine."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "insurance",
+    "en": "insurance",
+    "ph": "/ɪnˈʃʊrəns/",
+    "uk": "страхування, страховка",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I pay for insurance monthly."],
+      ["Past Simple", "I switched insurance providers last year."],
+      ["Present Perfect", "I've had this insurance for three years."]
+    ],
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "flu",
+    "en": "flu",
+    "ph": "/fluː/",
+    "uk": "грип",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I get the flu almost every winter."],
+      ["Past Simple", "I had the flu last week."],
+      ["Present Perfect", "I've had the flu twice this year."]
+    ],
+    "note": "Незлічуваний. Скорочення від <b>influenza</b>."
+  },
+  {
+    "id": "headache",
+    "en": "headache",
+    "ph": "/ˈhɛdeɪk/",
+    "uk": "головний біль",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I get a headache when I skip breakfast."],
+      ["Past Simple", "I had a headache all day yesterday."],
+      ["Present Perfect", "I've had this headache since this morning."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "fever",
+    "en": "fever",
+    "ph": "/ˈfiːvər/",
+    "uk": "жар, підвищена температура",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "He gets a fever with almost every cold."],
+      ["Past Simple", "I had a fever last night."],
+      ["Present Perfect", "His fever has finally gone down."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "injury",
+    "en": "injury",
+    "ph": "/ˈɪndʒəri/",
+    "uk": "травма",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "He gets a minor injury almost every season."],
+      ["Past Simple", "I got a minor injury at the gym."],
+      ["Present Perfect", "He's recovered from the injury completely."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "surgery",
+    "en": "surgery",
+    "ph": "/ˈsɜrdʒəri/",
+    "uk": "операція, хірургія",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "The clinic does this surgery every week."],
+      ["Past Simple", "She had surgery last month."],
+      ["Present Perfect", "He's had two surgeries this year."]
+    ],
+    "note": "Незлічуваний у значенні «процес», зчислюваний у значенні «конкретна операція»."
+  },
+  {
+    "id": "recipe",
+    "en": "recipe",
+    "ph": "/ˈrɛsəpi/",
+    "uk": "рецепт (кулінарний)",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I follow this recipe every Thanksgiving."],
+      ["Past Simple", "I found the recipe online."],
+      ["Present Perfect", "I've made this recipe a dozen times."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "leftovers",
+    "en": "leftovers",
+    "ph": "/ˈlɛftˌoʊvərz/",
+    "uk": "залишки їжі",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I eat leftovers for lunch most days."],
+      ["Past Simple", "I ate the leftovers for dinner."],
+      ["Present Perfect", "I've already finished the leftovers."]
+    ],
+    "note": "Завжди у множині."
+  },
+  {
+    "id": "takeout",
+    "en": "takeout",
+    "ph": "/ˈteɪkaʊt/",
+    "uk": "їжа на винос",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "We order takeout on Friday nights."],
+      ["Past Simple", "We got takeout yesterday."],
+      ["Present Perfect", "We've already ordered takeout twice this week."]
+    ],
+    "note": "Незлічуваний. Британський відповідник — <b>takeaway</b>."
+  },
+  {
+    "id": "delivery",
+    "en": "delivery",
+    "ph": "/dɪˈlɪvəri/",
+    "uk": "доставка",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "The store offers free delivery over fifty dollars."],
+      ["Past Simple", "The delivery arrived earlier than expected."],
+      ["Present Perfect", "I've already scheduled the delivery."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "farmers_market",
+    "en": "farmers market",
+    "ph": "/ˈfɑrmərz ˈmɑrkɪt/",
+    "uk": "фермерський ринок",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "We go to the farmers market every Saturday."],
+      ["Past Simple", "We bought fresh corn at the farmers market."],
+      ["Present Perfect", "We've already been to the farmers market this week."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "budget",
+    "en": "budget",
+    "ph": "/ˈbʌdʒɪt/",
+    "uk": "бюджет",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I make a budget at the start of every month."],
+      ["Past Simple", "I went over budget last month."],
+      ["Present Perfect", "I've stuck to my budget so far this year."]
+    ],
+    "note": "Може бути й дієсловом — «to budget for something»."
+  },
+  {
+    "id": "savings",
+    "en": "savings",
+    "ph": "/ˈseɪvɪŋz/",
+    "uk": "заощадження",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I add to my savings every payday."],
+      ["Past Simple", "I dipped into my savings last month."],
+      ["Present Perfect", "I've grown my savings a lot this year."]
+    ],
+    "note": "Завжди у множині."
+  },
+  {
+    "id": "expense",
+    "en": "expense",
+    "ph": "/ɪkˈspɛns/",
+    "uk": "витрата",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "Rent is my biggest expense every month."],
+      ["Past Simple", "That repair was an unexpected expense."],
+      ["Present Perfect", "I've cut a lot of expenses this year."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "income",
+    "en": "income",
+    "ph": "/ˈɪnkʌm/",
+    "uk": "дохід",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "Most of my income goes to rent."],
+      ["Past Simple", "My income dropped after I switched jobs."],
+      ["Present Perfect", "My income has grown steadily this year."]
+    ],
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "tax",
+    "en": "tax",
+    "ph": "/tæks/",
+    "uk": "податок",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I pay property tax every year."],
+      ["Past Simple", "I paid my taxes early this year."],
+      ["Present Perfect", "I've already filed my taxes."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "tax_return",
+    "en": "tax return",
+    "ph": "/tæks rɪˈtɜrn/",
+    "uk": "податкова декларація",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I file my tax return in March."],
+      ["Past Simple", "I filed my tax return last week."],
+      ["Present Perfect", "I've already submitted my tax return."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "credit_score",
+    "en": "credit score",
+    "ph": "/ˈkrɛdɪt skɔːr/",
+    "uk": "кредитний рейтинг",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I check my credit score every few months."],
+      ["Past Simple", "My credit score dropped after I missed a payment."],
+      ["Present Perfect", "My credit score has improved a lot this year."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "debt",
+    "en": "debt",
+    "ph": "/dɛt/",
+    "uk": "борг",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I pay off a bit of debt every month."],
+      ["Past Simple", "I paid off my credit card debt last year."],
+      ["Present Perfect", "I've paid off most of my debt already."]
+    ],
+    "note": "«B» не вимовляється: /dɛt/."
+  },
+  {
+    "id": "gas_station",
+    "en": "gas station",
+    "ph": "/ɡæs ˈsteɪʃən/",
+    "uk": "заправка",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I stop at this gas station every week."],
+      ["Past Simple", "I filled up at the gas station this morning."],
+      ["Present Perfect", "I've already filled up at the gas station."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "mechanic",
+    "en": "mechanic",
+    "ph": "/məˈkænɪk/",
+    "uk": "автомеханік",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I take my Jeep to the same mechanic every time."],
+      ["Past Simple", "The mechanic fixed it in an hour."],
+      ["Present Perfect", "I've already called the mechanic."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "flat_tire",
+    "en": "flat tire",
+    "ph": "/flæt ˈtaɪər/",
+    "uk": "спущена шина",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I get a flat tire at least once a year."],
+      ["Past Simple", "I got a flat tire on the highway."],
+      ["Present Perfect", "I've had two flat tires this month."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "road_trip",
+    "en": "road trip",
+    "ph": "/roʊd trɪp/",
+    "uk": "автомобільна подорож",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "We take a road trip every summer."],
+      ["Past Simple", "We took a road trip along the coast."],
+      ["Present Perfect", "We've already planned our next road trip."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "meeting",
+    "en": "meeting",
+    "ph": "/ˈmiːtɪŋ/",
+    "uk": "зустріч, нарада",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I have a meeting every Monday morning."],
+      ["Past Simple", "I had a meeting with my boss yesterday."],
+      ["Present Perfect", "I've already had two meetings today."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "overtime",
+    "en": "overtime",
+    "ph": "/ˈoʊvərˌtaɪm/",
+    "uk": "понаднормова робота",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I work overtime during the busy season."],
+      ["Past Simple", "I worked overtime last week."],
+      ["Present Perfect", "I've worked overtime three times this month."]
+    ],
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "sick_day",
+    "en": "sick day",
+    "ph": "/sɪk deɪ/",
+    "uk": "лікарняний день",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I take a sick day when I really need it."],
+      ["Past Simple", "I took a sick day yesterday."],
+      ["Present Perfect", "I've used two sick days this year."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "performance_review",
+    "en": "performance review",
+    "ph": "/pərˈfɔːrməns rɪˈvjuː/",
+    "uk": "оцінка ефективності роботи",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "We have a performance review every year."],
+      ["Past Simple", "I had my performance review last week."],
+      ["Present Perfect", "I've already had my performance review this year."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "promotion",
+    "en": "promotion",
+    "ph": "/prəˈmoʊʃən/",
+    "uk": "підвищення (на посаді)",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "She gets a promotion almost every two years."],
+      ["Past Simple", "I got a promotion last spring."],
+      ["Present Perfect", "I've earned a promotion twice at this company."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "workload",
+    "en": "workload",
+    "ph": "/ˈwɜrkloʊd/",
+    "uk": "робоче навантаження",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "My workload gets heavier at the end of the quarter."],
+      ["Past Simple", "My workload doubled last month."],
+      ["Present Perfect", "My workload has grown a lot this year."]
+    ],
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "boss",
+    "en": "boss",
+    "ph": "/bɔːs/",
+    "uk": "керівник, начальник",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "My boss checks in every morning."],
+      ["Past Simple", "I talked to my boss about it yesterday."],
+      ["Present Perfect", "I've already told my boss."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "sibling",
+    "en": "sibling",
+    "ph": "/ˈsɪblɪŋ/",
+    "uk": "брат чи сестра",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I call my sibling every Sunday."],
+      ["Past Simple", "I visited my sibling last weekend."],
+      ["Present Perfect", "I've already told my sibling the news."]
+    ],
+    "note": "Нейтральне слово для «брат або сестра», незалежно від статі."
+  },
+  {
+    "id": "snowstorm",
+    "en": "snowstorm",
+    "ph": "/ˈsnoʊstɔːrm/",
+    "uk": "снігова буря",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "We get a big snowstorm at least once every winter."],
+      ["Past Simple", "The snowstorm shut down the whole town."],
+      ["Present Perfect", "We've already had two snowstorms this winter."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "blizzard",
+    "en": "blizzard",
+    "ph": "/ˈblɪzərd/",
+    "uk": "хуртовина, заметіль",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "The island gets at least one real blizzard every winter."],
+      ["Past Simple", "The blizzard knocked out power for two days."],
+      ["Present Perfect", "We've had one bad blizzard so far this year."]
+    ],
+    "note": "Сильніша за <b>snowstorm</b> — з дуже сильним вітром і поганою видимістю."
+  },
+  {
+    "id": "power_outage",
+    "en": "power outage",
+    "ph": "/ˈpaʊər ˈaʊtɪdʒ/",
+    "uk": "відключення електроенергії",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "We get a power outage almost every big storm."],
+      ["Past Simple", "The power outage lasted six hours."],
+      ["Present Perfect", "We've had two power outages this month."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "shovel",
+    "en": "shovel",
+    "ph": "/ˈʃʌvl/",
+    "uk": "розчищати лопатою (сніг)",
+    "pos": "verb",
+    "forms": { "base": "shovel", "past": "shoveled", "part": "shoveled", "phBase": "/ˈʃʌvl/", "phPast": "/ˈʃʌvld/", "phPart": "/ˈʃʌvld/" },
+    "examples": [
+      ["Present Simple", "I shovel the driveway before work every winter morning."],
+      ["Past Simple", "I shoveled the walkway this morning."],
+      ["Present Perfect", "I've already shoveled twice today."]
+    ],
+    "note": "Також іменник — «a shovel» (лопата)."
+  },
+  {
+    "id": "birthday",
+    "en": "birthday",
+    "ph": "/ˈbɜrθdeɪ/",
+    "uk": "день народження",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "We celebrate every birthday with cake."],
+      ["Past Simple", "I forgot her birthday last year."],
+      ["Present Perfect", "I've already planned his birthday party."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "anniversary",
+    "en": "anniversary",
+    "ph": "/ˌænəˈvɜrsəri/",
+    "uk": "річниця",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "We go out for dinner every anniversary."],
+      ["Past Simple", "We celebrated our anniversary last weekend."],
+      ["Present Perfect", "We've already booked a table for our anniversary."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "holiday",
+    "en": "holiday",
+    "ph": "/ˈhɑːlɪdeɪ/",
+    "uk": "свято",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "We host family every major holiday."],
+      ["Past Simple", "We spent the holiday at my parents' place."],
+      ["Present Perfect", "I've already bought gifts for the holiday."]
+    ],
+    "note": "У Британії/Канаді «holiday» також означає «відпустка», не тільки «свято»."
+  },
+  {
+    "id": "vacation",
+    "en": "vacation",
+    "ph": "/veɪˈkeɪʃən/",
+    "uk": "відпустка",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I take a vacation every summer."],
+      ["Past Simple", "I took a week of vacation last month."],
+      ["Present Perfect", "I've already used most of my vacation this year."]
+    ],
+    "note": "Північноамериканський термін; британський відповідник — <b>holiday</b>."
+  },
+  {
+    "id": "reunion",
+    "en": "reunion",
+    "ph": "/riˈjuːnjən/",
+    "uk": "возз'єднання, зустріч (родини/однокласників)",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "We have a family reunion every August."],
+      ["Past Simple", "We had a big reunion last summer."],
+      ["Present Perfect", "I've already RSVPed to the reunion."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "potluck",
+    "en": "potluck",
+    "ph": "/ˈpɑːtˌlʌk/",
+    "uk": "спільна вечеря (кожен приносить страву)",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "We do a potluck for every office celebration."],
+      ["Past Simple", "I brought a salad to the potluck."],
+      ["Present Perfect", "I've already signed up to bring dessert to the potluck."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "barbecue",
+    "en": "barbecue",
+    "ph": "/ˈbɑːrbɪkjuː/",
+    "uk": "барбекю",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "We have a barbecue almost every long weekend."],
+      ["Past Simple", "We had a barbecue in the backyard yesterday."],
+      ["Present Perfect", "We've already planned the next barbecue."]
+    ],
+    "note": "Часто скорочують до <b>BBQ</b>."
+  },
+  {
+    "id": "playground",
+    "en": "playground",
+    "ph": "/ˈpleɪˌɡraʊnd/",
+    "uk": "дитячий майданчик",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "We go to the playground after school."],
+      ["Past Simple", "We spent an hour at the playground yesterday."],
+      ["Present Perfect", "We've already been to the playground today."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "daycare",
+    "en": "daycare",
+    "ph": "/ˈdeɪkɛr/",
+    "uk": "дитячий садок (денний догляд)",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I drop the kids off at daycare on my way to work."],
+      ["Past Simple", "I picked her up from daycare early yesterday."],
+      ["Present Perfect", "I've already paid this month's daycare fees."]
+    ],
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "haircut",
+    "en": "haircut",
+    "ph": "/ˈhɛrkʌt/",
+    "uk": "стрижка",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I get a haircut every six weeks."],
+      ["Past Simple", "I got a haircut yesterday."],
+      ["Present Perfect", "I've already booked my next haircut."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "dry_cleaning",
+    "en": "dry cleaning",
+    "ph": "/draɪ ˈkliːnɪŋ/",
+    "uk": "хімчистка",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I drop off dry cleaning every other week."],
+      ["Past Simple", "I picked up the dry cleaning yesterday."],
+      ["Present Perfect", "I've already picked up the dry cleaning."]
+    ],
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "exchange",
+    "en": "exchange",
+    "ph": "/ɪksˈtʃeɪndʒ/",
+    "uk": "обмінювати (товар у магазині)",
+    "pos": "verb",
+    "forms": { "base": "exchange", "past": "exchanged", "part": "exchanged", "phBase": "/ɪksˈtʃeɪndʒ/", "phPast": "/ɪksˈtʃeɪndʒd/", "phPart": "/ɪksˈtʃeɪndʒd/" },
+    "examples": [
+      ["Present Simple", "I exchange gifts I don't need right after the holidays."],
+      ["Past Simple", "I exchanged the shirt for a bigger size."],
+      ["Present Perfect", "I've already exchanged it once."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "return",
+    "en": "return",
+    "ph": "/rɪˈtɜrn/",
+    "uk": "повертати (товар у магазин)",
+    "pos": "verb",
+    "forms": { "base": "return", "past": "returned", "part": "returned", "phBase": "/rɪˈtɜrn/", "phPast": "/rɪˈtɜrnd/", "phPart": "/rɪˈtɜrnd/" },
+    "examples": [
+      ["Present Simple", "I return things I don't need within thirty days."],
+      ["Past Simple", "I returned the jacket yesterday."],
+      ["Present Perfect", "I've already returned it for a refund."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "job_offer",
+    "en": "job offer",
+    "ph": "/dʒɑːb ˈɔːfər/",
+    "uk": "пропозиція роботи",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "She gets a job offer almost every time she interviews."],
+      ["Past Simple", "I got a job offer last week."],
+      ["Present Perfect", "I've already accepted the job offer."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "salary",
+    "en": "salary",
+    "ph": "/ˈsæləri/",
+    "uk": "зарплата (фіксована)",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "My salary gets deposited on the first of the month."],
+      ["Past Simple", "My salary increased last year."],
+      ["Present Perfect", "My salary has doubled since I started here."]
+    ],
+    "note": "На відміну від погодинної оплати — фіксована річна сума."
+  },
+  {
+    "id": "bonus",
+    "en": "bonus",
+    "ph": "/ˈboʊnəs/",
+    "uk": "премія, бонус",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "We get a bonus at the end of every year."],
+      ["Past Simple", "I got a small bonus last December."],
+      ["Present Perfect", "I've already received my bonus this year."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "benefits",
+    "en": "benefits",
+    "ph": "/ˈbɛnəfɪts/",
+    "uk": "пільги, соцпакет",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "The job comes with full benefits."],
+      ["Past Simple", "My benefits kicked in after three months."],
+      ["Present Perfect", "I've used my dental benefits twice this year."]
+    ],
+    "note": "У цьому значенні завжди у множині — «health benefits», «dental benefits»."
+  },
+  {
+    "id": "parental_leave",
+    "en": "parental leave",
+    "ph": "/pəˈrɛntl liːv/",
+    "uk": "батьківська відпустка",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "The company offers a year of parental leave."],
+      ["Past Simple", "She took parental leave after the baby was born."],
+      ["Present Perfect", "He's already used half of his parental leave."]
+    ],
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "spill",
+    "en": "spill",
+    "ph": "/spɪl/",
+    "uk": "проливати",
+    "pos": "verb",
+    "forms": { "base": "spill", "past": "spilled", "part": "spilled", "phBase": "/spɪl/", "phPast": "/spɪld/", "phPart": "/spɪld/" },
+    "examples": [
+      ["Present Simple", "I spill coffee on this shirt at least once a month."],
+      ["Past Simple", "I spilled water on my laptop."],
+      ["Present Perfect", "I've already spilled coffee twice today."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "wipe",
+    "en": "wipe",
+    "ph": "/waɪp/",
+    "uk": "витирати",
+    "pos": "verb",
+    "forms": { "base": "wipe", "past": "wiped", "part": "wiped", "phBase": "/waɪp/", "phPast": "/waɪpt/", "phPart": "/waɪpt/" },
+    "examples": [
+      ["Present Simple", "I wipe the counters every night before bed."],
+      ["Past Simple", "I wiped up the spill right away."],
+      ["Present Perfect", "I've already wiped down the whole kitchen."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "vacuum",
+    "en": "vacuum",
+    "ph": "/ˈvækjuːm/",
+    "uk": "пилососити",
+    "pos": "verb",
+    "forms": { "base": "vacuum", "past": "vacuumed", "part": "vacuumed", "phBase": "/ˈvækjuːm/", "phPast": "/ˈvækjuːmd/", "phPart": "/ˈvækjuːmd/" },
+    "examples": [
+      ["Present Simple", "I vacuum the living room every weekend."],
+      ["Past Simple", "I vacuumed the whole apartment yesterday."],
+      ["Present Perfect", "I've already vacuumed downstairs."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "mow",
+    "en": "mow",
+    "ph": "/moʊ/",
+    "uk": "косити (газон)",
+    "pos": "verb",
+    "forms": { "base": "mow", "past": "mowed", "part": "mowed", "phBase": "/moʊ/", "phPast": "/moʊd/", "phPart": "/moʊd/" },
+    "examples": [
+      ["Present Simple", "I mow the lawn every Saturday in summer."],
+      ["Past Simple", "I mowed the lawn yesterday."],
+      ["Present Perfect", "I've already mowed the front yard."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "rake",
+    "en": "rake",
+    "ph": "/reɪk/",
+    "uk": "згрібати (граблями)",
+    "pos": "verb",
+    "forms": { "base": "rake", "past": "raked", "part": "raked", "phBase": "/reɪk/", "phPast": "/reɪkt/", "phPart": "/reɪkt/" },
+    "examples": [
+      ["Present Simple", "I rake the leaves every fall."],
+      ["Past Simple", "I raked the whole yard yesterday."],
+      ["Present Perfect", "I've already raked half the backyard."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "iron",
+    "en": "iron",
+    "ph": "/ˈaɪərn/",
+    "uk": "прасувати",
+    "pos": "verb",
+    "forms": { "base": "iron", "past": "ironed", "part": "ironed", "phBase": "/ˈaɪərn/", "phPast": "/ˈaɪərnd/", "phPart": "/ˈaɪərnd/" },
+    "examples": [
+      ["Present Simple", "I iron my shirts on Sunday nights."],
+      ["Past Simple", "I ironed my shirt this morning."],
+      ["Present Perfect", "I've already ironed everything for the week."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "tidy_up",
+    "en": "tidy up",
+    "ph": "/ˈtaɪdi ʌp/",
+    "uk": "прибирати, наводити лад",
+    "pos": "verb",
+    "forms": { "base": "tidy up", "past": "tidied up", "part": "tidied up", "phBase": "/ˈtaɪdi ʌp/", "phPast": "/ˈtaɪdid ʌp/", "phPart": "/ˈtaɪdid ʌp/" },
+    "examples": [
+      ["Present Simple", "I tidy up before guests come over."],
+      ["Past Simple", "I tidied up the living room this morning."],
+      ["Present Perfect", "I've already tidied up the whole apartment."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "organize",
+    "en": "organize",
+    "ph": "/ˈɔːrɡənaɪz/",
+    "uk": "організовувати, впорядковувати",
+    "pos": "verb",
+    "forms": { "base": "organize", "past": "organized", "part": "organized", "phBase": "/ˈɔːrɡənaɪz/", "phPast": "/ˈɔːrɡənaɪzd/", "phPart": "/ˈɔːrɡənaɪzd/" },
+    "examples": [
+      ["Present Simple", "I organize my closet every season."],
+      ["Past Simple", "I organized the garage last weekend."],
+      ["Present Perfect", "I've already organized the pantry."]
+    ],
+    "note": "Написання <b>organize</b> (не organise) — правило -ize з розділу 5 CLAUDE.md."
+  },
+  {
+    "id": "declutter",
+    "en": "declutter",
+    "ph": "/diːˈklʌtər/",
+    "uk": "розхаращувати, позбуватися зайвого",
+    "pos": "verb",
+    "forms": { "base": "declutter", "past": "decluttered", "part": "decluttered", "phBase": "/diːˈklʌtər/", "phPast": "/diːˈklʌtərd/", "phPart": "/diːˈklʌtərd/" },
+    "examples": [
+      ["Present Simple", "I declutter one room every month."],
+      ["Past Simple", "I decluttered my closet last weekend."],
+      ["Present Perfect", "I've already decluttered half the house."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "unpack",
+    "en": "unpack",
+    "ph": "/ʌnˈpæk/",
+    "uk": "розпаковувати",
+    "pos": "verb",
+    "forms": { "base": "unpack", "past": "unpacked", "part": "unpacked", "phBase": "/ʌnˈpæk/", "phPast": "/ʌnˈpækt/", "phPart": "/ʌnˈpækt/" },
+    "examples": [
+      ["Present Simple", "I unpack right away whenever I travel."],
+      ["Past Simple", "I unpacked as soon as I got home."],
+      ["Present Perfect", "I've already unpacked everything."]
+    ],
+    "note": "Антонім — <b>pack</b>."
+  },
+  {
+    "id": "pack",
+    "en": "pack",
+    "ph": "/pæk/",
+    "uk": "пакувати",
+    "pos": "verb",
+    "forms": { "base": "pack", "past": "packed", "part": "packed", "phBase": "/pæk/", "phPast": "/pækt/", "phPart": "/pækt/" },
+    "examples": [
+      ["Present Simple", "I pack light whenever I travel."],
+      ["Past Simple", "I packed my bag the night before."],
+      ["Present Perfect", "I've already packed for the trip."]
+    ],
+    "note": "Антонім — <b>unpack</b>."
   }
 ]
