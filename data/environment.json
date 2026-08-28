@@ -2096,5 +2096,519 @@
     "example": "World leaders met at the climate summit last week.",
     "example2": "The summit ended without a firm agreement.",
     "note": ""
+  },
+  {
+    "id": "environment_rainforest",
+    "en": "rainforest",
+    "ph": "/ˈreɪnfɔːrɪst/",
+    "uk": "тропічний ліс",
+    "pos": "noun",
+    "example": "The Amazon rainforest produces a huge share of the world's oxygen.",
+    "example2": "Rainforests are being cleared for cattle ranching and farming.",
+    "note": ""
+  },
+  {
+    "id": "environment_canopy",
+    "en": "canopy",
+    "ph": "/ˈkænəpi/",
+    "uk": "крони дерев, верхній ярус лісу",
+    "pos": "noun",
+    "example": "Very little sunlight reaches the ground beneath the canopy.",
+    "example2": "Researchers study wildlife by walking across the forest canopy.",
+    "note": ""
+  },
+  {
+    "id": "environment_savanna",
+    "en": "savanna",
+    "ph": "/səˈvænə/",
+    "uk": "савана",
+    "pos": "noun",
+    "example": "Herds of zebra graze across the savanna.",
+    "example2": "The African savanna experiences distinct wet and dry seasons.",
+    "note": ""
+  },
+  {
+    "id": "environment_tundra",
+    "en": "tundra",
+    "ph": "/ˈtʌndrə/",
+    "uk": "тундра",
+    "pos": "noun",
+    "example": "Few trees can survive in the tundra.",
+    "example2": "The tundra is warming faster than almost any other biome.",
+    "note": ""
+  },
+  {
+    "id": "environment_marsh",
+    "en": "marsh",
+    "ph": "/mɑrʃ/",
+    "uk": "болото, багнище",
+    "pos": "noun",
+    "example": "The marsh is home to dozens of bird species.",
+    "example2": "Much of the marsh was drained to build the highway.",
+    "note": ""
+  },
+  {
+    "id": "environment_floodplain",
+    "en": "floodplain",
+    "ph": "/ˈflʌdpleɪn/",
+    "uk": "заплава",
+    "pos": "noun",
+    "example": "The town was built on the river's floodplain.",
+    "example2": "Building on a floodplain increases the risk of flood damage.",
+    "note": ""
+  },
+  {
+    "id": "environment_delta",
+    "en": "delta",
+    "ph": "/ˈdɛltə/",
+    "uk": "дельта (річки)",
+    "pos": "noun",
+    "example": "The river delta supports rich farmland and fisheries.",
+    "example2": "Rising sea levels are slowly shrinking the delta.",
+    "note": ""
+  },
+  {
+    "id": "environment_estuary",
+    "en": "estuary",
+    "ph": "/ˈɛstʃuˌɛri/",
+    "uk": "естуарій, гирло річки",
+    "pos": "noun",
+    "example": "The estuary is an important nursery for young fish.",
+    "example2": "Pollution upstream eventually reaches the estuary.",
+    "note": ""
+  },
+  {
+    "id": "environment_mangrove",
+    "en": "mangrove",
+    "ph": "/ˈmæŋɡroʊv/",
+    "uk": "мангрове дерево, мангри",
+    "pos": "noun",
+    "example": "Mangroves protect the coastline from storm surges.",
+    "example2": "Large areas of mangrove have been cleared for shrimp farms.",
+    "note": "Часто у множині — <b>mangroves</b>."
+  },
+  {
+    "id": "environment_dune",
+    "en": "dune",
+    "ph": "/duːn/",
+    "uk": "дюна",
+    "pos": "noun",
+    "example": "Sand dunes protect the beach from erosion.",
+    "example2": "The path winds through the dunes to the shore.",
+    "note": ""
+  },
+  {
+    "id": "environment_volcano",
+    "en": "volcano",
+    "ph": "/vɑːlˈkeɪnoʊ/",
+    "uk": "вулкан",
+    "pos": "noun",
+    "example": "The volcano last erupted almost a century ago.",
+    "example2": "Scientists monitor the volcano for signs of activity.",
+    "note": ""
+  },
+  {
+    "id": "environment_earthquake",
+    "en": "earthquake",
+    "ph": "/ˈɜrθkweɪk/",
+    "uk": "землетрус",
+    "pos": "noun",
+    "example": "The earthquake damaged hundreds of buildings.",
+    "example2": "The region sits on a major fault line and experiences earthquakes often.",
+    "note": ""
+  },
+  {
+    "id": "environment_sediment",
+    "en": "sediment",
+    "ph": "/ˈsɛdəmənt/",
+    "uk": "осад, наносний ґрунт",
+    "pos": "noun",
+    "example": "Sediment from the farm upstream clouds the whole river.",
+    "example2": "Over centuries, sediment built up into fertile farmland.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_light_pollution",
+    "en": "light pollution",
+    "ph": "/laɪt pəˈluːʃən/",
+    "uk": "світлове забруднення",
+    "pos": "noun",
+    "example": "Light pollution makes it almost impossible to see stars in the city.",
+    "example2": "Light pollution disrupts the sleep patterns of nocturnal animals.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_noise_pollution",
+    "en": "noise pollution",
+    "ph": "/nɔɪz pəˈluːʃən/",
+    "uk": "шумове забруднення",
+    "pos": "noun",
+    "example": "Noise pollution from the airport bothers nearby residents.",
+    "example2": "Noise pollution can disturb marine animals that rely on sound.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_ocean_acidification",
+    "en": "ocean acidification",
+    "ph": "/ˈoʊʃən əˌsɪdəfɪˈkeɪʃən/",
+    "uk": "закислення океану",
+    "pos": "noun",
+    "example": "Ocean acidification makes it harder for shellfish to build their shells.",
+    "example2": "Ocean acidification is caused by the ocean absorbing excess CO2.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_coral_bleaching",
+    "en": "coral bleaching",
+    "ph": "/ˈkɔːrəl ˈbliːtʃɪŋ/",
+    "uk": "збілення коралів",
+    "pos": "noun",
+    "example": "Coral bleaching events have become far more frequent.",
+    "example2": "Warmer waters trigger coral bleaching across the reef.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_algal_bloom",
+    "en": "algal bloom",
+    "ph": "/ˈælɡəl bloʊm/",
+    "uk": "цвітіння водоростей",
+    "pos": "noun",
+    "example": "Fertilizer runoff triggered a toxic algal bloom in the lake.",
+    "example2": "The algal bloom killed thousands of fish.",
+    "note": ""
+  },
+  {
+    "id": "environment_dead_zone",
+    "en": "dead zone",
+    "ph": "/dɛd zoʊn/",
+    "uk": "мертва зона (океану/озера)",
+    "pos": "noun",
+    "example": "Fertilizer runoff has created a dead zone in the bay.",
+    "example2": "Almost nothing can survive in the dead zone.",
+    "note": ""
+  },
+  {
+    "id": "environment_desert",
+    "en": "desert",
+    "ph": "/ˈdɛzərt/",
+    "uk": "пустеля",
+    "pos": "noun",
+    "example": "The desert receives less than an inch of rain a year.",
+    "example2": "Farmland at the desert's edge is slowly being swallowed by sand.",
+    "note": "Не плутати з «dessert» /dɪˈzɜrt/ (десерт) — інший наголос."
+  },
+  {
+    "id": "environment_water_security",
+    "en": "water security",
+    "ph": "/ˈwɔːtər sɪˈkjʊrəti/",
+    "uk": "водна безпека",
+    "pos": "noun",
+    "example": "Water security is a growing concern in the region.",
+    "example2": "The dam was built to improve water security for the city.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_overpopulation",
+    "en": "overpopulation",
+    "ph": "/ˌoʊvərˌpɑːpjəˈleɪʃən/",
+    "uk": "перенаселення",
+    "pos": "noun",
+    "example": "Overpopulation puts pressure on land, water, and food supplies.",
+    "example2": "Some experts argue overpopulation is less of a problem than overconsumption.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_population_growth",
+    "en": "population growth",
+    "ph": "/ˌpɑːpjəˈleɪʃən ɡroʊθ/",
+    "uk": "приріст населення",
+    "pos": "noun",
+    "example": "Rapid population growth is straining the city's infrastructure.",
+    "example2": "Population growth has slowed in many developed countries.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_consumerism",
+    "en": "consumerism",
+    "ph": "/kənˈsuːməˌrɪzəm/",
+    "uk": "консюмеризм, надмірне споживацтво",
+    "pos": "noun",
+    "example": "Critics blame consumerism for much of today's waste problem.",
+    "example2": "The documentary questions the environmental cost of consumerism.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_fast_fashion",
+    "en": "fast fashion",
+    "ph": "/fæst ˈfæʃən/",
+    "uk": "швидка мода",
+    "pos": "noun",
+    "example": "Fast fashion produces huge amounts of textile waste.",
+    "example2": "She stopped buying fast fashion after watching a documentary about it.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_packaging",
+    "en": "packaging",
+    "ph": "/ˈpækədʒɪŋ/",
+    "uk": "упаковка",
+    "pos": "noun",
+    "example": "The company switched to recyclable packaging last year.",
+    "example2": "Most of the packaging ends up in landfill within a week.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_clean_technology",
+    "en": "clean technology",
+    "ph": "/kliːn tɛkˈnɑːlədʒi/",
+    "uk": "чисті технології",
+    "pos": "noun",
+    "example": "The government is investing billions in clean technology.",
+    "example2": "Clean technology jobs are growing faster than the rest of the economy.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_electric_vehicle",
+    "en": "electric vehicle",
+    "ph": "/ɪˈlɛktrɪk ˈviːɪkl/",
+    "uk": "електромобіль",
+    "pos": "noun",
+    "example": "Electric vehicles now make up a quarter of new car sales.",
+    "example2": "The province offers a rebate for buying an electric vehicle.",
+    "note": "Часто скорочують до <b>EV</b>."
+  },
+  {
+    "id": "environment_public_transport",
+    "en": "public transport",
+    "ph": "/ˈpʌblɪk ˈtrænspɔːrt/",
+    "uk": "громадський транспорт",
+    "pos": "noun",
+    "example": "Public transport is cheap and reliable in this city.",
+    "example2": "Investing in public transport reduces traffic and emissions.",
+    "note": "Незлічуваний. У Північній Америці частіше кажуть <b>public transit</b>."
+  },
+  {
+    "id": "environment_cycling",
+    "en": "cycling",
+    "ph": "/ˈsaɪklɪŋ/",
+    "uk": "їзда на велосипеді",
+    "pos": "noun",
+    "example": "The city added more cycling lanes downtown.",
+    "example2": "Cycling to work cuts down on both emissions and traffic.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_carpooling",
+    "en": "carpooling",
+    "ph": "/ˈkɑrˌpuːlɪŋ/",
+    "uk": "спільні поїздки на одному авто",
+    "pos": "noun",
+    "example": "Carpooling cuts fuel costs and reduces emissions.",
+    "example2": "We started carpooling to save money on gas.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_urban_planning",
+    "en": "urban planning",
+    "ph": "/ˈɜrbən ˈplænɪŋ/",
+    "uk": "містобудівне планування",
+    "pos": "noun",
+    "example": "Good urban planning can reduce a city's carbon footprint significantly.",
+    "example2": "She works in urban planning for the city government.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_green_space",
+    "en": "green space",
+    "ph": "/ɡriːn speɪs/",
+    "uk": "зелена зона",
+    "pos": "noun",
+    "example": "The neighbourhood has very little green space left.",
+    "example2": "The new development includes a large public green space.",
+    "note": ""
+  },
+  {
+    "id": "environment_tree_planting",
+    "en": "tree planting",
+    "ph": "/triː ˈplæntɪŋ/",
+    "uk": "висадка дерев",
+    "pos": "noun",
+    "example": "The city runs an annual tree planting event.",
+    "example2": "Tree planting alone won't solve the climate crisis.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_wildlife_corridor",
+    "en": "wildlife corridor",
+    "ph": "/ˈwaɪldlaɪf ˈkɔːrɪdər/",
+    "uk": "коридор для дикої природи",
+    "pos": "noun",
+    "example": "The highway includes a wildlife corridor so animals can cross safely.",
+    "example2": "Wildlife corridors connect habitats that would otherwise be isolated.",
+    "note": ""
+  },
+  {
+    "id": "environment_developing_country",
+    "en": "developing country",
+    "ph": "/dɪˈvɛləpɪŋ ˈkʌntri/",
+    "uk": "країна, що розвивається",
+    "pos": "noun",
+    "example": "Developing countries are often hit hardest by climate change.",
+    "example2": "The fund helps developing countries invest in clean energy.",
+    "note": ""
+  },
+  {
+    "id": "environment_developed_country",
+    "en": "developed country",
+    "ph": "/dɪˈvɛləpt ˈkʌntri/",
+    "uk": "розвинена країна",
+    "pos": "noun",
+    "example": "Developed countries produce a disproportionate share of emissions.",
+    "example2": "Most developed countries have set net zero targets.",
+    "note": ""
+  },
+  {
+    "id": "environment_climate_justice",
+    "en": "climate justice",
+    "ph": "/ˈklaɪmət ˈdʒʌstɪs/",
+    "uk": "кліматична справедливість",
+    "pos": "noun",
+    "example": "Climate justice groups argue rich countries should pay more.",
+    "example2": "The speech focused heavily on climate justice for vulnerable nations.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_climate_refugee",
+    "en": "climate refugee",
+    "ph": "/ˈklaɪmət ˌrɛfjuˈdʒiː/",
+    "uk": "кліматичний біженець",
+    "pos": "noun",
+    "example": "Rising sea levels could create millions of climate refugees.",
+    "example2": "There is still no formal legal status for climate refugees.",
+    "note": ""
+  },
+  {
+    "id": "environment_air_conditioning",
+    "en": "air conditioning",
+    "ph": "/ɛr kənˈdɪʃənɪŋ/",
+    "uk": "кондиціонування повітря",
+    "pos": "noun",
+    "example": "Air conditioning use spikes during heat waves.",
+    "example2": "Air conditioning accounts for a large share of summer electricity demand.",
+    "note": "Незлічуваний. Часто скорочують до <b>AC</b>."
+  },
+  {
+    "id": "environment_biodiversity_loss",
+    "en": "biodiversity loss",
+    "ph": "/ˌbaɪoʊdaɪˈvɜrsəti lɔːs/",
+    "uk": "втрата біорізноманіття",
+    "pos": "noun",
+    "example": "Habitat destruction is the main driver of biodiversity loss.",
+    "example2": "The report ranks biodiversity loss alongside climate change as a top threat.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_wildlife_trafficking",
+    "en": "wildlife trafficking",
+    "ph": "/ˈwaɪldlaɪf ˈtræfɪkɪŋ/",
+    "uk": "незаконна торгівля дикими тваринами",
+    "pos": "noun",
+    "example": "Wildlife trafficking is worth billions of dollars a year.",
+    "example2": "Authorities seized a large shipment linked to wildlife trafficking.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_water_treatment",
+    "en": "water treatment",
+    "ph": "/ˈwɔːtər ˈtriːtmənt/",
+    "uk": "очищення води",
+    "pos": "noun",
+    "example": "The town built a new water treatment plant last year.",
+    "example2": "Water treatment removes most contaminants before it reaches homes.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_sewage",
+    "en": "sewage",
+    "ph": "/ˈsuːɪdʒ/",
+    "uk": "стічні води",
+    "pos": "noun",
+    "example": "Raw sewage was being dumped straight into the river.",
+    "example2": "The city upgraded its sewage system after years of complaints.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_waste_management",
+    "en": "waste management",
+    "ph": "/weɪst ˈmænɪdʒmənt/",
+    "uk": "управління відходами",
+    "pos": "noun",
+    "example": "The city overhauled its waste management system last year.",
+    "example2": "Good waste management starts with reducing what you buy.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_drought_resistant",
+    "en": "drought-resistant",
+    "ph": "/draʊt rɪˈzɪstənt/",
+    "uk": "посухостійкий",
+    "pos": "adjective",
+    "example": "Farmers switched to drought-resistant crops after years of low rainfall.",
+    "example2": "The garden is planted entirely with drought-resistant species.",
+    "note": ""
+  },
+  {
+    "id": "environment_flood_defence",
+    "en": "flood defence",
+    "ph": "/flʌd dɪˈfɛns/",
+    "uk": "протипаводковий захист",
+    "pos": "noun",
+    "example": "The city invested heavily in flood defence after the last disaster.",
+    "example2": "Better flood defence could have prevented much of the damage.",
+    "note": "Написання <b>defence</b> — канадське/британське (не defense)."
+  },
+  {
+    "id": "environment_seawall",
+    "en": "seawall",
+    "ph": "/ˈsiːwɔːl/",
+    "uk": "морська дамба, хвилеріз",
+    "pos": "noun",
+    "example": "The town built a seawall to hold back rising tides.",
+    "example2": "Storms have damaged the seawall twice this year.",
+    "note": ""
+  },
+  {
+    "id": "environment_early_warning_system",
+    "en": "early warning system",
+    "ph": "/ˈɜrli ˈwɔːrnɪŋ ˈsɪstəm/",
+    "uk": "система раннього попередження",
+    "pos": "noun",
+    "example": "An early warning system gave residents time to evacuate.",
+    "example2": "The region still lacks a reliable early warning system for floods.",
+    "note": ""
+  },
+  {
+    "id": "environment_climate_denial",
+    "en": "climate denial",
+    "ph": "/ˈklaɪmət dɪˈnaɪəl/",
+    "uk": "заперечення зміни клімату",
+    "pos": "noun",
+    "example": "Climate denial has become less common as evidence has grown.",
+    "example2": "The documentary traces the history of organized climate denial.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_reforest",
+    "en": "reforest",
+    "ph": "/riːˈfɔːrɪst/",
+    "uk": "відновлювати ліс (на місці вирубаного)",
+    "pos": "verb",
+    "forms": { "base": "reforest", "phBase": "/riːˈfɔːrɪst/", "past": "reforested", "phPast": "/riːˈfɔːrɪstɪd/", "part": "reforested", "phPart": "/riːˈfɔːrɪstɪd/" },
+    "examples": [
+      ["Present Simple", "The organization reforests thousands of hectares every year."],
+      ["Past Simple", "Volunteers reforested the hillside after the fire."],
+      ["Present Perfect", "The province has reforested much of the burned area."]
+    ],
+    "note": "Іменник — <b>reforestation</b>."
   }
 ]
