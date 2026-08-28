@@ -438,5 +438,425 @@
     "example": "She's studying hard for the entrance exam.",
     "example2": "The entrance exam is required for admission to the program.",
     "note": ""
+  },
+  {
+    "id": "education_elementary_school",
+    "en": "elementary school",
+    "ph": "/ˌɛləˈmɛntəri skuːl/",
+    "uk": "початкова школа",
+    "pos": "noun",
+    "example": "My daughter starts elementary school this fall.",
+    "example2": "Elementary school runs from kindergarten through grade six here.",
+    "note": "Північноамериканський термін; британський відповідник — <b>primary school</b>."
+  },
+  {
+    "id": "education_middle_school",
+    "en": "middle school",
+    "ph": "/ˈmɪdl skuːl/",
+    "uk": "середня школа (молодша ланка)",
+    "pos": "noun",
+    "example": "Middle school usually covers grades six through eight.",
+    "example2": "She just started middle school this year.",
+    "note": ""
+  },
+  {
+    "id": "education_high_school",
+    "en": "high school",
+    "ph": "/haɪ skuːl/",
+    "uk": "старша школа",
+    "pos": "noun",
+    "example": "He's a junior in high school this year.",
+    "example2": "We met in high school and have been friends since.",
+    "note": "Британський відповідник — <b>secondary school</b>."
+  },
+  {
+    "id": "education_kindergarten",
+    "en": "kindergarten",
+    "ph": "/ˈkɪndərˌɡɑrtən/",
+    "uk": "дитячий садок / нульовий клас",
+    "pos": "noun",
+    "example": "My son starts kindergarten in September.",
+    "example2": "Kindergarten is the first year of formal school in most provinces.",
+    "note": ""
+  },
+  {
+    "id": "education_principal",
+    "en": "principal",
+    "ph": "/ˈprɪnsəpl/",
+    "uk": "директор школи",
+    "pos": "noun",
+    "example": "The principal announced the change at assembly.",
+    "example2": "I had to meet with the principal about the incident.",
+    "note": "Британський відповідник — <b>headteacher</b>. Не плутати з <b>principle</b> (принцип) — звучить однаково."
+  },
+  {
+    "id": "education_counsellor",
+    "en": "counsellor",
+    "ph": "/ˈkaʊnsələr/",
+    "uk": "шкільний психолог/консультант",
+    "pos": "noun",
+    "example": "She talked to a counsellor about her course choices.",
+    "example2": "The school counsellor helps students plan for university.",
+    "note": "Канадське написання з подвійним «l» (як traveller); американське — <b>counselor</b>."
+  },
+  {
+    "id": "education_report_card",
+    "en": "report card",
+    "ph": "/rɪˈpɔːrt kɑrd/",
+    "uk": "табель успішності",
+    "pos": "noun",
+    "example": "Report cards go out at the end of each term.",
+    "example2": "His report card showed real improvement this year.",
+    "note": ""
+  },
+  {
+    "id": "education_honour_roll",
+    "en": "honour roll",
+    "ph": "/ˈɑːnər roʊl/",
+    "uk": "список відмінників",
+    "pos": "noun",
+    "example": "She's made the honour roll every semester.",
+    "example2": "Students need at least an 80% average for the honour roll.",
+    "note": "Канадське написання — <b>honour</b> (не honor); буква «h» не вимовляється."
+  },
+  {
+    "id": "education_valedictorian",
+    "en": "valedictorian",
+    "ph": "/ˌvæləˌdɪkˈtɔːriən/",
+    "uk": "найкращий випускник (з промовою на випуску)",
+    "pos": "noun",
+    "example": "She was chosen as valedictorian of her graduating class.",
+    "example2": "The valedictorian's speech made half the room cry.",
+    "note": "Північноамериканська традиція — учень з найвищими оцінками виступає з промовою на випускному."
+  },
+  {
+    "id": "education_class_size",
+    "en": "class size",
+    "ph": "/klæs saɪz/",
+    "uk": "наповнюваність класу",
+    "pos": "noun",
+    "example": "Smaller class sizes usually mean more individual attention.",
+    "example2": "The school reduced class size to twenty students.",
+    "note": ""
+  },
+  {
+    "id": "education_financial_aid",
+    "en": "financial aid",
+    "ph": "/faɪˈnænʃəl eɪd/",
+    "uk": "фінансова допомога (на навчання)",
+    "pos": "noun",
+    "example": "She applied for financial aid to cover her tuition.",
+    "example2": "Financial aid can include grants, loans, and work-study.",
+    "note": "Незлічуваний. Загальний термін, що охоплює гранти, стипендії й позики разом."
+  },
+  {
+    "id": "education_work_study",
+    "en": "work-study",
+    "ph": "/wɜrk ˈstʌdi/",
+    "uk": "програма «навчання з роботою»",
+    "pos": "noun",
+    "example": "He covers his rent through a work-study job on campus.",
+    "example2": "Work-study jobs are usually part-time and flexible.",
+    "note": ""
+  },
+  {
+    "id": "education_cram",
+    "en": "cram",
+    "ph": "/kræm/",
+    "uk": "зубрити (перед іспитом)",
+    "pos": "verb",
+    "forms": { "base": "cram", "phBase": "/kræm/", "past": "crammed", "phPast": "/kræmd/", "part": "crammed", "phPart": "/kræmd/" },
+    "examples": [
+      ["Present Simple", "He always crams the night before an exam."],
+      ["Past Simple", "I crammed for the test until 2 a.m."],
+      ["Present Perfect", "I've crammed for exams my whole life, and it never really works."]
+    ],
+    "note": "«Cram for an exam» — суто розмовне слово, з відтінком «зубрити в останню мить»."
+  },
+  {
+    "id": "education_memorize",
+    "en": "memorize",
+    "ph": "/ˈmɛməraɪz/",
+    "uk": "запам'ятовувати напам'ять",
+    "pos": "verb",
+    "forms": { "base": "memorize", "phBase": "/ˈmɛməraɪz/", "past": "memorized", "phPast": "/ˈmɛməraɪzd/", "part": "memorized", "phPart": "/ˈmɛməraɪzd/" },
+    "examples": [
+      ["Present Simple", "She memorizes new vocabulary every day."],
+      ["Past Simple", "I memorized the whole speech."],
+      ["Present Perfect", "I've memorized the entire periodic table."]
+    ],
+    "note": "Написання <b>memorize</b> (не memorise) — правило -ize з розділу 5 CLAUDE.md."
+  },
+  {
+    "id": "education_study",
+    "en": "study",
+    "ph": "/ˈstʌdi/",
+    "uk": "навчатися, вивчати",
+    "pos": "verb",
+    "forms": { "base": "study", "phBase": "/ˈstʌdi/", "past": "studied", "phPast": "/ˈstʌdid/", "part": "studied", "phPart": "/ˈstʌdid/" },
+    "examples": [
+      ["Present Simple", "I study every evening after work."],
+      ["Past Simple", "I studied for three hours yesterday."],
+      ["Present Perfect", "I've studied this chapter twice already."]
+    ],
+    "note": "«Study» — і дієслово (вчитись), і іменник (дослідження, «a study»)."
+  },
+  {
+    "id": "education_major",
+    "en": "major",
+    "ph": "/ˈmeɪdʒər/",
+    "uk": "профільна спеціальність (у виші)",
+    "pos": "noun",
+    "example": "Her major is biology, with a minor in chemistry.",
+    "example2": "He switched his major twice before settling on economics.",
+    "note": "Дієслово — <b>major in</b> (спеціалізуватись на)."
+  },
+  {
+    "id": "education_minor",
+    "en": "minor",
+    "ph": "/ˈmaɪnər/",
+    "uk": "додаткова спеціальність (у виші)",
+    "pos": "noun",
+    "example": "She's doing a minor in French alongside her major.",
+    "example2": "A minor usually requires fewer courses than a major.",
+    "note": "Не плутати з <b>minor</b> у значенні «неповнолітній»."
+  },
+  {
+    "id": "education_elective",
+    "en": "elective",
+    "ph": "/ɪˈlɛktɪv/",
+    "uk": "предмет за вибором",
+    "pos": "noun",
+    "example": "Students can pick two electives each semester.",
+    "example2": "I took photography as an elective in my final year.",
+    "note": "Протилежність — <b>compulsory/required course</b>."
+  },
+  {
+    "id": "education_credit",
+    "en": "credit",
+    "ph": "/ˈkrɛdɪt/",
+    "uk": "кредит (навчальна одиниця)",
+    "pos": "noun",
+    "example": "You need 120 credits to graduate.",
+    "example2": "This course is worth three credits.",
+    "note": "Не плутати з фінансовим значенням «credit» (кредит у банку)."
+  },
+  {
+    "id": "education_degree",
+    "en": "degree",
+    "ph": "/dɪˈɡriː/",
+    "uk": "науковий ступінь, диплом",
+    "pos": "noun",
+    "example": "She has a degree in civil engineering.",
+    "example2": "He's working on his master's degree part-time.",
+    "note": "Колокація: <b>bachelor's/master's/doctoral degree</b>."
+  },
+  {
+    "id": "education_diploma",
+    "en": "diploma",
+    "ph": "/dɪˈploʊmə/",
+    "uk": "диплом (про закінчення)",
+    "pos": "noun",
+    "example": "He received his high school diploma last June.",
+    "example2": "A diploma from this college takes two years to complete.",
+    "note": "Зазвичай коротша/практичніша програма, ніж повний <b>degree</b>."
+  },
+  {
+    "id": "education_certificate",
+    "en": "certificate",
+    "ph": "/sərˈtɪfɪkət/",
+    "uk": "сертифікат",
+    "pos": "noun",
+    "example": "She earned a certificate in project management.",
+    "example2": "The course takes six weeks and ends with a certificate.",
+    "note": "Найкоротша/найвужча з трьох форм: <b>certificate → diploma → degree</b>."
+  },
+  {
+    "id": "education_online_course",
+    "en": "online course",
+    "ph": "/ˌɑːnˈlaɪn kɔːrs/",
+    "uk": "онлайн-курс",
+    "pos": "noun",
+    "example": "I signed up for an online course in data analysis.",
+    "example2": "Online courses let you study at your own pace.",
+    "note": ""
+  },
+  {
+    "id": "education_group_project",
+    "en": "group project",
+    "ph": "/ɡruːp ˈprɑːdʒɛkt/",
+    "uk": "груповий проєкт",
+    "pos": "noun",
+    "example": "Our group project is due at the end of the month.",
+    "example2": "I hate group projects when one person does all the work.",
+    "note": ""
+  },
+  {
+    "id": "education_presentation",
+    "en": "presentation",
+    "ph": "/ˌprɛzənˈteɪʃən/",
+    "uk": "презентація, доповідь",
+    "pos": "noun",
+    "example": "I have a presentation to give on Friday.",
+    "example2": "Her presentation lasted almost twenty minutes.",
+    "note": "Дієслово — <b>give a presentation</b>, не «do»."
+  },
+  {
+    "id": "education_assignment",
+    "en": "assignment",
+    "ph": "/əˈsaɪnmənt/",
+    "uk": "завдання (навчальне)",
+    "pos": "noun",
+    "example": "This assignment is due next Monday.",
+    "example2": "I finished the assignment early this week.",
+    "note": ""
+  },
+  {
+    "id": "education_essay",
+    "en": "essay",
+    "ph": "/ˈɛseɪ/",
+    "uk": "есе, письмова робота",
+    "pos": "noun",
+    "example": "The essay has to be at least a thousand words.",
+    "example2": "She wrote the whole essay in one sitting.",
+    "note": ""
+  },
+  {
+    "id": "education_exam",
+    "en": "exam",
+    "ph": "/ɪɡˈzæm/",
+    "uk": "іспит",
+    "pos": "noun",
+    "example": "I have an exam on Thursday.",
+    "example2": "I studied all weekend for the exam.",
+    "note": "Скорочення від <b>examination</b>."
+  },
+  {
+    "id": "education_quiz",
+    "en": "quiz",
+    "ph": "/kwɪz/",
+    "uk": "коротке опитування, тест",
+    "pos": "noun",
+    "example": "We have a pop quiz almost every Friday.",
+    "example2": "I did well on the quiz yesterday.",
+    "note": "Коротший і менш формальний за <b>exam</b>."
+  },
+  {
+    "id": "education_midterm",
+    "en": "midterm",
+    "ph": "/ˈmɪdtɜrm/",
+    "uk": "проміжний іспит (у середині семестру)",
+    "pos": "noun",
+    "example": "My midterm is worth thirty percent of the final grade.",
+    "example2": "I bombed my midterm but did better on the final.",
+    "note": ""
+  },
+  {
+    "id": "education_final_exam",
+    "en": "final exam",
+    "ph": "/ˈfaɪnl ɪɡˈzæm/",
+    "uk": "підсумковий іспит",
+    "pos": "noun",
+    "example": "The final exam covers the whole semester.",
+    "example2": "I have three final exams next week.",
+    "note": ""
+  },
+  {
+    "id": "education_cheat",
+    "en": "cheat",
+    "ph": "/tʃiːt/",
+    "uk": "списувати, шахраювати",
+    "pos": "verb",
+    "forms": { "base": "cheat", "phBase": "/tʃiːt/", "past": "cheated", "phPast": "/ˈtʃiːtɪd/", "part": "cheated", "phPart": "/ˈtʃiːtɪd/" },
+    "examples": [
+      ["Present Simple", "Some students cheat when the pressure is high."],
+      ["Past Simple", "He cheated on the final exam."],
+      ["Present Perfect", "She's never cheated on a test in her life."]
+    ],
+    "note": "«Cheat on an exam» — списувати. Іменник — <b>cheating</b>."
+  },
+  {
+    "id": "education_skip_class",
+    "en": "skip class",
+    "ph": "/skɪp klæs/",
+    "uk": "прогулювати заняття",
+    "pos": "verb",
+    "forms": { "base": "skip class", "phBase": "/skɪp klæs/", "past": "skipped class", "phPast": "/skɪpt klæs/", "part": "skipped class", "phPart": "/skɪpt klæs/" },
+    "examples": [
+      ["Present Simple", "He skips class more than he should."],
+      ["Past Simple", "I skipped class to go to a job interview."],
+      ["Present Perfect", "She's skipped class three times this month."]
+    ],
+    "note": "Розмовний синонім — <b>play truant</b> (більш британський)."
+  },
+  {
+    "id": "education_boarding_school",
+    "en": "boarding school",
+    "ph": "/ˈbɔːrdɪŋ skuːl/",
+    "uk": "школа-інтернат",
+    "pos": "noun",
+    "example": "He was sent to boarding school at age twelve.",
+    "example2": "Students live on campus at a boarding school.",
+    "note": ""
+  },
+  {
+    "id": "education_public_school",
+    "en": "public school",
+    "ph": "/ˈpʌblɪk skuːl/",
+    "uk": "державна школа",
+    "pos": "noun",
+    "example": "My kids go to the public school down the street.",
+    "example2": "Public schools here are funded by the province.",
+    "note": "Обережно: у Британії «public school» означає навпаки — приватну елітну школу."
+  },
+  {
+    "id": "education_private_school",
+    "en": "private school",
+    "ph": "/ˈpraɪvət skuːl/",
+    "uk": "приватна школа",
+    "pos": "noun",
+    "example": "Private school tuition can be very expensive.",
+    "example2": "She switched to a private school in grade nine.",
+    "note": ""
+  },
+  {
+    "id": "education_special_education",
+    "en": "special education",
+    "ph": "/ˈspɛʃəl ˌɛdʒəˈkeɪʃən/",
+    "uk": "спеціальна освіта (для дітей з особливими потребами)",
+    "pos": "noun",
+    "example": "The school has a strong special education program.",
+    "example2": "She works as a special education teacher.",
+    "note": "Часто скорочують до <b>special ed</b>."
+  },
+  {
+    "id": "education_summer_school",
+    "en": "summer school",
+    "ph": "/ˈsʌmər skuːl/",
+    "uk": "літня школа",
+    "pos": "noun",
+    "example": "He failed math and had to take summer school.",
+    "example2": "Summer school runs for six weeks in July and August.",
+    "note": ""
+  },
+  {
+    "id": "education_night_class",
+    "en": "night class",
+    "ph": "/naɪt klæs/",
+    "uk": "вечірні курси",
+    "pos": "noun",
+    "example": "She takes a night class twice a week after work.",
+    "example2": "Night classes let working adults finish their degree.",
+    "note": ""
+  },
+  {
+    "id": "education_adult_education",
+    "en": "adult education",
+    "ph": "/əˈdʌlt ˌɛdʒəˈkeɪʃən/",
+    "uk": "освіта для дорослих",
+    "pos": "noun",
+    "example": "The community centre offers free adult education classes.",
+    "example2": "Adult education programs often focus on practical skills.",
+    "note": ""
   }
 ]

@@ -430,5 +430,429 @@
     "example": "The company stores customer information in a secure database.",
     "example2": "The database crashed during the update last night.",
     "note": ""
+  },
+  {
+    "id": "technology_smartphone",
+    "en": "smartphone",
+    "ph": "/ˈsmɑrtfoʊn/",
+    "uk": "смартфон",
+    "pos": "noun",
+    "example": "Most teenagers get a smartphone around age twelve.",
+    "example2": "Her smartphone battery barely lasts a full day.",
+    "note": ""
+  },
+  {
+    "id": "technology_tablet",
+    "en": "tablet",
+    "ph": "/ˈtæblət/",
+    "uk": "планшет",
+    "pos": "noun",
+    "example": "He does most of his reading on a tablet now.",
+    "example2": "The kids share a tablet for school assignments.",
+    "note": ""
+  },
+  {
+    "id": "technology_server",
+    "en": "server",
+    "ph": "/ˈsɜrvər/",
+    "uk": "сервер",
+    "pos": "noun",
+    "example": "The website went down because the server crashed.",
+    "example2": "They moved everything to a cloud server last year.",
+    "note": ""
+  },
+  {
+    "id": "technology_router",
+    "en": "router",
+    "ph": "/ˈraʊtər/",
+    "uk": "роутер, маршрутизатор",
+    "pos": "noun",
+    "example": "I restart the router whenever the Wi-Fi acts up.",
+    "example2": "The new router covers the whole house.",
+    "note": ""
+  },
+  {
+    "id": "technology_browser",
+    "en": "browser",
+    "ph": "/ˈbraʊzər/",
+    "uk": "браузер",
+    "pos": "noun",
+    "example": "This site doesn't work well in an old browser.",
+    "example2": "I have three browser tabs open right now.",
+    "note": ""
+  },
+  {
+    "id": "technology_search_engine",
+    "en": "search engine",
+    "ph": "/sɜrtʃ ˈɛndʒən/",
+    "uk": "пошукова система",
+    "pos": "noun",
+    "example": "Most people use the same search engine out of habit.",
+    "example2": "The search engine ranks pages using a complex algorithm.",
+    "note": ""
+  },
+  {
+    "id": "technology_social_media",
+    "en": "social media",
+    "ph": "/ˈsoʊʃəl ˈmiːdiə/",
+    "uk": "соціальні мережі",
+    "pos": "noun",
+    "example": "She spends too much time on social media before bed.",
+    "example2": "The brand runs most of its marketing through social media.",
+    "note": "Незлічуваний, попри форму множини «media»."
+  },
+  {
+    "id": "technology_influencer",
+    "en": "influencer",
+    "ph": "/ˈɪnfluənsər/",
+    "uk": "інфлюенсер, блогер-впливовець",
+    "pos": "noun",
+    "example": "The company paid an influencer to promote the product.",
+    "example2": "She became a full-time influencer after college.",
+    "note": ""
+  },
+  {
+    "id": "technology_notification",
+    "en": "notification",
+    "ph": "/ˌnoʊtəfɪˈkeɪʃən/",
+    "uk": "сповіщення, повідомлення",
+    "pos": "noun",
+    "example": "I turned off notifications from most apps.",
+    "example2": "My phone buzzed with another notification.",
+    "note": ""
+  },
+  {
+    "id": "technology_app",
+    "en": "app",
+    "ph": "/æp/",
+    "uk": "застосунок, додаток",
+    "pos": "noun",
+    "example": "I use a budgeting app to track my spending.",
+    "example2": "I deleted the app after it kept crashing.",
+    "note": "Скорочення від <b>application</b>."
+  },
+  {
+    "id": "technology_interface",
+    "en": "interface",
+    "ph": "/ˈɪntərfeɪs/",
+    "uk": "інтерфейс",
+    "pos": "noun",
+    "example": "The new interface is much easier to navigate.",
+    "example2": "Users complained that the interface was confusing.",
+    "note": ""
+  },
+  {
+    "id": "technology_operating_system",
+    "en": "operating system",
+    "ph": "/ˈɑːpəreɪtɪŋ ˈsɪstəm/",
+    "uk": "операційна система",
+    "pos": "noun",
+    "example": "The laptop shipped with an older operating system.",
+    "example2": "You need to update your operating system regularly.",
+    "note": "Часто скорочують до <b>OS</b>."
+  },
+  {
+    "id": "technology_open_source",
+    "en": "open-source",
+    "ph": "/ˈoʊpən sɔːrs/",
+    "uk": "з відкритим кодом",
+    "pos": "adjective",
+    "example": "The tool is open-source, so anyone can improve it.",
+    "example2": "Many websites run on open-source software.",
+    "note": ""
+  },
+  {
+    "id": "technology_patch",
+    "en": "patch",
+    "ph": "/pætʃ/",
+    "uk": "виправляти (програму, оновленням)",
+    "pos": "verb",
+    "forms": { "base": "patch", "phBase": "/pætʃ/", "past": "patched", "phPast": "/pætʃt/", "part": "patched", "phPart": "/pætʃt/" },
+    "examples": [
+      ["Present Simple", "The team patches security holes within days."],
+      ["Past Simple", "They patched the bug an hour after it was reported."],
+      ["Present Perfect", "Developers have already patched the vulnerability."]
+    ],
+    "note": "Іменник — <b>a patch</b> (оновлення, що виправляє помилку)."
+  },
+  {
+    "id": "technology_bug",
+    "en": "bug",
+    "ph": "/bʌɡ/",
+    "uk": "баг, помилка в програмі",
+    "pos": "noun",
+    "example": "There's a bug that crashes the app on older phones.",
+    "example2": "The team fixed the bug within a day.",
+    "note": ""
+  },
+  {
+    "id": "technology_debug",
+    "en": "debug",
+    "ph": "/diːˈbʌɡ/",
+    "uk": "усувати помилки (у коді)",
+    "pos": "verb",
+    "forms": { "base": "debug", "phBase": "/diːˈbʌɡ/", "past": "debugged", "phPast": "/diːˈbʌɡd/", "part": "debugged", "phPart": "/diːˈbʌɡd/" },
+    "examples": [
+      ["Present Simple", "She debugs the code before every release."],
+      ["Past Simple", "He debugged the issue in twenty minutes."],
+      ["Present Perfect", "The team has debugged most of the reported issues."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "technology_code",
+    "en": "code",
+    "ph": "/koʊd/",
+    "uk": "писати код, кодувати",
+    "pos": "verb",
+    "forms": { "base": "code", "phBase": "/koʊd/", "past": "coded", "phPast": "/ˈkoʊdɪd/", "part": "coded", "phPart": "/ˈkoʊdɪd/" },
+    "examples": [
+      ["Present Simple", "She codes for about six hours a day."],
+      ["Past Simple", "He coded the whole feature over the weekend."],
+      ["Present Perfect", "I've coded this kind of feature many times before."]
+    ],
+    "note": "Іменник — <b>code</b> теж, з тим самим написанням."
+  },
+  {
+    "id": "technology_programmer",
+    "en": "programmer",
+    "ph": "/ˈproʊɡræmər/",
+    "uk": "програміст",
+    "pos": "noun",
+    "example": "She's worked as a programmer for ten years.",
+    "example2": "The company is hiring three more programmers.",
+    "note": ""
+  },
+  {
+    "id": "technology_developer",
+    "en": "developer",
+    "ph": "/dɪˈvɛləpər/",
+    "uk": "розробник",
+    "pos": "noun",
+    "example": "The app was built by a small team of developers.",
+    "example2": "He works as a developer at a startup.",
+    "note": "Ширше за <b>programmer</b> — часто включає дизайн і архітектуру, не тільки написання коду."
+  },
+  {
+    "id": "technology_startup",
+    "en": "startup",
+    "ph": "/ˈstɑrtʌp/",
+    "uk": "стартап",
+    "pos": "noun",
+    "example": "She joined a startup right after graduating.",
+    "example2": "The startup raised its first round of funding last month.",
+    "note": ""
+  },
+  {
+    "id": "technology_innovation",
+    "en": "innovation",
+    "ph": "/ˌɪnəˈveɪʃən/",
+    "uk": "інновація",
+    "pos": "noun",
+    "example": "The company is known for constant innovation.",
+    "example2": "This innovation could change how we generate power.",
+    "note": "Прикметник — <b>innovative</b>."
+  },
+  {
+    "id": "technology_disrupt",
+    "en": "disrupt",
+    "ph": "/dɪsˈrʌpt/",
+    "uk": "докорінно змінювати, порушувати звичний порядок",
+    "pos": "verb",
+    "forms": { "base": "disrupt", "phBase": "/dɪsˈrʌpt/", "past": "disrupted", "phPast": "/dɪsˈrʌptɪd/", "part": "disrupted", "phPart": "/dɪsˈrʌptɪd/" },
+    "examples": [
+      ["Present Simple", "Streaming services disrupt traditional television."],
+      ["Past Simple", "The app disrupted the entire taxi industry."],
+      ["Present Perfect", "This technology has disrupted how we shop."]
+    ],
+    "note": "Прикметник — <b>disruptive</b>."
+  },
+  {
+    "id": "technology_disruptive",
+    "en": "disruptive",
+    "ph": "/dɪsˈrʌptɪv/",
+    "uk": "проривний, руйнівний для старого порядку",
+    "pos": "adjective",
+    "example": "Streaming was a disruptive technology for the music industry.",
+    "example2": "Investors look for disruptive startups with big potential.",
+    "note": "Колокація: <b>disruptive technology/innovation</b>."
+  },
+  {
+    "id": "technology_automate",
+    "en": "automate",
+    "ph": "/ˈɔːtəmeɪt/",
+    "uk": "автоматизувати",
+    "pos": "verb",
+    "forms": { "base": "automate", "phBase": "/ˈɔːtəmeɪt/", "past": "automated", "phPast": "/ˈɔːtəmeɪtɪd/", "part": "automated", "phPart": "/ˈɔːtəmeɪtɪd/" },
+    "examples": [
+      ["Present Simple", "The factory automates most of the assembly line."],
+      ["Past Simple", "They automated the whole billing process last year."],
+      ["Present Perfect", "We've automated half our customer support already."]
+    ],
+    "note": "Іменник — <b>automation</b>."
+  },
+  {
+    "id": "technology_digitize",
+    "en": "digitize",
+    "ph": "/ˈdɪdʒɪtaɪz/",
+    "uk": "оцифровувати",
+    "pos": "verb",
+    "forms": { "base": "digitize", "phBase": "/ˈdɪdʒɪtaɪz/", "past": "digitized", "phPast": "/ˈdɪdʒɪtaɪzd/", "part": "digitized", "phPart": "/ˈdɪdʒɪtaɪzd/" },
+    "examples": [
+      ["Present Simple", "The library digitizes old newspapers every month."],
+      ["Past Simple", "They digitized the entire archive last year."],
+      ["Present Perfect", "The museum has digitized most of its collection."]
+    ],
+    "note": "Написання <b>digitize</b> (не digitise)."
+  },
+  {
+    "id": "technology_virtual_reality",
+    "en": "virtual reality",
+    "ph": "/ˈvɜrtʃuəl riˈæləti/",
+    "uk": "віртуальна реальність",
+    "pos": "noun",
+    "example": "The museum added a virtual reality tour last year.",
+    "example2": "Virtual reality headsets are still fairly expensive.",
+    "note": "Часто скорочують до <b>VR</b>."
+  },
+  {
+    "id": "technology_wearable",
+    "en": "wearable",
+    "ph": "/ˈwɛrəbl/",
+    "uk": "носимий гаджет",
+    "pos": "noun",
+    "example": "Fitness trackers were some of the first popular wearables.",
+    "example2": "The wearable monitors your heart rate all day.",
+    "note": ""
+  },
+  {
+    "id": "technology_smart_home",
+    "en": "smart home",
+    "ph": "/smɑrt hoʊm/",
+    "uk": "розумний дім",
+    "pos": "noun",
+    "example": "Their smart home adjusts the lights automatically at sunset.",
+    "example2": "Smart home devices raise real privacy concerns.",
+    "note": ""
+  },
+  {
+    "id": "technology_voice_assistant",
+    "en": "voice assistant",
+    "ph": "/vɔɪs əˈsɪstənt/",
+    "uk": "голосовий помічник",
+    "pos": "noun",
+    "example": "I ask the voice assistant to set a timer while cooking.",
+    "example2": "The voice assistant misunderstands accents sometimes.",
+    "note": ""
+  },
+  {
+    "id": "technology_facial_recognition",
+    "en": "facial recognition",
+    "ph": "/ˈfeɪʃəl ˌrɛkəɡˈnɪʃən/",
+    "uk": "розпізнавання обличчя",
+    "pos": "noun",
+    "example": "The phone unlocks using facial recognition.",
+    "example2": "Facial recognition raises serious privacy questions.",
+    "note": ""
+  },
+  {
+    "id": "technology_data_breach",
+    "en": "data breach",
+    "ph": "/ˈdeɪtə briːtʃ/",
+    "uk": "витік даних",
+    "pos": "noun",
+    "example": "The company reported a data breach affecting millions of users.",
+    "example2": "The data breach exposed customers' passwords and addresses.",
+    "note": ""
+  },
+  {
+    "id": "technology_identity_theft",
+    "en": "identity theft",
+    "ph": "/aɪˈdɛntəti θɛft/",
+    "uk": "крадіжка особистих даних",
+    "pos": "noun",
+    "example": "Identity theft can take months to resolve.",
+    "example2": "She was a victim of identity theft last year.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_spam",
+    "en": "spam",
+    "ph": "/spæm/",
+    "uk": "спам",
+    "pos": "noun",
+    "example": "Most spam gets filtered before it reaches my inbox.",
+    "example2": "I get so much spam on this old email address.",
+    "note": "Незлічуваний. Може бути й дієсловом — <b>to spam</b>."
+  },
+  {
+    "id": "technology_misinformation",
+    "en": "misinformation",
+    "ph": "/ˌmɪsɪnfərˈmeɪʃən/",
+    "uk": "дезінформація",
+    "pos": "noun",
+    "example": "Misinformation spreads faster than fact-checkers can keep up.",
+    "example2": "The platform added labels to flag misinformation.",
+    "note": "Незлічуваний. На відміну від <b>disinformation</b>, необов'язково навмисна."
+  },
+  {
+    "id": "technology_fake_news",
+    "en": "fake news",
+    "ph": "/feɪk nuːz/",
+    "uk": "фейкові новини",
+    "pos": "noun",
+    "example": "Fake news spread quickly during the election.",
+    "example2": "The site was created specifically to publish fake news.",
+    "note": ""
+  },
+  {
+    "id": "technology_deepfake",
+    "en": "deepfake",
+    "ph": "/ˈdiːpfeɪk/",
+    "uk": "дипфейк (підроблене відео/аудіо)",
+    "pos": "noun",
+    "example": "The video turned out to be a deepfake.",
+    "example2": "Deepfakes are getting harder to tell from real footage.",
+    "note": ""
+  },
+  {
+    "id": "technology_net_neutrality",
+    "en": "net neutrality",
+    "ph": "/nɛt nuːˈtræləti/",
+    "uk": "мережевий нейтралітет",
+    "pos": "noun",
+    "example": "Net neutrality means providers can't slow down certain websites.",
+    "example2": "The debate over net neutrality has gone on for years.",
+    "note": ""
+  },
+  {
+    "id": "technology_planned_obsolescence",
+    "en": "planned obsolescence",
+    "ph": "/plænd ˌɑːbsəˈlɛsəns/",
+    "uk": "запланована застарілість",
+    "pos": "noun",
+    "example": "Critics accuse the company of planned obsolescence.",
+    "example2": "Planned obsolescence means products are designed to fail early.",
+    "note": "Частий термін у IELTS-есе про технології й споживання."
+  },
+  {
+    "id": "technology_e_waste",
+    "en": "e-waste",
+    "ph": "/ˈiː weɪst/",
+    "uk": "електронні відходи",
+    "pos": "noun",
+    "example": "Old phones and laptops make up a growing share of e-waste.",
+    "example2": "The city opened a new e-waste recycling centre.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_glitch",
+    "en": "glitch",
+    "ph": "/ɡlɪtʃ/",
+    "uk": "збій, глюк",
+    "pos": "noun",
+    "example": "A software glitch delayed the flight for two hours.",
+    "example2": "There's a small glitch in the checkout page.",
+    "note": ""
   }
 ]

@@ -946,5 +946,333 @@
     "example": "Monoculture farming makes crops more vulnerable to disease.",
     "example2": "The region switched from monoculture to mixed farming.",
     "note": ""
+  },
+  {
+    "id": "environment_greenhouse_effect",
+    "en": "greenhouse effect",
+    "ph": "/ˈɡriːnhaʊs ɪˈfɛkt/",
+    "uk": "парниковий ефект",
+    "pos": "noun",
+    "example": "The greenhouse effect traps heat close to the Earth's surface.",
+    "example2": "Without the greenhouse effect, the planet would be far colder.",
+    "note": ""
+  },
+  {
+    "id": "environment_carbon_tax",
+    "en": "carbon tax",
+    "ph": "/ˈkɑrbən tæks/",
+    "uk": "вуглецевий податок",
+    "pos": "noun",
+    "example": "The province introduced a carbon tax on fossil fuels.",
+    "example2": "Critics argue the carbon tax raises the cost of living.",
+    "note": ""
+  },
+  {
+    "id": "environment_single_use_plastic",
+    "en": "single-use plastic",
+    "ph": "/ˈsɪŋɡl juːs ˈplæstɪk/",
+    "uk": "одноразовий пластик",
+    "pos": "noun",
+    "example": "The city banned single-use plastic bags last year.",
+    "example2": "Single-use plastic makes up a huge share of ocean waste.",
+    "note": ""
+  },
+  {
+    "id": "environment_habitat_loss",
+    "en": "habitat loss",
+    "ph": "/ˈhæbɪtæt lɔːs/",
+    "uk": "втрата середовища існування",
+    "pos": "noun",
+    "example": "Habitat loss is the biggest threat to the species.",
+    "example2": "Habitat loss forces animals into closer contact with humans.",
+    "note": ""
+  },
+  {
+    "id": "environment_water_pollution",
+    "en": "water pollution",
+    "ph": "/ˈwɔːtər pəˈluːʃən/",
+    "uk": "забруднення води",
+    "pos": "noun",
+    "example": "Water pollution has made the river unsafe for swimming.",
+    "example2": "Farm runoff is a major cause of water pollution.",
+    "note": ""
+  },
+  {
+    "id": "environment_air_pollution",
+    "en": "air pollution",
+    "ph": "/ɛr pəˈluːʃən/",
+    "uk": "забруднення повітря",
+    "pos": "noun",
+    "example": "Air pollution in the city has gotten worse this decade.",
+    "example2": "Air pollution is linked to a range of respiratory diseases.",
+    "note": ""
+  },
+  {
+    "id": "environment_pollute",
+    "en": "pollute",
+    "ph": "/pəˈluːt/",
+    "uk": "забруднювати",
+    "pos": "verb",
+    "forms": { "base": "pollute", "phBase": "/pəˈluːt/", "past": "polluted", "phPast": "/pəˈluːtɪd/", "part": "polluted", "phPart": "/pəˈluːtɪd/" },
+    "examples": [
+      ["Present Simple", "The factory pollutes the river every day."],
+      ["Past Simple", "The spill polluted miles of coastline."],
+      ["Present Perfect", "The plant has polluted this water for decades."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "environment_conserve",
+    "en": "conserve",
+    "ph": "/kənˈsɜrv/",
+    "uk": "берегти, економити (ресурси)",
+    "pos": "verb",
+    "forms": { "base": "conserve", "phBase": "/kənˈsɜrv/", "past": "conserved", "phPast": "/kənˈsɜrvd/", "part": "conserved", "phPart": "/kənˈsɜrvd/" },
+    "examples": [
+      ["Present Simple", "We conserve water during the dry season."],
+      ["Past Simple", "The town conserved energy during the heat wave."],
+      ["Present Perfect", "The city has conserved millions of litres of water this year."]
+    ],
+    "note": "Іменник — <b>conservation</b>."
+  },
+  {
+    "id": "environment_emit",
+    "en": "emit",
+    "ph": "/ɪˈmɪt/",
+    "uk": "викидати, випромінювати",
+    "pos": "verb",
+    "forms": { "base": "emit", "phBase": "/ɪˈmɪt/", "past": "emitted", "phPast": "/ɪˈmɪtɪd/", "part": "emitted", "phPart": "/ɪˈmɪtɪd/" },
+    "examples": [
+      ["Present Simple", "The factory emits smoke around the clock."],
+      ["Past Simple", "The plant emitted toxic gas for hours before anyone noticed."],
+      ["Present Perfect", "These vehicles have emitted less CO2 since the upgrade."]
+    ],
+    "note": "Іменник — <b>emission</b>."
+  },
+  {
+    "id": "environment_dispose",
+    "en": "dispose of",
+    "ph": "/dɪˈspoʊz ʌv/",
+    "uk": "утилізувати, позбуватись",
+    "pos": "verb",
+    "forms": { "base": "dispose of", "phBase": "/dɪˈspoʊz ʌv/", "past": "disposed of", "phPast": "/dɪˈspoʊzd ʌv/", "part": "disposed of", "phPart": "/dɪˈspoʊzd ʌv/" },
+    "examples": [
+      ["Present Simple", "The hospital disposes of medical waste carefully."],
+      ["Past Simple", "They disposed of the old batteries properly."],
+      ["Present Perfect", "The company has disposed of the chemicals safely."]
+    ],
+    "note": "Завжди з прийменником <b>of</b>."
+  },
+  {
+    "id": "environment_deplete",
+    "en": "deplete",
+    "ph": "/dɪˈpliːt/",
+    "uk": "виснажувати (ресурси)",
+    "pos": "verb",
+    "forms": { "base": "deplete", "phBase": "/dɪˈpliːt/", "past": "depleted", "phPast": "/dɪˈpliːtɪd/", "part": "depleted", "phPart": "/dɪˈpliːtɪd/" },
+    "examples": [
+      ["Present Simple", "Overfishing depletes stocks faster than they can recover."],
+      ["Past Simple", "The drought depleted the reservoir within months."],
+      ["Present Perfect", "Mining has depleted the region's groundwater."]
+    ],
+    "note": "Іменник — <b>depletion</b>."
+  },
+  {
+    "id": "environment_erode",
+    "en": "erode",
+    "ph": "/ɪˈroʊd/",
+    "uk": "розмивати, руйнувати (ерозією)",
+    "pos": "verb",
+    "forms": { "base": "erode", "phBase": "/ɪˈroʊd/", "past": "eroded", "phPast": "/ɪˈroʊdɪd/", "part": "eroded", "phPart": "/ɪˈroʊdɪd/" },
+    "examples": [
+      ["Present Simple", "Waves erode the cliffs a little more every year."],
+      ["Past Simple", "The storm eroded most of the beach overnight."],
+      ["Present Perfect", "The river has eroded its banks significantly."]
+    ],
+    "note": "Іменник — <b>erosion</b>."
+  },
+  {
+    "id": "environment_endanger",
+    "en": "endanger",
+    "ph": "/ɪnˈdeɪndʒər/",
+    "uk": "наражати на небезпеку",
+    "pos": "verb",
+    "forms": { "base": "endanger", "phBase": "/ɪnˈdeɪndʒər/", "past": "endangered", "phPast": "/ɪnˈdeɪndʒərd/", "part": "endangered", "phPart": "/ɪnˈdeɪndʒərd/" },
+    "examples": [
+      ["Present Simple", "Overfishing endangers whole marine ecosystems."],
+      ["Past Simple", "The oil spill endangered thousands of seabirds."],
+      ["Present Perfect", "Habitat loss has endangered dozens of species here."]
+    ],
+    "note": "Прикметник — <b>endangered</b> (той, що під загрозою зникнення)."
+  },
+  {
+    "id": "environment_extinction",
+    "en": "extinction",
+    "ph": "/ɪkˈstɪŋkʃən/",
+    "uk": "вимирання",
+    "pos": "noun",
+    "example": "Poaching has pushed the species to the edge of extinction.",
+    "example2": "Scientists warn of a sixth mass extinction.",
+    "note": "Прикметник — <b>extinct</b>."
+  },
+  {
+    "id": "environment_habitat_destruction",
+    "en": "habitat destruction",
+    "ph": "/ˈhæbɪtæt dɪˈstrʌkʃən/",
+    "uk": "знищення середовища існування",
+    "pos": "noun",
+    "example": "Habitat destruction is the main driver of biodiversity loss.",
+    "example2": "Logging is a major cause of habitat destruction worldwide.",
+    "note": ""
+  },
+  {
+    "id": "environment_illegal_logging",
+    "en": "illegal logging",
+    "ph": "/ɪˈliːɡl ˈlɔːɡɪŋ/",
+    "uk": "незаконна вирубка лісу",
+    "pos": "noun",
+    "example": "Illegal logging continues despite strict penalties.",
+    "example2": "The government launched satellite monitoring to catch illegal logging.",
+    "note": ""
+  },
+  {
+    "id": "environment_plastic_waste",
+    "en": "plastic waste",
+    "ph": "/ˈplæstɪk weɪst/",
+    "uk": "пластикові відходи",
+    "pos": "noun",
+    "example": "Most plastic waste ends up in landfills or the ocean.",
+    "example2": "The country exports much of its plastic waste abroad.",
+    "note": ""
+  },
+  {
+    "id": "environment_pollinator",
+    "en": "pollinator",
+    "ph": "/ˈpɑːlɪˌneɪtər/",
+    "uk": "запилювач (комаха)",
+    "pos": "noun",
+    "example": "Bees are the most important pollinators for many crops.",
+    "example2": "Pesticides can be harmful to pollinators.",
+    "note": ""
+  },
+  {
+    "id": "environment_carbon_sink",
+    "en": "carbon sink",
+    "ph": "/ˈkɑrbən sɪŋk/",
+    "uk": "поглинач вуглецю",
+    "pos": "noun",
+    "example": "Forests act as a huge carbon sink.",
+    "example2": "Oceans are the planet's largest carbon sink.",
+    "note": ""
+  },
+  {
+    "id": "environment_particulate_matter",
+    "en": "particulate matter",
+    "ph": "/pɑrˈtɪkjələt ˈmætər/",
+    "uk": "тверді частинки (у повітрі)",
+    "pos": "noun",
+    "example": "Particulate matter from traffic is a major health hazard in cities.",
+    "example2": "Wildfires release large amounts of particulate matter into the air.",
+    "note": ""
+  },
+  {
+    "id": "environment_industrial_waste",
+    "en": "industrial waste",
+    "ph": "/ɪnˈdʌstriəl weɪst/",
+    "uk": "промислові відходи",
+    "pos": "noun",
+    "example": "The factory was fined for dumping industrial waste illegally.",
+    "example2": "Industrial waste from the plant contaminated the nearby soil.",
+    "note": ""
+  },
+  {
+    "id": "environment_chemical_runoff",
+    "en": "chemical runoff",
+    "ph": "/ˈkɛmɪkl ˈrʌnɔːf/",
+    "uk": "хімічний стік",
+    "pos": "noun",
+    "example": "Chemical runoff from the farm killed fish downstream.",
+    "example2": "Heavy rain increases chemical runoff into rivers.",
+    "note": ""
+  },
+  {
+    "id": "environment_ozone_hole",
+    "en": "ozone hole",
+    "ph": "/ˈoʊzoʊn hoʊl/",
+    "uk": "озонова діра",
+    "pos": "noun",
+    "example": "The ozone hole over Antarctica has slowly been shrinking.",
+    "example2": "Scientists first identified the ozone hole in the 1980s.",
+    "note": ""
+  },
+  {
+    "id": "environment_topsoil",
+    "en": "topsoil",
+    "ph": "/ˈtɑːpsɔɪl/",
+    "uk": "верхній шар ґрунту",
+    "pos": "noun",
+    "example": "Wind and rain can strip away valuable topsoil.",
+    "example2": "It takes centuries for topsoil to form naturally.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_groundwater",
+    "en": "groundwater",
+    "ph": "/ˈɡraʊndˌwɔːtər/",
+    "uk": "підземні води",
+    "pos": "noun",
+    "example": "The factory's chemicals leaked into the groundwater.",
+    "example2": "Many towns rely on groundwater for their drinking supply.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_watershed",
+    "en": "watershed",
+    "ph": "/ˈwɔːtərʃɛd/",
+    "uk": "водозбірний басейн",
+    "pos": "noun",
+    "example": "The whole watershed feeds into a single river.",
+    "example2": "Development in the watershed has increased flood risk downstream.",
+    "note": ""
+  },
+  {
+    "id": "environment_food_chain",
+    "en": "food chain",
+    "ph": "/fuːd tʃeɪn/",
+    "uk": "харчовий ланцюг",
+    "pos": "noun",
+    "example": "Toxins build up as they move up the food chain.",
+    "example2": "Removing one species can disrupt the whole food chain.",
+    "note": ""
+  },
+  {
+    "id": "environment_keystone_species",
+    "en": "keystone species",
+    "ph": "/ˈkiːstoʊn ˈspiːʃiːz/",
+    "uk": "ключовий вид (для екосистеми)",
+    "pos": "noun",
+    "example": "Wolves are a keystone species in this ecosystem.",
+    "example2": "Losing a keystone species can collapse the whole food web.",
+    "note": ""
+  },
+  {
+    "id": "environment_bycatch",
+    "en": "bycatch",
+    "ph": "/ˈbaɪkætʃ/",
+    "uk": "прилов (небажано впіймані морські тварини)",
+    "pos": "noun",
+    "example": "Dolphins are often caught as bycatch in fishing nets.",
+    "example2": "New nets have been designed to reduce bycatch.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "environment_eco_tourism",
+    "en": "eco-tourism",
+    "ph": "/ˈiːkoʊˌtʊrɪzəm/",
+    "uk": "екотуризм",
+    "pos": "noun",
+    "example": "Eco-tourism brings much-needed income to the local community.",
+    "example2": "The park limits visitor numbers to protect it from eco-tourism itself.",
+    "note": ""
   }
 ]

@@ -1999,5 +1999,555 @@
       ["Present Perfect", "I've had my driver's license for ten years."]
     ],
     "note": "Написання <b>license</b> — американське/канадське; британське — <b>licence</b> (іменник)."
+  },
+  {
+    "id": "bite",
+    "en": "bite",
+    "ph": "/baɪt/",
+    "uk": "кусати",
+    "pos": "verb",
+    "forms": { "base": "bite", "past": "bit", "part": "bitten", "phBase": "/baɪt/", "phPast": "/bɪt/", "phPart": "/ˈbɪtən/" },
+    "examples": [
+      ["Present Simple", "The dog only bites strangers."],
+      ["Past Simple", "The dog bit the mailman yesterday."],
+      ["Present Perfect", "He's never bitten anyone before."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "bleed",
+    "en": "bleed",
+    "ph": "/bliːd/",
+    "uk": "кровоточити",
+    "pos": "verb",
+    "forms": { "base": "bleed", "past": "bled", "part": "bled", "phBase": "/bliːd/", "phPast": "/blɛd/", "phPart": "/blɛd/" },
+    "examples": [
+      ["Present Simple", "My gums bleed when I floss."],
+      ["Past Simple", "The cut bled for a few minutes."],
+      ["Present Perfect", "It hasn't bled since this morning."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "blow",
+    "en": "blow",
+    "ph": "/bloʊ/",
+    "uk": "дути",
+    "pos": "verb",
+    "forms": { "base": "blow", "past": "blew", "part": "blown", "phBase": "/bloʊ/", "phPast": "/bluː/", "phPart": "/bloʊn/" },
+    "examples": [
+      ["Present Simple", "The wind blows hard here in winter."],
+      ["Past Simple", "A fuse blew last night."],
+      ["Present Perfect", "The wind has blown all the leaves off the porch."]
+    ],
+    "note": "«Blow it» — зіпсувати шанс (розмовний вираз)."
+  },
+  {
+    "id": "deal",
+    "en": "deal",
+    "ph": "/diːl/",
+    "uk": "мати справу (з чимось)",
+    "pos": "verb",
+    "forms": { "base": "deal", "past": "dealt", "part": "dealt", "phBase": "/diːl/", "phPast": "/dɛlt/", "phPart": "/dɛlt/" },
+    "examples": [
+      ["Present Simple", "I deal with customer complaints every day."],
+      ["Past Simple", "I dealt with it right away."],
+      ["Present Perfect", "I've dealt with worse before."]
+    ],
+    "note": "«Deal with» — розбиратись з проблемою/ситуацією."
+  },
+  {
+    "id": "dig",
+    "en": "dig",
+    "ph": "/dɪɡ/",
+    "uk": "копати",
+    "pos": "verb",
+    "forms": { "base": "dig", "past": "dug", "part": "dug", "phBase": "/dɪɡ/", "phPast": "/dʌɡ/", "phPart": "/dʌɡ/" },
+    "examples": [
+      ["Present Simple", "We dig the garden every spring."],
+      ["Past Simple", "I dug a hole for the fence post."],
+      ["Present Perfect", "I've already dug three holes today."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "draw",
+    "en": "draw",
+    "ph": "/drɔː/",
+    "uk": "малювати, тягнути",
+    "pos": "verb",
+    "forms": { "base": "draw", "past": "drew", "part": "drawn", "phBase": "/drɔː/", "phPast": "/druː/", "phPart": "/drɔːn/" },
+    "examples": [
+      ["Present Simple", "She draws every day after school."],
+      ["Past Simple", "I drew up a quick plan."],
+      ["Present Perfect", "I've drawn this map from memory."]
+    ],
+    "note": "«Draw up» — скласти (план, документ)."
+  },
+  {
+    "id": "fight",
+    "en": "fight",
+    "ph": "/faɪt/",
+    "uk": "битися, боротися",
+    "pos": "verb",
+    "forms": { "base": "fight", "past": "fought", "part": "fought", "phBase": "/faɪt/", "phPast": "/fɔːt/", "phPart": "/fɔːt/" },
+    "examples": [
+      ["Present Simple", "They fight about money constantly."],
+      ["Past Simple", "We fought about the schedule last week."],
+      ["Present Perfect", "I've fought for this promotion for a year."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "freeze",
+    "en": "freeze",
+    "ph": "/friːz/",
+    "uk": "замерзати",
+    "pos": "verb",
+    "forms": { "base": "freeze", "past": "froze", "part": "frozen", "phBase": "/friːz/", "phPast": "/froʊz/", "phPart": "/ˈfroʊzən/" },
+    "examples": [
+      ["Present Simple", "The lake freezes every January."],
+      ["Past Simple", "The pipes froze last winter."],
+      ["Present Perfect", "The screen has frozen again."]
+    ],
+    "note": "Часто про техніку — «my computer froze»."
+  },
+  {
+    "id": "grow",
+    "en": "grow",
+    "ph": "/ɡroʊ/",
+    "uk": "рости, вирощувати",
+    "pos": "verb",
+    "forms": { "base": "grow", "past": "grew", "part": "grown", "phBase": "/ɡroʊ/", "phPast": "/ɡruː/", "phPart": "/ɡroʊn/" },
+    "examples": [
+      ["Present Simple", "We grow our own tomatoes."],
+      ["Past Simple", "The company grew fast last year."],
+      ["Present Perfect", "The business has grown a lot since 2020."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "lay",
+    "en": "lay",
+    "ph": "/leɪ/",
+    "uk": "класти (щось)",
+    "pos": "verb",
+    "forms": { "base": "lay", "past": "laid", "part": "laid", "phBase": "/leɪ/", "phPast": "/leɪd/", "phPart": "/leɪd/" },
+    "examples": [
+      ["Present Simple", "I lay the table before guests arrive."],
+      ["Past Simple", "I laid the blanket on the grass."],
+      ["Present Perfect", "I've laid out all the tools I need."]
+    ],
+    "note": "Не плутай з «lie» /laɪ/ (лежати самому) — «lay» завжди вимагає об'єкт."
+  },
+  {
+    "id": "lead",
+    "en": "lead",
+    "ph": "/liːd/",
+    "uk": "вести, керувати",
+    "pos": "verb",
+    "forms": { "base": "lead", "past": "led", "part": "led", "phBase": "/liːd/", "phPast": "/lɛd/", "phPart": "/lɛd/" },
+    "examples": [
+      ["Present Simple", "She leads the team on this project."],
+      ["Past Simple", "He led the meeting yesterday."],
+      ["Present Perfect", "She's led this department for three years."]
+    ],
+    "note": "Не плутай з металом «lead» /lɛd/ — пишеться так само, як минулий час цього дієслова."
+  },
+  {
+    "id": "light",
+    "en": "light",
+    "ph": "/laɪt/",
+    "uk": "запалювати, освітлювати",
+    "pos": "verb",
+    "forms": { "base": "light", "past": "lit", "part": "lit", "phBase": "/laɪt/", "phPast": "/lɪt/", "phPart": "/lɪt/" },
+    "examples": [
+      ["Present Simple", "We light candles for dinner sometimes."],
+      ["Past Simple", "I lit the fireplace last night."],
+      ["Present Perfect", "I've already lit the grill."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "mean",
+    "en": "mean",
+    "ph": "/miːn/",
+    "uk": "означати, мати на увазі",
+    "pos": "verb",
+    "forms": { "base": "mean", "past": "meant", "part": "meant", "phBase": "/miːn/", "phPast": "/mɛnt/", "phPart": "/mɛnt/" },
+    "examples": [
+      ["Present Simple", "This word means something different in Canada."],
+      ["Past Simple", "I meant to call you earlier."],
+      ["Present Perfect", "I've always meant to visit that museum."]
+    ],
+    "note": "«Mean to do» — мати намір щось зробити."
+  },
+  {
+    "id": "ring",
+    "en": "ring",
+    "ph": "/rɪŋ/",
+    "uk": "дзвонити",
+    "pos": "verb",
+    "forms": { "base": "ring", "past": "rang", "part": "rung", "phBase": "/rɪŋ/", "phPast": "/ræŋ/", "phPart": "/rʌŋ/" },
+    "examples": [
+      ["Present Simple", "The phone rings constantly at work."],
+      ["Past Simple", "The doorbell rang twice."],
+      ["Present Perfect", "The alarm has rung three times already."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "rise",
+    "en": "rise",
+    "ph": "/raɪz/",
+    "uk": "підійматися, зростати",
+    "pos": "verb",
+    "forms": { "base": "rise", "past": "rose", "part": "risen", "phBase": "/raɪz/", "phPast": "/roʊz/", "phPart": "/ˈrɪzən/" },
+    "examples": [
+      ["Present Simple", "Prices rise every year."],
+      ["Past Simple", "The sun rose at 6 this morning."],
+      ["Present Perfect", "Costs have risen sharply this year."]
+    ],
+    "note": "«Rise» не бере прямий об'єкт («ціни зростають»), «raise» бере («хтось піднімає ціни»)."
+  },
+  {
+    "id": "seek",
+    "en": "seek",
+    "ph": "/siːk/",
+    "uk": "шукати, прагнути",
+    "pos": "verb",
+    "forms": { "base": "seek", "past": "sought", "part": "sought", "phBase": "/siːk/", "phPast": "/sɔːt/", "phPart": "/sɔːt/" },
+    "examples": [
+      ["Present Simple", "The company seeks new talent every year."],
+      ["Past Simple", "I sought advice from a lawyer."],
+      ["Present Perfect", "I've sought help from a few different people."]
+    ],
+    "note": "Формальніший синонім — «look for»."
+  },
+  {
+    "id": "shake",
+    "en": "shake",
+    "ph": "/ʃeɪk/",
+    "uk": "трясти",
+    "pos": "verb",
+    "forms": { "base": "shake", "past": "shook", "part": "shaken", "phBase": "/ʃeɪk/", "phPast": "/ʃʊk/", "phPart": "/ˈʃeɪkən/" },
+    "examples": [
+      ["Present Simple", "My hands shake when I'm nervous."],
+      ["Past Simple", "The whole house shook during the storm."],
+      ["Present Perfect", "The news has shaken the whole team."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "shine",
+    "en": "shine",
+    "ph": "/ʃaɪn/",
+    "uk": "світити, сяяти",
+    "pos": "verb",
+    "forms": { "base": "shine", "past": "shone", "part": "shone", "phBase": "/ʃaɪn/", "phPast": "/ʃoʊn/", "phPart": "/ʃoʊn/" },
+    "examples": [
+      ["Present Simple", "The sun shines almost every day in summer."],
+      ["Past Simple", "The sun shone all weekend."],
+      ["Present Perfect", "The sun has shone for a week straight."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "shoot",
+    "en": "shoot",
+    "ph": "/ʃuːt/",
+    "uk": "стріляти, знімати (відео)",
+    "pos": "verb",
+    "forms": { "base": "shoot", "past": "shot", "part": "shot", "phBase": "/ʃuːt/", "phPast": "/ʃɑːt/", "phPart": "/ʃɑːt/" },
+    "examples": [
+      ["Present Simple", "We shoot the weekly video on Fridays."],
+      ["Past Simple", "We shot the whole scene in one take."],
+      ["Present Perfect", "We've shot half the footage already."]
+    ],
+    "note": "Дуже часто про фото/відео — «shoot a video», не тільки про зброю."
+  },
+  {
+    "id": "show",
+    "en": "show",
+    "ph": "/ʃoʊ/",
+    "uk": "показувати",
+    "pos": "verb",
+    "forms": { "base": "show", "past": "showed", "part": "shown", "phBase": "/ʃoʊ/", "phPast": "/ʃoʊd/", "phPart": "/ʃoʊn/" },
+    "examples": [
+      ["Present Simple", "I show new hires around on their first day."],
+      ["Past Simple", "I showed him the report."],
+      ["Present Perfect", "I've shown her the ropes already."]
+    ],
+    "note": "Дієприкметник — <b>shown</b>, а не «showed» (частий помилковий варіант)."
+  },
+  {
+    "id": "shrink",
+    "en": "shrink",
+    "ph": "/ʃrɪŋk/",
+    "uk": "стискатися, сідати (про одяг)",
+    "pos": "verb",
+    "forms": { "base": "shrink", "past": "shrank", "part": "shrunk", "phBase": "/ʃrɪŋk/", "phPast": "/ʃræŋk/", "phPart": "/ʃrʌŋk/" },
+    "examples": [
+      ["Present Simple", "This fabric shrinks in hot water."],
+      ["Past Simple", "My sweater shrank in the dryer."],
+      ["Present Perfect", "The budget has shrunk this quarter."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "sing",
+    "en": "sing",
+    "ph": "/sɪŋ/",
+    "uk": "співати",
+    "pos": "verb",
+    "forms": { "base": "sing", "past": "sang", "part": "sung", "phBase": "/sɪŋ/", "phPast": "/sæŋ/", "phPart": "/sʌŋ/" },
+    "examples": [
+      ["Present Simple", "She sings in the car every morning."],
+      ["Past Simple", "The choir sang beautifully last night."],
+      ["Present Perfect", "I've sung this song a hundred times."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "sink",
+    "en": "sink",
+    "ph": "/sɪŋk/",
+    "uk": "тонути, опускатися",
+    "pos": "verb",
+    "forms": { "base": "sink", "past": "sank", "part": "sunk", "phBase": "/sɪŋk/", "phPast": "/sæŋk/", "phPart": "/sʌŋk/" },
+    "examples": [
+      ["Present Simple", "Morale sinks after news like that."],
+      ["Past Simple", "The boat sank near the harbor."],
+      ["Present Perfect", "Prices have sunk since last quarter."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "slide",
+    "en": "slide",
+    "ph": "/slaɪd/",
+    "uk": "ковзати",
+    "pos": "verb",
+    "forms": { "base": "slide", "past": "slid", "part": "slid", "phBase": "/slaɪd/", "phPast": "/slɪd/", "phPart": "/slɪd/" },
+    "examples": [
+      ["Present Simple", "The car slides on ice if you brake hard."],
+      ["Past Simple", "I slid on the icy steps."],
+      ["Present Perfect", "Sales have slid for three months straight."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "spread",
+    "en": "spread",
+    "ph": "/sprɛd/",
+    "uk": "поширювати(ся)",
+    "pos": "verb",
+    "forms": { "base": "spread", "past": "spread", "part": "spread", "phBase": "/sprɛd/", "phPast": "/sprɛd/", "phPart": "/sprɛd/" },
+    "examples": [
+      ["Present Simple", "News spreads fast in a small town."],
+      ["Past Simple", "The rumor spread through the office."],
+      ["Present Perfect", "The news has already spread to the whole building."]
+    ],
+    "note": "Форма однакова у всіх часах."
+  },
+  {
+    "id": "stick",
+    "en": "stick",
+    "ph": "/stɪk/",
+    "uk": "прилипати, застрягати",
+    "pos": "verb",
+    "forms": { "base": "stick", "past": "stuck", "part": "stuck", "phBase": "/stɪk/", "phPast": "/stʌk/", "phPart": "/stʌk/" },
+    "examples": [
+      ["Present Simple", "This drawer sticks when it's humid."],
+      ["Past Simple", "My car got stuck in the snow."],
+      ["Present Perfect", "I've been stuck in traffic for an hour."]
+    ],
+    "note": "«Stick to» — дотримуватись (плану, дієти)."
+  },
+  {
+    "id": "swear",
+    "en": "swear",
+    "ph": "/swɛr/",
+    "uk": "клястися, лаятися",
+    "pos": "verb",
+    "forms": { "base": "swear", "past": "swore", "part": "sworn", "phBase": "/swɛr/", "phPast": "/swɔːr/", "phPart": "/swɔːrn/" },
+    "examples": [
+      ["Present Simple", "I swear I locked the door."],
+      ["Past Simple", "He swore he'd never do it again."],
+      ["Present Perfect", "I've sworn off fast food this month."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "sweep",
+    "en": "sweep",
+    "ph": "/swiːp/",
+    "uk": "підмітати",
+    "pos": "verb",
+    "forms": { "base": "sweep", "past": "swept", "part": "swept", "phBase": "/swiːp/", "phPast": "/swɛpt/", "phPart": "/swɛpt/" },
+    "examples": [
+      ["Present Simple", "I sweep the porch every weekend."],
+      ["Past Simple", "I swept the garage yesterday."],
+      ["Present Perfect", "I've already swept the kitchen."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "swim",
+    "en": "swim",
+    "ph": "/swɪm/",
+    "uk": "плавати",
+    "pos": "verb",
+    "forms": { "base": "swim", "past": "swam", "part": "swum", "phBase": "/swɪm/", "phPast": "/swæm/", "phPart": "/swʌm/" },
+    "examples": [
+      ["Present Simple", "I swim three times a week."],
+      ["Past Simple", "I swam a mile yesterday."],
+      ["Present Perfect", "I've swum this lake before."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "tear",
+    "en": "tear",
+    "ph": "/tɛr/",
+    "uk": "рвати",
+    "pos": "verb",
+    "forms": { "base": "tear", "past": "tore", "part": "torn", "phBase": "/tɛr/", "phPast": "/tɔːr/", "phPart": "/tɔːrn/" },
+    "examples": [
+      ["Present Simple", "This paper tears easily."],
+      ["Past Simple", "I tore my jacket on the fence."],
+      ["Present Perfect", "I've torn this page out already."]
+    ],
+    "note": "Не плутай з іменником «tear» /tɪr/ (сльоза) — те саме написання, інша вимова."
+  },
+  {
+    "id": "babysitter",
+    "en": "babysitter",
+    "ph": "/ˈbeɪbiˌsɪtər/",
+    "uk": "нянька",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "We book a babysitter every Friday night."],
+      ["Past Simple", "We hired a babysitter last weekend."],
+      ["Present Perfect", "We've used the same babysitter for years."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "landlord",
+    "en": "landlord",
+    "ph": "/ˈlændlɔːrd/",
+    "uk": "орендодавець, власник житла",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I text my landlord when something breaks."],
+      ["Past Simple", "I called the landlord about the leak."],
+      ["Present Perfect", "I've never had issues with this landlord."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "tenant",
+    "en": "tenant",
+    "ph": "/ˈtɛnənt/",
+    "uk": "орендар, квартиронаймач",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "The building has twelve tenants."],
+      ["Past Simple", "The new tenant moved in last week."],
+      ["Present Perfect", "I've been a tenant here for three years."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "plumber",
+    "en": "plumber",
+    "ph": "/ˈplʌmər/",
+    "uk": "сантехнік",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I call the same plumber every time."],
+      ["Past Simple", "The plumber fixed the leak yesterday."],
+      ["Present Perfect", "I've already called a plumber."]
+    ],
+    "note": "«B» не вимовляється: /ˈplʌmər/, не «плумбер»."
+  },
+  {
+    "id": "electrician",
+    "en": "electrician",
+    "ph": "/ɪˌlɛkˈtrɪʃən/",
+    "uk": "електрик",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "An electrician checks the wiring every few years."],
+      ["Past Simple", "The electrician came this morning."],
+      ["Present Perfect", "I've hired an electrician twice this year."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "thermostat",
+    "en": "thermostat",
+    "ph": "/ˈθɜrməstæt/",
+    "uk": "термостат",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I keep the thermostat low at night."],
+      ["Past Simple", "I turned the thermostat up this morning."],
+      ["Present Perfect", "I've already adjusted the thermostat twice today."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "leak",
+    "en": "leak",
+    "ph": "/liːk/",
+    "uk": "протікання",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "This faucet has a small leak."],
+      ["Past Simple", "We found a leak under the sink yesterday."],
+      ["Present Perfect", "We've fixed two leaks this year."]
+    ],
+    "note": "Може бути й дієсловом — «the roof leaks»."
+  },
+  {
+    "id": "prescription",
+    "en": "prescription",
+    "ph": "/prɪˈskrɪpʃən/",
+    "uk": "рецепт (на ліки)",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I refill this prescription every month."],
+      ["Past Simple", "I picked up my prescription yesterday."],
+      ["Present Perfect", "I've already refilled it twice this year."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "checkup",
+    "en": "checkup",
+    "ph": "/ˈtʃɛkʌp/",
+    "uk": "медогляд",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "I get a checkup once a year."],
+      ["Past Simple", "I had a checkup last month."],
+      ["Present Perfect", "I've had my checkup already this year."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "symptom",
+    "en": "symptom",
+    "ph": "/ˈsɪmptəm/",
+    "uk": "симптом",
+    "pos": "noun",
+    "examples": [
+      ["Present Simple", "Stress often shows up as physical symptoms."],
+      ["Past Simple", "I noticed the symptoms a few days ago."],
+      ["Present Perfect", "The symptoms have gotten worse this week."]
+    ],
+    "note": ""
   }
 ]
