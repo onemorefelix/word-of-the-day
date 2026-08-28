@@ -1576,5 +1576,431 @@
     "example": "My smartwatch tracks my sleep and heart rate.",
     "example2": "He got a smartwatch for his birthday.",
     "note": ""
+  },
+  {
+    "id": "technology_video_game",
+    "en": "video game",
+    "ph": "/ˈvɪdioʊ ɡeɪm/",
+    "uk": "відеогра",
+    "pos": "noun",
+    "example": "He spends most weekends playing video games with friends online.",
+    "example2": "The video game industry now makes more money than movies.",
+    "note": ""
+  },
+  {
+    "id": "technology_esports",
+    "en": "esports",
+    "ph": "/ˈiːspɔːrts/",
+    "uk": "кіберспорт",
+    "pos": "noun",
+    "example": "Esports tournaments now fill entire stadiums.",
+    "example2": "She's studying on an esports scholarship.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_gaming_console",
+    "en": "gaming console",
+    "ph": "/ˈɡeɪmɪŋ ˈkɑːnsoʊl/",
+    "uk": "ігрова консоль",
+    "pos": "noun",
+    "example": "The kids got a gaming console for Christmas.",
+    "example2": "The latest gaming console sold out within hours.",
+    "note": ""
+  },
+  {
+    "id": "technology_multiplayer",
+    "en": "multiplayer",
+    "ph": "/ˈmʌltiˌpleɪər/",
+    "uk": "багатокористувацький",
+    "pos": "adjective",
+    "example": "This game only has a multiplayer mode.",
+    "example2": "We play multiplayer games together every Friday night.",
+    "note": ""
+  },
+  {
+    "id": "technology_mobile_data",
+    "en": "mobile data",
+    "ph": "/ˈmoʊbl ˈdeɪtə/",
+    "uk": "мобільний інтернет",
+    "pos": "noun",
+    "example": "I ran out of mobile data before the end of the month.",
+    "example2": "The app uses very little mobile data.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_roaming",
+    "en": "roaming",
+    "ph": "/ˈroʊmɪŋ/",
+    "uk": "роумінг",
+    "pos": "noun",
+    "example": "I turned off roaming to avoid extra charges abroad.",
+    "example2": "Roaming fees can add up fast on a long trip.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_sim_card",
+    "en": "SIM card",
+    "ph": "/sɪm kɑrd/",
+    "uk": "SIM-карта",
+    "pos": "noun",
+    "example": "I bought a local SIM card as soon as I landed.",
+    "example2": "The phone doesn't work without a SIM card.",
+    "note": ""
+  },
+  {
+    "id": "technology_app_store",
+    "en": "app store",
+    "ph": "/æp stɔːr/",
+    "uk": "магазин застосунків",
+    "pos": "noun",
+    "example": "The app has thousands of reviews in the app store.",
+    "example2": "I found the app by searching the app store.",
+    "note": ""
+  },
+  {
+    "id": "technology_instant_messaging",
+    "en": "instant messaging",
+    "ph": "/ˈɪnstənt ˈmɛsɪdʒɪŋ/",
+    "uk": "миттєвий обмін повідомленнями",
+    "pos": "noun",
+    "example": "The team communicates mostly through instant messaging.",
+    "example2": "Instant messaging has mostly replaced email for quick questions.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_video_call",
+    "en": "video call",
+    "ph": "/ˈvɪdioʊ kɔːl/",
+    "uk": "відеодзвінок",
+    "pos": "noun",
+    "example": "We do a video call with the grandkids every Sunday.",
+    "example2": "The interview was conducted over a video call.",
+    "note": ""
+  },
+  {
+    "id": "technology_group_chat",
+    "en": "group chat",
+    "ph": "/ɡruːp tʃæt/",
+    "uk": "групова бесіда",
+    "pos": "noun",
+    "example": "The whole family is in one big group chat.",
+    "example2": "I muted the group chat because it was too active.",
+    "note": ""
+  },
+  {
+    "id": "technology_emoji",
+    "en": "emoji",
+    "ph": "/ɪˈmoʊdʒi/",
+    "uk": "емодзі",
+    "pos": "noun",
+    "example": "She replied with just a thumbs-up emoji.",
+    "example2": "It's easy to misread tone without an emoji.",
+    "note": "Множина може бути <b>emoji</b> або <b>emojis</b>."
+  },
+  {
+    "id": "technology_hashtag",
+    "en": "hashtag",
+    "ph": "/ˈhæʃtæɡ/",
+    "uk": "хештег",
+    "pos": "noun",
+    "example": "The campaign spread quickly thanks to a catchy hashtag.",
+    "example2": "She added three hashtags to reach a wider audience.",
+    "note": ""
+  },
+  {
+    "id": "technology_podcast",
+    "en": "podcast",
+    "ph": "/ˈpɑːdkæst/",
+    "uk": "подкаст",
+    "pos": "noun",
+    "example": "I listen to a podcast during my commute.",
+    "example2": "She started her own podcast about small business.",
+    "note": ""
+  },
+  {
+    "id": "technology_webinar",
+    "en": "webinar",
+    "ph": "/ˈwɛbɪnɑr/",
+    "uk": "вебінар",
+    "pos": "noun",
+    "example": "The company hosted a free webinar on the new software.",
+    "example2": "I signed up for a webinar on tax season.",
+    "note": ""
+  },
+  {
+    "id": "technology_online_shopping",
+    "en": "online shopping",
+    "ph": "/ˌɔːnˈlaɪn ˈʃɑːpɪŋ/",
+    "uk": "онлайн-шопінг",
+    "pos": "noun",
+    "example": "Online shopping is more convenient but easier to overspend on.",
+    "example2": "Online shopping surged during the pandemic and never really slowed down.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_checkout",
+    "en": "check out",
+    "ph": "/tʃɛk aʊt/",
+    "uk": "оформлювати замовлення (онлайн)",
+    "pos": "verb",
+    "forms": { "base": "check out", "phBase": "/tʃɛk aʊt/", "past": "checked out", "phPast": "/tʃɛkt aʊt/", "part": "checked out", "phPart": "/tʃɛkt aʊt/" },
+    "examples": [
+      ["Present Simple", "Most customers check out as guests instead of creating an account."],
+      ["Past Simple", "I checked out without noticing the extra shipping fee."],
+      ["Present Perfect", "I've already checked out and paid."]
+    ],
+    "note": "Як іменник пишеться разом — <b>checkout</b>."
+  },
+  {
+    "id": "technology_shopping_cart",
+    "en": "shopping cart",
+    "ph": "/ˈʃɑːpɪŋ kɑrt/",
+    "uk": "кошик покупок (онлайн)",
+    "pos": "noun",
+    "example": "I left three items sitting in my shopping cart.",
+    "example2": "The site emailed me a reminder about my abandoned shopping cart.",
+    "note": ""
+  },
+  {
+    "id": "technology_online_marketplace",
+    "en": "online marketplace",
+    "ph": "/ˌɔːnˈlaɪn ˈmɑrkɪtpleɪs/",
+    "uk": "онлайн-майданчик (для торгівлі)",
+    "pos": "noun",
+    "example": "She sells handmade jewellery on an online marketplace.",
+    "example2": "The online marketplace takes a small commission on every sale.",
+    "note": ""
+  },
+  {
+    "id": "technology_quantum_computing",
+    "en": "quantum computing",
+    "ph": "/ˈkwɑːntəm kəmˈpjuːtɪŋ/",
+    "uk": "квантові обчислення",
+    "pos": "noun",
+    "example": "Quantum computing could eventually break current encryption methods.",
+    "example2": "Quantum computing is still mostly experimental.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_metaverse",
+    "en": "metaverse",
+    "ph": "/ˈmɛtəvɜrs/",
+    "uk": "метавсесвіт",
+    "pos": "noun",
+    "example": "The company invested billions in building the metaverse.",
+    "example2": "Interest in the metaverse has cooled off since it was first hyped.",
+    "note": ""
+  },
+  {
+    "id": "technology_gene_editing",
+    "en": "gene editing",
+    "ph": "/dʒiːn ˈɛdɪtɪŋ/",
+    "uk": "редагування генів",
+    "pos": "noun",
+    "example": "Gene editing raises serious ethical questions.",
+    "example2": "Scientists used gene editing to remove the harmful mutation.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_data_center",
+    "en": "data centre",
+    "ph": "/ˈdeɪtə ˈsɛntər/",
+    "uk": "дата-центр",
+    "pos": "noun",
+    "example": "The company built a new data centre to handle the extra traffic.",
+    "example2": "Data centres use enormous amounts of electricity.",
+    "note": "Написання <b>centre</b> — канадський стандарт (розділ 5 CLAUDE.md)."
+  },
+  {
+    "id": "technology_latency",
+    "en": "latency",
+    "ph": "/ˈleɪtənsi/",
+    "uk": "затримка сигналу, латентність",
+    "pos": "noun",
+    "example": "Gamers need low latency for a smooth connection.",
+    "example2": "Satellite internet has much higher latency than fibre.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_uptime",
+    "en": "uptime",
+    "ph": "/ˈʌptaɪm/",
+    "uk": "час безперебійної роботи",
+    "pos": "noun",
+    "example": "The service promises 99.9% uptime.",
+    "example2": "Uptime dropped sharply after the server migration.",
+    "note": "Незлічуваний. Антонім — <b>downtime</b>."
+  },
+  {
+    "id": "technology_downtime",
+    "en": "downtime",
+    "ph": "/ˈdaʊntaɪm/",
+    "uk": "час простою (системи)",
+    "pos": "noun",
+    "example": "The update caused an hour of downtime.",
+    "example2": "Unexpected downtime cost the company thousands in lost sales.",
+    "note": "Незлічуваний. Антонім — <b>uptime</b>."
+  },
+  {
+    "id": "technology_consent",
+    "en": "consent",
+    "ph": "/kənˈsɛnt/",
+    "uk": "згода (на обробку даних)",
+    "pos": "noun",
+    "example": "The app asks for consent before collecting location data.",
+    "example2": "You can withdraw your consent at any time.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_opt_in",
+    "en": "opt in",
+    "ph": "/ɑːpt ɪn/",
+    "uk": "погоджуватися (на розсилку/збір даних)",
+    "pos": "verb",
+    "forms": { "base": "opt in", "phBase": "/ɑːpt ɪn/", "past": "opted in", "phPast": "/ˈɑːptɪd ɪn/", "part": "opted in", "phPart": "/ˈɑːptɪd ɪn/" },
+    "examples": [
+      ["Present Simple", "Very few users actually opt in to location tracking."],
+      ["Past Simple", "I opted in to the newsletter by mistake."],
+      ["Present Perfect", "I've already opted in to notifications."]
+    ],
+    "note": "Антонім — <b>opt out</b>."
+  },
+  {
+    "id": "technology_opt_out",
+    "en": "opt out",
+    "ph": "/ɑːpt aʊt/",
+    "uk": "відмовлятися (від розсилки/збору даних)",
+    "pos": "verb",
+    "forms": { "base": "opt out", "phBase": "/ɑːpt aʊt/", "past": "opted out", "phPast": "/ˈɑːptɪd aʊt/", "part": "opted out", "phPart": "/ˈɑːptɪd aʊt/" },
+    "examples": [
+      ["Present Simple", "You can opt out of targeted ads in settings."],
+      ["Past Simple", "I opted out of the data-sharing program."],
+      ["Present Perfect", "I've opted out of almost every mailing list."]
+    ],
+    "note": "Антонім — <b>opt in</b>."
+  },
+  {
+    "id": "technology_terms_of_service",
+    "en": "terms of service",
+    "ph": "/tɜrmz ʌv ˈsɜrvɪs/",
+    "uk": "умови надання послуг",
+    "pos": "noun",
+    "example": "Almost nobody actually reads the terms of service.",
+    "example2": "The company updated its terms of service last month.",
+    "note": ""
+  },
+  {
+    "id": "technology_data_protection",
+    "en": "data protection",
+    "ph": "/ˈdeɪtə prəˈtɛkʃən/",
+    "uk": "захист даних",
+    "pos": "noun",
+    "example": "The company was fined for violating data protection rules.",
+    "example2": "Data protection laws vary a lot from country to country.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_anonymize",
+    "en": "anonymize",
+    "ph": "/əˈnɑːnəmaɪz/",
+    "uk": "знеособлювати (дані)",
+    "pos": "verb",
+    "forms": { "base": "anonymize", "phBase": "/əˈnɑːnəmaɪz/", "past": "anonymized", "phPast": "/əˈnɑːnəmaɪzd/", "part": "anonymized", "phPart": "/əˈnɑːnəmaɪzd/" },
+    "examples": [
+      ["Present Simple", "The company anonymizes user data before sharing it with researchers."],
+      ["Past Simple", "They anonymized the dataset before publishing it."],
+      ["Present Perfect", "We've already anonymized all the survey responses."]
+    ],
+    "note": "Написання <b>anonymize</b> (не anonymise)."
+  },
+  {
+    "id": "technology_e_reader",
+    "en": "e-reader",
+    "ph": "/ˈiː ˌriːdər/",
+    "uk": "електронна книга (пристрій)",
+    "pos": "noun",
+    "example": "I read almost everything on an e-reader now.",
+    "example2": "An e-reader can hold thousands of books.",
+    "note": ""
+  },
+  {
+    "id": "technology_freemium",
+    "en": "freemium",
+    "ph": "/ˈfriːmiəm/",
+    "uk": "фрімум (безкоштовна базова + платна розширена версія)",
+    "pos": "adjective",
+    "example": "The app uses a freemium model with paid upgrades.",
+    "example2": "Most freemium games make money through in-app purchases.",
+    "note": ""
+  },
+  {
+    "id": "technology_in_app_purchase",
+    "en": "in-app purchase",
+    "ph": "/ɪn æp ˈpɜrtʃəs/",
+    "uk": "покупка всередині застосунку",
+    "pos": "noun",
+    "example": "My kid accidentally spent forty dollars on in-app purchases.",
+    "example2": "The game is free, but in-app purchases add up fast.",
+    "note": ""
+  },
+  {
+    "id": "technology_digital_detox",
+    "en": "digital detox",
+    "ph": "/ˈdɪdʒɪtl ˈdiːtɑːks/",
+    "uk": "цифровий детокс",
+    "pos": "noun",
+    "example": "She did a week-long digital detox over the holidays.",
+    "example2": "A digital detox can be surprisingly hard the first few days.",
+    "note": ""
+  },
+  {
+    "id": "technology_tech_savvy",
+    "en": "tech-savvy",
+    "ph": "/tɛk ˈsævi/",
+    "uk": "технологічно підкований",
+    "pos": "adjective",
+    "example": "My grandmother is more tech-savvy than most people her age.",
+    "example2": "The job requires someone reasonably tech-savvy.",
+    "note": ""
+  },
+  {
+    "id": "technology_dark_mode",
+    "en": "dark mode",
+    "ph": "/dɑrk moʊd/",
+    "uk": "темна тема (інтерфейсу)",
+    "pos": "noun",
+    "example": "I switched to dark mode to save battery at night.",
+    "example2": "Most apps added dark mode a few years ago.",
+    "note": ""
+  },
+  {
+    "id": "technology_user_experience",
+    "en": "user experience",
+    "ph": "/ˈjuːzər ɪkˈspɪriəns/",
+    "uk": "користувацький досвід",
+    "pos": "noun",
+    "example": "The redesign focused entirely on improving user experience.",
+    "example2": "Poor user experience is one of the top reasons people abandon apps.",
+    "note": "Часто скорочують до <b>UX</b>."
+  },
+  {
+    "id": "technology_user_generated_content",
+    "en": "user-generated content",
+    "ph": "/ˈjuːzər ˈdʒɛnəreɪtɪd ˈkɑːntɛnt/",
+    "uk": "контент, створений користувачами",
+    "pos": "noun",
+    "example": "The platform relies almost entirely on user-generated content.",
+    "example2": "User-generated content is harder to moderate at scale.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_crowdsourcing",
+    "en": "crowdsourcing",
+    "ph": "/ˈkraʊdˌsɔːrsɪŋ/",
+    "uk": "краудсорсинг",
+    "pos": "noun",
+    "example": "The map is built entirely through crowdsourcing.",
+    "example2": "Crowdsourcing let the company fix bugs faster than its own team could.",
+    "note": "Незлічуваний."
   }
 ]
