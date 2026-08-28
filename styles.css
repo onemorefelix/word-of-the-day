@@ -238,6 +238,35 @@ body::after{
   font-size:calc((14px) * var(--fs));
   margin-top:6px;
 }
+.sound-row{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-top:10px;
+}
+.sound-btn{
+  flex:none;
+  font-family:'IBM Plex Mono',monospace;
+  font-size:calc(11px * var(--fs));
+  text-transform:none;
+  letter-spacing:normal;
+  color:var(--gold);
+  background:rgba(201,163,93,0.08);
+  border:1px solid rgba(201,163,93,0.3);
+  border-radius:20px;
+  padding:6px 12px;
+  cursor:pointer;
+  text-decoration:none;
+  display:inline-flex;
+  align-items:center;
+  gap:4px;
+  transition:background 0.15s, border-color 0.15s;
+  touch-action:manipulation;
+}
+.sound-btn:hover{
+  background:rgba(201,163,93,0.16);
+  border-color:var(--gold);
+}
 .translation{
   font-family:'Fraunces',serif;
   font-weight:600;

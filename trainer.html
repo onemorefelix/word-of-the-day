@@ -151,12 +151,19 @@ function renderCard(id){
 
   const noteHtml = item.note ? `<div class="note">${item.note}</div>` : '';
 
+  // Для звучання/YouGlish беремо перше слово, якщо en містить варіанти через " / " (напр. "trash / garbage").
+  const speakWord = item.en.split(' / ')[0].trim();
+
   scroll.innerHTML = `
     <div class="head-row">
       <p class="word">${item.en}</p>
       <span class="pos">${item.pos}</span>
     </div>
     <div class="phonetic">${item.ph}</div>
+    <div class="sound-row">
+      <button class="sound-btn" id="speakBtn" type="button">🔊 Вимова</button>
+      <a class="sound-btn yg-btn" href="https://youglish.com/pronounce/${encodeURIComponent(speakWord)}/english/us" target="_blank" rel="noopener">▶ YouGlish</a>
+    </div>
     <div class="translation">${item.uk}</div>
     ${formsHtml}
     <div class="divider">✦</div>
@@ -165,10 +172,22 @@ function renderCard(id){
     ${noteHtml}
   `;
 
+  document.getElementById('speakBtn').addEventListener('click', () => speak(speakWord));
+
   scroll.scrollTop = 0;
   if(updateFade) setTimeout(updateFade, 60);
 
   renderActions(id);
+}
+
+// Вимова вголос через вбудований синтез мовлення браузера (без бекенду й аудіофайлів).
+function speak(text){
+  if(!('speechSynthesis' in window) || !text) return;
+  window.speechSynthesis.cancel();
+  const utter = new SpeechSynthesisUtterance(text);
+  utter.lang = 'en-US';
+  utter.rate = 0.9;
+  window.speechSynthesis.speak(utter);
 }
 
 function renderActions(id){
