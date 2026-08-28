@@ -2574,5 +2574,25 @@
     "example": "Even part-time work experience looks good on a resume.",
     "example2": "The program includes a work experience placement in the final term.",
     "note": "Незлічуваний."
+  },
+  {
+    "id": "education_orientation_week",
+    "en": "frosh week",
+    "ph": "/frɑːʃ wiːk/",
+    "uk": "перший ознайомчий тиждень для першокурсників",
+    "pos": "noun",
+    "example": "Frosh week is packed with events to help new students settle in.",
+    "example2": "She made most of her closest friends during frosh week.",
+    "note": "Канадський розмовний термін для orientation week."
+  },
+  {
+    "id": "education_grade_point",
+    "en": "grade point",
+    "ph": "/ɡreɪd pɔɪnt/",
+    "uk": "бал за оцінку (для розрахунку GPA)",
+    "pos": "noun",
+    "example": "Each letter grade converts to a grade point on a four-point scale.",
+    "example2": "An A is usually worth four grade points.",
+    "note": ""
   }
 ]

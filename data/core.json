@@ -4135,5 +4135,33 @@
       ["Present Perfect", "I've already packed for the trip."]
     ],
     "note": "Антонім — <b>unpack</b>."
+  },
+  {
+    "id": "reheat",
+    "en": "reheat",
+    "ph": "/riːˈhiːt/",
+    "uk": "розігрівати (їжу)",
+    "pos": "verb",
+    "forms": { "base": "reheat", "past": "reheated", "part": "reheated", "phBase": "/riːˈhiːt/", "phPast": "/riːˈhiːtɪd/", "phPart": "/riːˈhiːtɪd/" },
+    "examples": [
+      ["Present Simple", "I reheat leftovers for lunch most days."],
+      ["Past Simple", "I reheated the soup for dinner."],
+      ["Present Perfect", "I've already reheated it once."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "defrost",
+    "en": "defrost",
+    "ph": "/diːˈfrɔːst/",
+    "uk": "розморожувати",
+    "pos": "verb",
+    "forms": { "base": "defrost", "past": "defrosted", "part": "defrosted", "phBase": "/diːˈfrɔːst/", "phPast": "/diːˈfrɔːstɪd/", "phPart": "/diːˈfrɔːstɪd/" },
+    "examples": [
+      ["Present Simple", "I defrost chicken in the fridge overnight."],
+      ["Past Simple", "I defrosted the freezer last weekend."],
+      ["Present Perfect", "I've already defrosted the ground beef."]
+    ],
+    "note": ""
   }
 ]
