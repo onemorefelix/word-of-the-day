@@ -2002,5 +2002,539 @@
     "example": "The map is built entirely through crowdsourcing.",
     "example2": "Crowdsourcing let the company fix bugs faster than its own team could.",
     "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_frontend",
+    "en": "front-end",
+    "ph": "/frʌnt ɛnd/",
+    "uk": "фронтенд (клієнтська частина)",
+    "pos": "noun",
+    "example": "She works on the front-end, mostly building the user interface.",
+    "example2": "The front-end looks great, but the back-end still has bugs.",
+    "note": "Антонім — <b>back-end</b>."
+  },
+  {
+    "id": "technology_backend",
+    "en": "back-end",
+    "ph": "/bæk ɛnd/",
+    "uk": "бекенд (серверна частина)",
+    "pos": "noun",
+    "example": "The back-end handles all the data processing.",
+    "example2": "He specializes in back-end development.",
+    "note": "Антонім — <b>front-end</b>."
+  },
+  {
+    "id": "technology_two_factor_authentication",
+    "en": "two-factor authentication",
+    "ph": "/tuː ˈfæktər ɔːˌθɛntɪˈkeɪʃən/",
+    "uk": "двофакторна автентифікація",
+    "pos": "noun",
+    "example": "The bank requires two-factor authentication for every login.",
+    "example2": "Turning on two-factor authentication makes your account much safer.",
+    "note": "Незлічуваний. Часто скорочують до <b>2FA</b>."
+  },
+  {
+    "id": "technology_vulnerability",
+    "en": "vulnerability",
+    "ph": "/ˌvʌlnərəˈbɪləti/",
+    "uk": "вразливість (у системі)",
+    "pos": "noun",
+    "example": "Researchers found a serious vulnerability in the software.",
+    "example2": "The company patched the vulnerability within a day.",
+    "note": ""
+  },
+  {
+    "id": "technology_exploit",
+    "en": "exploit",
+    "ph": "/ˈɛksplɔɪt/",
+    "uk": "експлойт (спосіб зламу вразливості)",
+    "pos": "noun",
+    "example": "Hackers used a known exploit to break into the system.",
+    "example2": "The exploit was patched before it caused real damage.",
+    "note": "Як дієслово наголос переходить на другий склад: <b>exploit</b> /ɪkˈsplɔɪt/."
+  },
+  {
+    "id": "technology_beta_test",
+    "en": "beta test",
+    "ph": "/ˈbeɪtə tɛst/",
+    "uk": "бета-тестувати",
+    "pos": "verb",
+    "forms": { "base": "beta test", "phBase": "/ˈbeɪtə tɛst/", "past": "beta tested", "phPast": "/ˈbeɪtə ˈtɛstɪd/", "part": "beta tested", "phPart": "/ˈbeɪtə ˈtɛstɪd/" },
+    "examples": [
+      ["Present Simple", "A small group of users beta tests every new feature."],
+      ["Past Simple", "I beta tested the app for a month before launch."],
+      ["Present Perfect", "We've already beta tested the update with real customers."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "technology_prototype",
+    "en": "prototype",
+    "ph": "/ˈproʊtətaɪp/",
+    "uk": "прототип",
+    "pos": "noun",
+    "example": "The team built a working prototype in two weeks.",
+    "example2": "The prototype looked nothing like the final product.",
+    "note": ""
+  },
+  {
+    "id": "technology_sandbox",
+    "en": "sandbox",
+    "ph": "/ˈsændbɑːks/",
+    "uk": "пісочниця (ізольоване тестове середовище)",
+    "pos": "noun",
+    "example": "Developers test new code in a sandbox before releasing it.",
+    "example2": "The sandbox keeps experimental code from affecting real users.",
+    "note": ""
+  },
+  {
+    "id": "technology_legacy_system",
+    "en": "legacy system",
+    "ph": "/ˈlɛɡəsi ˈsɪstəm/",
+    "uk": "застаріла (успадкована) система",
+    "pos": "noun",
+    "example": "The bank still runs part of its business on a legacy system.",
+    "example2": "Replacing the legacy system took almost three years.",
+    "note": ""
+  },
+  {
+    "id": "technology_pitch",
+    "en": "pitch",
+    "ph": "/pɪtʃ/",
+    "uk": "презентувати (проєкт, стартап інвесторам)",
+    "pos": "verb",
+    "forms": { "base": "pitch", "phBase": "/pɪtʃ/", "past": "pitched", "phPast": "/pɪtʃt/", "part": "pitched", "phPart": "/pɪtʃt/" },
+    "examples": [
+      ["Present Simple", "Founders pitch their startup to investors every week."],
+      ["Past Simple", "She pitched the idea to three investors last month."],
+      ["Present Perfect", "We've pitched this idea to over a dozen investors."]
+    ],
+    "note": "Іменник — <b>a pitch</b>."
+  },
+  {
+    "id": "technology_scale",
+    "en": "scale",
+    "ph": "/skeɪl/",
+    "uk": "масштабувати (бізнес, продукт)",
+    "pos": "verb",
+    "forms": { "base": "scale", "phBase": "/skeɪl/", "past": "scaled", "phPast": "/skeɪld/", "part": "scaled", "phPart": "/skeɪld/" },
+    "examples": [
+      ["Present Simple", "The platform scales easily as more users join."],
+      ["Past Simple", "They scaled the business quickly after the funding round."],
+      ["Present Perfect", "We've scaled the team from five to fifty people."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "technology_monetize",
+    "en": "monetize",
+    "ph": "/ˈmɑːnətaɪz/",
+    "uk": "монетизувати",
+    "pos": "verb",
+    "forms": { "base": "monetize", "phBase": "/ˈmɑːnətaɪz/", "past": "monetized", "phPast": "/ˈmɑːnətaɪzd/", "part": "monetized", "phPart": "/ˈmɑːnətaɪzd/" },
+    "examples": [
+      ["Present Simple", "The app monetizes through ads and subscriptions."],
+      ["Past Simple", "They monetized the platform a year after launch."],
+      ["Present Perfect", "We've monetized the podcast through sponsorships."]
+    ],
+    "note": "Написання <b>monetize</b> (не monetise)."
+  },
+  {
+    "id": "technology_pivot",
+    "en": "pivot",
+    "ph": "/ˈpɪvət/",
+    "uk": "різко змінювати напрям (бізнесу)",
+    "pos": "verb",
+    "forms": { "base": "pivot", "phBase": "/ˈpɪvət/", "past": "pivoted", "phPast": "/ˈpɪvətɪd/", "part": "pivoted", "phPart": "/ˈpɪvətɪd/" },
+    "examples": [
+      ["Present Simple", "The startup pivots whenever the market shifts."],
+      ["Past Simple", "They pivoted from hardware to software last year."],
+      ["Present Perfect", "The company has pivoted twice since it started."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "technology_layoffs",
+    "en": "layoffs",
+    "ph": "/ˈleɪɔːfs/",
+    "uk": "звільнення (масові, з боку компанії)",
+    "pos": "noun",
+    "example": "The tech sector saw major layoffs last year.",
+    "example2": "Layoffs hit the marketing department the hardest.",
+    "note": "Завжди у множині."
+  },
+  {
+    "id": "technology_outsourcing",
+    "en": "outsourcing",
+    "ph": "/ˈaʊtˌsɔːrsɪŋ/",
+    "uk": "аутсорсинг",
+    "pos": "noun",
+    "example": "The company relies on outsourcing for customer support.",
+    "example2": "Outsourcing cut costs but hurt response times.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_legacy",
+    "en": "legacy",
+    "ph": "/ˈlɛɡəsi/",
+    "uk": "застарілий, успадкований (про технологію)",
+    "pos": "adjective",
+    "example": "The bug only appears in the legacy version of the software.",
+    "example2": "Legacy code is often harder to maintain than to rewrite.",
+    "note": ""
+  },
+  {
+    "id": "technology_doomscrolling",
+    "en": "doomscrolling",
+    "ph": "/ˈduːmˌskroʊlɪŋ/",
+    "uk": "думскролінг (нав'язливе гортання поганих новин)",
+    "pos": "noun",
+    "example": "I caught myself doomscrolling in bed again last night.",
+    "example2": "Doomscrolling before sleep is a hard habit to break.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_hybrid_work",
+    "en": "hybrid work",
+    "ph": "/ˈhaɪbrɪd wɜrk/",
+    "uk": "гібридна робота (частково офіс, частково вдома)",
+    "pos": "noun",
+    "example": "The company settled on a hybrid work policy: three days in the office.",
+    "example2": "Hybrid work suits people who need some flexibility but still value the office.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_digital_nomad",
+    "en": "digital nomad",
+    "ph": "/ˈdɪdʒɪtl ˈnoʊmæd/",
+    "uk": "цифровий кочівник",
+    "pos": "noun",
+    "example": "She's worked as a digital nomad for the past three years.",
+    "example2": "Digital nomads have made this small town a popular remote-work hub.",
+    "note": ""
+  },
+  {
+    "id": "technology_graphics_card",
+    "en": "graphics card",
+    "ph": "/ˈɡræfɪks kɑrd/",
+    "uk": "відеокарта",
+    "pos": "noun",
+    "example": "He upgraded his graphics card to play the new game.",
+    "example2": "A good graphics card is essential for video editing.",
+    "note": ""
+  },
+  {
+    "id": "technology_motherboard",
+    "en": "motherboard",
+    "ph": "/ˈmʌðərbɔːrd/",
+    "uk": "материнська плата",
+    "pos": "noun",
+    "example": "The motherboard fried after the power surge.",
+    "example2": "Replacing a motherboard is more complicated than most repairs.",
+    "note": ""
+  },
+  {
+    "id": "technology_ai_ethics",
+    "en": "AI ethics",
+    "ph": "/ˌeɪ ˈaɪ ˈɛθɪks/",
+    "uk": "етика штучного інтелекту",
+    "pos": "noun",
+    "example": "The university launched a new research centre for AI ethics.",
+    "example2": "AI ethics questions who is responsible when an algorithm makes a mistake.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_singularity",
+    "en": "singularity",
+    "ph": "/ˌsɪŋɡjəˈlærəti/",
+    "uk": "технологічна сингулярність",
+    "pos": "noun",
+    "example": "Some researchers predict the singularity could happen within decades.",
+    "example2": "Not everyone in the field takes the idea of a singularity seriously.",
+    "note": "У контексті ШІ — гіпотетичний момент, коли штучний інтелект перевершить людський."
+  },
+  {
+    "id": "technology_job_displacement",
+    "en": "job displacement",
+    "ph": "/dʒɑːb dɪsˈpleɪsmənt/",
+    "uk": "витіснення робочих місць (технологіями)",
+    "pos": "noun",
+    "example": "Economists disagree about how severe AI-driven job displacement will be.",
+    "example2": "Automation has already caused job displacement in manufacturing.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_reskilling",
+    "en": "reskilling",
+    "ph": "/riːˈskɪlɪŋ/",
+    "uk": "перекваліфікація",
+    "pos": "noun",
+    "example": "The government funded a reskilling program for laid-off factory workers.",
+    "example2": "Reskilling takes time, and not every worker can afford to wait.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_update",
+    "en": "update",
+    "ph": "/ˈʌpdeɪt/",
+    "uk": "оновлення",
+    "pos": "noun",
+    "example": "A new update fixed most of the reported bugs.",
+    "example2": "The update took almost twenty minutes to install.",
+    "note": "Як дієслово наголос переходить на другий склад: <b>update</b> /ʌpˈdeɪt/."
+  },
+  {
+    "id": "technology_version",
+    "en": "version",
+    "ph": "/ˈvɜrʒən/",
+    "uk": "версія",
+    "pos": "noun",
+    "example": "The new version fixes the login bug from last week.",
+    "example2": "I'm still using an older version of the app.",
+    "note": ""
+  },
+  {
+    "id": "technology_release",
+    "en": "release",
+    "ph": "/rɪˈliːs/",
+    "uk": "реліз, випуск (нової версії)",
+    "pos": "noun",
+    "example": "The release includes several long-requested features.",
+    "example2": "The next release is scheduled for early next month.",
+    "note": "Може бути й дієсловом — «to release an update»."
+  },
+  {
+    "id": "technology_compatibility",
+    "en": "compatibility",
+    "ph": "/kəmˌpætəˈbɪləti/",
+    "uk": "сумісність",
+    "pos": "noun",
+    "example": "Check the compatibility before you buy new accessories.",
+    "example2": "The old software has compatibility issues with the new operating system.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_integration",
+    "en": "integration",
+    "ph": "/ˌɪntəˈɡreɪʃən/",
+    "uk": "інтеграція",
+    "pos": "noun",
+    "example": "The app added integration with several calendar tools.",
+    "example2": "The integration took the dev team a few weeks to finish.",
+    "note": ""
+  },
+  {
+    "id": "technology_plugin",
+    "en": "plugin",
+    "ph": "/ˈplʌɡɪn/",
+    "uk": "плагін, розширення",
+    "pos": "noun",
+    "example": "I installed a plugin to block ads.",
+    "example2": "The plugin stopped working after the last browser update.",
+    "note": ""
+  },
+  {
+    "id": "technology_extension",
+    "en": "extension",
+    "ph": "/ɪkˈstɛnʃən/",
+    "uk": "розширення (браузера)",
+    "pos": "noun",
+    "example": "I use a browser extension to save articles for later.",
+    "example2": "Some extensions slow the browser down significantly.",
+    "note": ""
+  },
+  {
+    "id": "technology_widget",
+    "en": "widget",
+    "ph": "/ˈwɪdʒɪt/",
+    "uk": "віджет",
+    "pos": "noun",
+    "example": "I added a weather widget to my home screen.",
+    "example2": "The widget updates automatically every hour.",
+    "note": ""
+  },
+  {
+    "id": "technology_dashboard",
+    "en": "dashboard",
+    "ph": "/ˈdæʃbɔːrd/",
+    "uk": "панель керування, дашборд",
+    "pos": "noun",
+    "example": "The dashboard shows sales data in real time.",
+    "example2": "I check the analytics dashboard every morning.",
+    "note": ""
+  },
+  {
+    "id": "technology_analytics",
+    "en": "analytics",
+    "ph": "/ˌænəˈlɪtɪks/",
+    "uk": "аналітика",
+    "pos": "noun",
+    "example": "The analytics show most visitors leave within ten seconds.",
+    "example2": "We use analytics to decide which features to build next.",
+    "note": "Незлічуваний, попри закінчення -s."
+  },
+  {
+    "id": "technology_metrics",
+    "en": "metrics",
+    "ph": "/ˈmɛtrɪks/",
+    "uk": "показники, метрики",
+    "pos": "noun",
+    "example": "The team tracks a handful of key metrics every week.",
+    "example2": "Engagement metrics dropped after the redesign.",
+    "note": "Завжди у множині."
+  },
+  {
+    "id": "technology_content_moderation",
+    "en": "content moderation",
+    "ph": "/ˈkɑːntɛnt ˌmɑːdəˈreɪʃən/",
+    "uk": "модерація контенту",
+    "pos": "noun",
+    "example": "Content moderation relies on both algorithms and human reviewers.",
+    "example2": "The platform was criticized for weak content moderation.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_platform",
+    "en": "platform",
+    "ph": "/ˈplætfɔːrm/",
+    "uk": "платформа",
+    "pos": "noun",
+    "example": "The company built its own platform instead of using an existing one.",
+    "example2": "The platform has over a hundred million active users.",
+    "note": ""
+  },
+  {
+    "id": "technology_proprietary",
+    "en": "proprietary",
+    "ph": "/prəˈpraɪəˌtɛri/",
+    "uk": "власницький, закритий (про програму)",
+    "pos": "adjective",
+    "example": "The company uses proprietary software it built in-house.",
+    "example2": "Proprietary formats can make it hard to switch to a competitor.",
+    "note": "Антонім — <b>open-source</b>."
+  },
+  {
+    "id": "technology_licensing",
+    "en": "licensing",
+    "ph": "/ˈlaɪsənsɪŋ/",
+    "uk": "ліцензування",
+    "pos": "noun",
+    "example": "Licensing costs are a big part of the company's software budget.",
+    "example2": "The startup makes most of its money through licensing.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_engagement",
+    "en": "engagement",
+    "ph": "/ɪnˈɡeɪdʒmənt/",
+    "uk": "залученість (користувачів)",
+    "pos": "noun",
+    "example": "The redesign boosted user engagement significantly.",
+    "example2": "Engagement drops off sharply after the first week.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_personalization",
+    "en": "personalization",
+    "ph": "/ˌpɜrsənələˈzeɪʃən/",
+    "uk": "персоналізація",
+    "pos": "noun",
+    "example": "Personalization is what makes the recommendations feel accurate.",
+    "example2": "Too much personalization can start to feel a little creepy.",
+    "note": "Незлічуваний. Написання <b>personalization</b> (не personalisation)."
+  },
+  {
+    "id": "technology_data_mining",
+    "en": "data mining",
+    "ph": "/ˈdeɪtə ˈmaɪnɪŋ/",
+    "uk": "видобування даних",
+    "pos": "noun",
+    "example": "The company uses data mining to spot shopping trends.",
+    "example2": "Data mining can reveal patterns humans would never notice.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_api",
+    "en": "API",
+    "ph": "/ˌeɪ piː ˈaɪ/",
+    "uk": "програмний інтерфейс",
+    "pos": "noun",
+    "example": "The app pulls weather data through a public API.",
+    "example2": "The company charges developers to use its API.",
+    "note": "Скорочення від <b>application programming interface</b>."
+  },
+  {
+    "id": "technology_dark_web",
+    "en": "dark web",
+    "ph": "/dɑrk wɛb/",
+    "uk": "тіньовий інтернет, даркнет",
+    "pos": "noun",
+    "example": "Stolen credit card numbers are often sold on the dark web.",
+    "example2": "Accessing the dark web requires special software.",
+    "note": ""
+  },
+  {
+    "id": "technology_deep_web",
+    "en": "deep web",
+    "ph": "/diːp wɛb/",
+    "uk": "глибокий інтернет (неіндексований пошуковиками)",
+    "pos": "noun",
+    "example": "Most of the internet is actually the deep web, not indexed by search engines.",
+    "example2": "The deep web includes ordinary things like private databases and email inboxes.",
+    "note": "Не плутати з <b>dark web</b> — глибокий інтернет здебільшого звичайний, просто не проіндексований."
+  },
+  {
+    "id": "technology_incognito_mode",
+    "en": "incognito mode",
+    "ph": "/ɪnˈkɑːɡnitoʊ moʊd/",
+    "uk": "режим інкогніто",
+    "pos": "noun",
+    "example": "I switched to incognito mode to compare flight prices.",
+    "example2": "Incognito mode doesn't actually make you invisible online.",
+    "note": ""
+  },
+  {
+    "id": "technology_captcha",
+    "en": "CAPTCHA",
+    "ph": "/ˈkæptʃə/",
+    "uk": "капча",
+    "pos": "noun",
+    "example": "I had to solve three CAPTCHAs just to log in.",
+    "example2": "The site uses a CAPTCHA to block automated bots.",
+    "note": ""
+  },
+  {
+    "id": "technology_bot",
+    "en": "bot",
+    "ph": "/bɑːt/",
+    "uk": "бот",
+    "pos": "noun",
+    "example": "A bot replies to most customer questions automatically.",
+    "example2": "The account turned out to be a bot, not a real person.",
+    "note": "Скорочення від <b>robot</b>."
+  },
+  {
+    "id": "technology_troll",
+    "en": "troll",
+    "ph": "/troʊl/",
+    "uk": "тролити",
+    "pos": "verb",
+    "forms": { "base": "troll", "phBase": "/troʊl/", "past": "trolled", "phPast": "/troʊld/", "part": "trolled", "phPart": "/troʊld/" },
+    "examples": [
+      ["Present Simple", "A few accounts troll every popular post."],
+      ["Past Simple", "He trolled the comment section for fun."],
+      ["Present Perfect", "She's been trolled online more than once for her opinions."]
+    ],
+    "note": "Також іменник — «an internet troll»."
+  },
+  {
+    "id": "technology_meme",
+    "en": "meme",
+    "ph": "/miːm/",
+    "uk": "мем",
+    "pos": "noun",
+    "example": "The photo turned into a meme within hours.",
+    "example2": "He sends me a meme almost every day.",
+    "note": ""
   }
 ]
