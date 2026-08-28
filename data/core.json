@@ -2549,5 +2549,383 @@
       ["Present Perfect", "The symptoms have gotten worse this week."]
     ],
     "note": ""
+  },
+  {
+    "id": "apply",
+    "en": "apply",
+    "ph": "/əˈplaɪ/",
+    "uk": "подавати заявку, влаштовуватись",
+    "pos": "verb",
+    "forms": { "base": "apply", "past": "applied", "part": "applied", "phBase": "/əˈplaɪ/", "phPast": "/əˈplaɪd/", "phPart": "/əˈplaɪd/" },
+    "examples": [
+      ["Present Simple", "I apply for a few jobs every week."],
+      ["Past Simple", "I applied for this position in June."],
+      ["Present Perfect", "I've applied to five companies so far."]
+    ],
+    "note": "«Apply for» — подавати заявку на щось (роботу, гранту)."
+  },
+  {
+    "id": "quit",
+    "en": "quit",
+    "ph": "/kwɪt/",
+    "uk": "звільнятися (за власним бажанням), кидати",
+    "pos": "verb",
+    "forms": { "base": "quit", "past": "quit", "part": "quit", "phBase": "/kwɪt/", "phPast": "/kwɪt/", "phPart": "/kwɪt/" },
+    "examples": [
+      ["Present Simple", "People quit this job constantly."],
+      ["Past Simple", "I quit my job last month."],
+      ["Present Perfect", "I've quit smoking twice already."]
+    ],
+    "note": "Форма однакова у всіх часах. «Quit doing something» — кинути щось робити."
+  },
+  {
+    "id": "resign",
+    "en": "resign",
+    "ph": "/rɪˈzaɪn/",
+    "uk": "звільнятися (офіційно, з посади)",
+    "pos": "verb",
+    "forms": { "base": "resign", "past": "resigned", "part": "resigned", "phBase": "/rɪˈzaɪn/", "phPast": "/rɪˈzaɪnd/", "phPart": "/rɪˈzaɪnd/" },
+    "examples": [
+      ["Present Simple", "Executives rarely resign this early."],
+      ["Past Simple", "She resigned from her position last week."],
+      ["Present Perfect", "He has resigned effective immediately."]
+    ],
+    "note": "Формальніший за «quit», часто про керівні посади."
+  },
+  {
+    "id": "retire",
+    "en": "retire",
+    "ph": "/rɪˈtaɪər/",
+    "uk": "виходити на пенсію",
+    "pos": "verb",
+    "forms": { "base": "retire", "past": "retired", "part": "retired", "phBase": "/rɪˈtaɪər/", "phPast": "/rɪˈtaɪərd/", "phPart": "/rɪˈtaɪərd/" },
+    "examples": [
+      ["Present Simple", "Most people here retire around 65."],
+      ["Past Simple", "My dad retired last year."],
+      ["Present Perfect", "She's retired from teaching after thirty years."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "fire",
+    "en": "fire",
+    "ph": "/ˈfaɪər/",
+    "uk": "звільняти (когось)",
+    "pos": "verb",
+    "forms": { "base": "fire", "past": "fired", "part": "fired", "phBase": "/ˈfaɪər/", "phPast": "/ˈfaɪərd/", "phPart": "/ˈfaɪərd/" },
+    "examples": [
+      ["Present Simple", "The manager fires people without much warning."],
+      ["Past Simple", "They fired half the team last quarter."],
+      ["Present Perfect", "He's been fired from two jobs this year."]
+    ],
+    "note": "Протилежність — <b>hire</b>."
+  },
+  {
+    "id": "hire",
+    "en": "hire",
+    "ph": "/ˈhaɪər/",
+    "uk": "наймати (на роботу)",
+    "pos": "verb",
+    "forms": { "base": "hire", "past": "hired", "part": "hired", "phBase": "/ˈhaɪər/", "phPast": "/ˈhaɪərd/", "phPart": "/ˈhaɪərd/" },
+    "examples": [
+      ["Present Simple", "The company hires seasonally."],
+      ["Past Simple", "They hired me on the spot."],
+      ["Present Perfect", "We've hired three new people this month."]
+    ],
+    "note": "Протилежність — <b>fire</b>."
+  },
+  {
+    "id": "negotiate",
+    "en": "negotiate",
+    "ph": "/nɪˈɡoʊʃieɪt/",
+    "uk": "домовлятися, вести переговори",
+    "pos": "verb",
+    "forms": { "base": "negotiate", "past": "negotiated", "part": "negotiated", "phBase": "/nɪˈɡoʊʃieɪt/", "phPast": "/nɪˈɡoʊʃieɪtɪd/", "phPart": "/nɪˈɡoʊʃieɪtɪd/" },
+    "examples": [
+      ["Present Simple", "I always negotiate the price at the dealership."],
+      ["Past Simple", "I negotiated a better rate with my landlord."],
+      ["Present Perfect", "I've negotiated my salary twice at this job."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "complain",
+    "en": "complain",
+    "ph": "/kəmˈpleɪn/",
+    "uk": "скаржитися",
+    "pos": "verb",
+    "forms": { "base": "complain", "past": "complained", "part": "complained", "phBase": "/kəmˈpleɪn/", "phPast": "/kəmˈpleɪnd/", "phPart": "/kəmˈpleɪnd/" },
+    "examples": [
+      ["Present Simple", "Customers complain about the wait times."],
+      ["Past Simple", "I complained to the manager about the noise."],
+      ["Present Perfect", "I've complained about this twice already."]
+    ],
+    "note": "«Complain about» — скаржитись на щось. Іменник — <b>a complaint</b>."
+  },
+  {
+    "id": "renew",
+    "en": "renew",
+    "ph": "/rɪˈnuː/",
+    "uk": "поновлювати, продовжувати (термін дії)",
+    "pos": "verb",
+    "forms": { "base": "renew", "past": "renewed", "part": "renewed", "phBase": "/rɪˈnuː/", "phPast": "/rɪˈnuːd/", "phPart": "/rɪˈnuːd/" },
+    "examples": [
+      ["Present Simple", "I renew my passport every ten years."],
+      ["Past Simple", "I renewed my lease last week."],
+      ["Present Perfect", "I've already renewed my licence this year."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "cancel",
+    "en": "cancel",
+    "ph": "/ˈkænsl/",
+    "uk": "скасовувати",
+    "pos": "verb",
+    "forms": { "base": "cancel", "past": "cancelled", "part": "cancelled", "phBase": "/ˈkænsl/", "phPast": "/ˈkænsld/", "phPart": "/ˈkænsld/" },
+    "examples": [
+      ["Present Simple", "I cancel plans when the weather's bad."],
+      ["Past Simple", "I cancelled my appointment yesterday."],
+      ["Present Perfect", "I've already cancelled my gym membership."]
+    ],
+    "note": "Написання <b>cancelled</b> з двома «l» — канадський/британський стандарт (розділ 5)."
+  },
+  {
+    "id": "confirm",
+    "en": "confirm",
+    "ph": "/kənˈfɜrm/",
+    "uk": "підтверджувати",
+    "pos": "verb",
+    "forms": { "base": "confirm", "past": "confirmed", "part": "confirmed", "phBase": "/kənˈfɜrm/", "phPast": "/kənˈfɜrmd/", "phPart": "/kənˈfɜrmd/" },
+    "examples": [
+      ["Present Simple", "The system confirms every booking by email."],
+      ["Past Simple", "I confirmed the reservation this morning."],
+      ["Present Perfect", "I've already confirmed my appointment."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "reschedule",
+    "en": "reschedule",
+    "ph": "/riːˈskɛdʒuːl/",
+    "uk": "переносити (на інший час)",
+    "pos": "verb",
+    "forms": { "base": "reschedule", "past": "rescheduled", "part": "rescheduled", "phBase": "/riːˈskɛdʒuːl/", "phPast": "/riːˈskɛdʒuːld/", "phPart": "/riːˈskɛdʒuːld/" },
+    "examples": [
+      ["Present Simple", "We reschedule meetings all the time."],
+      ["Past Simple", "I rescheduled the appointment for Friday."],
+      ["Present Perfect", "I've already rescheduled twice this week."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "postpone",
+    "en": "postpone",
+    "ph": "/poʊstˈpoʊn/",
+    "uk": "відкладати",
+    "pos": "verb",
+    "forms": { "base": "postpone", "past": "postponed", "part": "postponed", "phBase": "/poʊstˈpoʊn/", "phPast": "/poʊstˈpoʊnd/", "phPart": "/poʊstˈpoʊnd/" },
+    "examples": [
+      ["Present Simple", "We postpone the trip whenever it rains."],
+      ["Past Simple", "They postponed the event because of the storm."],
+      ["Present Perfect", "We've postponed the meeting twice already."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "arrive",
+    "en": "arrive",
+    "ph": "/əˈraɪv/",
+    "uk": "прибувати",
+    "pos": "verb",
+    "forms": { "base": "arrive", "past": "arrived", "part": "arrived", "phBase": "/əˈraɪv/", "phPast": "/əˈraɪvd/", "phPart": "/əˈraɪvd/" },
+    "examples": [
+      ["Present Simple", "The bus arrives at 8 sharp."],
+      ["Past Simple", "I arrived a few minutes late."],
+      ["Present Perfect", "The package has already arrived."]
+    ],
+    "note": "«Arrive at/in», не «arrive to»."
+  },
+  {
+    "id": "depart",
+    "en": "depart",
+    "ph": "/dɪˈpɑrt/",
+    "uk": "відбувати, вирушати",
+    "pos": "verb",
+    "forms": { "base": "depart", "past": "departed", "part": "departed", "phBase": "/dɪˈpɑrt/", "phPast": "/dɪˈpɑrtɪd/", "phPart": "/dɪˈpɑrtɪd/" },
+    "examples": [
+      ["Present Simple", "The train departs every hour."],
+      ["Past Simple", "The flight departed on time."],
+      ["Present Perfect", "The ferry has already departed."]
+    ],
+    "note": "Формальніше за «leave», типово для розкладів."
+  },
+  {
+    "id": "park",
+    "en": "park",
+    "ph": "/pɑrk/",
+    "uk": "паркуватися",
+    "pos": "verb",
+    "forms": { "base": "park", "past": "parked", "part": "parked", "phBase": "/pɑrk/", "phPast": "/pɑrkt/", "phPart": "/pɑrkt/" },
+    "examples": [
+      ["Present Simple", "I park on the street most days."],
+      ["Past Simple", "I parked in the wrong spot."],
+      ["Present Perfect", "I've already parked the car."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "insure",
+    "en": "insure",
+    "ph": "/ɪnˈʃʊr/",
+    "uk": "страхувати",
+    "pos": "verb",
+    "forms": { "base": "insure", "past": "insured", "part": "insured", "phBase": "/ɪnˈʃʊr/", "phPast": "/ɪnˈʃʊrd/", "phPart": "/ɪnˈʃʊrd/" },
+    "examples": [
+      ["Present Simple", "We insure the car through the same company every year."],
+      ["Past Simple", "I insured the house right after we moved in."],
+      ["Present Perfect", "I've insured both vehicles already."]
+    ],
+    "note": "Іменник — <b>insurance</b>."
+  },
+  {
+    "id": "claim",
+    "en": "claim",
+    "ph": "/kleɪm/",
+    "uk": "подавати заяву (на страхову виплату)",
+    "pos": "verb",
+    "forms": { "base": "claim", "past": "claimed", "part": "claimed", "phBase": "/kleɪm/", "phPast": "/kleɪmd/", "phPart": "/kleɪmd/" },
+    "examples": [
+      ["Present Simple", "I rarely claim anything on my insurance."],
+      ["Past Simple", "I claimed the damage after the storm."],
+      ["Present Perfect", "I've never claimed anything before this."]
+    ],
+    "note": "Іменник — <b>a claim</b> (страхова заява)."
+  },
+  {
+    "id": "deposit",
+    "en": "deposit",
+    "ph": "/dɪˈpɑːzɪt/",
+    "uk": "вносити на рахунок, задаток",
+    "pos": "verb",
+    "forms": { "base": "deposit", "past": "deposited", "part": "deposited", "phBase": "/dɪˈpɑːzɪt/", "phPast": "/dɪˈpɑːzɪtɪd/", "phPart": "/dɪˈpɑːzɪtɪd/" },
+    "examples": [
+      ["Present Simple", "I deposit my paycheck every second Friday."],
+      ["Past Simple", "I deposited the cheque this morning."],
+      ["Present Perfect", "I've already deposited the rent for next month."]
+    ],
+    "note": "Також іменник — «a deposit» (застава, задаток)."
+  },
+  {
+    "id": "withdraw",
+    "en": "withdraw",
+    "ph": "/wɪðˈdrɔː/",
+    "uk": "знімати (гроші)",
+    "pos": "verb",
+    "forms": { "base": "withdraw", "past": "withdrew", "part": "withdrawn", "phBase": "/wɪðˈdrɔː/", "phPast": "/wɪðˈdruː/", "phPart": "/wɪðˈdrɔːn/" },
+    "examples": [
+      ["Present Simple", "I withdraw cash from this ATM."],
+      ["Past Simple", "I withdrew a hundred dollars yesterday."],
+      ["Present Perfect", "I've withdrawn too much this month."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "transfer",
+    "en": "transfer",
+    "ph": "/trænsˈfɜr/",
+    "uk": "переказувати (гроші), переводити",
+    "pos": "verb",
+    "forms": { "base": "transfer", "past": "transferred", "part": "transferred", "phBase": "/trænsˈfɜr/", "phPast": "/trænsˈfɜrd/", "phPart": "/trænsˈfɜrd/" },
+    "examples": [
+      ["Present Simple", "I transfer money to my savings every payday."],
+      ["Past Simple", "I transferred the funds this morning."],
+      ["Present Perfect", "I've already transferred your share."]
+    ],
+    "note": "Як іменник наголос переходить на перший склад: <b>a transfer</b> /ˈtrænsfɜr/."
+  },
+  {
+    "id": "invest",
+    "en": "invest",
+    "ph": "/ɪnˈvɛst/",
+    "uk": "інвестувати",
+    "pos": "verb",
+    "forms": { "base": "invest", "past": "invested", "part": "invested", "phBase": "/ɪnˈvɛst/", "phPast": "/ɪnˈvɛstɪd/", "phPart": "/ɪnˈvɛstɪd/" },
+    "examples": [
+      ["Present Simple", "I invest a bit every month."],
+      ["Past Simple", "I invested in an index fund last year."],
+      ["Present Perfect", "I've invested most of my savings already."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "borrow",
+    "en": "borrow",
+    "ph": "/ˈbɑːroʊ/",
+    "uk": "позичати (у когось)",
+    "pos": "verb",
+    "forms": { "base": "borrow", "past": "borrowed", "part": "borrowed", "phBase": "/ˈbɑːroʊ/", "phPast": "/ˈbɑːroʊd/", "phPart": "/ˈbɑːroʊd/" },
+    "examples": [
+      ["Present Simple", "I borrow tools from my neighbor sometimes."],
+      ["Past Simple", "I borrowed twenty dollars from him."],
+      ["Present Perfect", "I've never borrowed money from a stranger."]
+    ],
+    "note": "Протилежність — <b>lend</b>."
+  },
+  {
+    "id": "owe",
+    "en": "owe",
+    "ph": "/oʊ/",
+    "uk": "бути винним (гроші)",
+    "pos": "verb",
+    "forms": { "base": "owe", "past": "owed", "part": "owed", "phBase": "/oʊ/", "phPast": "/oʊd/", "phPart": "/oʊd/" },
+    "examples": [
+      ["Present Simple", "I owe my brother fifty dollars."],
+      ["Past Simple", "I owed rent that whole month."],
+      ["Present Perfect", "I've owed him this for way too long."]
+    ],
+    "note": "Звучить так само, як «oh» — не плутати на слух."
+  },
+  {
+    "id": "afford",
+    "en": "afford",
+    "ph": "/əˈfɔːrd/",
+    "uk": "мати фінансову змогу",
+    "pos": "verb",
+    "forms": { "base": "afford", "past": "afforded", "part": "afforded", "phBase": "/əˈfɔːrd/", "phPast": "/əˈfɔːrdɪd/", "phPart": "/əˈfɔːrdɪd/" },
+    "examples": [
+      ["Present Simple", "We can't afford a vacation this year."],
+      ["Past Simple", "I couldn't afford the repair last month."],
+      ["Present Perfect", "I've never been able to afford that neighborhood."]
+    ],
+    "note": "Майже завжди з <b>can/can't</b>."
+  },
+  {
+    "id": "donate",
+    "en": "donate",
+    "ph": "/ˈdoʊneɪt/",
+    "uk": "жертвувати, робити пожертву",
+    "pos": "verb",
+    "forms": { "base": "donate", "past": "donated", "part": "donated", "phBase": "/ˈdoʊneɪt/", "phPast": "/ˈdoʊneɪtɪd/", "phPart": "/ˈdoʊneɪtɪd/" },
+    "examples": [
+      ["Present Simple", "We donate old clothes every spring."],
+      ["Past Simple", "I donated to the food bank last week."],
+      ["Present Perfect", "I've already donated blood twice this year."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "volunteer",
+    "en": "volunteer",
+    "ph": "/ˌvɑːlənˈtɪr/",
+    "uk": "займатися волонтерством",
+    "pos": "verb",
+    "forms": { "base": "volunteer", "past": "volunteered", "part": "volunteered", "phBase": "/ˌvɑːlənˈtɪr/", "phPast": "/ˌvɑːlənˈtɪrd/", "phPart": "/ˌvɑːlənˈtɪrd/" },
+    "examples": [
+      ["Present Simple", "I volunteer at the shelter on weekends."],
+      ["Past Simple", "I volunteered at the food bank last month."],
+      ["Present Perfect", "I've volunteered here for two years now."]
+    ],
+    "note": "Також іменник — «a volunteer» (волонтер)."
   }
 ]
