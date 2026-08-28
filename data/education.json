@@ -858,5 +858,727 @@
     "example": "The community centre offers free adult education classes.",
     "example2": "Adult education programs often focus on practical skills.",
     "note": ""
+  },
+  {
+    "id": "education_mathematics",
+    "en": "mathematics",
+    "ph": "/ˌmæθəˈmætɪks/",
+    "uk": "математика",
+    "pos": "noun",
+    "example": "Mathematics is compulsory until grade ten.",
+    "example2": "She struggled with mathematics in middle school.",
+    "note": "Часто скорочують до <b>math</b> (Канада/США) або <b>maths</b> (Британія)."
+  },
+  {
+    "id": "education_literature",
+    "en": "literature",
+    "ph": "/ˈlɪtərətʃər/",
+    "uk": "література (шкільний предмет)",
+    "pos": "noun",
+    "example": "We're reading a novel for literature class.",
+    "example2": "She majored in English literature.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_geography",
+    "en": "geography",
+    "ph": "/dʒiˈɑːɡrəfi/",
+    "uk": "географія",
+    "pos": "noun",
+    "example": "Geography was my favourite subject growing up.",
+    "example2": "The geography exam covers map reading and climate zones.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_history",
+    "en": "history",
+    "ph": "/ˈhɪstəri/",
+    "uk": "історія (предмет)",
+    "pos": "noun",
+    "example": "History is taught chronologically in this school.",
+    "example2": "He teaches Canadian history to grade nine students.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_chemistry",
+    "en": "chemistry",
+    "ph": "/ˈkɛmɪstri/",
+    "uk": "хімія",
+    "pos": "noun",
+    "example": "Chemistry requires a lot of lab work.",
+    "example2": "She failed chemistry in her first year.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_biology",
+    "en": "biology",
+    "ph": "/baɪˈɑːlədʒi/",
+    "uk": "біологія",
+    "pos": "noun",
+    "example": "Biology is one of the required science credits.",
+    "example2": "We dissected a frog in biology class.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_physics",
+    "en": "physics",
+    "ph": "/ˈfɪzɪks/",
+    "uk": "фізика",
+    "pos": "noun",
+    "example": "Physics was the hardest course in my program.",
+    "example2": "He tutors high school physics on weekends.",
+    "note": "Незлічуваний, попри закінчення -s."
+  },
+  {
+    "id": "education_humanities",
+    "en": "humanities",
+    "ph": "/hjuːˈmænətiz/",
+    "uk": "гуманітарні науки",
+    "pos": "noun",
+    "example": "She's doing a degree in the humanities.",
+    "example2": "Funding for the humanities has been cut in recent years.",
+    "note": "Завжди у множині."
+  },
+  {
+    "id": "education_physical_education",
+    "en": "physical education",
+    "ph": "/ˈfɪzɪkl ˌɛdʒəˈkeɪʃən/",
+    "uk": "фізкультура",
+    "pos": "noun",
+    "example": "Physical education is mandatory through grade nine.",
+    "example2": "We have physical education twice a week.",
+    "note": "Часто скорочують до <b>PE</b>. Незлічуваний."
+  },
+  {
+    "id": "education_foreign_language",
+    "en": "foreign language",
+    "ph": "/ˈfɔːrən ˈlæŋɡwɪdʒ/",
+    "uk": "іноземна мова",
+    "pos": "noun",
+    "example": "Students must study a foreign language for two years.",
+    "example2": "Learning a foreign language gets easier with daily practice.",
+    "note": ""
+  },
+  {
+    "id": "education_civics",
+    "en": "civics",
+    "ph": "/ˈsɪvɪks/",
+    "uk": "громадянська освіта",
+    "pos": "noun",
+    "example": "Civics class covers how government and voting work.",
+    "example2": "The province added civics to the high school curriculum.",
+    "note": "Незлічуваний, попри закінчення -s."
+  },
+  {
+    "id": "education_pedagogy",
+    "en": "pedagogy",
+    "ph": "/ˈpɛdəɡoʊdʒi/",
+    "uk": "педагогіка",
+    "pos": "noun",
+    "example": "Her thesis focuses on pedagogy in early childhood education.",
+    "example2": "Modern pedagogy emphasizes active learning over lectures.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_lesson_plan",
+    "en": "lesson plan",
+    "ph": "/ˈlɛsən plæn/",
+    "uk": "план уроку",
+    "pos": "noun",
+    "example": "She spends Sunday evenings writing lesson plans.",
+    "example2": "The lesson plan includes a short quiz at the end.",
+    "note": ""
+  },
+  {
+    "id": "education_critical_thinking",
+    "en": "critical thinking",
+    "ph": "/ˈkrɪtɪkl ˈθɪŋkɪŋ/",
+    "uk": "критичне мислення",
+    "pos": "noun",
+    "example": "The course is designed to build critical thinking skills.",
+    "example2": "Critical thinking matters more than memorizing facts.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_problem_solving",
+    "en": "problem-solving",
+    "ph": "/ˈprɑːbləm ˌsɑːlvɪŋ/",
+    "uk": "розв'язання проблем",
+    "pos": "noun",
+    "example": "The exercise focuses on problem-solving rather than memorization.",
+    "example2": "Employers consistently ask for strong problem-solving skills.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_hands_on_learning",
+    "en": "hands-on learning",
+    "ph": "/hændz ɑːn ˈlɜrnɪŋ/",
+    "uk": "практичне навчання",
+    "pos": "noun",
+    "example": "The program is built around hands-on learning, not lectures.",
+    "example2": "Hands-on learning works well for technical subjects.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_collaborative_learning",
+    "en": "collaborative learning",
+    "ph": "/kəˈlæbərətɪv ˈlɜrnɪŋ/",
+    "uk": "спільне (групове) навчання",
+    "pos": "noun",
+    "example": "Collaborative learning encourages students to teach each other.",
+    "example2": "The classroom was redesigned to support collaborative learning.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_blended_learning",
+    "en": "blended learning",
+    "ph": "/ˈblɛndɪd ˈlɜrnɪŋ/",
+    "uk": "змішане навчання (онлайн + очно)",
+    "pos": "noun",
+    "example": "The course uses blended learning, mixing online and in-person classes.",
+    "example2": "Blended learning became far more common after the pandemic.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_rubric",
+    "en": "rubric",
+    "ph": "/ˈruːbrɪk/",
+    "uk": "критерії оцінювання",
+    "pos": "noun",
+    "example": "The teacher shared the grading rubric before the essay was due.",
+    "example2": "The rubric breaks the grade down into four categories.",
+    "note": ""
+  },
+  {
+    "id": "education_assessment",
+    "en": "assessment",
+    "ph": "/əˈsɛsmənt/",
+    "uk": "оцінювання",
+    "pos": "noun",
+    "example": "The final assessment counts for forty percent of the grade.",
+    "example2": "Assessment methods vary a lot between courses.",
+    "note": "Дієслово — <b>assess</b>."
+  },
+  {
+    "id": "education_feedback",
+    "en": "feedback",
+    "ph": "/ˈfiːdbæk/",
+    "uk": "зворотний зв'язок",
+    "pos": "noun",
+    "example": "The professor gives detailed feedback on every essay.",
+    "example2": "I appreciated the feedback, even though it was harsh.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_grade",
+    "en": "grade",
+    "ph": "/ɡreɪd/",
+    "uk": "оцінювати, ставити оцінку",
+    "pos": "verb",
+    "forms": { "base": "grade", "phBase": "/ɡreɪd/", "past": "graded", "phPast": "/ˈɡreɪdɪd/", "part": "graded", "phPart": "/ˈɡreɪdɪd/" },
+    "examples": [
+      ["Present Simple", "She grades essays over the weekend."],
+      ["Past Simple", "He graded the exams the same night."],
+      ["Present Perfect", "I've graded half the class already."]
+    ],
+    "note": "Як іменник — <b>a grade</b> (оцінка або клас/рік навчання)."
+  },
+  {
+    "id": "education_community_college",
+    "en": "community college",
+    "ph": "/kəˈmjuːnəti ˈkɑːlɪdʒ/",
+    "uk": "коледж місцевої громади",
+    "pos": "noun",
+    "example": "He got his diploma from the local community college.",
+    "example2": "Community college tuition is much lower than at a university.",
+    "note": "Дворічний навчальний заклад, типовий для Канади/США."
+  },
+  {
+    "id": "education_trade_school",
+    "en": "trade school",
+    "ph": "/treɪd skuːl/",
+    "uk": "професійно-технічне училище",
+    "pos": "noun",
+    "example": "He went to trade school to become a welder.",
+    "example2": "Trade school programs usually take one to two years.",
+    "note": ""
+  },
+  {
+    "id": "education_university",
+    "en": "university",
+    "ph": "/ˌjuːnəˈvɜrsəti/",
+    "uk": "університет",
+    "pos": "noun",
+    "example": "She's in her second year at university.",
+    "example2": "The university offers over a hundred degree programs.",
+    "note": ""
+  },
+  {
+    "id": "education_college",
+    "en": "college",
+    "ph": "/ˈkɑːlɪdʒ/",
+    "uk": "коледж",
+    "pos": "noun",
+    "example": "He's finishing a two-year program at college.",
+    "example2": "In Canada, college and university are two different paths.",
+    "note": "У Канаді часто означає практичніший, коротший заклад, ніж <b>university</b>."
+  },
+  {
+    "id": "education_school_board",
+    "en": "school board",
+    "ph": "/skuːl bɔːrd/",
+    "uk": "шкільна рада (орган управління освітою)",
+    "pos": "noun",
+    "example": "The school board voted to change the start time.",
+    "example2": "Parents raised the issue at the school board meeting.",
+    "note": ""
+  },
+  {
+    "id": "education_department",
+    "en": "department",
+    "ph": "/dɪˈpɑrtmənt/",
+    "uk": "кафедра, факультет",
+    "pos": "noun",
+    "example": "She works in the physics department.",
+    "example2": "The history department is hosting a guest lecture next week.",
+    "note": ""
+  },
+  {
+    "id": "education_dean",
+    "en": "dean",
+    "ph": "/diːn/",
+    "uk": "декан",
+    "pos": "noun",
+    "example": "The dean approved the new course proposal.",
+    "example2": "She was appointed dean of the faculty last spring.",
+    "note": ""
+  },
+  {
+    "id": "education_registrar",
+    "en": "registrar",
+    "ph": "/ˈrɛdʒɪstrɑr/",
+    "uk": "реєстратор (адміністративна служба виш)",
+    "pos": "noun",
+    "example": "You'll need to contact the registrar for your transcript.",
+    "example2": "The registrar's office handles course registration.",
+    "note": ""
+  },
+  {
+    "id": "education_admissions",
+    "en": "admissions",
+    "ph": "/ədˈmɪʃənz/",
+    "uk": "приймальна комісія, вступ",
+    "pos": "noun",
+    "example": "Admissions decisions come out in the spring.",
+    "example2": "She works in the admissions office at the university.",
+    "note": "Колокація: <b>admissions office</b>."
+  },
+  {
+    "id": "education_prerequisite",
+    "en": "prerequisite",
+    "ph": "/priːˈrɛkwəzɪt/",
+    "uk": "обов'язкова передумова (курс)",
+    "pos": "noun",
+    "example": "Calculus is a prerequisite for this course.",
+    "example2": "You can't register without completing the prerequisite.",
+    "note": ""
+  },
+  {
+    "id": "education_waitlist",
+    "en": "waitlist",
+    "ph": "/ˈweɪtlɪst/",
+    "uk": "лист очікування",
+    "pos": "noun",
+    "example": "The course was full, so I'm on the waitlist.",
+    "example2": "She got off the waitlist a week before classes started.",
+    "note": "Може бути й дієсловом — «to waitlist someone»."
+  },
+  {
+    "id": "education_transfer_student",
+    "en": "transfer student",
+    "ph": "/ˈtrænsfɜr ˈstuːdənt/",
+    "uk": "студент, що перевівся з іншого закладу",
+    "pos": "noun",
+    "example": "As a transfer student, some of her credits didn't count.",
+    "example2": "The university accepts a limited number of transfer students each year.",
+    "note": ""
+  },
+  {
+    "id": "education_exchange_student",
+    "en": "exchange student",
+    "ph": "/ɪksˈtʃeɪndʒ ˈstuːdənt/",
+    "uk": "студент з обміну",
+    "pos": "noun",
+    "example": "We hosted an exchange student for a semester.",
+    "example2": "She spent a year abroad as an exchange student.",
+    "note": ""
+  },
+  {
+    "id": "education_education_reform",
+    "en": "education reform",
+    "ph": "/ˌɛdʒəˈkeɪʃən rɪˈfɔːrm/",
+    "uk": "реформа освіти",
+    "pos": "noun",
+    "example": "The new minister promised sweeping education reform.",
+    "example2": "Education reform is always a controversial election topic.",
+    "note": ""
+  },
+  {
+    "id": "education_standardized_test",
+    "en": "standardized test",
+    "ph": "/ˈstændərdaɪzd tɛst/",
+    "uk": "стандартизований тест",
+    "pos": "noun",
+    "example": "Students take a standardized test at the end of grade six.",
+    "example2": "Critics argue standardized tests don't measure real understanding.",
+    "note": "Написання <b>standardized</b> (не standardised)."
+  },
+  {
+    "id": "education_achievement_gap",
+    "en": "achievement gap",
+    "ph": "/əˈtʃiːvmənt ɡæp/",
+    "uk": "розрив в успішності",
+    "pos": "noun",
+    "example": "The achievement gap between rich and poor students has widened.",
+    "example2": "The program was designed to close the achievement gap.",
+    "note": ""
+  },
+  {
+    "id": "education_dropout_rate",
+    "en": "dropout rate",
+    "ph": "/ˈdrɑːpaʊt reɪt/",
+    "uk": "рівень відсіву (учнів)",
+    "pos": "noun",
+    "example": "The school reduced its dropout rate significantly.",
+    "example2": "The dropout rate is highest among first-year students.",
+    "note": ""
+  },
+  {
+    "id": "education_literacy_rate",
+    "en": "literacy rate",
+    "ph": "/ˈlɪtərəsi reɪt/",
+    "uk": "рівень грамотності",
+    "pos": "noun",
+    "example": "The country has one of the highest literacy rates in the world.",
+    "example2": "The literacy rate has improved steadily over the past decade.",
+    "note": ""
+  },
+  {
+    "id": "education_school_funding",
+    "en": "school funding",
+    "ph": "/skuːl ˈfʌndɪŋ/",
+    "uk": "фінансування школи",
+    "pos": "noun",
+    "example": "School funding depends heavily on local property taxes.",
+    "example2": "Parents protested the cuts to school funding.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_accreditation",
+    "en": "accreditation",
+    "ph": "/əˌkriːdəˈteɪʃən/",
+    "uk": "акредитація",
+    "pos": "noun",
+    "example": "The program lost its accreditation last year.",
+    "example2": "Employers usually check whether a school has proper accreditation.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_note_taking",
+    "en": "note-taking",
+    "ph": "/noʊt ˈteɪkɪŋ/",
+    "uk": "конспектування",
+    "pos": "noun",
+    "example": "Good note-taking makes studying for exams much easier.",
+    "example2": "She teaches a workshop on note-taking strategies.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_review",
+    "en": "review",
+    "ph": "/rɪˈvjuː/",
+    "uk": "повторювати (матеріал перед іспитом)",
+    "pos": "verb",
+    "forms": { "base": "review", "phBase": "/rɪˈvjuː/", "past": "reviewed", "phPast": "/rɪˈvjuːd/", "part": "reviewed", "phPart": "/rɪˈvjuːd/" },
+    "examples": [
+      ["Present Simple", "I review my notes every evening."],
+      ["Past Simple", "I reviewed the whole chapter last night."],
+      ["Present Perfect", "I've already reviewed everything for tomorrow's quiz."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "education_flashcard",
+    "en": "flashcard",
+    "ph": "/ˈflæʃkɑrd/",
+    "uk": "картка для запам'ятовування",
+    "pos": "noun",
+    "example": "I made flashcards for all the new vocabulary.",
+    "example2": "She reviews her flashcards on the bus every morning.",
+    "note": ""
+  },
+  {
+    "id": "education_procrastinate",
+    "en": "procrastinate",
+    "ph": "/proʊˈkræstəneɪt/",
+    "uk": "відкладати на потім, зволікати",
+    "pos": "verb",
+    "forms": { "base": "procrastinate", "phBase": "/proʊˈkræstəneɪt/", "past": "procrastinated", "phPast": "/proʊˈkræstəneɪtɪd/", "part": "procrastinated", "phPart": "/proʊˈkræstəneɪtɪd/" },
+    "examples": [
+      ["Present Simple", "He always procrastinates before big assignments."],
+      ["Past Simple", "I procrastinated all weekend and paid for it Monday."],
+      ["Present Perfect", "I've procrastinated on this essay for two weeks."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "education_classmate",
+    "en": "classmate",
+    "ph": "/ˈklæsmeɪt/",
+    "uk": "однокласник, одногрупник",
+    "pos": "noun",
+    "example": "I still keep in touch with a few classmates.",
+    "example2": "A classmate lent me her notes from last week.",
+    "note": ""
+  },
+  {
+    "id": "education_peer",
+    "en": "peer",
+    "ph": "/pɪr/",
+    "uk": "однолітки, ровесники",
+    "pos": "noun",
+    "example": "Teenagers are heavily influenced by their peers.",
+    "example2": "She compared her results to those of her peers.",
+    "note": "Колокація: <b>peer pressure</b>, <b>peer review</b>."
+  },
+  {
+    "id": "education_mentor",
+    "en": "mentor",
+    "ph": "/ˈmɛntər/",
+    "uk": "наставник",
+    "pos": "noun",
+    "example": "Her professor became a lifelong mentor.",
+    "example2": "New students are paired with a mentor in their first year.",
+    "note": "Може бути й дієсловом — «to mentor someone»."
+  },
+  {
+    "id": "education_teaching_assistant",
+    "en": "teaching assistant",
+    "ph": "/ˈtiːtʃɪŋ əˈsɪstənt/",
+    "uk": "асистент викладача",
+    "pos": "noun",
+    "example": "The teaching assistant runs the weekly lab sessions.",
+    "example2": "She worked as a teaching assistant during her master's.",
+    "note": "Часто скорочують до <b>TA</b>."
+  },
+  {
+    "id": "education_substitute_teacher",
+    "en": "substitute teacher",
+    "ph": "/ˈsʌbstɪtuːt ˈtiːtʃər/",
+    "uk": "учитель на заміну",
+    "pos": "noun",
+    "example": "We had a substitute teacher for two weeks.",
+    "example2": "The substitute teacher didn't know our names yet.",
+    "note": ""
+  },
+  {
+    "id": "education_auditorium",
+    "en": "auditorium",
+    "ph": "/ˌɔːdəˈtɔːriəm/",
+    "uk": "актова зала",
+    "pos": "noun",
+    "example": "The whole school gathered in the auditorium for the assembly.",
+    "example2": "The concert was held in the university auditorium.",
+    "note": ""
+  },
+  {
+    "id": "education_gymnasium",
+    "en": "gymnasium",
+    "ph": "/dʒɪmˈneɪziəm/",
+    "uk": "спортзал",
+    "pos": "noun",
+    "example": "Basketball practice is in the gymnasium after school.",
+    "example2": "The school built a new gymnasium last year.",
+    "note": "Розмовно — <b>gym</b>."
+  },
+  {
+    "id": "education_dormitory",
+    "en": "dormitory",
+    "ph": "/ˈdɔːrmɪˌtɔːri/",
+    "uk": "гуртожиток",
+    "pos": "noun",
+    "example": "First-year students usually live in a dormitory.",
+    "example2": "The dormitory has shared kitchens on every floor.",
+    "note": "Розмовно — <b>dorm</b>."
+  },
+  {
+    "id": "education_cafeteria",
+    "en": "cafeteria",
+    "ph": "/ˌkæfəˈtɪriə/",
+    "uk": "їдальня (шкільна/студентська)",
+    "pos": "noun",
+    "example": "We usually eat lunch in the cafeteria.",
+    "example2": "The cafeteria added more vegetarian options this year.",
+    "note": ""
+  },
+  {
+    "id": "education_locker",
+    "en": "locker",
+    "ph": "/ˈlɑːkər/",
+    "uk": "шафка (для речей)",
+    "pos": "noun",
+    "example": "I keep my textbooks in my locker between classes.",
+    "example2": "Someone jammed the lock on my locker.",
+    "note": ""
+  },
+  {
+    "id": "education_library",
+    "en": "library",
+    "ph": "/ˈlaɪˌbrɛri/",
+    "uk": "бібліотека",
+    "pos": "noun",
+    "example": "I study in the library because it's quiet.",
+    "example2": "The library extends its hours during exam season.",
+    "note": ""
+  },
+  {
+    "id": "education_laboratory",
+    "en": "laboratory",
+    "ph": "/ˈlæbrəˌtɔːri/",
+    "uk": "лабораторія",
+    "pos": "noun",
+    "example": "We have lab work in the laboratory every Thursday.",
+    "example2": "The university built a new science laboratory last year.",
+    "note": "Розмовно — <b>lab</b>. Американський наголос відрізняється від британського /ləˈbɒrətri/."
+  },
+  {
+    "id": "education_workshop",
+    "en": "workshop",
+    "ph": "/ˈwɜrkʃɑːp/",
+    "uk": "воркшоп, практичне заняття",
+    "pos": "noun",
+    "example": "The department runs a writing workshop every semester.",
+    "example2": "I signed up for a weekend workshop on public speaking.",
+    "note": ""
+  },
+  {
+    "id": "education_textbook",
+    "en": "textbook",
+    "ph": "/ˈtɛkstbʊk/",
+    "uk": "підручник",
+    "pos": "noun",
+    "example": "The textbook costs almost two hundred dollars.",
+    "example2": "We only use half the textbook this semester.",
+    "note": ""
+  },
+  {
+    "id": "education_semester",
+    "en": "semester",
+    "ph": "/səˈmɛstər/",
+    "uk": "семестр",
+    "pos": "noun",
+    "example": "The fall semester starts in early September.",
+    "example2": "I'm taking five courses this semester.",
+    "note": ""
+  },
+  {
+    "id": "education_academic_year",
+    "en": "academic year",
+    "ph": "/ˌækəˈdɛmɪk jɪr/",
+    "uk": "навчальний рік",
+    "pos": "noun",
+    "example": "The academic year runs from September to June.",
+    "example2": "Tuition is due at the start of the academic year.",
+    "note": ""
+  },
+  {
+    "id": "education_timetable",
+    "en": "timetable",
+    "ph": "/ˈtaɪmˌteɪbl/",
+    "uk": "розклад занять",
+    "pos": "noun",
+    "example": "My timetable changed for the second semester.",
+    "example2": "Check the timetable before you register for classes.",
+    "note": "У шкільному/навчальному контексті частіше, ніж «schedule»."
+  },
+  {
+    "id": "education_recess",
+    "en": "recess",
+    "ph": "/ˈriːsɛs/",
+    "uk": "перерва (у молодшій школі)",
+    "pos": "noun",
+    "example": "The kids play outside during recess.",
+    "example2": "Recess was cancelled because of the rain.",
+    "note": "У старшій школі/виші частіше кажуть <b>break</b>."
+  },
+  {
+    "id": "education_field_trip",
+    "en": "field trip",
+    "ph": "/fiːld trɪp/",
+    "uk": "навчальна екскурсія",
+    "pos": "noun",
+    "example": "Our class went on a field trip to the museum.",
+    "example2": "Parents need to sign a permission form for the field trip.",
+    "note": ""
+  },
+  {
+    "id": "education_yearbook",
+    "en": "yearbook",
+    "ph": "/ˈjɪrbʊk/",
+    "uk": "щорічник (шкільний альбом)",
+    "pos": "noun",
+    "example": "Everyone signed each other's yearbooks on the last day.",
+    "example2": "She was on the yearbook committee in her final year.",
+    "note": ""
+  },
+  {
+    "id": "education_coursework",
+    "en": "coursework",
+    "ph": "/ˈkɔːrswɜrk/",
+    "uk": "навчальні завдання (протягом курсу)",
+    "pos": "noun",
+    "example": "Coursework counts for sixty percent of the final grade.",
+    "example2": "She fell behind on her coursework after getting sick.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_lifelong_learning",
+    "en": "lifelong learning",
+    "ph": "/ˈlaɪflɔːŋ ˈlɜrnɪŋ/",
+    "uk": "навчання впродовж життя",
+    "pos": "noun",
+    "example": "The college promotes lifelong learning for adults of all ages.",
+    "example2": "Lifelong learning has become essential in a fast-changing job market.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_professional_development",
+    "en": "professional development",
+    "ph": "/prəˈfɛʃənl dɪˈvɛləpmənt/",
+    "uk": "професійний розвиток",
+    "pos": "noun",
+    "example": "Teachers attend professional development days twice a year.",
+    "example2": "The company covers the cost of professional development courses.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "education_qualification",
+    "en": "qualification",
+    "ph": "/ˌkwɑːlɪfɪˈkeɪʃən/",
+    "uk": "кваліфікація",
+    "pos": "noun",
+    "example": "This job requires a professional qualification in accounting.",
+    "example2": "Her qualifications made her the strongest candidate.",
+    "note": ""
+  },
+  {
+    "id": "education_tenure",
+    "en": "tenure",
+    "ph": "/ˈtɛnjər/",
+    "uk": "штатна посада (з гарантією зайнятості, для викладачів)",
+    "pos": "noun",
+    "example": "She was granted tenure after six years at the university.",
+    "example2": "Getting tenure usually requires a strong record of published research.",
+    "note": "Незлічуваний."
   }
 ]
