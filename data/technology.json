@@ -2536,5 +2536,123 @@
     "example": "The photo turned into a meme within hours.",
     "example2": "He sends me a meme almost every day.",
     "note": ""
+  },
+  {
+    "id": "technology_screenshot",
+    "en": "screenshot",
+    "ph": "/ˈskriːnʃɑːt/",
+    "uk": "скріншот",
+    "pos": "noun",
+    "example": "I took a screenshot of the error message.",
+    "example2": "Send me a screenshot so I can see what you mean.",
+    "note": ""
+  },
+  {
+    "id": "technology_wifi",
+    "en": "Wi-Fi",
+    "ph": "/ˈwaɪfaɪ/",
+    "uk": "вайфай",
+    "pos": "noun",
+    "example": "The Wi-Fi keeps dropping in the back bedroom.",
+    "example2": "I asked the café for the Wi-Fi password.",
+    "note": "Незлічуваний."
+  },
+  {
+    "id": "technology_signal",
+    "en": "signal",
+    "ph": "/ˈsɪɡnəl/",
+    "uk": "сигнал (мережі)",
+    "pos": "noun",
+    "example": "I lose signal every time I drive through the valley.",
+    "example2": "The signal here is too weak for a video call.",
+    "note": ""
+  },
+  {
+    "id": "technology_screen",
+    "en": "screen",
+    "ph": "/skriːn/",
+    "uk": "екран",
+    "pos": "noun",
+    "example": "The screen cracked when I dropped my phone.",
+    "example2": "I turned down the screen brightness to save battery.",
+    "note": ""
+  },
+  {
+    "id": "technology_touchscreen",
+    "en": "touchscreen",
+    "ph": "/ˈtʌtʃskriːn/",
+    "uk": "сенсорний екран",
+    "pos": "noun",
+    "example": "The touchscreen stopped responding after the update.",
+    "example2": "Most kiosks now use a touchscreen instead of buttons.",
+    "note": ""
+  },
+  {
+    "id": "technology_earbuds",
+    "en": "earbuds",
+    "ph": "/ˈɪrbʌdz/",
+    "uk": "навушники-вкладиші",
+    "pos": "noun",
+    "example": "I lost one of my earbuds on the bus.",
+    "example2": "My earbuds connect automatically to my phone.",
+    "note": "Завжди у множині."
+  },
+  {
+    "id": "technology_charger",
+    "en": "charger",
+    "ph": "/ˈtʃɑrdʒər/",
+    "uk": "зарядний пристрій",
+    "pos": "noun",
+    "example": "I keep a spare charger at the office.",
+    "example2": "I forgot my charger at the hotel.",
+    "note": ""
+  },
+  {
+    "id": "technology_power_bank",
+    "en": "power bank",
+    "ph": "/ˈpaʊər bæŋk/",
+    "uk": "повербанк",
+    "pos": "noun",
+    "example": "I always carry a power bank for long travel days.",
+    "example2": "The power bank died before I could charge my phone.",
+    "note": ""
+  },
+  {
+    "id": "technology_settings",
+    "en": "settings",
+    "ph": "/ˈsɛtɪŋz/",
+    "uk": "налаштування",
+    "pos": "noun",
+    "example": "You can turn off notifications in the settings.",
+    "example2": "I changed the settings to save more battery.",
+    "note": "Завжди у множині."
+  },
+  {
+    "id": "technology_toggle",
+    "en": "toggle",
+    "ph": "/ˈtɑːɡl/",
+    "uk": "перемикати (опцію)",
+    "pos": "verb",
+    "forms": { "base": "toggle", "phBase": "/ˈtɑːɡl/", "past": "toggled", "phPast": "/ˈtɑːɡld/", "part": "toggled", "phPart": "/ˈtɑːɡld/" },
+    "examples": [
+      ["Present Simple", "I toggle dark mode depending on the time of day."],
+      ["Past Simple", "I toggled the setting off by accident."],
+      ["Present Perfect", "I've already toggled that option on."]
+    ],
+    "note": ""
+  },
+  {
+    "id": "technology_swipe",
+    "en": "swipe",
+    "ph": "/swaɪp/",
+    "uk": "гортати, свайпати (на екрані)",
+    "pos": "verb",
+    "forms": { "base": "swipe", "phBase": "/swaɪp/", "past": "swiped", "phPast": "/swaɪpt/", "part": "swiped", "phPart": "/swaɪpt/" },
+    "examples": [
+      ["Present Simple", "I swipe through the news for a few minutes every morning."],
+      ["Past Simple", "I swiped left without really looking."],
+      ["Present Perfect", "I've swiped through this whole feed already."]
+    ],
+    "note": ""
   }
 ]
