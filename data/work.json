@@ -1,0 +1,1328 @@
+[
+  {
+    "id": "work_promote",
+    "en": "promote",
+    "ph": "/prəˈmoʊt/",
+    "uk": "підвищувати на посаді",
+    "pos": "verb",
+    "forms": {
+      "base": "promote", "phBase": "/prəˈmoʊt/",
+      "past": "promoted", "phPast": "/prəˈmoʊtɪd/",
+      "part": "promoted", "phPart": "/prəˈmoʊtɪd/"
+    },
+    "examples": [
+      ["Present Simple", "The company promotes from within whenever possible."],
+      ["Past Simple", "She was promoted to team leader last year."],
+      ["Present Perfect", "He has been promoted twice in three years."]
+    ],
+    "note": "Майже завжди в пасиві: <b>be promoted to something</b>. Протилежність — <b>demote</b>."
+  },
+  {
+    "id": "work_interview",
+    "en": "interview",
+    "ph": "/ˈɪntərvjuː/",
+    "uk": "проводити співбесіду, опитувати",
+    "pos": "verb",
+    "forms": {
+      "base": "interview", "phBase": "/ˈɪntərvjuː/",
+      "past": "interviewed", "phPast": "/ˈɪntərvjuːd/",
+      "part": "interviewed", "phPart": "/ˈɪntərvjuːd/"
+    },
+    "examples": [
+      ["Present Simple", "The HR manager interviews every finalist personally."],
+      ["Past Simple", "They interviewed five candidates for the role."],
+      ["Present Perfect", "She has interviewed for three different jobs this month."]
+    ],
+    "note": "Той самий вигляд, що й іменник <b>interview</b> (співбесіда), різницю показує лише контекст і наголос у вимові рідко змінюється."
+  },
+  {
+    "id": "work_unemployment",
+    "en": "unemployment",
+    "ph": "/ˌʌnɪmˈplɔɪmənt/",
+    "uk": "безробіття",
+    "pos": "noun",
+    "example": "Unemployment rose sharply during the recession.",
+    "example2": "The government introduced new programs to reduce unemployment.",
+    "note": ""
+  },
+  {
+    "id": "work_recruitment",
+    "en": "recruitment",
+    "ph": "/rɪˈkruːtmənt/",
+    "uk": "набір персоналу, рекрутинг",
+    "pos": "noun",
+    "example": "The recruitment process takes about a month.",
+    "example2": "She works in recruitment for a large tech company.",
+    "note": ""
+  },
+  {
+    "id": "work_job_interview",
+    "en": "job interview",
+    "ph": "/dʒɑːb ˈɪntərvjuː/",
+    "uk": "співбесіда",
+    "pos": "noun",
+    "example": "She was nervous before her first job interview.",
+    "example2": "He prepared answers to common job interview questions.",
+    "note": ""
+  },
+  {
+    "id": "work_cv",
+    "en": "CV",
+    "ph": "/ˌsiːˈviː/",
+    "uk": "резюме",
+    "pos": "noun",
+    "example": "She updated her CV before applying for the position.",
+    "example2": "Make sure your CV highlights your relevant experience.",
+    "note": "Абревіатура від <b>curriculum vitae</b>; в США частіше кажуть <b>resume</b>."
+  },
+  {
+    "id": "work_candidate",
+    "en": "candidate",
+    "ph": "/ˈkændəˌdeɪt/",
+    "uk": "кандидат",
+    "pos": "noun",
+    "example": "There were over fifty candidates for the position.",
+    "example2": "The strongest candidate got the job.",
+    "note": ""
+  },
+  {
+    "id": "work_applicant",
+    "en": "applicant",
+    "ph": "/ˈæplɪkənt/",
+    "uk": "заявник, претендент на посаду",
+    "pos": "noun",
+    "example": "Each applicant was asked to submit a cover letter.",
+    "example2": "The company received hundreds of applicants for the job.",
+    "note": ""
+  },
+  {
+    "id": "work_vacancy",
+    "en": "vacancy",
+    "ph": "/ˈveɪkənsi/",
+    "uk": "вакансія",
+    "pos": "noun",
+    "example": "The company posted a vacancy for a marketing role.",
+    "example2": "There are currently no vacancies in that department.",
+    "note": ""
+  },
+  {
+    "id": "work_onboarding",
+    "en": "onboarding",
+    "ph": "/ˈɑːnˌbɔːrdɪŋ/",
+    "uk": "адаптація нового співробітника",
+    "pos": "noun",
+    "example": "The onboarding process includes training on company software.",
+    "example2": "New hires go through a week of onboarding.",
+    "note": ""
+  },
+  {
+    "id": "work_reference",
+    "en": "reference",
+    "ph": "/ˈrɛfərəns/",
+    "uk": "рекомендація, характеристика",
+    "pos": "noun",
+    "example": "She asked her former manager to be a reference.",
+    "example2": "The job application requires two professional references.",
+    "note": ""
+  },
+  {
+    "id": "work_background_check",
+    "en": "background check",
+    "ph": "/ˈbækˌgraʊnd tʃɛk/",
+    "uk": "перевірка біографії",
+    "pos": "noun",
+    "example": "The company runs a background check on every new hire.",
+    "example2": "He passed the background check without any issues.",
+    "note": ""
+  },
+  {
+    "id": "work_work_permit",
+    "en": "work permit",
+    "ph": "/wɜrk ˈpɜrmɪt/",
+    "uk": "дозвіл на роботу",
+    "pos": "noun",
+    "example": "She needed a work permit before starting the job.",
+    "example2": "The company sponsored his work permit application.",
+    "note": ""
+  },
+  {
+    "id": "work_visa",
+    "en": "visa",
+    "ph": "/ˈviːzə/",
+    "uk": "віза",
+    "pos": "noun",
+    "example": "He applied for a work visa to move abroad.",
+    "example2": "Her visa allows her to work for up to two years.",
+    "note": ""
+  },
+  {
+    "id": "work_probation",
+    "en": "probation",
+    "ph": "/proʊˈbeɪʃən/",
+    "uk": "випробувальний термін",
+    "pos": "noun",
+    "example": "New employees are usually on probation for three months.",
+    "example2": "She passed her probation and became a permanent employee.",
+    "note": ""
+  },
+  {
+    "id": "work_redundancy",
+    "en": "redundancy",
+    "ph": "/rɪˈdʌndənsi/",
+    "uk": "скорочення штату",
+    "pos": "noun",
+    "example": "The company announced redundancies after the merger.",
+    "example2": "He was offered a redundancy package after ten years.",
+    "note": "Частий вираз: <b>be made redundant</b> (потрапити під скорочення)."
+  },
+  {
+    "id": "work_layoff",
+    "en": "layoff",
+    "ph": "/ˈleɪˌɔːf/",
+    "uk": "звільнення через скорочення",
+    "pos": "noun",
+    "example": "The factory announced layoffs due to falling demand.",
+    "example2": "She was one of two hundred workers affected by the layoffs.",
+    "note": ""
+  },
+  {
+    "id": "work_dismissal",
+    "en": "dismissal",
+    "ph": "/dɪsˈmɪsəl/",
+    "uk": "звільнення (за провину)",
+    "pos": "noun",
+    "example": "His dismissal came after repeated complaints from clients.",
+    "example2": "The company followed proper procedure before the dismissal.",
+    "note": ""
+  },
+  {
+    "id": "work_resignation",
+    "en": "resignation",
+    "ph": "/ˌrɛzɪgˈneɪʃən/",
+    "uk": "звільнення за власним бажанням",
+    "pos": "noun",
+    "example": "She submitted her resignation two weeks before leaving.",
+    "example2": "His resignation surprised everyone on the team.",
+    "note": ""
+  },
+  {
+    "id": "work_retirement",
+    "en": "retirement",
+    "ph": "/rɪˈtaɪərmənt/",
+    "uk": "вихід на пенсію",
+    "pos": "noun",
+    "example": "He's looking forward to retirement next year.",
+    "example2": "She started saving for retirement in her twenties.",
+    "note": ""
+  },
+  {
+    "id": "work_pension",
+    "en": "pension",
+    "ph": "/ˈpɛnʃən/",
+    "uk": "пенсія",
+    "pos": "noun",
+    "example": "Her pension covers most of her monthly expenses.",
+    "example2": "The company offers a generous pension plan.",
+    "note": ""
+  },
+  {
+    "id": "work_wage",
+    "en": "wage",
+    "ph": "/weɪdʒ/",
+    "uk": "заробітна плата (погодинна)",
+    "pos": "noun",
+    "example": "Factory workers here earn an hourly wage.",
+    "example2": "Wages haven't kept up with the rising cost of living.",
+    "note": ""
+  },
+  {
+    "id": "work_minimum_wage",
+    "en": "minimum wage",
+    "ph": "/ˈmɪnəməm weɪdʒ/",
+    "uk": "мінімальна заробітна плата",
+    "pos": "noun",
+    "example": "The government raised the minimum wage this year.",
+    "example2": "She works part-time for minimum wage.",
+    "note": ""
+  },
+  {
+    "id": "work_living_wage",
+    "en": "living wage",
+    "ph": "/ˈlɪvɪŋ weɪdʒ/",
+    "uk": "прожитковий мінімум заробітної плати",
+    "pos": "noun",
+    "example": "Campaigners argue that everyone deserves a living wage.",
+    "example2": "The living wage is higher in large cities.",
+    "note": ""
+  },
+  {
+    "id": "work_commission",
+    "en": "commission",
+    "ph": "/kəˈmɪʃən/",
+    "uk": "комісійна винагорода",
+    "pos": "noun",
+    "example": "Salespeople often earn a commission on top of their salary.",
+    "example2": "She made a large commission on the deal.",
+    "note": ""
+  },
+  {
+    "id": "work_part_time",
+    "en": "part-time",
+    "ph": "/pɑːrt taɪm/",
+    "uk": "неповний робочий день",
+    "pos": "adjective",
+    "example": "She works part-time while finishing her degree.",
+    "example2": "He took a part-time job to earn extra money.",
+    "note": ""
+  },
+  {
+    "id": "work_full_time",
+    "en": "full-time",
+    "ph": "/fʊl taɪm/",
+    "uk": "повний робочий день",
+    "pos": "adjective",
+    "example": "He was offered a full-time position after the internship.",
+    "example2": "She switched from part-time to full-time work.",
+    "note": ""
+  },
+  {
+    "id": "work_self_employed",
+    "en": "self-employed",
+    "ph": "/sɛlf ɪmˈplɔɪd/",
+    "uk": "самозайнятий",
+    "pos": "adjective",
+    "example": "She's been self-employed as a graphic designer for years.",
+    "example2": "Being self-employed means handling your own taxes.",
+    "note": ""
+  },
+  {
+    "id": "work_zero_hours_contract",
+    "en": "zero-hours contract",
+    "ph": "/ˈzɪroʊ aʊərz ˈkɑːntrækt/",
+    "uk": "контракт без гарантованих годин",
+    "pos": "noun",
+    "example": "Many delivery drivers work on a zero-hours contract.",
+    "example2": "A zero-hours contract offers no guaranteed income.",
+    "note": ""
+  },
+  {
+    "id": "work_temporary_contract",
+    "en": "temporary contract",
+    "ph": "/ˈtɛmpəˌrɛri ˈkɑːntrækt/",
+    "uk": "тимчасовий контракт",
+    "pos": "noun",
+    "example": "She started on a temporary contract before being hired permanently.",
+    "example2": "Temporary contracts often don't include benefits.",
+    "note": ""
+  },
+  {
+    "id": "work_permanent_contract",
+    "en": "permanent contract",
+    "ph": "/ˈpɜrmənənt ˈkɑːntrækt/",
+    "uk": "постійний контракт",
+    "pos": "noun",
+    "example": "After six months, he was given a permanent contract.",
+    "example2": "A permanent contract usually offers more job security.",
+    "note": ""
+  },
+  {
+    "id": "work_notice_period",
+    "en": "notice period",
+    "ph": "/ˈnoʊtɪs ˈpɪriəd/",
+    "uk": "термін попередження про звільнення",
+    "pos": "noun",
+    "example": "Her contract requires a one-month notice period.",
+    "example2": "He worked through his notice period before leaving.",
+    "note": ""
+  },
+  {
+    "id": "work_severance_pay",
+    "en": "severance pay",
+    "ph": "/ˈsɛvərəns peɪ/",
+    "uk": "вихідна допомога",
+    "pos": "noun",
+    "example": "He received severance pay when the company closed.",
+    "example2": "Severance pay is often based on years of service.",
+    "note": ""
+  },
+  {
+    "id": "work_contract",
+    "en": "contract",
+    "ph": "/ˈkɑːntrækt/",
+    "uk": "контракт",
+    "pos": "noun",
+    "example": "She signed the contract on her first day.",
+    "example2": "Read the contract carefully before signing.",
+    "note": ""
+  },
+  {
+    "id": "work_seniority",
+    "en": "seniority",
+    "ph": "/siːnˈjɔːrəti/",
+    "uk": "стаж, старшинство",
+    "pos": "noun",
+    "example": "Vacation days often increase with seniority.",
+    "example2": "He was promoted based on seniority and performance.",
+    "note": ""
+  },
+  {
+    "id": "work_blue_collar",
+    "en": "blue-collar",
+    "ph": "/bluː ˈkɑːlər/",
+    "uk": "робітничий (про фізичну працю)",
+    "pos": "adjective",
+    "example": "Blue-collar workers make up much of the town's workforce.",
+    "example2": "He grew up in a blue-collar family.",
+    "note": ""
+  },
+  {
+    "id": "work_white_collar",
+    "en": "white-collar",
+    "ph": "/waɪt ˈkɑːlər/",
+    "uk": "офісний (про розумову працю)",
+    "pos": "adjective",
+    "example": "She moved from a factory job to a white-collar career.",
+    "example2": "White-collar jobs are common in the city centre.",
+    "note": ""
+  },
+  {
+    "id": "work_expatriate",
+    "en": "expatriate",
+    "ph": "/ɛksˈpeɪtriət/",
+    "uk": "експат, працівник за кордоном",
+    "pos": "noun",
+    "example": "Many expatriates work in the finance sector here.",
+    "example2": "She joined a community of expatriates in the city.",
+    "note": "Часто скорочують до <b>expat</b>."
+  },
+  {
+    "id": "work_career_ladder",
+    "en": "career ladder",
+    "ph": "/kəˈrɪr ˈlædər/",
+    "uk": "кар'єрні сходи",
+    "pos": "noun",
+    "example": "She's been steadily climbing the career ladder.",
+    "example2": "Networking can help you move up the career ladder.",
+    "note": ""
+  },
+  {
+    "id": "work_demotion",
+    "en": "demotion",
+    "ph": "/dɪˈmoʊʃən/",
+    "uk": "пониження на посаді",
+    "pos": "noun",
+    "example": "His demotion came after months of poor performance.",
+    "example2": "A demotion can feel more discouraging than a layoff.",
+    "note": ""
+  },
+  {
+    "id": "work_appraisal",
+    "en": "appraisal",
+    "ph": "/əˈpreɪzəl/",
+    "uk": "оцінка роботи (співробітника)",
+    "pos": "noun",
+    "example": "Her annual appraisal was very positive.",
+    "example2": "The manager conducts appraisals every six months.",
+    "note": ""
+  },
+  {
+    "id": "work_job_satisfaction",
+    "en": "job satisfaction",
+    "ph": "/dʒɑːb ˌsætɪsˈfækʃən/",
+    "uk": "задоволення від роботи",
+    "pos": "noun",
+    "example": "Job satisfaction is often more important than salary alone.",
+    "example2": "The survey measured employee job satisfaction.",
+    "note": ""
+  },
+  {
+    "id": "work_work_ethic",
+    "en": "work ethic",
+    "ph": "/wɜrk ˈɛθɪk/",
+    "uk": "трудова етика",
+    "pos": "noun",
+    "example": "Her strong work ethic impressed the whole team.",
+    "example2": "He learned his work ethic from his parents.",
+    "note": ""
+  },
+  {
+    "id": "work_career_change",
+    "en": "career change",
+    "ph": "/kəˈrɪr tʃeɪndʒ/",
+    "uk": "зміна кар'єри",
+    "pos": "noun",
+    "example": "She made a career change from teaching to marketing.",
+    "example2": "A career change can be daunting but rewarding.",
+    "note": ""
+  },
+  {
+    "id": "work_career_path",
+    "en": "career path",
+    "ph": "/kəˈrɪr pæθ/",
+    "uk": "кар'єрний шлях",
+    "pos": "noun",
+    "example": "He's still deciding on his career path.",
+    "example2": "The mentor helped her plan a clear career path.",
+    "note": ""
+  },
+  {
+    "id": "work_career_break",
+    "en": "career break",
+    "ph": "/kəˈrɪr breɪk/",
+    "uk": "перерва в кар'єрі",
+    "pos": "noun",
+    "example": "She took a career break to travel for a year.",
+    "example2": "Returning to work after a career break can be difficult.",
+    "note": ""
+  },
+  {
+    "id": "work_ambition",
+    "en": "ambition",
+    "ph": "/æmˈbɪʃən/",
+    "uk": "амбіція",
+    "pos": "noun",
+    "example": "Her ambition is to become a senior partner one day.",
+    "example2": "He has always had a lot of ambition.",
+    "note": ""
+  },
+  {
+    "id": "work_competence",
+    "en": "competence",
+    "ph": "/ˈkɑːmpətəns/",
+    "uk": "компетентність",
+    "pos": "noun",
+    "example": "The interview assessed her competence in the required skills.",
+    "example2": "He gained competence in the role after a few months.",
+    "note": ""
+  },
+  {
+    "id": "work_accountability",
+    "en": "accountability",
+    "ph": "/əˌkaʊntəˈbɪləti/",
+    "uk": "відповідальність, підзвітність",
+    "pos": "noun",
+    "example": "The manager expects full accountability from her team.",
+    "example2": "There was no accountability for the missed deadline.",
+    "note": ""
+  },
+  {
+    "id": "work_punctuality",
+    "en": "punctuality",
+    "ph": "/ˌpʌŋktʃuˈæləti/",
+    "uk": "пунктуальність",
+    "pos": "noun",
+    "example": "Punctuality is highly valued in this company.",
+    "example2": "His punctuality made a good impression on the first day.",
+    "note": ""
+  },
+  {
+    "id": "work_reliability",
+    "en": "reliability",
+    "ph": "/rɪˌlaɪəˈbɪləti/",
+    "uk": "надійність",
+    "pos": "noun",
+    "example": "Her reliability made her a trusted team member.",
+    "example2": "The company values reliability over raw talent.",
+    "note": ""
+  },
+  {
+    "id": "work_initiative",
+    "en": "initiative",
+    "ph": "/ɪˈnɪʃətɪv/",
+    "uk": "ініціатива",
+    "pos": "noun",
+    "example": "She showed initiative by fixing the problem herself.",
+    "example2": "Taking initiative can help you stand out at work.",
+    "note": ""
+  },
+  {
+    "id": "work_colleague",
+    "en": "colleague",
+    "ph": "/ˈkɑːliːg/",
+    "uk": "колега",
+    "pos": "noun",
+    "example": "She gets along well with all of her colleagues.",
+    "example2": "He asked a colleague for advice on the project.",
+    "note": ""
+  },
+  {
+    "id": "work_supervisor",
+    "en": "supervisor",
+    "ph": "/ˈsuːpərˌvaɪzər/",
+    "uk": "керівник, наглядач",
+    "pos": "noun",
+    "example": "Her supervisor reviewed the report before it was sent.",
+    "example2": "He reports directly to his supervisor.",
+    "note": ""
+  },
+  {
+    "id": "work_manager",
+    "en": "manager",
+    "ph": "/ˈmænɪdʒər/",
+    "uk": "менеджер",
+    "pos": "noun",
+    "example": "The manager scheduled a meeting for Monday morning.",
+    "example2": "She was promoted to manager after two years.",
+    "note": ""
+  },
+  {
+    "id": "work_executive",
+    "en": "executive",
+    "ph": "/ɪgˈzɛkjətɪv/",
+    "uk": "керівник вищої ланки",
+    "pos": "noun",
+    "example": "The executives met to discuss the company's future.",
+    "example2": "She became a senior executive within ten years.",
+    "note": ""
+  },
+  {
+    "id": "work_human_resources",
+    "en": "human resources",
+    "ph": "/ˈhjuːmən rɪˈsɔːrsɪz/",
+    "uk": "відділ кадрів",
+    "pos": "noun",
+    "example": "Contact human resources if you have questions about benefits.",
+    "example2": "She works in human resources at a large hospital.",
+    "note": "Часто скорочують до <b>HR</b>."
+  },
+  {
+    "id": "work_recruiter",
+    "en": "recruiter",
+    "ph": "/rɪˈkruːtər/",
+    "uk": "рекрутер",
+    "pos": "noun",
+    "example": "A recruiter contacted her about the open position.",
+    "example2": "The recruiter reviewed dozens of applications.",
+    "note": ""
+  },
+  {
+    "id": "work_headhunter",
+    "en": "headhunter",
+    "ph": "/ˈhɛdˌhʌntər/",
+    "uk": "хедхантер",
+    "pos": "noun",
+    "example": "A headhunter approached him about a senior role.",
+    "example2": "Headhunters often target employees at competing companies.",
+    "note": ""
+  },
+  {
+    "id": "work_job_description",
+    "en": "job description",
+    "ph": "/dʒɑːb dɪˈskrɪpʃən/",
+    "uk": "опис посадових обов'язків",
+    "pos": "noun",
+    "example": "The job description listed the required qualifications.",
+    "example2": "Her actual duties went beyond the official job description.",
+    "note": ""
+  },
+  {
+    "id": "work_workplace",
+    "en": "workplace",
+    "ph": "/ˈwɜrkˌpleɪs/",
+    "uk": "робоче місце",
+    "pos": "noun",
+    "example": "The company promotes a safe and respectful workplace.",
+    "example2": "She feels comfortable in her new workplace.",
+    "note": ""
+  },
+  {
+    "id": "work_office_culture",
+    "en": "office culture",
+    "ph": "/ˈɔːfəs ˈkʌltʃər/",
+    "uk": "офісна культура",
+    "pos": "noun",
+    "example": "The office culture here is relaxed and friendly.",
+    "example2": "She adjusted quickly to the new office culture.",
+    "note": ""
+  },
+  {
+    "id": "work_team_player",
+    "en": "team player",
+    "ph": "/tiːm ˈpleɪər/",
+    "uk": "командний гравець",
+    "pos": "noun",
+    "example": "She's known as a reliable team player.",
+    "example2": "Employers often look for a strong team player.",
+    "note": ""
+  },
+  {
+    "id": "work_entrepreneur",
+    "en": "entrepreneur",
+    "ph": "/ˌɑːntrəprəˈnɜr/",
+    "uk": "підприємець",
+    "pos": "noun",
+    "example": "She left her job to become an entrepreneur.",
+    "example2": "Many young entrepreneurs start their business online.",
+    "note": ""
+  },
+  {
+    "id": "work_corporation",
+    "en": "corporation",
+    "ph": "/ˌkɔːrpəˈreɪʃən/",
+    "uk": "корпорація",
+    "pos": "noun",
+    "example": "He works for a large multinational corporation.",
+    "example2": "The corporation reported strong profits this year.",
+    "note": ""
+  },
+  {
+    "id": "work_small_business",
+    "en": "small business",
+    "ph": "/smɔːl ˈbɪznəs/",
+    "uk": "малий бізнес",
+    "pos": "noun",
+    "example": "She runs a small business selling handmade candles.",
+    "example2": "Small businesses were hit hard by the recession.",
+    "note": ""
+  },
+  {
+    "id": "work_multinational_company",
+    "en": "multinational company",
+    "ph": "/ˌmʌltiˈnæʃənəl ˈkʌmpəni/",
+    "uk": "транснаціональна компанія",
+    "pos": "noun",
+    "example": "He was transferred to another office of the multinational company.",
+    "example2": "Multinational companies often operate in dozens of countries.",
+    "note": ""
+  },
+  {
+    "id": "work_shareholder",
+    "en": "shareholder",
+    "ph": "/ˈʃɛrˌhoʊldər/",
+    "uk": "акціонер",
+    "pos": "noun",
+    "example": "Shareholders voted on the new company policy.",
+    "example2": "The company must answer to its shareholders every quarter.",
+    "note": ""
+  },
+  {
+    "id": "work_stakeholder",
+    "en": "stakeholder",
+    "ph": "/ˈsteɪkˌhoʊldər/",
+    "uk": "зацікавлена сторона",
+    "pos": "noun",
+    "example": "The project affects several key stakeholders.",
+    "example2": "She presented the plan to all major stakeholders.",
+    "note": ""
+  },
+  {
+    "id": "work_board_of_directors",
+    "en": "board of directors",
+    "ph": "/bɔːrd əv dəˈrɛktərz/",
+    "uk": "рада директорів",
+    "pos": "noun",
+    "example": "The board of directors approved the new budget.",
+    "example2": "She was appointed to the board of directors last year.",
+    "note": ""
+  },
+  {
+    "id": "work_ceo",
+    "en": "CEO",
+    "ph": "/ˌsiːiːˈoʊ/",
+    "uk": "генеральний директор",
+    "pos": "noun",
+    "example": "The CEO announced the company's new strategy.",
+    "example2": "She became CEO after ten years at the company.",
+    "note": "Абревіатура від <b>Chief Executive Officer</b>."
+  },
+  {
+    "id": "work_hierarchy",
+    "en": "hierarchy",
+    "ph": "/ˈhaɪəˌrɑːrki/",
+    "uk": "ієрархія",
+    "pos": "noun",
+    "example": "The company has a clear hierarchy of management.",
+    "example2": "She moved up the corporate hierarchy quickly.",
+    "note": ""
+  },
+  {
+    "id": "work_middle_management",
+    "en": "middle management",
+    "ph": "/ˈmɪdəl ˈmænɪdʒmənt/",
+    "uk": "середня ланка керівництва",
+    "pos": "noun",
+    "example": "Middle management often bridges staff and senior leadership.",
+    "example2": "He moved into middle management after several promotions.",
+    "note": ""
+  },
+  {
+    "id": "work_subordinate",
+    "en": "subordinate",
+    "ph": "/səˈbɔːrdənət/",
+    "uk": "підлеглий",
+    "pos": "noun",
+    "example": "A good manager treats every subordinate with respect.",
+    "example2": "She has five subordinates reporting to her.",
+    "note": ""
+  },
+  {
+    "id": "work_delegate",
+    "en": "delegate",
+    "ph": "/ˈdɛlɪˌgeɪt/",
+    "uk": "делегувати",
+    "pos": "verb",
+    "example": "A good leader knows how to delegate tasks.",
+    "example2": "She delegated the report to a junior colleague.",
+    "note": "Як іменник (представник, делегат) наголос зсувається: <b>/ˈdɛlɪgət/</b>."
+  },
+  {
+    "id": "work_delegation",
+    "en": "delegation",
+    "ph": "/ˌdɛlɪˈgeɪʃən/",
+    "uk": "делегування",
+    "pos": "noun",
+    "example": "Effective delegation helps managers focus on priorities.",
+    "example2": "Poor delegation can overload a small team.",
+    "note": ""
+  },
+  {
+    "id": "work_chain_of_command",
+    "en": "chain of command",
+    "ph": "/tʃeɪn əv kəˈmænd/",
+    "uk": "субординація, ланцюг команд",
+    "pos": "noun",
+    "example": "Requests should follow the proper chain of command.",
+    "example2": "The chain of command was unclear in the new department.",
+    "note": ""
+  },
+  {
+    "id": "work_paternity_leave",
+    "en": "paternity leave",
+    "ph": "/pəˈtɜrnəti liːv/",
+    "uk": "батьківська відпустка",
+    "pos": "noun",
+    "example": "He took two weeks of paternity leave after the baby was born.",
+    "example2": "More companies now offer paid paternity leave.",
+    "note": ""
+  },
+  {
+    "id": "work_sick_leave",
+    "en": "sick leave",
+    "ph": "/sɪk liːv/",
+    "uk": "відпустка через хворобу",
+    "pos": "noun",
+    "example": "She took a few days of sick leave last week.",
+    "example2": "Employees get ten days of paid sick leave a year.",
+    "note": ""
+  },
+  {
+    "id": "work_annual_leave",
+    "en": "annual leave",
+    "ph": "/ˈænjuəl liːv/",
+    "uk": "щорічна відпустка",
+    "pos": "noun",
+    "example": "He booked two weeks of annual leave in the summer.",
+    "example2": "Unused annual leave sometimes carries over to the next year.",
+    "note": ""
+  },
+  {
+    "id": "work_flexible_hours",
+    "en": "flexible hours",
+    "ph": "/ˈflɛksəbəl aʊərz/",
+    "uk": "гнучкий графік",
+    "pos": "noun",
+    "example": "The job offers flexible hours for working parents.",
+    "example2": "She appreciates having flexible hours around her studies.",
+    "note": ""
+  },
+  {
+    "id": "work_flexitime",
+    "en": "flexitime",
+    "ph": "/ˈflɛksiˌtaɪm/",
+    "uk": "гнучкий робочий час (система)",
+    "pos": "noun",
+    "example": "Flexitime lets staff choose when to start their day.",
+    "example2": "The company introduced flexitime to improve morale.",
+    "note": ""
+  },
+  {
+    "id": "work_hybrid_working",
+    "en": "hybrid working",
+    "ph": "/ˈhaɪbrəd ˈwɜrkɪŋ/",
+    "uk": "гібридний формат роботи",
+    "pos": "noun",
+    "example": "Hybrid working combines days in the office with days at home.",
+    "example2": "Many companies switched to hybrid working after the pandemic.",
+    "note": ""
+  },
+  {
+    "id": "work_telecommute",
+    "en": "telecommute",
+    "ph": "/ˌtɛlikəˈmjuːt/",
+    "uk": "працювати дистанційно",
+    "pos": "verb",
+    "example": "She telecommutes three days a week.",
+    "example2": "His job allows him to telecommute from anywhere.",
+    "note": ""
+  },
+  {
+    "id": "work_rotating_shift",
+    "en": "rotating shift",
+    "ph": "/roʊˈteɪtɪŋ ʃɪft/",
+    "uk": "змінний графік",
+    "pos": "noun",
+    "example": "Nurses often work a rotating shift schedule.",
+    "example2": "A rotating shift can make it hard to keep a routine.",
+    "note": ""
+  },
+  {
+    "id": "work_night_shift",
+    "en": "night shift",
+    "ph": "/naɪt ʃɪft/",
+    "uk": "нічна зміна",
+    "pos": "noun",
+    "example": "He works the night shift at the hospital.",
+    "example2": "The night shift pays slightly more than the day shift.",
+    "note": ""
+  },
+  {
+    "id": "work_work_schedule",
+    "en": "work schedule",
+    "ph": "/wɜrk ˈskɛdʒuːl/",
+    "uk": "графік роботи",
+    "pos": "noun",
+    "example": "Her work schedule changes every week.",
+    "example2": "He asked for a more predictable work schedule.",
+    "note": ""
+  },
+  {
+    "id": "work_job_market",
+    "en": "job market",
+    "ph": "/dʒɑːb ˈmɑːrkɪt/",
+    "uk": "ринок праці",
+    "pos": "noun",
+    "example": "The job market for engineers is very competitive.",
+    "example2": "She entered the job market right after graduating.",
+    "note": ""
+  },
+  {
+    "id": "work_labour_market",
+    "en": "labour market",
+    "ph": "/ˈleɪbər ˈmɑːrkɪt/",
+    "uk": "ринок робочої сили",
+    "pos": "noun",
+    "example": "The labour market has changed a lot since automation increased.",
+    "example2": "Economists study trends in the labour market.",
+    "note": "Канадське/британське написання <b>labour</b> (не американське labor)."
+  },
+  {
+    "id": "work_workers_rights",
+    "en": "workers' rights",
+    "ph": "/ˈwɜrkərz raɪts/",
+    "uk": "права працівників",
+    "pos": "noun",
+    "example": "The union fights to protect workers' rights.",
+    "example2": "New laws strengthened workers' rights in the industry.",
+    "note": ""
+  },
+  {
+    "id": "work_trade_union",
+    "en": "trade union",
+    "ph": "/treɪd ˈjuːnjən/",
+    "uk": "профспілка",
+    "pos": "noun",
+    "example": "She joined the trade union soon after starting the job.",
+    "example2": "The trade union negotiated better working conditions.",
+    "note": ""
+  },
+  {
+    "id": "work_strike",
+    "en": "strike",
+    "ph": "/straɪk/",
+    "uk": "страйк",
+    "pos": "noun",
+    "example": "The workers went on strike over unpaid wages.",
+    "example2": "The strike lasted almost two weeks.",
+    "note": ""
+  },
+  {
+    "id": "work_glass_ceiling",
+    "en": "glass ceiling",
+    "ph": "/glæs ˈsiːlɪŋ/",
+    "uk": "скляна стеля",
+    "pos": "noun",
+    "example": "She broke through the glass ceiling to become CEO.",
+    "example2": "The glass ceiling still limits women in some industries.",
+    "note": ""
+  },
+  {
+    "id": "work_gender_pay_gap",
+    "en": "gender pay gap",
+    "ph": "/ˈdʒɛndər peɪ gæp/",
+    "uk": "гендерний розрив в оплаті праці",
+    "pos": "noun",
+    "example": "The report highlighted a significant gender pay gap.",
+    "example2": "Closing the gender pay gap remains a slow process.",
+    "note": ""
+  },
+  {
+    "id": "work_discrimination",
+    "en": "discrimination",
+    "ph": "/dɪˌskrɪməˈneɪʃən/",
+    "uk": "дискримінація",
+    "pos": "noun",
+    "example": "The company was accused of age discrimination.",
+    "example2": "Workplace discrimination is illegal in most countries.",
+    "note": ""
+  },
+  {
+    "id": "work_harassment",
+    "en": "harassment",
+    "ph": "/həˈræsmənt/",
+    "uk": "переслідування, домагання",
+    "pos": "noun",
+    "example": "The company has a strict policy against harassment.",
+    "example2": "She reported the harassment to human resources.",
+    "note": ""
+  },
+  {
+    "id": "work_absenteeism",
+    "en": "absenteeism",
+    "ph": "/ˌæbsənˈtiːɪzəm/",
+    "uk": "прогули",
+    "pos": "noun",
+    "example": "Absenteeism increased during the flu season.",
+    "example2": "High absenteeism can hurt a team's productivity.",
+    "note": ""
+  },
+  {
+    "id": "work_productivity",
+    "en": "productivity",
+    "ph": "/ˌproʊdʌkˈtɪvəti/",
+    "uk": "продуктивність",
+    "pos": "noun",
+    "example": "Flexible hours can improve employee productivity.",
+    "example2": "The new software boosted the team's productivity.",
+    "note": ""
+  },
+  {
+    "id": "work_efficiency",
+    "en": "efficiency",
+    "ph": "/ɪˈfɪʃənsi/",
+    "uk": "ефективність",
+    "pos": "noun",
+    "example": "The new system improved the factory's efficiency.",
+    "example2": "She values efficiency over spending long hours at work.",
+    "note": ""
+  },
+  {
+    "id": "work_hard_skills",
+    "en": "hard skills",
+    "ph": "/hɑːrd skɪlz/",
+    "uk": "технічні (практичні) навички",
+    "pos": "noun",
+    "example": "Coding and data analysis are valuable hard skills.",
+    "example2": "The job requires both hard skills and soft skills.",
+    "note": ""
+  },
+  {
+    "id": "work_mentorship",
+    "en": "mentorship",
+    "ph": "/ˈmɛntərʃɪp/",
+    "uk": "наставництво",
+    "pos": "noun",
+    "example": "The program pairs new employees with mentorship from senior staff.",
+    "example2": "She credits her success to good mentorship early in her career.",
+    "note": ""
+  },
+  {
+    "id": "work_job_hunting",
+    "en": "job hunting",
+    "ph": "/dʒɑːb ˈhʌntɪŋ/",
+    "uk": "пошук роботи",
+    "pos": "noun",
+    "example": "Job hunting can be stressful, especially during a recession.",
+    "example2": "She's been job hunting for the past two months.",
+    "note": ""
+  },
+  {
+    "id": "work_elevator_pitch",
+    "en": "elevator pitch",
+    "ph": "/ˈɛləˌveɪtər pɪtʃ/",
+    "uk": "коротка самопрезентація",
+    "pos": "noun",
+    "example": "She practiced her elevator pitch before the networking event.",
+    "example2": "A good elevator pitch lasts no more than thirty seconds.",
+    "note": ""
+  },
+  {
+    "id": "work_income_tax",
+    "en": "income tax",
+    "ph": "/ˈɪnkʌm tæks/",
+    "uk": "прибутковий податок",
+    "pos": "noun",
+    "example": "Income tax is deducted directly from her paycheck.",
+    "example2": "He files his income tax return every spring.",
+    "note": ""
+  },
+  {
+    "id": "work_payroll",
+    "en": "payroll",
+    "ph": "/ˈpeɪˌroʊl/",
+    "uk": "фонд заробітної плати, розрахунок зарплат",
+    "pos": "noun",
+    "example": "The company processes payroll on the first of every month.",
+    "example2": "She works in the payroll department.",
+    "note": ""
+  },
+  {
+    "id": "work_direct_deposit",
+    "en": "direct deposit",
+    "ph": "/dəˈrɛkt dɪˈpɑːzɪt/",
+    "uk": "пряме зарахування зарплати на рахунок",
+    "pos": "noun",
+    "example": "Her salary is paid by direct deposit every two weeks.",
+    "example2": "Most companies now use direct deposit instead of cheques.",
+    "note": ""
+  },
+  {
+    "id": "work_salary_negotiation",
+    "en": "salary negotiation",
+    "ph": "/ˈsæləri nɪˌgoʊʃiˈeɪʃən/",
+    "uk": "переговори про зарплату",
+    "pos": "noun",
+    "example": "She prepared research before the salary negotiation.",
+    "example2": "Salary negotiation can feel uncomfortable for many people.",
+    "note": ""
+  },
+  {
+    "id": "work_pay_raise",
+    "en": "pay raise",
+    "ph": "/peɪ reɪz/",
+    "uk": "підвищення зарплати",
+    "pos": "noun",
+    "example": "She asked her manager for a pay raise.",
+    "example2": "He received a pay raise after his promotion.",
+    "note": ""
+  },
+  {
+    "id": "work_cost_of_living",
+    "en": "cost of living",
+    "ph": "/kɔːst əv ˈlɪvɪŋ/",
+    "uk": "вартість життя",
+    "pos": "noun",
+    "example": "The cost of living has risen sharply in the city.",
+    "example2": "Salaries should reflect the local cost of living.",
+    "note": ""
+  },
+  {
+    "id": "work_allowance",
+    "en": "allowance",
+    "ph": "/əˈlaʊəns/",
+    "uk": "надбавка, грошова допомога",
+    "pos": "noun",
+    "example": "The company provides a monthly travel allowance.",
+    "example2": "She receives a small allowance for working remotely.",
+    "note": ""
+  },
+  {
+    "id": "work_expense_report",
+    "en": "expense report",
+    "ph": "/ɪkˈspɛns rɪˈpɔːrt/",
+    "uk": "звіт про витрати",
+    "pos": "noun",
+    "example": "He submitted an expense report after the business trip.",
+    "example2": "The finance team reviews every expense report carefully.",
+    "note": ""
+  },
+  {
+    "id": "work_reimbursement",
+    "en": "reimbursement",
+    "ph": "/ˌriːɪmˈbɜrsmənt/",
+    "uk": "відшкодування витрат",
+    "pos": "noun",
+    "example": "She's waiting for reimbursement for her travel expenses.",
+    "example2": "Reimbursement usually takes about two weeks.",
+    "note": ""
+  },
+  {
+    "id": "work_labour_shortage",
+    "en": "labour shortage",
+    "ph": "/ˈleɪbər ˈʃɔːrtɪdʒ/",
+    "uk": "дефіцит робочої сили",
+    "pos": "noun",
+    "example": "The construction industry is facing a serious labour shortage.",
+    "example2": "The labour shortage pushed wages higher.",
+    "note": ""
+  },
+  {
+    "id": "work_job_loss",
+    "en": "job loss",
+    "ph": "/dʒɑːb lɔːs/",
+    "uk": "втрата роботи",
+    "pos": "noun",
+    "example": "Job loss can affect a family's finances for years.",
+    "example2": "The plant closure led to widespread job loss in the town.",
+    "note": ""
+  },
+  {
+    "id": "work_job_creation",
+    "en": "job creation",
+    "ph": "/dʒɑːb kriˈeɪʃən/",
+    "uk": "створення робочих місць",
+    "pos": "noun",
+    "example": "The new factory led to job creation in the region.",
+    "example2": "The government's plan focuses on job creation.",
+    "note": ""
+  },
+  {
+    "id": "work_recession",
+    "en": "recession",
+    "ph": "/rɪˈsɛʃən/",
+    "uk": "рецесія",
+    "pos": "noun",
+    "example": "Many people lost their jobs during the recession.",
+    "example2": "The economy slowly recovered after the recession.",
+    "note": ""
+  },
+  {
+    "id": "work_downsizing",
+    "en": "downsizing",
+    "ph": "/ˈdaʊnˌsaɪzɪŋ/",
+    "uk": "скорочення штату компанії",
+    "pos": "noun",
+    "example": "The company went through downsizing after the merger.",
+    "example2": "Downsizing affected almost every department.",
+    "note": ""
+  },
+  {
+    "id": "work_restructuring",
+    "en": "restructuring",
+    "ph": "/riˈstrʌktʃərɪŋ/",
+    "uk": "реструктуризація",
+    "pos": "noun",
+    "example": "The company underwent a major restructuring last year.",
+    "example2": "Restructuring often leads to changes in management.",
+    "note": ""
+  },
+  {
+    "id": "work_merger",
+    "en": "merger",
+    "ph": "/ˈmɜrdʒər/",
+    "uk": "злиття компаній",
+    "pos": "noun",
+    "example": "The merger created one of the largest firms in the industry.",
+    "example2": "Employees were uncertain about their jobs after the merger.",
+    "note": ""
+  },
+  {
+    "id": "work_acquisition",
+    "en": "acquisition",
+    "ph": "/ˌækwəˈzɪʃən/",
+    "uk": "поглинання компанії",
+    "pos": "noun",
+    "example": "The acquisition gave the company access to new markets.",
+    "example2": "Many jobs were cut after the acquisition.",
+    "note": ""
+  },
+  {
+    "id": "work_bankruptcy",
+    "en": "bankruptcy",
+    "ph": "/ˈbæŋkrəptsi/",
+    "uk": "банкрутство",
+    "pos": "noun",
+    "example": "The company filed for bankruptcy after years of losses.",
+    "example2": "Bankruptcy meant hundreds of employees lost their jobs.",
+    "note": ""
+  },
+  {
+    "id": "work_insolvency",
+    "en": "insolvency",
+    "ph": "/ɪnˈsɑːlvənsi/",
+    "uk": "неплатоспроможність",
+    "pos": "noun",
+    "example": "The business was declared in a state of insolvency.",
+    "example2": "Insolvency often leads to a company being sold or closed.",
+    "note": ""
+  },
+  {
+    "id": "work_profit",
+    "en": "profit",
+    "ph": "/ˈprɑːfɪt/",
+    "uk": "прибуток",
+    "pos": "noun",
+    "example": "The company made a healthy profit this quarter.",
+    "example2": "Rising costs cut into the store's profit.",
+    "note": ""
+  },
+  {
+    "id": "work_revenue",
+    "en": "revenue",
+    "ph": "/ˈrɛvəˌnuː/",
+    "uk": "дохід компанії",
+    "pos": "noun",
+    "example": "The company's revenue grew by ten percent last year.",
+    "example2": "Online sales now make up most of the revenue.",
+    "note": ""
+  },
+  {
+    "id": "work_business_plan",
+    "en": "business plan",
+    "ph": "/ˈbɪznəs plæn/",
+    "uk": "бізнес-план",
+    "pos": "noun",
+    "example": "She wrote a detailed business plan before opening the shop.",
+    "example2": "Investors asked to see the business plan first.",
+    "note": ""
+  },
+  {
+    "id": "work_investor",
+    "en": "investor",
+    "ph": "/ɪnˈvɛstər/",
+    "uk": "інвестор",
+    "pos": "noun",
+    "example": "The startup found an investor to fund its expansion.",
+    "example2": "Investors were impressed by the company's growth.",
+    "note": ""
+  },
+  {
+    "id": "work_funding",
+    "en": "funding",
+    "ph": "/ˈfʌndɪŋ/",
+    "uk": "фінансування",
+    "pos": "noun",
+    "example": "The project received funding from a private investor.",
+    "example2": "The company is looking for additional funding to grow.",
+    "note": ""
+  },
+  {
+    "id": "work_client",
+    "en": "client",
+    "ph": "/ˈklaɪənt/",
+    "uk": "клієнт",
+    "pos": "noun",
+    "example": "She met with a client to discuss the project.",
+    "example2": "The firm has several long-term clients.",
+    "note": ""
+  },
+  {
+    "id": "work_customer",
+    "en": "customer",
+    "ph": "/ˈkʌstəmər/",
+    "uk": "покупець, клієнт",
+    "pos": "noun",
+    "example": "The store values every customer's feedback.",
+    "example2": "Customer service is a top priority for the company.",
+    "note": ""
+  },
+  {
+    "id": "work_negotiation",
+    "en": "negotiation",
+    "ph": "/nɪˌgoʊʃiˈeɪʃən/",
+    "uk": "переговори",
+    "pos": "noun",
+    "example": "The negotiation lasted several hours before an agreement was reached.",
+    "example2": "She's skilled at negotiation and often gets a good deal.",
+    "note": ""
+  },
+  {
+    "id": "work_conflict_resolution",
+    "en": "conflict resolution",
+    "ph": "/ˈkɑːnflɪkt ˌrɛzəˈluːʃən/",
+    "uk": "вирішення конфліктів",
+    "pos": "noun",
+    "example": "The manager took a course in conflict resolution.",
+    "example2": "Good conflict resolution skills help keep a team productive.",
+    "note": ""
+  }
+]
