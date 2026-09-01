@@ -50,6 +50,34 @@
   }
   .pos-uk{ font-weight:600; color:var(--ink); }
   .pos-text{ color:var(--dim); font-size:calc(13.5px * var(--fs)); }
+  .crosslink-card{
+    display:block;
+    text-decoration:none;
+    color:var(--ink);
+    background:linear-gradient(180deg, rgba(201,163,93,0.12), rgba(201,163,93,0.03));
+    border:1px solid rgba(201,163,93,0.45);
+    border-radius:3px;
+    padding:16px 18px;
+    margin-bottom:20px;
+    transition:border-color 0.15s, transform 0.15s;
+  }
+  .crosslink-card:hover{ border-color:var(--gold); transform:translateY(-1px); }
+  .crosslink-card .cl-title{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:calc(17px * var(--fs));
+    color:var(--gold);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  .crosslink-card .cl-sub{
+    font-size:calc(12.5px * var(--fs));
+    color:var(--dim);
+    margin-top:6px;
+    line-height:1.5;
+  }
 </style>
 </head>
 <body>
@@ -90,7 +118,10 @@
     </div>
     <div class="note" style="margin-bottom:20px;">Символ <b>ə</b> («шва») — найчастіший звук в англійській, нейтральний ненаголошений звук, майже «е» впівголоса. Двокрапка <b>ː</b> означає довший, «повний» звук. <b>ɑː</b> і <b>ɔː</b> у багатьох американців і канадців звучать майже однаково (це нормальна регіональна варіативність, т.зв. cot-caught merger) — тут показані окремо як стандартний орієнтир.</div>
 
-    <div class="label"><a href="reference-sounds.html" style="color:var(--gold); text-decoration:none;">→ Проблемні звуки для україномовних (θ/ð, w, r, ŋ, j) — окрема стаття</a></div>
+    <a href="reference-sounds.html" class="crosslink-card">
+      <div class="cl-title"><span>Проблемні звуки для україномовних</span><span>→</span></div>
+      <div class="cl-sub">θ/ð, w, r, ŋ, j — де ставити язик і губи, і чому носій чує зовсім інше слово. Плюс кнопка запису себе для порівняння.</div>
+    </a>
 
     <div class="label">Не плутай ці пари</div>
     <div class="g-tier-sub" style="margin-top:-6px;">В українській нема коротких/довгих голосних, тому ці пари на слух зливаються — але в англійській переплутаний звук міняє слово. Свідомо не пишемо тут кириличні "приблизно як буква" — жодна українська буква не передає ці звуки чесно, тому єдиний робочий спосіб — навчити вухо різниці на контрастних парах.</div>
