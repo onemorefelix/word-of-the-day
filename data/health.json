@@ -992,5 +992,765 @@
     "example": "Sleep deprivation affects concentration and memory.",
     "example2": "New parents often struggle with sleep deprivation.",
     "note": ""
+  },
+  {
+    "id": "health_cancer",
+    "en": "cancer",
+    "ph": "/ˈkænsər/",
+    "uk": "рак (хвороба)",
+    "pos": "noun",
+    "example": "Early screening can catch cancer before it spreads.",
+    "example2": "She's been in remission from cancer for two years.",
+    "note": ""
+  },
+  {
+    "id": "health_stroke",
+    "en": "stroke",
+    "ph": "/stroʊk/",
+    "uk": "інсульт",
+    "pos": "noun",
+    "example": "He suffered a stroke shortly after his birthday.",
+    "example2": "High blood pressure increases the risk of a stroke.",
+    "note": ""
+  },
+  {
+    "id": "health_arthritis",
+    "en": "arthritis",
+    "ph": "/ɑːrˈθraɪtɪs/",
+    "uk": "артрит",
+    "pos": "noun",
+    "example": "Arthritis makes it painful for her to climb stairs.",
+    "example2": "Arthritis is common among older adults.",
+    "note": ""
+  },
+  {
+    "id": "health_migraine",
+    "en": "migraine",
+    "ph": "/ˈmaɪgreɪn/",
+    "uk": "мігрень",
+    "pos": "noun",
+    "example": "Bright lights can trigger a migraine.",
+    "example2": "She missed work because of a severe migraine.",
+    "note": ""
+  },
+  {
+    "id": "health_ulcer",
+    "en": "ulcer",
+    "ph": "/ˈʌlsər/",
+    "uk": "виразка",
+    "pos": "noun",
+    "example": "Stress can contribute to a stomach ulcer.",
+    "example2": "He was diagnosed with an ulcer after months of pain.",
+    "note": ""
+  },
+  {
+    "id": "health_digestive_system",
+    "en": "digestive system",
+    "ph": "/daɪˈdʒɛstɪv ˈsɪstəm/",
+    "uk": "травна система",
+    "pos": "noun",
+    "example": "Fibre helps keep the digestive system healthy.",
+    "example2": "The digestive system breaks down food into nutrients.",
+    "note": ""
+  },
+  {
+    "id": "health_respiratory_system",
+    "en": "respiratory system",
+    "ph": "/ˈrɛspərəˌtɔːri ˈsɪstəm/",
+    "uk": "дихальна система",
+    "pos": "noun",
+    "example": "Smoking damages the respiratory system over time.",
+    "example2": "Cold air can irritate the respiratory system.",
+    "note": ""
+  },
+  {
+    "id": "health_nervous_system",
+    "en": "nervous system",
+    "ph": "/ˈnɜrvəs ˈsɪstəm/",
+    "uk": "нервова система",
+    "pos": "noun",
+    "example": "The nervous system controls how the body responds to pain.",
+    "example2": "Chronic stress can affect the nervous system.",
+    "note": ""
+  },
+  {
+    "id": "health_yoga",
+    "en": "yoga",
+    "ph": "/ˈjoʊgə/",
+    "uk": "йога",
+    "pos": "noun",
+    "example": "She practices yoga every morning to relax.",
+    "example2": "Yoga improves both flexibility and balance.",
+    "note": ""
+  },
+  {
+    "id": "health_pilates",
+    "en": "Pilates",
+    "ph": "/pəˈlɑːtiːz/",
+    "uk": "пілатес",
+    "pos": "noun",
+    "example": "Pilates focuses on core strength and posture.",
+    "example2": "She joined a Pilates class twice a week.",
+    "note": "Пишеться з великої літери — назва методики, названа на честь засновника."
+  },
+  {
+    "id": "health_marathon",
+    "en": "marathon",
+    "ph": "/ˈmærəˌθɑːn/",
+    "uk": "марафон",
+    "pos": "noun",
+    "example": "He trained for six months before running the marathon.",
+    "example2": "She finished her first marathon in under five hours.",
+    "note": ""
+  },
+  {
+    "id": "health_weightlifting",
+    "en": "weightlifting",
+    "ph": "/ˈweɪtˌlɪftɪŋ/",
+    "uk": "важка атлетика, підняття ваги",
+    "pos": "noun",
+    "example": "Weightlifting builds muscle and bone strength.",
+    "example2": "He took up weightlifting to get in shape.",
+    "note": ""
+  },
+  {
+    "id": "health_squat",
+    "en": "squat",
+    "ph": "/skwɑːt/",
+    "uk": "присідання",
+    "pos": "noun",
+    "example": "She does fifty squats every morning.",
+    "example2": "Squats work several muscle groups at once.",
+    "note": ""
+  },
+  {
+    "id": "health_plank",
+    "en": "plank",
+    "ph": "/plæŋk/",
+    "uk": "планка (вправа)",
+    "pos": "noun",
+    "example": "He holds a plank for two minutes every day.",
+    "example2": "The plank strengthens your core muscles.",
+    "note": ""
+  },
+  {
+    "id": "health_personal_record",
+    "en": "personal record",
+    "ph": "/ˈpɜrsənəl ˈrɛkərd/",
+    "uk": "особистий рекорд",
+    "pos": "noun",
+    "example": "She set a new personal record in the 5K race.",
+    "example2": "Beating your personal record takes consistent training.",
+    "note": "Часто скорочують до <b>PR</b> у розмовній мові про спорт."
+  },
+  {
+    "id": "health_portion_size",
+    "en": "portion size",
+    "ph": "/ˈpɔːrʃən saɪz/",
+    "uk": "розмір порції",
+    "pos": "noun",
+    "example": "Restaurants often serve portion sizes that are too large.",
+    "example2": "Watching your portion size can help with weight control.",
+    "note": ""
+  },
+  {
+    "id": "health_food_label",
+    "en": "food label",
+    "ph": "/fuːd ˈleɪbəl/",
+    "uk": "етикетка продукту",
+    "pos": "noun",
+    "example": "Always check the food label for hidden sugar.",
+    "example2": "The food label lists calories and ingredients.",
+    "note": ""
+  },
+  {
+    "id": "health_additive",
+    "en": "additive",
+    "ph": "/ˈædətɪv/",
+    "uk": "харчова добавка",
+    "pos": "noun",
+    "example": "Some additives are added purely for colour and flavour.",
+    "example2": "She avoids food with artificial additives.",
+    "note": ""
+  },
+  {
+    "id": "health_preservative",
+    "en": "preservative",
+    "ph": "/prɪˈzɜrvətɪv/",
+    "uk": "консервант",
+    "pos": "noun",
+    "example": "Preservatives help food stay fresh for longer.",
+    "example2": "He looks for products with no artificial preservatives.",
+    "note": ""
+  },
+  {
+    "id": "health_saturated_fat",
+    "en": "saturated fat",
+    "ph": "/ˈsætʃəˌreɪtɪd fæt/",
+    "uk": "насичений жир",
+    "pos": "noun",
+    "example": "Butter and red meat are high in saturated fat.",
+    "example2": "A diet high in saturated fat can raise cholesterol.",
+    "note": ""
+  },
+  {
+    "id": "health_gluten",
+    "en": "gluten",
+    "ph": "/ˈgluːtən/",
+    "uk": "глютен",
+    "pos": "noun",
+    "example": "Wheat, barley, and rye all contain gluten.",
+    "example2": "She avoids gluten because of a food intolerance.",
+    "note": ""
+  },
+  {
+    "id": "health_superfood",
+    "en": "superfood",
+    "ph": "/ˈsuːpərˌfuːd/",
+    "uk": "суперфуд, надзвичайно поживний продукт",
+    "pos": "noun",
+    "example": "Blueberries are often marketed as a superfood.",
+    "example2": "Not every so-called superfood lives up to the hype.",
+    "note": ""
+  },
+  {
+    "id": "health_health_insurance",
+    "en": "health insurance",
+    "ph": "/hɛlθ ɪnˈʃʊrəns/",
+    "uk": "медичне страхування",
+    "pos": "noun",
+    "example": "Her health insurance covers most of the treatment cost.",
+    "example2": "Many employers offer health insurance as a benefit.",
+    "note": ""
+  },
+  {
+    "id": "health_general_practitioner",
+    "en": "general practitioner",
+    "ph": "/ˈdʒɛnərəl prækˈtɪʃənər/",
+    "uk": "сімейний лікар, терапевт",
+    "pos": "noun",
+    "example": "She booked an appointment with her general practitioner.",
+    "example2": "A general practitioner can refer you to a specialist.",
+    "note": "Часто скорочують до <b>GP</b>."
+  },
+  {
+    "id": "health_specialist",
+    "en": "specialist",
+    "ph": "/ˈspɛʃəlɪst/",
+    "uk": "лікар-спеціаліст",
+    "pos": "noun",
+    "example": "The GP referred him to a heart specialist.",
+    "example2": "She waited three months to see a specialist.",
+    "note": ""
+  },
+  {
+    "id": "health_ward",
+    "en": "ward",
+    "ph": "/wɔːrd/",
+    "uk": "лікарняна палата, відділення",
+    "pos": "noun",
+    "example": "Visitors are only allowed in the children's ward at set times.",
+    "example2": "He spent a week in the hospital ward after the surgery.",
+    "note": ""
+  },
+  {
+    "id": "health_outpatient",
+    "en": "outpatient",
+    "ph": "/ˈaʊtˌpeɪʃənt/",
+    "uk": "амбулаторний пацієнт",
+    "pos": "noun",
+    "example": "The procedure is usually done on an outpatient basis.",
+    "example2": "She's an outpatient now and only visits for checkups.",
+    "note": ""
+  },
+  {
+    "id": "health_inpatient",
+    "en": "inpatient",
+    "ph": "/ˈɪnˌpeɪʃənt/",
+    "uk": "стаціонарний пацієнт",
+    "pos": "noun",
+    "example": "He was admitted as an inpatient for observation.",
+    "example2": "Inpatient care usually costs more than outpatient visits.",
+    "note": ""
+  },
+  {
+    "id": "health_referral",
+    "en": "referral",
+    "ph": "/rɪˈfɜrəl/",
+    "uk": "направлення (до лікаря)",
+    "pos": "noun",
+    "example": "You need a referral to see this specialist.",
+    "example2": "The doctor gave her a referral for physiotherapy.",
+    "note": ""
+  },
+  {
+    "id": "health_waiting_list",
+    "en": "waiting list",
+    "ph": "/ˈweɪtɪŋ lɪst/",
+    "uk": "лист очікування",
+    "pos": "noun",
+    "example": "He's on the waiting list for knee surgery.",
+    "example2": "The waiting list for some treatments can be very long.",
+    "note": ""
+  },
+  {
+    "id": "health_public_healthcare",
+    "en": "public healthcare",
+    "ph": "/ˈpʌblɪk ˈhɛlθkɛr/",
+    "uk": "державна система охорони здоров'я",
+    "pos": "noun",
+    "example": "Public healthcare is funded through taxes.",
+    "example2": "Canada is known for its public healthcare system.",
+    "note": ""
+  },
+  {
+    "id": "health_private_healthcare",
+    "en": "private healthcare",
+    "ph": "/ˈpraɪvət ˈhɛlθkɛr/",
+    "uk": "приватна медицина",
+    "pos": "noun",
+    "example": "Private healthcare often means shorter waiting times.",
+    "example2": "Some people buy extra insurance for private healthcare.",
+    "note": ""
+  },
+  {
+    "id": "health_cpr",
+    "en": "CPR",
+    "ph": "/ˌsiːpiːˈɑːr/",
+    "uk": "серцево-легенева реанімація",
+    "pos": "noun",
+    "example": "She performed CPR until the ambulance arrived.",
+    "example2": "Everyone on the team is trained in basic CPR.",
+    "note": "Абревіатура від <b>cardiopulmonary resuscitation</b>."
+  },
+  {
+    "id": "health_bandage",
+    "en": "bandage",
+    "ph": "/ˈbændɪdʒ/",
+    "uk": "бинт, пов'язка",
+    "pos": "noun",
+    "example": "She wrapped a bandage around the cut.",
+    "example2": "The nurse changed his bandage every morning.",
+    "note": ""
+  },
+  {
+    "id": "health_splint",
+    "en": "splint",
+    "ph": "/splɪnt/",
+    "uk": "шина (медична)",
+    "pos": "noun",
+    "example": "The paramedic put his broken finger in a splint.",
+    "example2": "A splint keeps the injured limb from moving.",
+    "note": ""
+  },
+  {
+    "id": "health_first_responder",
+    "en": "first responder",
+    "ph": "/fɜrst rɪˈspɑːndər/",
+    "uk": "рятувальник, перший на місці події",
+    "pos": "noun",
+    "example": "Paramedics are often the first responders at an accident.",
+    "example2": "First responders are trained to handle emergencies calmly.",
+    "note": ""
+  },
+  {
+    "id": "health_life_expectancy",
+    "en": "life expectancy",
+    "ph": "/laɪf ɪkˈspɛktənsi/",
+    "uk": "очікувана тривалість життя",
+    "pos": "noun",
+    "example": "Life expectancy has risen steadily over the past century.",
+    "example2": "A healthy diet can increase life expectancy.",
+    "note": ""
+  },
+  {
+    "id": "health_mortality_rate",
+    "en": "mortality rate",
+    "ph": "/mɔːrˈtæləti reɪt/",
+    "uk": "рівень смертності",
+    "pos": "noun",
+    "example": "The vaccine significantly lowered the mortality rate.",
+    "example2": "Mortality rates from this disease have dropped sharply.",
+    "note": ""
+  },
+  {
+    "id": "health_birth_rate",
+    "en": "birth rate",
+    "ph": "/bɜrθ reɪt/",
+    "uk": "рівень народжуваності",
+    "pos": "noun",
+    "example": "The country's birth rate has declined in recent years.",
+    "example2": "A low birth rate can lead to an aging population.",
+    "note": ""
+  },
+  {
+    "id": "health_vaccination_program",
+    "en": "vaccination program",
+    "ph": "/ˌvæksəˈneɪʃən ˈproʊgræm/",
+    "uk": "програма вакцинації",
+    "pos": "noun",
+    "example": "The vaccination program helped reduce the outbreak.",
+    "example2": "Schools often run a vaccination program every year.",
+    "note": ""
+  },
+  {
+    "id": "health_herd_immunity",
+    "en": "herd immunity",
+    "ph": "/hɜrd ɪˈmjuːnəti/",
+    "uk": "колективний імунітет",
+    "pos": "noun",
+    "example": "Herd immunity protects people who can't be vaccinated.",
+    "example2": "High vaccination rates help achieve herd immunity.",
+    "note": ""
+  },
+  {
+    "id": "health_quarantine",
+    "en": "quarantine",
+    "ph": "/ˈkwɔːrənˌtiːn/",
+    "uk": "карантин",
+    "pos": "noun",
+    "example": "Anyone exposed to the virus had to go into quarantine.",
+    "example2": "The quarantine lasted for two weeks.",
+    "note": ""
+  },
+  {
+    "id": "health_isolation",
+    "en": "isolation",
+    "ph": "/ˌaɪsəˈleɪʃən/",
+    "uk": "ізоляція",
+    "pos": "noun",
+    "example": "Patients with the infection were kept in isolation.",
+    "example2": "Social isolation can affect mental health too.",
+    "note": ""
+  },
+  {
+    "id": "health_aging_population",
+    "en": "aging population",
+    "ph": "/ˈeɪdʒɪŋ ˌpɑːpjəˈleɪʃən/",
+    "uk": "старіюче населення",
+    "pos": "noun",
+    "example": "An aging population puts pressure on the healthcare system.",
+    "example2": "Many developed countries are dealing with an aging population.",
+    "note": ""
+  },
+  {
+    "id": "health_elderly_care",
+    "en": "elderly care",
+    "ph": "/ˈɛldərli kɛr/",
+    "uk": "догляд за людьми похилого віку",
+    "pos": "noun",
+    "example": "Elderly care facilities are in high demand.",
+    "example2": "She works in elderly care at a local nursing home.",
+    "note": ""
+  },
+  {
+    "id": "health_longevity",
+    "en": "longevity",
+    "ph": "/lɑːnˈdʒɛvəti/",
+    "uk": "довголіття",
+    "pos": "noun",
+    "example": "Regular exercise is linked to greater longevity.",
+    "example2": "Diet plays a major role in human longevity.",
+    "note": ""
+  },
+  {
+    "id": "health_disability",
+    "en": "disability",
+    "ph": "/ˌdɪsəˈbɪləti/",
+    "uk": "інвалідність",
+    "pos": "noun",
+    "example": "The building was redesigned to support people with a disability.",
+    "example2": "He has lived with a physical disability since childhood.",
+    "note": ""
+  },
+  {
+    "id": "health_mobility_aid",
+    "en": "mobility aid",
+    "ph": "/moʊˈbɪləti eɪd/",
+    "uk": "допоміжний засіб для пересування",
+    "pos": "noun",
+    "example": "A cane is a simple type of mobility aid.",
+    "example2": "The clinic provides mobility aids for elderly patients.",
+    "note": ""
+  },
+  {
+    "id": "health_wheelchair",
+    "en": "wheelchair",
+    "ph": "/ˈwiːlˌtʃɛr/",
+    "uk": "інвалідний візок",
+    "pos": "noun",
+    "example": "The ramp makes the entrance accessible for wheelchairs.",
+    "example2": "He has used a wheelchair since the accident.",
+    "note": ""
+  },
+  {
+    "id": "health_impairment",
+    "en": "impairment",
+    "ph": "/ɪmˈpɛrmənt/",
+    "uk": "порушення (функції), вада",
+    "pos": "noun",
+    "example": "She has a hearing impairment and uses a hearing aid.",
+    "example2": "Visual impairment can make everyday tasks more difficult.",
+    "note": ""
+  },
+  {
+    "id": "health_quit_smoking",
+    "en": "quit smoking",
+    "ph": "/kwɪt ˈsmoʊkɪŋ/",
+    "uk": "кинути курити",
+    "pos": "verb",
+    "example": "He finally quit smoking after years of trying.",
+    "example2": "Quitting smoking lowers your risk of heart disease.",
+    "note": ""
+  },
+  {
+    "id": "health_cut_down",
+    "en": "cut down",
+    "ph": "/kʌt daʊn/",
+    "uk": "скорочувати, зменшувати вживання",
+    "pos": "verb",
+    "example": "She's trying to cut down on sugar and caffeine.",
+    "example2": "The doctor advised him to cut down on salt.",
+    "note": "Часто з <b>on</b>: <b>cut down on something</b>."
+  },
+  {
+    "id": "health_moderation",
+    "en": "moderation",
+    "ph": "/ˌmɑːdəˈreɪʃən/",
+    "uk": "поміркованість, помірність",
+    "pos": "noun",
+    "example": "Even healthy food should be eaten in moderation.",
+    "example2": "Doctors recommend alcohol only in moderation.",
+    "note": "Частий вираз: <b>in moderation</b>."
+  },
+  {
+    "id": "health_self_care",
+    "en": "self-care",
+    "ph": "/sɛlf kɛr/",
+    "uk": "турбота про себе",
+    "pos": "noun",
+    "example": "She sets aside time every week for self-care.",
+    "example2": "Self-care can be as simple as getting enough sleep.",
+    "note": ""
+  },
+  {
+    "id": "health_first_aid",
+    "en": "first aid",
+    "ph": "/fɜrst eɪd/",
+    "uk": "перша допомога",
+    "pos": "noun",
+    "example": "She learned first aid in a weekend course.",
+    "example2": "The office keeps a first aid kit in the kitchen.",
+    "note": ""
+  },
+  {
+    "id": "health_sleep_cycle",
+    "en": "sleep cycle",
+    "ph": "/sliːp ˈsaɪkəl/",
+    "uk": "цикл сну",
+    "pos": "noun",
+    "example": "A full sleep cycle lasts about ninety minutes.",
+    "example2": "Screens before bed can disrupt your sleep cycle.",
+    "note": ""
+  },
+  {
+    "id": "health_nap",
+    "en": "nap",
+    "ph": "/næp/",
+    "uk": "короткий денний сон",
+    "pos": "noun",
+    "example": "She takes a short nap after lunch most days.",
+    "example2": "A quick nap can help you feel more alert.",
+    "note": ""
+  },
+  {
+    "id": "health_bedtime_routine",
+    "en": "bedtime routine",
+    "ph": "/ˈbɛdˌtaɪm ruˈtiːn/",
+    "uk": "ритуал перед сном",
+    "pos": "noun",
+    "example": "A consistent bedtime routine can improve sleep quality.",
+    "example2": "Their bedtime routine includes reading a story together.",
+    "note": ""
+  },
+  {
+    "id": "health_snore",
+    "en": "snore",
+    "ph": "/snɔːr/",
+    "uk": "хропіти",
+    "pos": "verb",
+    "example": "He snores so loudly that his wife sleeps in another room.",
+    "example2": "She didn't realize she snored until her roommate mentioned it.",
+    "note": ""
+  },
+  {
+    "id": "health_fracture",
+    "en": "fracture",
+    "ph": "/ˈfræktʃər/",
+    "uk": "перелом",
+    "pos": "noun",
+    "example": "The X-ray showed a small fracture in her wrist.",
+    "example2": "A stress fracture is common among long-distance runners.",
+    "note": ""
+  },
+  {
+    "id": "health_broken_bone",
+    "en": "broken bone",
+    "ph": "/ˈbroʊkən boʊn/",
+    "uk": "зламана кістка",
+    "pos": "noun",
+    "example": "He suffered a broken bone in the fall.",
+    "example2": "A broken bone usually needs several weeks to heal.",
+    "note": ""
+  },
+  {
+    "id": "health_cast",
+    "en": "cast",
+    "ph": "/kæst/",
+    "uk": "гіпс",
+    "pos": "noun",
+    "example": "She had to wear a cast for six weeks.",
+    "example2": "The doctor removed the cast once the bone had healed.",
+    "note": ""
+  },
+  {
+    "id": "health_crutches",
+    "en": "crutches",
+    "ph": "/ˈkrʌtʃɪz/",
+    "uk": "милиці",
+    "pos": "noun",
+    "example": "He's been on crutches since he broke his ankle.",
+    "example2": "Walking on crutches takes some getting used to.",
+    "note": "Майже завжди у множині: <b>crutches</b>, не \"a crutch\" (за винятком переносного значення)."
+  },
+  {
+    "id": "health_food_allergy",
+    "en": "food allergy",
+    "ph": "/fuːd ˈælərdʒi/",
+    "uk": "харчова алергія",
+    "pos": "noun",
+    "example": "She has a severe food allergy to peanuts.",
+    "example2": "Restaurants must list common food allergies on the menu.",
+    "note": ""
+  },
+  {
+    "id": "health_intolerance",
+    "en": "intolerance",
+    "ph": "/ɪnˈtɑːlərəns/",
+    "uk": "непереносимість",
+    "pos": "noun",
+    "example": "He was diagnosed with a lactose intolerance.",
+    "example2": "A food intolerance is usually less severe than an allergy.",
+    "note": ""
+  },
+  {
+    "id": "health_vegan",
+    "en": "vegan",
+    "ph": "/ˈviːgən/",
+    "uk": "веган, веганський",
+    "pos": "noun",
+    "example": "She's been a vegan for over five years.",
+    "example2": "The restaurant now offers several vegan options.",
+    "note": ""
+  },
+  {
+    "id": "health_vegetarian",
+    "en": "vegetarian",
+    "ph": "/ˌvɛdʒəˈtɛriən/",
+    "uk": "вегетаріанець, вегетаріанський",
+    "pos": "noun",
+    "example": "He became a vegetarian in his twenties.",
+    "example2": "The menu has a separate section for vegetarian dishes.",
+    "note": ""
+  },
+  {
+    "id": "health_portion_control",
+    "en": "portion control",
+    "ph": "/ˈpɔːrʃən kənˈtroʊl/",
+    "uk": "контроль розміру порцій",
+    "pos": "noun",
+    "example": "Portion control is often easier than cutting out foods completely.",
+    "example2": "Using smaller plates can help with portion control.",
+    "note": ""
+  },
+  {
+    "id": "health_binge",
+    "en": "binge",
+    "ph": "/bɪndʒ/",
+    "uk": "переїдати, вживати надмірно",
+    "pos": "verb",
+    "example": "She tends to binge on snacks when she's stressed.",
+    "example2": "He binged on fast food during exam week.",
+    "note": ""
+  },
+  {
+    "id": "health_eating_disorder",
+    "en": "eating disorder",
+    "ph": "/ˈiːtɪŋ dɪsˈɔːrdər/",
+    "uk": "розлад харчової поведінки",
+    "pos": "noun",
+    "example": "Eating disorders often develop during the teenage years.",
+    "example2": "She sought help for her eating disorder in college.",
+    "note": ""
+  },
+  {
+    "id": "health_anorexia",
+    "en": "anorexia",
+    "ph": "/ˌænəˈrɛksiə/",
+    "uk": "анорексія",
+    "pos": "noun",
+    "example": "Anorexia is a serious and potentially life-threatening condition.",
+    "example2": "She received treatment for anorexia at a specialized clinic.",
+    "note": ""
+  },
+  {
+    "id": "health_bulimia",
+    "en": "bulimia",
+    "ph": "/bəˈlɪmiə/",
+    "uk": "булімія",
+    "pos": "noun",
+    "example": "Bulimia often involves cycles of bingeing and purging.",
+    "example2": "He didn't realize his sister had bulimia until years later.",
+    "note": ""
+  },
+  {
+    "id": "health_body_image",
+    "en": "body image",
+    "ph": "/ˈbɑːdi ˈɪmɪdʒ/",
+    "uk": "сприйняття власного тіла",
+    "pos": "noun",
+    "example": "Social media can have a negative effect on body image.",
+    "example2": "She struggled with body image throughout her teenage years.",
+    "note": ""
+  },
+  {
+    "id": "health_self_esteem",
+    "en": "self-esteem",
+    "ph": "/sɛlf ɪˈstiːm/",
+    "uk": "самооцінка",
+    "pos": "noun",
+    "example": "Regular exercise can boost your self-esteem.",
+    "example2": "Bullying can have a lasting effect on a child's self-esteem.",
+    "note": ""
+  },
+  {
+    "id": "health_peer_pressure",
+    "en": "peer pressure",
+    "ph": "/pɪr ˈprɛʃər/",
+    "uk": "тиск однолітків",
+    "pos": "noun",
+    "example": "Peer pressure can lead teenagers to try smoking.",
+    "example2": "She learned to resist peer pressure at parties.",
+    "note": ""
+  },
+  {
+    "id": "health_work_life_balance",
+    "en": "work-life balance",
+    "ph": "/wɜrk laɪf ˈbæləns/",
+    "uk": "баланс між роботою й особистим життям",
+    "pos": "noun",
+    "example": "Remote work has helped many people improve their work-life balance.",
+    "example2": "A poor work-life balance can lead to burnout.",
+    "note": ""
   }
 ]
