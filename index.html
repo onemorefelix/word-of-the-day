@@ -203,7 +203,7 @@ async function render(){
     }
 
     const pct = stats.total ? Math.round((stats.mastered / stats.total) * 100) : 0;
-    el.querySelector('.t-count').textContent = `${stats.due} на повторення · ${stats.total} слів`;
+    el.querySelector('.t-count').textContent = `${stats.mastered}/${stats.total} вивчено · ${stats.due} на повторення`;
     el.querySelector('.t-progress-fill').style.width = pct + '%';
 
     el.addEventListener('click', () => {
