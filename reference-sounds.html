@@ -42,6 +42,35 @@
     font-size:calc(11px * var(--fs));
     color:var(--dim);
   }
+  .diagram-row{ display:flex; gap:10px; flex-wrap:wrap; margin:2px 0 12px; }
+  .diagram-card{
+    background:#f4f1e8;
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:8px;
+  }
+  .diagram-card img{ display:block; width:120px; height:auto; }
+  .diagram-cap{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:calc(10px * var(--fs));
+    color:var(--dim);
+    text-align:center;
+    margin-top:4px;
+  }
+  .source-list{ display:flex; flex-direction:column; gap:14px; margin-bottom:8px; }
+  .source-item{ border-left:2px solid var(--line); padding-left:14px; }
+  .source-item .s-name{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:calc(15px * var(--fs));
+  }
+  .source-item .s-name a{ color:var(--gold); text-decoration:none; }
+  .source-item .s-what{
+    font-size:calc(12.5px * var(--fs));
+    color:var(--dim);
+    margin-top:3px;
+    line-height:1.5;
+  }
 </style>
 </head>
 <body>
@@ -83,6 +112,16 @@
     </div>
     <div class="g-tier-sub" style="margin-top:-4px;">
       Кінчик язика легко торкається краю верхніх зубів (або трохи виглядає між зубами) і повітря проходить <b>безперервно</b> через цю щілину — це не зупинка звуку (як т/д), а тертя (як с/з), просто в іншому місці рота. <b>θ</b> — без голосу (тільки видих), <b>ð</b> — з голосом (горло вібрує).
+    </div>
+    <div class="diagram-row">
+      <div class="diagram-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/IPA_%CE%B8_Sagittal_Section.svg" alt="Переріз рота: артикуляція θ" loading="lazy">
+        <div class="diagram-cap">θ — think</div>
+      </div>
+      <div class="diagram-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/IPA_%C3%B0_Sagittal_Section.svg" alt="Переріз рота: артикуляція ð" loading="lazy">
+        <div class="diagram-cap">ð — this</div>
+      </div>
     </div>
     <div class="note" style="margin-bottom:20px;">
       Типова українська заміна — або зубно-ясенний с/з (<b>think</b> → "сінк"), або зупинка т/д (<b>this</b> → "діс"). Обидва варіанти носій почує як інше слово. Тренуй на парах: <b>think/sink</b>, <b>thin/tin</b>, <b>they/day</b>, <b>though/dough</b>, <b>breathe/breeze</b> — якщо вимовляєш ліве й праве слово однаково, звук ще не поставлений.
@@ -132,6 +171,12 @@
     <div class="g-tier-sub" style="margin-top:-4px;">
       Задня частина язика притискається до м'якого піднебіння (те саме місце, що для к/ґ), але повітря йде <b>через ніс</b>, а не в рот — це один суцільний носовий звук, без окремого "к" чи "ґ" після нього.
     </div>
+    <div class="diagram-row">
+      <div class="diagram-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/IPA_%C5%8B_Sagittal_Section.svg" alt="Переріз рота: артикуляція ŋ" loading="lazy">
+        <div class="diagram-cap">ŋ — sing</div>
+      </div>
+    </div>
     <div class="note" style="margin-bottom:20px;">
       Україномовні зазвичай вимовляють <b>н</b> + чутне <b>ґ/к</b> після нього (<b>sing</b> → "сінґ" з виразним ґ у кінці). У правильній вимові цього другого звука просто <b>нема</b> — "sing" закінчується самим носовим гулом. Цікавий нюанс: у <b>singer</b> (той, хто співає) звука /g/ справді нема, а от у <b>finger</b> (палець) — є, /ɡ/ там частина кореня, а не суфікса. Тренуй на <b>sing, long, thing, singer</b> — зупини звук одразу на носовому гулі, без "хвостика".
     </div>
@@ -159,21 +204,37 @@
 
     <div class="divider">✦</div>
 
-    <div class="label">Джерела для поглибленого вивчення</div>
+    <div class="label">Усі джерела — що є де</div>
     <div class="g-tier-sub" style="margin-top:-6px;">
-      Описи артикуляції вище звірені з академічним підручником <b>«An Introduction to American English Phonetics»</b> (відкритий підручник Radboud University Nijmegen, саме American English — той самий стандарт, що й у застосунку) та з дослідженнями фонетичної інтерференції української мови. Нижче — прямі посилання, якщо хочеш прочитати детальніше або побачити анімовану діаграму артикуляції.
+      Описи артикуляції вище звірені з академічним підручником American English Phonetics та з дослідженнями фонетичної інтерференції української мови (розділ 8 методології застосунку). Нижче — кожне зовнішнє джерело з підписом, що саме воно дає і чого від нього не варто чекати.
     </div>
-    <div class="sound-row">
-      <a class="sound-btn" href="https://opentextbooks.rug.nl/americanenglishphonetics2/chapter/11-2-3-dental-fricatives-%CE%B8-d/" target="_blank" rel="noopener">📖 θ/ð — підручник</a>
-      <a class="sound-btn" href="https://opentextbooks.rug.nl/americanenglishphonetics2/chapter/12-3-approximants/" target="_blank" rel="noopener">📖 w/j — підручник</a>
-      <a class="sound-btn" href="https://opentextbooks.rug.nl/americanenglishphonetics2/chapter/12-4-the-palato-velar-approximant-r/" target="_blank" rel="noopener">📖 r — підручник</a>
-      <a class="sound-btn" href="https://opentextbooks.rug.nl/americanenglishphonetics2/chapter/12-2-ga-and-na-nasals/" target="_blank" rel="noopener">📖 ŋ — підручник</a>
-    </div>
-    <div class="sound-row" style="margin-top:-14px;">
-      <a class="sound-btn" href="https://soundsofspeech.uiowa.edu/" target="_blank" rel="noopener">🎬 Sounds of Speech (діаграми + відео)</a>
-    </div>
-    <div class="note" style="margin-bottom:4px;">
-      Sounds of Speech (University of Iowa) — інтерактивний сайт з анімацією рота й відео вимови кожного звука American English, але навігація по конкретному звуку йде через меню (спосіб творення → місце артикуляції), пряме посилання на кожен окремий звук у ньому не працює — доведеться самому обрати потрібний з меню на сайті.
+
+    <div class="source-list">
+      <div class="source-item">
+        <div class="s-name"><a href="https://commons.wikimedia.org/wiki/Category:Sagittal_sections" target="_blank" rel="noopener">Діаграми вище (θ, ð, ŋ)</a></div>
+        <div class="s-what">Wikimedia Commons, серія "Sagittal Section" — статичні перерізи рота, авторства Richard Wright і Dan McCloy (Linguistics 450/550, University of Washington), вільна ліцензія CC0. Є готові діаграми тільки для θ/ð/ŋ — для w, r, j (ковзні звуки) у цій серії діаграм просто нема, тому там показані лише описи.</div>
+      </div>
+
+      <div class="source-item">
+        <div class="s-name"><a href="https://uspronunciation.com/ipa-chart/" target="_blank" rel="noopener">uspronunciation.com — IPA chart</a></div>
+        <div class="s-what">Клікабельна таблиця American English: тицяєш на символ (включно з θ, ð, w, r, ŋ) — чуєш ізольований звук одразу, без пошуку в меню. Практичний незалежний сайт, не словниковий і не університетський — але єдиний знайдений варіант саме з американською вимовою в форматі "один клік".</div>
+      </div>
+
+      <div class="source-item">
+        <div class="s-name"><a href="https://soundsofspeech.uiowa.edu/" target="_blank" rel="noopener">Sounds of Speech (University of Iowa)</a></div>
+        <div class="s-what">Академічний, некомерційний сайт з анімацією рота й відео вимови кожного звука American English — саме те, що дає рух язика/губ у динаміці, не статичну картинку. Мінус: це інтерактивний застосунок з навігацією через меню (спосіб творення → місце артикуляції), прямого посилання на конкретний звук зробити не вдалось технічно — доведеться самому знайти потрібний звук на сайті.</div>
+      </div>
+
+      <div class="source-item">
+        <div class="s-name">«An Introduction to American English Phonetics»</div>
+        <div class="s-what">Відкритий академічний підручник (Radboud University Nijmegen), саме American English — той стандарт вимови, що й у застосунку. Текстовий опис артикуляції, без картинок, зате детальний і точний.</div>
+        <div class="sound-row" style="margin-top:8px; margin-bottom:0;">
+          <a class="sound-btn" href="https://opentextbooks.rug.nl/americanenglishphonetics2/chapter/11-2-3-dental-fricatives-%CE%B8-d/" target="_blank" rel="noopener">📖 θ/ð</a>
+          <a class="sound-btn" href="https://opentextbooks.rug.nl/americanenglishphonetics2/chapter/12-3-approximants/" target="_blank" rel="noopener">📖 w/j</a>
+          <a class="sound-btn" href="https://opentextbooks.rug.nl/americanenglishphonetics2/chapter/12-4-the-palato-velar-approximant-r/" target="_blank" rel="noopener">📖 r</a>
+          <a class="sound-btn" href="https://opentextbooks.rug.nl/americanenglishphonetics2/chapter/12-2-ga-and-na-nasals/" target="_blank" rel="noopener">📖 ŋ</a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
