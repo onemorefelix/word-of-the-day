@@ -1752,5 +1752,775 @@
     "example": "Remote work has helped many people improve their work-life balance.",
     "example2": "A poor work-life balance can lead to burnout.",
     "note": ""
+  },
+  {
+    "id": "health_treadmill",
+    "en": "treadmill",
+    "ph": "/ˈtrɛdˌmɪl/",
+    "uk": "бігова доріжка",
+    "pos": "noun",
+    "example": "She runs five kilometres on the treadmill every day.",
+    "example2": "The gym has a row of treadmills facing the windows.",
+    "note": ""
+  },
+  {
+    "id": "health_dumbbell",
+    "en": "dumbbell",
+    "ph": "/ˈdʌmˌbɛl/",
+    "uk": "гантель",
+    "pos": "noun",
+    "example": "He lifted a pair of dumbbells during the workout.",
+    "example2": "Start with lighter dumbbells and increase the weight over time.",
+    "note": ""
+  },
+  {
+    "id": "health_barbell",
+    "en": "barbell",
+    "ph": "/ˈbɑːrˌbɛl/",
+    "uk": "штанга",
+    "pos": "noun",
+    "example": "She added more weight to the barbell for her next set.",
+    "example2": "Barbell squats work most of the major muscle groups.",
+    "note": ""
+  },
+  {
+    "id": "health_jogging",
+    "en": "jogging",
+    "ph": "/ˈdʒɑːgɪŋ/",
+    "uk": "легкий біг підтюпцем",
+    "pos": "noun",
+    "example": "Jogging in the park is part of her morning routine.",
+    "example2": "Jogging is gentler on the joints than sprinting.",
+    "note": ""
+  },
+  {
+    "id": "health_stretching",
+    "en": "stretching",
+    "ph": "/ˈstrɛtʃɪŋ/",
+    "uk": "розтяжка",
+    "pos": "noun",
+    "example": "Stretching before a workout helps prevent injury.",
+    "example2": "She does ten minutes of stretching every evening.",
+    "note": ""
+  },
+  {
+    "id": "health_circuit_training",
+    "en": "circuit training",
+    "ph": "/ˈsɜrkɪt ˈtreɪnɪŋ/",
+    "uk": "кругове тренування",
+    "pos": "noun",
+    "example": "Circuit training combines cardio and strength exercises.",
+    "example2": "The class does circuit training three times a week.",
+    "note": ""
+  },
+  {
+    "id": "health_hiit",
+    "en": "HIIT",
+    "ph": "/hɪt/",
+    "uk": "високоінтенсивне інтервальне тренування",
+    "pos": "noun",
+    "example": "A HIIT workout can burn a lot of calories in a short time.",
+    "example2": "She does HIIT twice a week alongside yoga.",
+    "note": "Абревіатура від <b>high-intensity interval training</b>, вимовляється як звичайне слово \"hit\"."
+  },
+  {
+    "id": "health_fasting",
+    "en": "fasting",
+    "ph": "/ˈfæstɪŋ/",
+    "uk": "голодування, утримання від їжі",
+    "pos": "noun",
+    "example": "Fasting before the blood test is required.",
+    "example2": "Some religions include periods of fasting.",
+    "note": ""
+  },
+  {
+    "id": "health_intermittent_fasting",
+    "en": "intermittent fasting",
+    "ph": "/ˌɪntərˈmɪtənt ˈfæstɪŋ/",
+    "uk": "інтервальне голодування",
+    "pos": "noun",
+    "example": "He tried intermittent fasting to help manage his weight.",
+    "example2": "Intermittent fasting isn't suitable for everyone.",
+    "note": ""
+  },
+  {
+    "id": "health_meal_prep",
+    "en": "meal prep",
+    "ph": "/miːl prɛp/",
+    "uk": "заготовка їжі наперед",
+    "pos": "noun",
+    "example": "She spends Sunday afternoon doing meal prep for the week.",
+    "example2": "Meal prep makes it easier to eat healthy on busy days.",
+    "note": ""
+  },
+  {
+    "id": "health_snacking",
+    "en": "snacking",
+    "ph": "/ˈsnækɪŋ/",
+    "uk": "перекушування",
+    "pos": "noun",
+    "example": "Late-night snacking is a hard habit to break.",
+    "example2": "She replaced snacking on chips with fruit.",
+    "note": ""
+  },
+  {
+    "id": "health_appetite",
+    "en": "appetite",
+    "ph": "/ˈæpəˌtaɪt/",
+    "uk": "апетит",
+    "pos": "noun",
+    "example": "Exercise can actually increase your appetite.",
+    "example2": "She lost her appetite when she got sick.",
+    "note": ""
+  },
+  {
+    "id": "health_craving",
+    "en": "craving",
+    "ph": "/ˈkreɪvɪŋ/",
+    "uk": "сильне бажання (їжі)",
+    "pos": "noun",
+    "example": "She had a sudden craving for chocolate.",
+    "example2": "Drinking water can sometimes reduce food cravings.",
+    "note": ""
+  },
+  {
+    "id": "health_calorie_deficit",
+    "en": "calorie deficit",
+    "ph": "/ˈkæləri ˈdɛfəsɪt/",
+    "uk": "дефіцит калорій",
+    "pos": "noun",
+    "example": "Weight loss requires a calorie deficit over time.",
+    "example2": "He tracks his meals to stay in a calorie deficit.",
+    "note": ""
+  },
+  {
+    "id": "health_calorie_surplus",
+    "en": "calorie surplus",
+    "ph": "/ˈkæləri ˈsɜrpləs/",
+    "uk": "надлишок калорій",
+    "pos": "noun",
+    "example": "Building muscle usually requires a small calorie surplus.",
+    "example2": "Eating in a constant calorie surplus can lead to weight gain.",
+    "note": ""
+  },
+  {
+    "id": "health_macronutrient",
+    "en": "macronutrient",
+    "ph": "/ˌmækroʊˈnuːtriənt/",
+    "uk": "макронутрієнт",
+    "pos": "noun",
+    "example": "Protein, fat, and carbohydrates are the three main macronutrients.",
+    "example2": "She tracks her macronutrients as part of her diet plan.",
+    "note": ""
+  },
+  {
+    "id": "health_micronutrient",
+    "en": "micronutrient",
+    "ph": "/ˌmaɪkroʊˈnuːtriənt/",
+    "uk": "мікронутрієнт",
+    "pos": "noun",
+    "example": "Vitamins and minerals are examples of micronutrients.",
+    "example2": "A varied diet usually provides enough micronutrients.",
+    "note": ""
+  },
+  {
+    "id": "health_sodium",
+    "en": "sodium",
+    "ph": "/ˈsoʊdiəm/",
+    "uk": "натрій",
+    "pos": "noun",
+    "example": "Too much sodium in your diet can raise blood pressure.",
+    "example2": "Processed foods are often high in sodium.",
+    "note": ""
+  },
+  {
+    "id": "health_potassium",
+    "en": "potassium",
+    "ph": "/pəˈtæsiəm/",
+    "uk": "калій",
+    "pos": "noun",
+    "example": "Bananas are well known for their potassium content.",
+    "example2": "Potassium helps regulate fluid balance in the body.",
+    "note": ""
+  },
+  {
+    "id": "health_calcium",
+    "en": "calcium",
+    "ph": "/ˈkælsiəm/",
+    "uk": "кальцій",
+    "pos": "noun",
+    "example": "Dairy products are a common source of calcium.",
+    "example2": "Calcium is essential for strong bones and teeth.",
+    "note": ""
+  },
+  {
+    "id": "health_omega_3",
+    "en": "omega-3",
+    "ph": "/oʊˈmɛgə θriː/",
+    "uk": "омега-3",
+    "pos": "noun",
+    "example": "Fish like salmon are rich in omega-3 fatty acids.",
+    "example2": "She takes an omega-3 supplement every day.",
+    "note": ""
+  },
+  {
+    "id": "health_common_cold",
+    "en": "common cold",
+    "ph": "/ˈkɑːmən koʊld/",
+    "uk": "застуда",
+    "pos": "noun",
+    "example": "There's still no cure for the common cold.",
+    "example2": "He stayed home with a common cold for a couple of days.",
+    "note": ""
+  },
+  {
+    "id": "health_cough",
+    "en": "cough",
+    "ph": "/kɔːf/",
+    "uk": "кашель",
+    "pos": "noun",
+    "example": "She's had a persistent cough for over a week.",
+    "example2": "He took some medicine to ease his cough.",
+    "note": ""
+  },
+  {
+    "id": "health_nausea",
+    "en": "nausea",
+    "ph": "/ˈnɔːziə/",
+    "uk": "нудота",
+    "pos": "noun",
+    "example": "The medication can sometimes cause nausea.",
+    "example2": "She felt a wave of nausea on the boat.",
+    "note": ""
+  },
+  {
+    "id": "health_vomiting",
+    "en": "vomiting",
+    "ph": "/ˈvɑːmɪtɪŋ/",
+    "uk": "блювання",
+    "pos": "noun",
+    "example": "The illness caused vomiting and a high fever.",
+    "example2": "See a doctor if vomiting continues for more than a day.",
+    "note": ""
+  },
+  {
+    "id": "health_dizziness",
+    "en": "dizziness",
+    "ph": "/ˈdɪzinəs/",
+    "uk": "запаморочення",
+    "pos": "noun",
+    "example": "Standing up too quickly can cause dizziness.",
+    "example2": "She reported dizziness and a headache to her doctor.",
+    "note": ""
+  },
+  {
+    "id": "health_rash",
+    "en": "rash",
+    "ph": "/ræʃ/",
+    "uk": "висип",
+    "pos": "noun",
+    "example": "A red rash appeared on his arm after the hike.",
+    "example2": "The cream helped clear up the rash within days.",
+    "note": ""
+  },
+  {
+    "id": "health_blister",
+    "en": "blister",
+    "ph": "/ˈblɪstər/",
+    "uk": "пухир (на шкірі)",
+    "pos": "noun",
+    "example": "The new shoes gave her a blister on her heel.",
+    "example2": "He got a blister after the long hike.",
+    "note": ""
+  },
+  {
+    "id": "health_bruise",
+    "en": "bruise",
+    "ph": "/bruːz/",
+    "uk": "синець",
+    "pos": "noun",
+    "example": "She had a bruise on her knee after the fall.",
+    "example2": "The bruise took about two weeks to fade.",
+    "note": ""
+  },
+  {
+    "id": "health_swelling",
+    "en": "swelling",
+    "ph": "/ˈswɛlɪŋ/",
+    "uk": "набряк",
+    "pos": "noun",
+    "example": "Ice can help reduce swelling after an injury.",
+    "example2": "The swelling in her ankle went down after a few days.",
+    "note": ""
+  },
+  {
+    "id": "health_itch",
+    "en": "itch",
+    "ph": "/ɪtʃ/",
+    "uk": "свербіж",
+    "pos": "noun",
+    "example": "The bug bite left an itch on her arm.",
+    "example2": "He couldn't stop scratching the itch on his back.",
+    "note": ""
+  },
+  {
+    "id": "health_eyesight",
+    "en": "eyesight",
+    "ph": "/ˈaɪˌsaɪt/",
+    "uk": "зір",
+    "pos": "noun",
+    "example": "Her eyesight has gotten worse over the past few years.",
+    "example2": "Regular checkups can catch problems with your eyesight early.",
+    "note": ""
+  },
+  {
+    "id": "health_hearing_loss",
+    "en": "hearing loss",
+    "ph": "/ˈhɪrɪŋ lɔːs/",
+    "uk": "втрата слуху",
+    "pos": "noun",
+    "example": "Loud music can eventually cause hearing loss.",
+    "example2": "He has experienced gradual hearing loss with age.",
+    "note": ""
+  },
+  {
+    "id": "health_glasses",
+    "en": "glasses",
+    "ph": "/ˈglæsɪz/",
+    "uk": "окуляри",
+    "pos": "noun",
+    "example": "She's worn glasses since she was a child.",
+    "example2": "He forgot his glasses at home again.",
+    "note": ""
+  },
+  {
+    "id": "health_contact_lenses",
+    "en": "contact lenses",
+    "ph": "/ˈkɑːntækt ˈlɛnzɪz/",
+    "uk": "контактні лінзи",
+    "pos": "noun",
+    "example": "She switched from glasses to contact lenses last year.",
+    "example2": "Contact lenses need to be cleaned carefully every day.",
+    "note": ""
+  },
+  {
+    "id": "health_hearing_aid",
+    "en": "hearing aid",
+    "ph": "/ˈhɪrɪŋ eɪd/",
+    "uk": "слуховий апарат",
+    "pos": "noun",
+    "example": "He started wearing a hearing aid in his sixties.",
+    "example2": "Modern hearing aids are much smaller than older models.",
+    "note": ""
+  },
+  {
+    "id": "health_deaf",
+    "en": "deaf",
+    "ph": "/dɛf/",
+    "uk": "глухий",
+    "pos": "adjective",
+    "example": "She has been deaf since birth.",
+    "example2": "He learned sign language to communicate with his deaf brother.",
+    "note": ""
+  },
+  {
+    "id": "health_blind",
+    "en": "blind",
+    "ph": "/blaɪnd/",
+    "uk": "сліпий",
+    "pos": "adjective",
+    "example": "He has been blind since the accident.",
+    "example2": "The dog was trained to guide blind people safely.",
+    "note": ""
+  },
+  {
+    "id": "health_dental_hygiene",
+    "en": "dental hygiene",
+    "ph": "/ˈdɛntəl ˈhaɪdʒiːn/",
+    "uk": "гігієна порожнини рота",
+    "pos": "noun",
+    "example": "Good dental hygiene includes brushing twice a day.",
+    "example2": "Poor dental hygiene can lead to gum disease.",
+    "note": ""
+  },
+  {
+    "id": "health_cavity",
+    "en": "cavity",
+    "ph": "/ˈkævəti/",
+    "uk": "карієс, дірка в зубі",
+    "pos": "noun",
+    "example": "The dentist found a small cavity during the checkup.",
+    "example2": "Too much sugar can lead to cavities.",
+    "note": ""
+  },
+  {
+    "id": "health_braces",
+    "en": "braces",
+    "ph": "/ˈbreɪsɪz/",
+    "uk": "брекети",
+    "pos": "noun",
+    "example": "She wore braces for almost two years.",
+    "example2": "Many teenagers get braces to straighten their teeth.",
+    "note": ""
+  },
+  {
+    "id": "health_pregnancy",
+    "en": "pregnancy",
+    "ph": "/ˈprɛgnənsi/",
+    "uk": "вагітність",
+    "pos": "noun",
+    "example": "She felt tired during the first few months of pregnancy.",
+    "example2": "Regular checkups are important throughout pregnancy.",
+    "note": ""
+  },
+  {
+    "id": "health_prenatal",
+    "en": "prenatal",
+    "ph": "/ˌpriˈneɪtəl/",
+    "uk": "допологовий, пренатальний",
+    "pos": "adjective",
+    "example": "She attends regular prenatal appointments.",
+    "example2": "Prenatal vitamins are recommended during pregnancy.",
+    "note": ""
+  },
+  {
+    "id": "health_postnatal",
+    "en": "postnatal",
+    "ph": "/ˌpoʊstˈneɪtəl/",
+    "uk": "післяпологовий",
+    "pos": "adjective",
+    "example": "Postnatal care helps new mothers recover after birth.",
+    "example2": "She joined a postnatal support group for new parents.",
+    "note": ""
+  },
+  {
+    "id": "health_maternity_leave",
+    "en": "maternity leave",
+    "ph": "/məˈtɜrnəti liːv/",
+    "uk": "декретна відпустка",
+    "pos": "noun",
+    "example": "She's taking a year of maternity leave.",
+    "example2": "Many countries offer paid maternity leave.",
+    "note": ""
+  },
+  {
+    "id": "health_alcoholism",
+    "en": "alcoholism",
+    "ph": "/ˈælkəˌhɔːlˌɪzəm/",
+    "uk": "алкоголізм",
+    "pos": "noun",
+    "example": "He got treatment for alcoholism after years of struggling.",
+    "example2": "Alcoholism can affect every part of a person's life.",
+    "note": ""
+  },
+  {
+    "id": "health_binge_drinking",
+    "en": "binge drinking",
+    "ph": "/bɪndʒ ˈdrɪŋkɪŋ/",
+    "uk": "надмірне вживання алкоголю за раз",
+    "pos": "noun",
+    "example": "Binge drinking is common among some university students.",
+    "example2": "Binge drinking increases the risk of serious health problems.",
+    "note": ""
+  },
+  {
+    "id": "health_hangover",
+    "en": "hangover",
+    "ph": "/ˈhæŋˌoʊvər/",
+    "uk": "похмілля",
+    "pos": "noun",
+    "example": "He woke up with a bad hangover after the party.",
+    "example2": "Drinking water can help ease a hangover.",
+    "note": ""
+  },
+  {
+    "id": "health_overdose",
+    "en": "overdose",
+    "ph": "/ˈoʊvərˌdoʊs/",
+    "uk": "передозування",
+    "pos": "noun",
+    "example": "He was rushed to hospital after an overdose.",
+    "example2": "Taking too much medication can lead to an overdose.",
+    "note": ""
+  },
+  {
+    "id": "health_withdrawal",
+    "en": "withdrawal",
+    "ph": "/wɪðˈdrɔːəl/",
+    "uk": "синдром відміни, ломка",
+    "pos": "noun",
+    "example": "He experienced withdrawal symptoms after quitting smoking.",
+    "example2": "Withdrawal can include headaches, shaking, and anxiety.",
+    "note": ""
+  },
+  {
+    "id": "health_sanitation",
+    "en": "sanitation",
+    "ph": "/ˌsænəˈteɪʃən/",
+    "uk": "санітарія",
+    "pos": "noun",
+    "example": "Poor sanitation can lead to the spread of disease.",
+    "example2": "The charity works to improve sanitation in rural areas.",
+    "note": ""
+  },
+  {
+    "id": "health_clean_water",
+    "en": "clean water",
+    "ph": "/kliːn ˈwɔːtər/",
+    "uk": "чиста вода",
+    "pos": "noun",
+    "example": "Access to clean water is essential for public health.",
+    "example2": "Millions of people still lack access to clean water.",
+    "note": ""
+  },
+  {
+    "id": "health_hereditary",
+    "en": "hereditary",
+    "ph": "/həˈrɛdəˌtɛri/",
+    "uk": "спадковий",
+    "pos": "adjective",
+    "example": "Some forms of heart disease are hereditary.",
+    "example2": "The doctor asked about any hereditary conditions in her family.",
+    "note": ""
+  },
+  {
+    "id": "health_genetic_disorder",
+    "en": "genetic disorder",
+    "ph": "/dʒəˈnɛtɪk dɪsˈɔːrdər/",
+    "uk": "генетичний розлад",
+    "pos": "noun",
+    "example": "The test can detect several genetic disorders early.",
+    "example2": "She was born with a rare genetic disorder.",
+    "note": ""
+  },
+  {
+    "id": "health_inherited",
+    "en": "inherited",
+    "ph": "/ɪnˈhɛrətɪd/",
+    "uk": "успадкований",
+    "pos": "adjective",
+    "example": "He has an inherited condition that affects his eyesight.",
+    "example2": "Some diseases are inherited from one or both parents.",
+    "note": ""
+  },
+  {
+    "id": "health_relaxation",
+    "en": "relaxation",
+    "ph": "/ˌriːlækˈseɪʃən/",
+    "uk": "розслаблення",
+    "pos": "noun",
+    "example": "She finds relaxation through painting on weekends.",
+    "example2": "Relaxation techniques can help manage stress.",
+    "note": ""
+  },
+  {
+    "id": "health_meditation",
+    "en": "meditation",
+    "ph": "/ˌmɛdəˈteɪʃən/",
+    "uk": "медитація",
+    "pos": "noun",
+    "example": "He practices meditation for ten minutes every morning.",
+    "example2": "Meditation can help lower anxiety and improve focus.",
+    "note": ""
+  },
+  {
+    "id": "health_breathing_exercise",
+    "en": "breathing exercise",
+    "ph": "/ˈbriːðɪŋ ˈɛksərsaɪz/",
+    "uk": "дихальна вправа",
+    "pos": "noun",
+    "example": "She uses breathing exercises to calm down before exams.",
+    "example2": "Breathing exercises can help lower your heart rate.",
+    "note": ""
+  },
+  {
+    "id": "health_gratitude",
+    "en": "gratitude",
+    "ph": "/ˈgrætəˌtuːd/",
+    "uk": "вдячність",
+    "pos": "noun",
+    "example": "She keeps a gratitude journal before bed.",
+    "example2": "Practicing gratitude has been linked to better mental health.",
+    "note": ""
+  },
+  {
+    "id": "health_eye_strain",
+    "en": "eye strain",
+    "ph": "/aɪ streɪn/",
+    "uk": "перевтома очей",
+    "pos": "noun",
+    "example": "Long hours at the computer can cause eye strain.",
+    "example2": "Taking regular breaks helps reduce eye strain.",
+    "note": ""
+  },
+  {
+    "id": "health_back_pain",
+    "en": "back pain",
+    "ph": "/bæk peɪn/",
+    "uk": "біль у спині",
+    "pos": "noun",
+    "example": "Sitting all day at a desk can cause back pain.",
+    "example2": "She does stretches every morning to ease her back pain.",
+    "note": ""
+  },
+  {
+    "id": "health_joint_pain",
+    "en": "joint pain",
+    "ph": "/dʒɔɪnt peɪn/",
+    "uk": "біль у суглобах",
+    "pos": "noun",
+    "example": "Cold weather often makes his joint pain worse.",
+    "example2": "Joint pain is a common symptom of arthritis.",
+    "note": ""
+  },
+  {
+    "id": "health_chronic_pain",
+    "en": "chronic pain",
+    "ph": "/ˈkrɑːnɪk peɪn/",
+    "uk": "хронічний біль",
+    "pos": "noun",
+    "example": "She has lived with chronic pain for over a decade.",
+    "example2": "Chronic pain can affect a person's sleep and mood.",
+    "note": ""
+  },
+  {
+    "id": "health_pain_relief",
+    "en": "pain relief",
+    "ph": "/peɪn rɪˈliːf/",
+    "uk": "знеболення",
+    "pos": "noun",
+    "example": "She took some medication for pain relief.",
+    "example2": "Ice packs can offer quick pain relief after an injury.",
+    "note": ""
+  },
+  {
+    "id": "health_over_the_counter",
+    "en": "over-the-counter",
+    "ph": "/ˌoʊvər ðə ˈkaʊntər/",
+    "uk": "безрецептурний",
+    "pos": "adjective",
+    "example": "You can buy this painkiller over-the-counter.",
+    "example2": "Over-the-counter medication doesn't require a prescription.",
+    "note": ""
+  },
+  {
+    "id": "health_prescription_drug",
+    "en": "prescription drug",
+    "ph": "/prɪˈskrɪpʃən drʌg/",
+    "uk": "рецептурний препарат",
+    "pos": "noun",
+    "example": "This is a prescription drug, so you'll need to see a doctor.",
+    "example2": "Prescription drugs should always be taken as directed.",
+    "note": ""
+  },
+  {
+    "id": "health_placebo",
+    "en": "placebo",
+    "ph": "/pləˈsiːboʊ/",
+    "uk": "плацебо",
+    "pos": "noun",
+    "example": "Half the group received the drug, and half received a placebo.",
+    "example2": "Some patients improve simply from the placebo effect.",
+    "note": ""
+  },
+  {
+    "id": "health_side_effect",
+    "en": "side effect",
+    "ph": "/saɪd ɪˈfɛkt/",
+    "uk": "побічний ефект",
+    "pos": "noun",
+    "example": "Drowsiness is a common side effect of this medication.",
+    "example2": "Tell your doctor about any side effects you notice.",
+    "note": ""
+  },
+  {
+    "id": "health_symptomatic",
+    "en": "symptomatic",
+    "ph": "/ˌsɪmptəˈmætɪk/",
+    "uk": "симптоматичний",
+    "pos": "adjective",
+    "example": "Patients who are symptomatic should stay home from work.",
+    "example2": "The treatment is symptomatic rather than curative.",
+    "note": ""
+  },
+  {
+    "id": "health_asymptomatic",
+    "en": "asymptomatic",
+    "ph": "/ˌeɪsɪmptəˈmætɪk/",
+    "uk": "безсимптомний",
+    "pos": "adjective",
+    "example": "Many carriers of the virus remain asymptomatic.",
+    "example2": "Regular screening can catch asymptomatic cases early.",
+    "note": ""
+  },
+  {
+    "id": "health_epidemiologist",
+    "en": "epidemiologist",
+    "ph": "/ˌɛpəˌdimiˈɑːlədʒɪst/",
+    "uk": "епідеміолог",
+    "pos": "noun",
+    "example": "Epidemiologists track how diseases spread through a population.",
+    "example2": "The team of epidemiologists studied the outbreak closely.",
+    "note": ""
+  },
+  {
+    "id": "health_public_health",
+    "en": "public health",
+    "ph": "/ˈpʌblɪk hɛlθ/",
+    "uk": "громадське здоров'я",
+    "pos": "noun",
+    "example": "Vaccination programs are a key part of public health policy.",
+    "example2": "The agency is responsible for protecting public health.",
+    "note": ""
+  },
+  {
+    "id": "health_health_campaign",
+    "en": "health campaign",
+    "ph": "/hɛlθ kæmˈpeɪn/",
+    "uk": "кампанія з охорони здоров'я",
+    "pos": "noun",
+    "example": "The health campaign encouraged people to eat more vegetables.",
+    "example2": "A national health campaign raised awareness about diabetes.",
+    "note": ""
+  },
+  {
+    "id": "health_vaccination_rate",
+    "en": "vaccination rate",
+    "ph": "/ˌvæksəˈneɪʃən reɪt/",
+    "uk": "рівень вакцинації",
+    "pos": "noun",
+    "example": "The region has a high vaccination rate among children.",
+    "example2": "A low vaccination rate can lead to new outbreaks.",
+    "note": ""
+  },
+  {
+    "id": "health_booster",
+    "en": "booster",
+    "ph": "/ˈbuːstər/",
+    "uk": "бустерна доза (вакцини)",
+    "pos": "noun",
+    "example": "She got a booster shot six months after the first dose.",
+    "example2": "Doctors recommend a booster every few years for some vaccines.",
+    "note": ""
+  },
+  {
+    "id": "health_flu_shot",
+    "en": "flu shot",
+    "ph": "/fluː ʃɑːt/",
+    "uk": "щеплення від грипу",
+    "pos": "noun",
+    "example": "He gets a flu shot every autumn.",
+    "example2": "The clinic offers free flu shots in October.",
+    "note": ""
+  },
+  {
+    "id": "health_antibody",
+    "en": "antibody",
+    "ph": "/ˈæntiˌbɑːdi/",
+    "uk": "антитіло",
+    "pos": "noun",
+    "example": "The body produces antibodies to fight the infection.",
+    "example2": "The test checks for antibodies in the blood.",
+    "note": ""
   }
 ]
