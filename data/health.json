@@ -1,0 +1,996 @@
+[
+  {
+    "id": "health_exercise",
+    "en": "exercise",
+    "ph": "/ˈɛksərsaɪz/",
+    "uk": "займатися фізичними вправами",
+    "pos": "verb",
+    "forms": {
+      "base": "exercise", "phBase": "/ˈɛksərsaɪz/",
+      "past": "exercised", "phPast": "/ˈɛksərsaɪzd/",
+      "part": "exercised", "phPart": "/ˈɛksərsaɪzd/"
+    },
+    "examples": [
+      ["Present Simple", "I exercise every morning before work."],
+      ["Past Simple", "I exercised for an hour yesterday."],
+      ["Present Perfect", "I've exercised three times this week."]
+    ],
+    "note": "Іменник <b>exercise</b> означає і саму вправу, і фізичну активність загалом: <b>a breathing exercise</b> / <b>to get enough exercise</b>."
+  },
+  {
+    "id": "health_recover",
+    "en": "recover",
+    "ph": "/rɪˈkʌvər/",
+    "uk": "одужувати, відновлюватися",
+    "pos": "verb",
+    "forms": {
+      "base": "recover", "phBase": "/rɪˈkʌvər/",
+      "past": "recovered", "phPast": "/rɪˈkʌvərd/",
+      "part": "recovered", "phPart": "/rɪˈkʌvərd/"
+    },
+    "examples": [
+      ["Present Simple", "Most patients recover within a few weeks."],
+      ["Past Simple", "She recovered quickly after the surgery."],
+      ["Present Perfect", "He has fully recovered from the flu."]
+    ],
+    "note": "Після recover зазвичай іде <b>from</b>: <b>recover from an illness/injury</b>."
+  },
+  {
+    "id": "health_diagnose",
+    "en": "diagnose",
+    "ph": "/ˈdaɪəgnoʊs/",
+    "uk": "діагностувати",
+    "pos": "verb",
+    "forms": {
+      "base": "diagnose", "phBase": "/ˈdaɪəgnoʊs/",
+      "past": "diagnosed", "phPast": "/ˈdaɪəgnoʊst/",
+      "part": "diagnosed", "phPart": "/ˈdaɪəgnoʊst/"
+    },
+    "examples": [
+      ["Present Simple", "Doctors diagnose the condition using a blood test."],
+      ["Past Simple", "She was diagnosed with diabetes last year."],
+      ["Present Perfect", "He has been diagnosed with hypertension."]
+    ],
+    "note": "Найчастіше в пасиві: <b>be diagnosed with something</b>, не \"diagnosed by something\"."
+  },
+  {
+    "id": "health_nutrition",
+    "en": "nutrition",
+    "ph": "/nuːˈtrɪʃən/",
+    "uk": "харчування, поживлення",
+    "pos": "noun",
+    "example": "Good nutrition is essential for a child's development.",
+    "example2": "The course covers nutrition and healthy eating habits.",
+    "note": "Прикметник — <b>nutritious</b> (поживний): \"a nutritious meal\"."
+  },
+  {
+    "id": "health_hygiene",
+    "en": "hygiene",
+    "ph": "/ˈhaɪdʒiːn/",
+    "uk": "гігієна",
+    "pos": "noun",
+    "example": "Good hygiene helps prevent the spread of disease.",
+    "example2": "Schools teach children about personal hygiene.",
+    "note": ""
+  },
+  {
+    "id": "health_immune_system",
+    "en": "immune system",
+    "ph": "/ɪˈmjuːn ˈsɪstəm/",
+    "uk": "імунна система",
+    "pos": "noun",
+    "example": "A healthy diet strengthens the immune system.",
+    "example2": "Stress can weaken your immune system over time.",
+    "note": ""
+  },
+  {
+    "id": "health_immunity",
+    "en": "immunity",
+    "ph": "/ɪˈmjuːnəti/",
+    "uk": "імунітет",
+    "pos": "noun",
+    "example": "The vaccine gives long-lasting immunity to the disease.",
+    "example2": "Children build immunity through early exposure to germs.",
+    "note": ""
+  },
+  {
+    "id": "health_metabolism",
+    "en": "metabolism",
+    "ph": "/məˈtæbəlɪzəm/",
+    "uk": "обмін речовин",
+    "pos": "noun",
+    "example": "Exercise can help speed up your metabolism.",
+    "example2": "Metabolism tends to slow down with age.",
+    "note": ""
+  },
+  {
+    "id": "health_posture",
+    "en": "posture",
+    "ph": "/ˈpɑːstʃər/",
+    "uk": "постава, осанка",
+    "pos": "noun",
+    "example": "Sitting at a desk all day can ruin your posture.",
+    "example2": "Good posture reduces the risk of back pain.",
+    "note": ""
+  },
+  {
+    "id": "health_inflammation",
+    "en": "inflammation",
+    "ph": "/ˌɪnfləˈmeɪʃən/",
+    "uk": "запалення",
+    "pos": "noun",
+    "example": "The injury caused inflammation around the joint.",
+    "example2": "Certain foods are known to reduce inflammation.",
+    "note": ""
+  },
+  {
+    "id": "health_wellness",
+    "en": "wellness",
+    "ph": "/ˈwɛlnəs/",
+    "uk": "благополуччя, здоровий спосіб життя",
+    "pos": "noun",
+    "example": "The company offers a wellness program for employees.",
+    "example2": "Mental wellness is just as important as physical health.",
+    "note": "Частий вираз: <b>wellness program/centre</b>."
+  },
+  {
+    "id": "health_lifestyle",
+    "en": "lifestyle",
+    "ph": "/ˈlaɪfstaɪl/",
+    "uk": "спосіб життя",
+    "pos": "noun",
+    "example": "A sedentary lifestyle increases the risk of heart disease.",
+    "example2": "She switched to a healthier lifestyle after her diagnosis.",
+    "note": ""
+  },
+  {
+    "id": "health_balanced_diet",
+    "en": "balanced diet",
+    "ph": "/ˈbælənst ˈdaɪət/",
+    "uk": "збалансоване харчування",
+    "pos": "noun",
+    "example": "A balanced diet includes protein, carbohydrates, and fat.",
+    "example2": "Doctors recommend a balanced diet over strict fad diets.",
+    "note": ""
+  },
+  {
+    "id": "health_calorie",
+    "en": "calorie",
+    "ph": "/ˈkæləri/",
+    "uk": "калорія",
+    "pos": "noun",
+    "example": "Fast food is often high in calories and low in nutrients.",
+    "example2": "She counts calories to maintain her weight.",
+    "note": ""
+  },
+  {
+    "id": "health_malnutrition",
+    "en": "malnutrition",
+    "ph": "/ˌmælnuːˈtrɪʃən/",
+    "uk": "недоїдання",
+    "pos": "noun",
+    "example": "Malnutrition remains a serious problem in many regions.",
+    "example2": "Malnutrition can affect a child's growth and development.",
+    "note": ""
+  },
+  {
+    "id": "health_hydration",
+    "en": "hydration",
+    "ph": "/haɪˈdreɪʃən/",
+    "uk": "зволоження організму, водний баланс",
+    "pos": "noun",
+    "example": "Proper hydration is important during exercise.",
+    "example2": "Athletes are reminded about the importance of hydration.",
+    "note": ""
+  },
+  {
+    "id": "health_dehydration",
+    "en": "dehydration",
+    "ph": "/ˌdiːhaɪˈdreɪʃən/",
+    "uk": "зневоднення",
+    "pos": "noun",
+    "example": "Dehydration can cause dizziness and fatigue.",
+    "example2": "Drink water regularly to avoid dehydration in hot weather.",
+    "note": ""
+  },
+  {
+    "id": "health_supplement",
+    "en": "supplement",
+    "ph": "/ˈsʌpləmənt/",
+    "uk": "харчова добавка",
+    "pos": "noun",
+    "example": "She takes a vitamin supplement every morning.",
+    "example2": "Supplements shouldn't replace a healthy diet.",
+    "note": ""
+  },
+  {
+    "id": "health_vitamin",
+    "en": "vitamin",
+    "ph": "/ˈvaɪtəmɪn/",
+    "uk": "вітамін",
+    "pos": "noun",
+    "example": "Oranges are rich in vitamin C.",
+    "example2": "A lack of vitamin D can weaken your bones.",
+    "note": "Американська вимова починається з <b>/aɪ/</b> (vai-), британська — з <b>/ɪ/</b> (vi-)."
+  },
+  {
+    "id": "health_protein",
+    "en": "protein",
+    "ph": "/ˈproʊtiːn/",
+    "uk": "білок",
+    "pos": "noun",
+    "example": "Beans are a great source of protein for vegetarians.",
+    "example2": "You need protein to build and repair muscle.",
+    "note": ""
+  },
+  {
+    "id": "health_carbohydrate",
+    "en": "carbohydrate",
+    "ph": "/ˌkɑːrboʊˈhaɪdreɪt/",
+    "uk": "вуглевод",
+    "pos": "noun",
+    "example": "Bread and pasta are high in carbohydrates.",
+    "example2": "Athletes often increase their carbohydrate intake before a race.",
+    "note": "У розмовній мові часто скорочують до <b>carbs</b>."
+  },
+  {
+    "id": "health_fibre",
+    "en": "fibre",
+    "ph": "/ˈfaɪbər/",
+    "uk": "клітковина",
+    "pos": "noun",
+    "example": "Whole grains contain more fibre than white bread.",
+    "example2": "A high-fibre diet supports healthy digestion.",
+    "note": "Канадське/британське написання <b>fibre</b> (не американське fiber) — вимова однакова."
+  },
+  {
+    "id": "health_junk_food",
+    "en": "junk food",
+    "ph": "/ˈdʒʌŋk fuːd/",
+    "uk": "шкідлива їжа, фастфуд",
+    "pos": "noun",
+    "example": "Eating too much junk food can lead to weight gain.",
+    "example2": "Try to replace junk food with healthier snacks.",
+    "note": ""
+  },
+  {
+    "id": "health_processed_food",
+    "en": "processed food",
+    "ph": "/ˈprɑːsɛst fuːd/",
+    "uk": "оброблена їжа промислового виробництва",
+    "pos": "noun",
+    "example": "Highly processed food often contains a lot of added sugar.",
+    "example2": "Doctors recommend limiting processed food in your diet.",
+    "note": ""
+  },
+  {
+    "id": "health_organic",
+    "en": "organic",
+    "ph": "/ɔːrˈgænɪk/",
+    "uk": "органічний, екологічно чистий",
+    "pos": "adjective",
+    "example": "They only buy organic vegetables from the local farm.",
+    "example2": "Organic farming avoids the use of synthetic pesticides.",
+    "note": ""
+  },
+  {
+    "id": "health_whole_grain",
+    "en": "whole grain",
+    "ph": "/hoʊl greɪn/",
+    "uk": "цільнозерновий продукт",
+    "pos": "noun",
+    "example": "Whole grains provide more fibre than refined grains.",
+    "example2": "She replaced white rice with whole grain rice.",
+    "note": ""
+  },
+  {
+    "id": "health_obesity",
+    "en": "obesity",
+    "ph": "/oʊˈbiːsəti/",
+    "uk": "ожиріння",
+    "pos": "noun",
+    "example": "Childhood obesity has become a major public health concern.",
+    "example2": "Obesity increases the risk of heart disease and diabetes.",
+    "note": ""
+  },
+  {
+    "id": "health_overweight",
+    "en": "overweight",
+    "ph": "/ˌoʊvərˈweɪt/",
+    "uk": "з надмірною вагою",
+    "pos": "adjective",
+    "example": "Being overweight can put extra strain on your joints.",
+    "example2": "Nearly a third of adults in the country are overweight.",
+    "note": ""
+  },
+  {
+    "id": "health_underweight",
+    "en": "underweight",
+    "ph": "/ˌʌndərˈweɪt/",
+    "uk": "з недостатньою вагою",
+    "pos": "adjective",
+    "example": "The doctor said the baby was slightly underweight.",
+    "example2": "Being underweight can also cause health problems.",
+    "note": ""
+  },
+  {
+    "id": "health_weight_loss",
+    "en": "weight loss",
+    "ph": "/weɪt lɔːs/",
+    "uk": "втрата ваги",
+    "pos": "noun",
+    "example": "Regular exercise supports healthy weight loss.",
+    "example2": "Sudden weight loss can sometimes be a sign of illness.",
+    "note": ""
+  },
+  {
+    "id": "health_workout",
+    "en": "workout",
+    "ph": "/ˈwɜrkaʊt/",
+    "uk": "тренування",
+    "pos": "noun",
+    "example": "She does a 30-minute workout every morning.",
+    "example2": "A good workout should include both cardio and strength exercises.",
+    "note": ""
+  },
+  {
+    "id": "health_sedentary",
+    "en": "sedentary",
+    "ph": "/ˈsɛdənˌtɛri/",
+    "uk": "сидячий (спосіб життя)",
+    "pos": "adjective",
+    "example": "A sedentary lifestyle increases the risk of obesity.",
+    "example2": "Many office jobs are largely sedentary.",
+    "note": "Ключове слово для IELTS Band 7+: <b>sedentary lifestyle</b>."
+  },
+  {
+    "id": "health_sprint",
+    "en": "sprint",
+    "ph": "/sprɪnt/",
+    "uk": "бігти на короткій дистанції, спринт",
+    "pos": "verb",
+    "example": "She sprinted the last hundred metres of the race.",
+    "example2": "He can sprint faster than anyone on the team.",
+    "note": ""
+  },
+  {
+    "id": "health_endurance",
+    "en": "endurance",
+    "ph": "/ɪnˈdʊrəns/",
+    "uk": "витривалість",
+    "pos": "noun",
+    "example": "Marathon training builds both endurance and mental strength.",
+    "example2": "Swimming is a great way to improve endurance.",
+    "note": ""
+  },
+  {
+    "id": "health_stamina",
+    "en": "stamina",
+    "ph": "/ˈstæmənə/",
+    "uk": "витривалість, сила",
+    "pos": "noun",
+    "example": "You need a lot of stamina to finish a triathlon.",
+    "example2": "Regular training gradually builds your stamina.",
+    "note": "Близьке за значенням до <b>endurance</b>, часто взаємозамінне."
+  },
+  {
+    "id": "health_regimen",
+    "en": "regimen",
+    "ph": "/ˈrɛdʒəmən/",
+    "uk": "режим (тренувань, харчування)",
+    "pos": "noun",
+    "example": "He follows a strict training regimen before competitions.",
+    "example2": "Her doctor recommended a new exercise regimen.",
+    "note": ""
+  },
+  {
+    "id": "health_aerobic",
+    "en": "aerobic",
+    "ph": "/ɛˈroʊbɪk/",
+    "uk": "аеробний",
+    "pos": "adjective",
+    "example": "Running and swimming are both forms of aerobic exercise.",
+    "example2": "Aerobic activity strengthens the heart and lungs.",
+    "note": ""
+  },
+  {
+    "id": "health_resistance_training",
+    "en": "resistance training",
+    "ph": "/rɪˈzɪstəns ˈtreɪnɪŋ/",
+    "uk": "силові тренування",
+    "pos": "noun",
+    "example": "Resistance training helps build and maintain muscle mass.",
+    "example2": "She added resistance training to her weekly routine.",
+    "note": ""
+  },
+  {
+    "id": "health_flexibility",
+    "en": "flexibility",
+    "ph": "/ˌflɛksəˈbɪləti/",
+    "uk": "гнучкість",
+    "pos": "noun",
+    "example": "Stretching every day improves flexibility.",
+    "example2": "Yoga is well known for building flexibility.",
+    "note": ""
+  },
+  {
+    "id": "health_cardiovascular",
+    "en": "cardiovascular",
+    "ph": "/ˌkɑːrdioʊˈvæskjələr/",
+    "uk": "серцево-судинний",
+    "pos": "adjective",
+    "example": "Cardiovascular disease is a leading cause of death worldwide.",
+    "example2": "Running improves your cardiovascular health.",
+    "note": "У розмовній мові часто скорочують до <b>cardio</b>."
+  },
+  {
+    "id": "health_muscle",
+    "en": "muscle",
+    "ph": "/ˈmʌsəl/",
+    "uk": "м'яз",
+    "pos": "noun",
+    "example": "Lifting weights helps you build muscle.",
+    "example2": "He pulled a muscle during the game.",
+    "note": ""
+  },
+  {
+    "id": "health_strength",
+    "en": "strength",
+    "ph": "/strɛŋθ/",
+    "uk": "сила",
+    "pos": "noun",
+    "example": "Weight training increases upper body strength.",
+    "example2": "It takes strength and patience to recover from an injury.",
+    "note": ""
+  },
+  {
+    "id": "health_fatigue",
+    "en": "fatigue",
+    "ph": "/fəˈtiːg/",
+    "uk": "втома, перевтома",
+    "pos": "noun",
+    "example": "Chronic fatigue can be a sign of an underlying illness.",
+    "example2": "She felt fatigue after just a few minutes of exercise.",
+    "note": ""
+  },
+  {
+    "id": "health_exhaustion",
+    "en": "exhaustion",
+    "ph": "/ɪgˈzɔːstʃən/",
+    "uk": "виснаження",
+    "pos": "noun",
+    "example": "He collapsed from exhaustion after the marathon.",
+    "example2": "Working long hours without rest can lead to exhaustion.",
+    "note": ""
+  },
+  {
+    "id": "health_warm_up",
+    "en": "warm up",
+    "ph": "/wɔːrm ʌp/",
+    "uk": "розминатися",
+    "pos": "verb",
+    "example": "Always warm up before doing intense exercise.",
+    "example2": "She warmed up with some light stretching.",
+    "note": "Як іменник пишеться разом: <b>a warm-up</b>."
+  },
+  {
+    "id": "health_cool_down",
+    "en": "cool down",
+    "ph": "/kuːl daʊn/",
+    "uk": "заминатися (після тренування)",
+    "pos": "verb",
+    "example": "Remember to cool down after a hard workout.",
+    "example2": "He cooled down with a slow jog and some stretches.",
+    "note": ""
+  },
+  {
+    "id": "health_gym_membership",
+    "en": "gym membership",
+    "ph": "/dʒɪm ˈmɛmbərʃɪp/",
+    "uk": "абонемент у спортзал",
+    "pos": "noun",
+    "example": "She bought a gym membership at the start of the year.",
+    "example2": "Many gym memberships include free personal training sessions.",
+    "note": ""
+  },
+  {
+    "id": "health_personal_trainer",
+    "en": "personal trainer",
+    "ph": "/ˈpɜrsənəl ˈtreɪnər/",
+    "uk": "персональний тренер",
+    "pos": "noun",
+    "example": "He hired a personal trainer to help him get in shape.",
+    "example2": "A good personal trainer adjusts the plan to your fitness level.",
+    "note": ""
+  },
+  {
+    "id": "health_sports_injury",
+    "en": "sports injury",
+    "ph": "/spɔːrts ˈɪndʒəri/",
+    "uk": "спортивна травма",
+    "pos": "noun",
+    "example": "Sports injuries are common among professional athletes.",
+    "example2": "Proper warm-ups can help prevent sports injuries.",
+    "note": ""
+  },
+  {
+    "id": "health_sprain",
+    "en": "sprain",
+    "ph": "/spreɪn/",
+    "uk": "розтягнути (зв'язки)",
+    "pos": "verb",
+    "example": "She sprained her ankle while running on the trail.",
+    "example2": "He can't play this week because he sprained his wrist.",
+    "note": ""
+  },
+  {
+    "id": "health_strain",
+    "en": "strain",
+    "ph": "/streɪn/",
+    "uk": "розтягнути (м'яз), перенапружити",
+    "pos": "verb",
+    "example": "He strained a muscle in his back lifting the box.",
+    "example2": "Don't strain your eyes by reading in poor light.",
+    "note": ""
+  },
+  {
+    "id": "health_concussion",
+    "en": "concussion",
+    "ph": "/kənˈkʌʃən/",
+    "uk": "струс мозку",
+    "pos": "noun",
+    "example": "He suffered a concussion during the hockey game.",
+    "example2": "Athletes with a concussion should rest before returning to play.",
+    "note": ""
+  },
+  {
+    "id": "health_rehabilitation",
+    "en": "rehabilitation",
+    "ph": "/ˌriːəˌbɪləˈteɪʃən/",
+    "uk": "реабілітація",
+    "pos": "noun",
+    "example": "After the surgery, she began physical rehabilitation.",
+    "example2": "Rehabilitation can take several months after a serious injury.",
+    "note": "Часто скорочують до <b>rehab</b> у розмовній мові."
+  },
+  {
+    "id": "health_recovery",
+    "en": "recovery",
+    "ph": "/rɪˈkʌvəri/",
+    "uk": "відновлення, одужання",
+    "pos": "noun",
+    "example": "Full recovery from the injury took about six months.",
+    "example2": "Rest is an important part of muscle recovery.",
+    "note": ""
+  },
+  {
+    "id": "health_chronic",
+    "en": "chronic",
+    "ph": "/ˈkrɑːnɪk/",
+    "uk": "хронічний",
+    "pos": "adjective",
+    "example": "She suffers from chronic back pain.",
+    "example2": "Chronic diseases often require long-term treatment.",
+    "note": "Протилежність — <b>acute</b> (гострий, раптовий)."
+  },
+  {
+    "id": "health_hypertension",
+    "en": "hypertension",
+    "ph": "/ˌhaɪpərˈtɛnʃən/",
+    "uk": "гіпертонія, підвищений тиск",
+    "pos": "noun",
+    "example": "Hypertension is often called a silent killer.",
+    "example2": "A low-salt diet can help manage hypertension.",
+    "note": "Медичний термін для <b>high blood pressure</b>."
+  },
+  {
+    "id": "health_cholesterol",
+    "en": "cholesterol",
+    "ph": "/kəˈlɛstəˌrɔːl/",
+    "uk": "холестерин",
+    "pos": "noun",
+    "example": "Fried food can raise your cholesterol levels.",
+    "example2": "The doctor checked her cholesterol during the annual checkup.",
+    "note": ""
+  },
+  {
+    "id": "health_blood_pressure",
+    "en": "blood pressure",
+    "ph": "/blʌd ˈprɛʃər/",
+    "uk": "артеріальний тиск",
+    "pos": "noun",
+    "example": "The nurse measured his blood pressure before the appointment.",
+    "example2": "Regular exercise helps keep your blood pressure normal.",
+    "note": ""
+  },
+  {
+    "id": "health_heart_rate",
+    "en": "heart rate",
+    "ph": "/hɑːrt reɪt/",
+    "uk": "частота серцевих скорочень, пульс",
+    "pos": "noun",
+    "example": "Your heart rate increases during intense exercise.",
+    "example2": "The watch tracks your heart rate throughout the day.",
+    "note": ""
+  },
+  {
+    "id": "health_diabetes",
+    "en": "diabetes",
+    "ph": "/ˌdaɪəˈbiːtiːz/",
+    "uk": "діабет",
+    "pos": "noun",
+    "example": "He was diagnosed with type 2 diabetes last year.",
+    "example2": "A healthy diet can lower the risk of diabetes.",
+    "note": ""
+  },
+  {
+    "id": "health_asthma",
+    "en": "asthma",
+    "ph": "/ˈæzmə/",
+    "uk": "астма",
+    "pos": "noun",
+    "example": "Cold air can trigger her asthma symptoms.",
+    "example2": "He always carries an inhaler because of his asthma.",
+    "note": "Літера <b>th</b> тут не вимовляється — звучить як «азма»."
+  },
+  {
+    "id": "health_influenza",
+    "en": "influenza",
+    "ph": "/ˌɪnfluˈɛnzə/",
+    "uk": "грип",
+    "pos": "noun",
+    "example": "Influenza spreads quickly during the winter months.",
+    "example2": "She got vaccinated against influenza this year.",
+    "note": "У розмовній мові майже завжди кажуть просто <b>flu</b>."
+  },
+  {
+    "id": "health_pandemic",
+    "en": "pandemic",
+    "ph": "/pænˈdɛmɪk/",
+    "uk": "пандемія",
+    "pos": "noun",
+    "example": "The pandemic changed the way many people work.",
+    "example2": "Global travel can speed up the spread of a pandemic.",
+    "note": ""
+  },
+  {
+    "id": "health_epidemic",
+    "en": "epidemic",
+    "ph": "/ˌɛpəˈdɛmɪk/",
+    "uk": "епідемія",
+    "pos": "noun",
+    "example": "The city declared an epidemic after cases tripled.",
+    "example2": "Obesity is sometimes described as a modern epidemic.",
+    "note": "Epidemic — у межах однієї країни/регіону, pandemic — глобальна."
+  },
+  {
+    "id": "health_contagious",
+    "en": "contagious",
+    "ph": "/kənˈteɪdʒəs/",
+    "uk": "заразний",
+    "pos": "adjective",
+    "example": "The virus is highly contagious in its early stages.",
+    "example2": "Stay home if you have a contagious illness.",
+    "note": ""
+  },
+  {
+    "id": "health_infection",
+    "en": "infection",
+    "ph": "/ɪnˈfɛkʃən/",
+    "uk": "інфекція",
+    "pos": "noun",
+    "example": "The wound became infected and needed treatment.",
+    "example2": "Doctors prescribed antibiotics to treat the infection.",
+    "note": ""
+  },
+  {
+    "id": "health_bacteria",
+    "en": "bacteria",
+    "ph": "/bækˈtɪriə/",
+    "uk": "бактерії",
+    "pos": "noun",
+    "example": "Washing your hands removes harmful bacteria.",
+    "example2": "Not all bacteria are harmful — some help digestion.",
+    "note": "Це форма множини; однина — <b>bacterium</b> (рідко вживається)."
+  },
+  {
+    "id": "health_virus",
+    "en": "virus",
+    "ph": "/ˈvaɪrəs/",
+    "uk": "вірус",
+    "pos": "noun",
+    "example": "The virus spreads through close contact.",
+    "example2": "She caught a virus and stayed home from school.",
+    "note": ""
+  },
+  {
+    "id": "health_pathogen",
+    "en": "pathogen",
+    "ph": "/ˈpæθəˌdʒən/",
+    "uk": "патоген, збудник хвороби",
+    "pos": "noun",
+    "example": "Pathogens like bacteria and viruses can cause disease.",
+    "example2": "The lab tested the water for harmful pathogens.",
+    "note": ""
+  },
+  {
+    "id": "health_diagnosis",
+    "en": "diagnosis",
+    "ph": "/ˌdaɪəgˈnoʊsɪs/",
+    "uk": "діагноз",
+    "pos": "noun",
+    "example": "The diagnosis came as a shock to the whole family.",
+    "example2": "An early diagnosis often leads to better treatment outcomes.",
+    "note": "Множина — <b>diagnoses</b> (вимовляється /-siːz/)."
+  },
+  {
+    "id": "health_treatment",
+    "en": "treatment",
+    "ph": "/ˈtriːtmənt/",
+    "uk": "лікування",
+    "pos": "noun",
+    "example": "The treatment involves both medication and physical therapy.",
+    "example2": "She responded well to the new treatment.",
+    "note": ""
+  },
+  {
+    "id": "health_antibiotic",
+    "en": "antibiotic",
+    "ph": "/ˌæntibaɪˈɑːtɪk/",
+    "uk": "антибіотик",
+    "pos": "noun",
+    "example": "The doctor prescribed antibiotics for the infection.",
+    "example2": "Overusing antibiotics can lead to resistant bacteria.",
+    "note": ""
+  },
+  {
+    "id": "health_chemotherapy",
+    "en": "chemotherapy",
+    "ph": "/ˌkiːmoʊˈθɛrəpi/",
+    "uk": "хіміотерапія",
+    "pos": "noun",
+    "example": "She underwent several rounds of chemotherapy.",
+    "example2": "Chemotherapy can cause fatigue and nausea.",
+    "note": "У розмовній мові часто скорочують до <b>chemo</b>."
+  },
+  {
+    "id": "health_physiotherapy",
+    "en": "physiotherapy",
+    "ph": "/ˌfɪzioʊˈθɛrəpi/",
+    "uk": "фізіотерапія",
+    "pos": "noun",
+    "example": "He needs physiotherapy to regain movement in his knee.",
+    "example2": "Physiotherapy sessions helped speed up her recovery.",
+    "note": ""
+  },
+  {
+    "id": "health_physiotherapist",
+    "en": "physiotherapist",
+    "ph": "/ˌfɪzioʊˈθɛrəpɪst/",
+    "uk": "фізіотерапевт",
+    "pos": "noun",
+    "example": "The physiotherapist showed her some stretching exercises.",
+    "example2": "He sees a physiotherapist twice a week after the injury.",
+    "note": ""
+  },
+  {
+    "id": "health_dietitian",
+    "en": "dietitian",
+    "ph": "/ˌdaɪəˈtɪʃən/",
+    "uk": "дієтолог",
+    "pos": "noun",
+    "example": "A dietitian helped him plan a healthier diet.",
+    "example2": "She consulted a dietitian about her food allergies.",
+    "note": ""
+  },
+  {
+    "id": "health_paramedic",
+    "en": "paramedic",
+    "ph": "/ˌpærəˈmɛdɪk/",
+    "uk": "парамедик",
+    "pos": "noun",
+    "example": "The paramedics arrived within minutes of the call.",
+    "example2": "She works as a paramedic on night shifts.",
+    "note": ""
+  },
+  {
+    "id": "health_ambulance",
+    "en": "ambulance",
+    "ph": "/ˈæmbjələns/",
+    "uk": "швидка допомога",
+    "pos": "noun",
+    "example": "Someone called an ambulance right after the accident.",
+    "example2": "The ambulance took him to the nearest hospital.",
+    "note": ""
+  },
+  {
+    "id": "health_clinic",
+    "en": "clinic",
+    "ph": "/ˈklɪnɪk/",
+    "uk": "клініка, поліклініка",
+    "pos": "noun",
+    "example": "She visited the clinic for a routine checkup.",
+    "example2": "The community clinic offers free vaccinations.",
+    "note": ""
+  },
+  {
+    "id": "health_pharmacist",
+    "en": "pharmacist",
+    "ph": "/ˈfɑːrməsɪst/",
+    "uk": "фармацевт",
+    "pos": "noun",
+    "example": "The pharmacist explained how to take the medication.",
+    "example2": "Ask your pharmacist if you have questions about side effects.",
+    "note": ""
+  },
+  {
+    "id": "health_dosage",
+    "en": "dosage",
+    "ph": "/ˈdoʊsɪdʒ/",
+    "uk": "дозування",
+    "pos": "noun",
+    "example": "Never exceed the recommended dosage.",
+    "example2": "The doctor adjusted the dosage after the checkup.",
+    "note": ""
+  },
+  {
+    "id": "health_prevention",
+    "en": "prevention",
+    "ph": "/prɪˈvɛnʃən/",
+    "uk": "профілактика, запобігання",
+    "pos": "noun",
+    "example": "Prevention is often better than treatment.",
+    "example2": "Regular checkups play a key role in disease prevention.",
+    "note": ""
+  },
+  {
+    "id": "health_anxiety",
+    "en": "anxiety",
+    "ph": "/æŋˈzaɪəti/",
+    "uk": "тривожність, тривога",
+    "pos": "noun",
+    "example": "She experiences anxiety before big exams.",
+    "example2": "Regular exercise can help reduce anxiety.",
+    "note": ""
+  },
+  {
+    "id": "health_depression",
+    "en": "depression",
+    "ph": "/dɪˈprɛʃən/",
+    "uk": "депресія",
+    "pos": "noun",
+    "example": "He was diagnosed with depression after months of low mood.",
+    "example2": "Talking to a therapist can help people cope with depression.",
+    "note": ""
+  },
+  {
+    "id": "health_stress",
+    "en": "stress",
+    "ph": "/strɛs/",
+    "uk": "стрес",
+    "pos": "noun",
+    "example": "Work-related stress can affect both mental and physical health.",
+    "example2": "She practices yoga to manage stress.",
+    "note": ""
+  },
+  {
+    "id": "health_therapy",
+    "en": "therapy",
+    "ph": "/ˈθɛrəpi/",
+    "uk": "терапія",
+    "pos": "noun",
+    "example": "He started therapy to deal with his anxiety.",
+    "example2": "Physical therapy helped her walk again after the accident.",
+    "note": ""
+  },
+  {
+    "id": "health_counselling",
+    "en": "counselling",
+    "ph": "/ˈkaʊnsəlɪŋ/",
+    "uk": "консультування, психологічна підтримка",
+    "pos": "noun",
+    "example": "The school offers free counselling for students.",
+    "example2": "They went to couples counselling to work through their problems.",
+    "note": "Канадське/британське написання з подвоєним l (американське — counseling)."
+  },
+  {
+    "id": "health_mindfulness",
+    "en": "mindfulness",
+    "ph": "/ˈmaɪndfəlnəs/",
+    "uk": "усвідомленість, майндфулнес",
+    "pos": "noun",
+    "example": "Mindfulness exercises can help reduce daily stress.",
+    "example2": "She practices mindfulness through meditation every evening.",
+    "note": ""
+  },
+  {
+    "id": "health_insomnia",
+    "en": "insomnia",
+    "ph": "/ɪnˈsɑːmniə/",
+    "uk": "безсоння",
+    "pos": "noun",
+    "example": "Stress and anxiety are common causes of insomnia.",
+    "example2": "He has suffered from insomnia for several months.",
+    "note": ""
+  },
+  {
+    "id": "health_panic",
+    "en": "panic",
+    "ph": "/ˈpænɪk/",
+    "uk": "паніка",
+    "pos": "noun",
+    "example": "She felt a wave of panic before the interview.",
+    "example2": "He had a panic attack during the exam.",
+    "note": "Частий вираз: <b>panic attack</b>."
+  },
+  {
+    "id": "health_mood",
+    "en": "mood",
+    "ph": "/muːd/",
+    "uk": "настрій",
+    "pos": "noun",
+    "example": "Regular sleep can improve your mood significantly.",
+    "example2": "She's been in a bad mood all day.",
+    "note": ""
+  },
+  {
+    "id": "health_stigma",
+    "en": "stigma",
+    "ph": "/ˈstɪgmə/",
+    "uk": "стигма, таврування",
+    "pos": "noun",
+    "example": "There is still a stigma around discussing mental health.",
+    "example2": "Public campaigns aim to reduce the stigma of addiction.",
+    "note": "Частий вираз для IELTS: <b>reduce/break the stigma</b>."
+  },
+  {
+    "id": "health_addiction",
+    "en": "addiction",
+    "ph": "/əˈdɪkʃən/",
+    "uk": "залежність",
+    "pos": "noun",
+    "example": "He got help to overcome his addiction to alcohol.",
+    "example2": "Nicotine addiction can be extremely hard to break.",
+    "note": ""
+  },
+  {
+    "id": "health_rehab",
+    "en": "rehab",
+    "ph": "/ˈriːhæb/",
+    "uk": "реабілітаційний центр, реабілітація",
+    "pos": "noun",
+    "example": "She spent a month in rehab after the accident.",
+    "example2": "He checked into rehab to deal with his addiction.",
+    "note": "Розмовне скорочення від <b>rehabilitation</b>."
+  },
+  {
+    "id": "health_relapse",
+    "en": "relapse",
+    "ph": "/ˈriːlæps/",
+    "uk": "рецидив",
+    "pos": "noun",
+    "example": "She suffered a relapse a few months after treatment.",
+    "example2": "Doctors warned him about the risk of relapse.",
+    "note": ""
+  },
+  {
+    "id": "health_detox",
+    "en": "detox",
+    "ph": "/ˈdiːtɑːks/",
+    "uk": "детокс, очищення організму",
+    "pos": "noun",
+    "example": "He went through a medically supervised detox.",
+    "example2": "Many so-called detox diets have no proven scientific benefit.",
+    "note": ""
+  },
+  {
+    "id": "health_sleep_deprivation",
+    "en": "sleep deprivation",
+    "ph": "/sliːp ˌdɛprəˈveɪʃən/",
+    "uk": "нестача сну",
+    "pos": "noun",
+    "example": "Sleep deprivation affects concentration and memory.",
+    "example2": "New parents often struggle with sleep deprivation.",
+    "note": ""
+  }
+]
