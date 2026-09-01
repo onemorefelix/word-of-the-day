@@ -1324,5 +1324,1245 @@
     "example": "The manager took a course in conflict resolution.",
     "example2": "Good conflict resolution skills help keep a team productive.",
     "note": ""
+  },
+  {
+    "id": "work_shortlist",
+    "en": "shortlist",
+    "ph": "/ˈʃɔːrtˌlɪst/",
+    "uk": "короткий список кандидатів",
+    "pos": "noun",
+    "example": "She made it onto the shortlist for the final round.",
+    "example2": "The recruiter narrowed a hundred applicants down to a shortlist of five.",
+    "note": ""
+  },
+  {
+    "id": "work_screening",
+    "en": "screening",
+    "ph": "/ˈskriːnɪŋ/",
+    "uk": "відбір кандидатів",
+    "pos": "noun",
+    "example": "The initial screening was done over the phone.",
+    "example2": "Screening helps narrow down a large pool of applicants.",
+    "note": ""
+  },
+  {
+    "id": "work_assessment_centre",
+    "en": "assessment centre",
+    "ph": "/əˈsɛsmənt ˈsɛntər/",
+    "uk": "центр оцінювання кандидатів",
+    "pos": "noun",
+    "example": "Candidates spent a full day at the assessment centre.",
+    "example2": "The assessment centre included group tasks and interviews.",
+    "note": ""
+  },
+  {
+    "id": "work_aptitude_test",
+    "en": "aptitude test",
+    "ph": "/ˈæptəˌtuːd tɛst/",
+    "uk": "тест на здібності",
+    "pos": "noun",
+    "example": "She had to complete an aptitude test before the interview.",
+    "example2": "The aptitude test measured numerical and verbal reasoning.",
+    "note": ""
+  },
+  {
+    "id": "work_interpersonal_skills",
+    "en": "interpersonal skills",
+    "ph": "/ˌɪntərˈpɜrsənəl skɪlz/",
+    "uk": "навички міжособистісного спілкування",
+    "pos": "noun",
+    "example": "Strong interpersonal skills help her manage the team well.",
+    "example2": "The job requires good interpersonal skills with clients.",
+    "note": ""
+  },
+  {
+    "id": "work_technical_skills",
+    "en": "technical skills",
+    "ph": "/ˈtɛknɪkəl skɪlz/",
+    "uk": "технічні навички",
+    "pos": "noun",
+    "example": "He has the technical skills needed for the engineering role.",
+    "example2": "Technical skills alone aren't enough without teamwork.",
+    "note": ""
+  },
+  {
+    "id": "work_leadership_skills",
+    "en": "leadership skills",
+    "ph": "/ˈliːdərʃɪp skɪlz/",
+    "uk": "лідерські навички",
+    "pos": "noun",
+    "example": "She developed her leadership skills by managing small projects first.",
+    "example2": "The course focuses on building leadership skills.",
+    "note": ""
+  },
+  {
+    "id": "work_cubicle",
+    "en": "cubicle",
+    "ph": "/ˈkjuːbɪkəl/",
+    "uk": "робоче місце-кабінка",
+    "pos": "noun",
+    "example": "He decorated his cubicle with photos of his family.",
+    "example2": "She prefers a cubicle to a fully open office.",
+    "note": ""
+  },
+  {
+    "id": "work_open_plan_office",
+    "en": "open-plan office",
+    "ph": "/ˈoʊpən plæn ˈɔːfəs/",
+    "uk": "офіс відкритого типу",
+    "pos": "noun",
+    "example": "The open-plan office makes it easy to talk to colleagues.",
+    "example2": "Some people find an open-plan office too noisy to focus.",
+    "note": ""
+  },
+  {
+    "id": "work_coworking_space",
+    "en": "coworking space",
+    "ph": "/ˌkoʊˈwɜrkɪŋ speɪs/",
+    "uk": "коворкінг",
+    "pos": "noun",
+    "example": "She rents a desk at a coworking space downtown.",
+    "example2": "Coworking spaces are popular with freelancers and startups.",
+    "note": ""
+  },
+  {
+    "id": "work_business_attire",
+    "en": "business attire",
+    "ph": "/ˈbɪznəs əˈtaɪər/",
+    "uk": "діловий одяг",
+    "pos": "noun",
+    "example": "The office requires business attire on client days.",
+    "example2": "She wore business attire for the interview.",
+    "note": ""
+  },
+  {
+    "id": "work_dress_code",
+    "en": "dress code",
+    "ph": "/drɛs koʊd/",
+    "uk": "дрес-код",
+    "pos": "noun",
+    "example": "The company has a casual dress code on Fridays.",
+    "example2": "Check the dress code before your first day.",
+    "note": ""
+  },
+  {
+    "id": "work_agenda",
+    "en": "agenda",
+    "ph": "/əˈdʒɛndə/",
+    "uk": "порядок денний",
+    "pos": "noun",
+    "example": "She sent out the meeting agenda in advance.",
+    "example2": "There were five items on the agenda.",
+    "note": ""
+  },
+  {
+    "id": "work_memo",
+    "en": "memo",
+    "ph": "/ˈmɛmoʊ/",
+    "uk": "службова записка",
+    "pos": "noun",
+    "example": "The manager sent a memo about the new schedule.",
+    "example2": "She wrote a short memo summarizing the decision.",
+    "note": ""
+  },
+  {
+    "id": "work_minutes",
+    "en": "minutes",
+    "ph": "/ˈmɪnɪts/",
+    "uk": "протокол зборів",
+    "pos": "noun",
+    "example": "He took the minutes during the board meeting.",
+    "example2": "The minutes were shared with everyone the next day.",
+    "note": "У цьому значенні завжди множина: <b>the minutes</b>."
+  },
+  {
+    "id": "work_briefing",
+    "en": "briefing",
+    "ph": "/ˈbriːfɪŋ/",
+    "uk": "інструктаж, брифінг",
+    "pos": "noun",
+    "example": "The team had a short briefing before the client meeting.",
+    "example2": "She gave a briefing on the project's progress.",
+    "note": ""
+  },
+  {
+    "id": "work_report",
+    "en": "report",
+    "ph": "/rɪˈpɔːrt/",
+    "uk": "звіт",
+    "pos": "noun",
+    "example": "She submitted the report ahead of the deadline.",
+    "example2": "The report summarized the results of the survey.",
+    "note": ""
+  },
+  {
+    "id": "work_business_trip",
+    "en": "business trip",
+    "ph": "/ˈbɪznəs trɪp/",
+    "uk": "відрядження",
+    "pos": "noun",
+    "example": "He's currently on a business trip to Toronto.",
+    "example2": "She travels abroad for a business trip twice a year.",
+    "note": ""
+  },
+  {
+    "id": "work_per_diem",
+    "en": "per diem",
+    "ph": "/pər ˈdiːəm/",
+    "uk": "добові (відрядні виплати)",
+    "pos": "noun",
+    "example": "The company gives employees a per diem for meals on trips.",
+    "example2": "Her per diem covers most of her daily expenses abroad.",
+    "note": ""
+  },
+  {
+    "id": "work_entry_level",
+    "en": "entry-level",
+    "ph": "/ˈɛntri ˈlɛvəl/",
+    "uk": "початкового рівня (про посаду)",
+    "pos": "adjective",
+    "example": "She started in an entry-level position after graduating.",
+    "example2": "The company offers several entry-level roles this year.",
+    "note": ""
+  },
+  {
+    "id": "work_mid_level",
+    "en": "mid-level",
+    "ph": "/mɪd ˈlɛvəl/",
+    "uk": "середнього рівня",
+    "pos": "adjective",
+    "example": "He was promoted to a mid-level management role.",
+    "example2": "Mid-level employees often mentor newer staff.",
+    "note": ""
+  },
+  {
+    "id": "work_senior_level",
+    "en": "senior-level",
+    "ph": "/ˈsiːniər ˈlɛvəl/",
+    "uk": "старшого рівня",
+    "pos": "adjective",
+    "example": "The senior-level position requires ten years of experience.",
+    "example2": "She reports directly to a senior-level executive.",
+    "note": ""
+  },
+  {
+    "id": "work_graduate_scheme",
+    "en": "graduate scheme",
+    "ph": "/ˈgrædʒuət skiːm/",
+    "uk": "програма для випускників",
+    "pos": "noun",
+    "example": "She joined the company's graduate scheme right after university.",
+    "example2": "The graduate scheme includes rotations across departments.",
+    "note": ""
+  },
+  {
+    "id": "work_trainee",
+    "en": "trainee",
+    "ph": "/ˌtreɪˈniː/",
+    "uk": "стажист",
+    "pos": "noun",
+    "example": "As a trainee, she shadowed a senior manager for a month.",
+    "example2": "The bank hires trainees every autumn.",
+    "note": ""
+  },
+  {
+    "id": "work_apprentice",
+    "en": "apprentice",
+    "ph": "/əˈprɛntɪs/",
+    "uk": "учень на практиці, підмайстер",
+    "pos": "noun",
+    "example": "He started as an apprentice electrician at sixteen.",
+    "example2": "Apprentices learn the trade while earning a wage.",
+    "note": ""
+  },
+  {
+    "id": "work_private_sector",
+    "en": "private sector",
+    "ph": "/ˈpraɪvət ˈsɛktər/",
+    "uk": "приватний сектор",
+    "pos": "noun",
+    "example": "Wages in the private sector can vary widely.",
+    "example2": "She moved from the public sector to the private sector.",
+    "note": ""
+  },
+  {
+    "id": "work_public_sector",
+    "en": "public sector",
+    "ph": "/ˈpʌblɪk ˈsɛktər/",
+    "uk": "державний сектор",
+    "pos": "noun",
+    "example": "He has worked in the public sector for fifteen years.",
+    "example2": "Public sector jobs often offer strong pension plans.",
+    "note": ""
+  },
+  {
+    "id": "work_nonprofit_sector",
+    "en": "nonprofit sector",
+    "ph": "/ˌnɑːnˈprɑːfɪt ˈsɛktər/",
+    "uk": "некомерційний сектор",
+    "pos": "noun",
+    "example": "She built her career in the nonprofit sector.",
+    "example2": "Jobs in the nonprofit sector often pay less than the private sector.",
+    "note": ""
+  },
+  {
+    "id": "work_freelancing",
+    "en": "freelancing",
+    "ph": "/ˈfriːˌlænsɪŋ/",
+    "uk": "фриланс, самостійна проектна робота",
+    "pos": "noun",
+    "example": "She switched to freelancing after leaving her office job.",
+    "example2": "Freelancing gives her more control over her schedule.",
+    "note": ""
+  },
+  {
+    "id": "work_consulting",
+    "en": "consulting",
+    "ph": "/kənˈsʌltɪŋ/",
+    "uk": "консалтинг",
+    "pos": "noun",
+    "example": "He moved into consulting after years in finance.",
+    "example2": "Consulting often involves frequent travel to clients.",
+    "note": ""
+  },
+  {
+    "id": "work_kpi",
+    "en": "KPI",
+    "ph": "/ˌkeɪpiːˈaɪ/",
+    "uk": "ключовий показник ефективності",
+    "pos": "noun",
+    "example": "Sales growth is one of the team's main KPIs.",
+    "example2": "Managers review KPIs at the end of every quarter.",
+    "note": "Абревіатура від <b>key performance indicator</b>."
+  },
+  {
+    "id": "work_target",
+    "en": "target",
+    "ph": "/ˈtɑːrgɪt/",
+    "uk": "план, ціль (показник)",
+    "pos": "noun",
+    "example": "The sales team exceeded its target this month.",
+    "example2": "She set a personal target for finishing the project early.",
+    "note": ""
+  },
+  {
+    "id": "work_quota",
+    "en": "quota",
+    "ph": "/ˈkwoʊtə/",
+    "uk": "квота, норма",
+    "pos": "noun",
+    "example": "Each salesperson has a monthly quota to meet.",
+    "example2": "She reached her quota two weeks early.",
+    "note": ""
+  },
+  {
+    "id": "work_overachiever",
+    "en": "overachiever",
+    "ph": "/ˌoʊvərəˈtʃiːvər/",
+    "uk": "той, хто перевершує очікування",
+    "pos": "noun",
+    "example": "Her colleagues joke that she's a bit of an overachiever.",
+    "example2": "He's always been an overachiever at school and work.",
+    "note": ""
+  },
+  {
+    "id": "work_underperformer",
+    "en": "underperformer",
+    "ph": "/ˌʌndərpərˈfɔːrmər/",
+    "uk": "той, хто не досягає показників",
+    "pos": "noun",
+    "example": "The manager met with the underperformer to discuss goals.",
+    "example2": "No one on the team wants to be seen as an underperformer.",
+    "note": ""
+  },
+  {
+    "id": "work_health_benefits",
+    "en": "health benefits",
+    "ph": "/hɛlθ ˈbɛnəfɪts/",
+    "uk": "медичні пільги",
+    "pos": "noun",
+    "example": "The job includes full health benefits for the family.",
+    "example2": "She chose this employer partly for the health benefits.",
+    "note": ""
+  },
+  {
+    "id": "work_dental_plan",
+    "en": "dental plan",
+    "ph": "/ˈdɛntəl plæn/",
+    "uk": "стоматологічна страховка",
+    "pos": "noun",
+    "example": "The company's dental plan covers annual checkups.",
+    "example2": "Not every employer offers a dental plan.",
+    "note": ""
+  },
+  {
+    "id": "work_retirement_plan",
+    "en": "retirement plan",
+    "ph": "/rɪˈtaɪərmənt plæn/",
+    "uk": "пенсійний план",
+    "pos": "noun",
+    "example": "She contributes a portion of her salary to her retirement plan.",
+    "example2": "The company matches part of your retirement plan contributions.",
+    "note": ""
+  },
+  {
+    "id": "work_employee_discount",
+    "en": "employee discount",
+    "ph": "/ˌɛmplɔɪˈiː ˈdɪskaʊnt/",
+    "uk": "знижка для співробітників",
+    "pos": "noun",
+    "example": "Staff get an employee discount on all store products.",
+    "example2": "She used her employee discount to buy a new laptop.",
+    "note": ""
+  },
+  {
+    "id": "work_wellness_program",
+    "en": "wellness program",
+    "ph": "/ˈwɛlnəs ˈproʊgræm/",
+    "uk": "програма зі здоров'я для співробітників",
+    "pos": "noun",
+    "example": "The wellness program includes free gym membership.",
+    "example2": "She joined the company's wellness program last month.",
+    "note": ""
+  },
+  {
+    "id": "work_professional_email",
+    "en": "professional email",
+    "ph": "/prəˈfɛʃənəl ˈiːmeɪl/",
+    "uk": "діловий лист",
+    "pos": "noun",
+    "example": "She wrote a short, professional email to the client.",
+    "example2": "Always proofread a professional email before sending it.",
+    "note": ""
+  },
+  {
+    "id": "work_networking_event",
+    "en": "networking event",
+    "ph": "/ˈnɛtˌwɜrkɪŋ ɪˈvɛnt/",
+    "uk": "нетворкінг-захід",
+    "pos": "noun",
+    "example": "She met her current employer at a networking event.",
+    "example2": "The university hosts a networking event for graduates every year.",
+    "note": ""
+  },
+  {
+    "id": "work_job_board",
+    "en": "job board",
+    "ph": "/dʒɑːb bɔːrd/",
+    "uk": "дошка вакансій",
+    "pos": "noun",
+    "example": "She found the vacancy on an online job board.",
+    "example2": "Most job boards let you filter by location and salary.",
+    "note": ""
+  },
+  {
+    "id": "work_classified_ad",
+    "en": "classified ad",
+    "ph": "/ˈklæsəˌfaɪd æd/",
+    "uk": "оголошення в рубриці",
+    "pos": "noun",
+    "example": "He found his first job through a classified ad.",
+    "example2": "Classified ads are less common now than online postings.",
+    "note": ""
+  },
+  {
+    "id": "work_workspace",
+    "en": "workspace",
+    "ph": "/ˈwɜrkˌspeɪs/",
+    "uk": "робочий простір",
+    "pos": "noun",
+    "example": "She keeps her workspace clean and organized.",
+    "example2": "The company redesigned the workspace to encourage collaboration.",
+    "note": ""
+  },
+  {
+    "id": "work_job_title",
+    "en": "job title",
+    "ph": "/dʒɑːb ˈtaɪtəl/",
+    "uk": "посада, назва посади",
+    "pos": "noun",
+    "example": "Her job title changed after the promotion.",
+    "example2": "The job title didn't fully describe her actual responsibilities.",
+    "note": ""
+  },
+  {
+    "id": "work_employee_handbook",
+    "en": "employee handbook",
+    "ph": "/ˌɛmplɔɪˈiː ˈhændˌbʊk/",
+    "uk": "довідник співробітника",
+    "pos": "noun",
+    "example": "The employee handbook explains the company's leave policy.",
+    "example2": "New hires are asked to read the employee handbook.",
+    "note": ""
+  },
+  {
+    "id": "work_non_disclosure_agreement",
+    "en": "non-disclosure agreement",
+    "ph": "/ˌnɑːn dɪˈskloʊʒər əˈgriːmənt/",
+    "uk": "угода про нерозголошення",
+    "pos": "noun",
+    "example": "She signed a non-disclosure agreement before the meeting.",
+    "example2": "The contract includes a strict non-disclosure agreement.",
+    "note": "Часто скорочують до <b>NDA</b>."
+  },
+  {
+    "id": "work_conflict_of_interest",
+    "en": "conflict of interest",
+    "ph": "/ˈkɑːnflɪkt əv ˈɪntrəst/",
+    "uk": "конфлікт інтересів",
+    "pos": "noun",
+    "example": "He declared a conflict of interest before the vote.",
+    "example2": "The policy exists to prevent any conflict of interest.",
+    "note": ""
+  },
+  {
+    "id": "work_whistleblower",
+    "en": "whistleblower",
+    "ph": "/ˈwɪsəlˌbloʊər/",
+    "uk": "викривач",
+    "pos": "noun",
+    "example": "The whistleblower exposed the company's illegal practices.",
+    "example2": "Laws are meant to protect whistleblowers from retaliation.",
+    "note": ""
+  },
+  {
+    "id": "work_exit_interview",
+    "en": "exit interview",
+    "ph": "/ˈɛgzɪt ˈɪntərvjuː/",
+    "uk": "вихідне інтерв'ю",
+    "pos": "noun",
+    "example": "She was honest about her reasons during the exit interview.",
+    "example2": "HR conducts an exit interview with every departing employee.",
+    "note": ""
+  },
+  {
+    "id": "work_performance_metrics",
+    "en": "performance metrics",
+    "ph": "/pərˈfɔːrməns ˈmɛtrɪks/",
+    "uk": "показники ефективності",
+    "pos": "noun",
+    "example": "The dashboard tracks the team's performance metrics.",
+    "example2": "Performance metrics are reviewed at every quarterly meeting.",
+    "note": ""
+  },
+  {
+    "id": "work_sales_target",
+    "en": "sales target",
+    "ph": "/seɪlz ˈtɑːrgɪt/",
+    "uk": "план продажів",
+    "pos": "noun",
+    "example": "The team hit its sales target two months early.",
+    "example2": "Missing the sales target affected everyone's bonus.",
+    "note": ""
+  },
+  {
+    "id": "work_quarterly_report",
+    "en": "quarterly report",
+    "ph": "/ˈkwɔːrtərli rɪˈpɔːrt/",
+    "uk": "квартальний звіт",
+    "pos": "noun",
+    "example": "The quarterly report showed steady growth in sales.",
+    "example2": "She prepares the quarterly report for the board.",
+    "note": ""
+  },
+  {
+    "id": "work_annual_report",
+    "en": "annual report",
+    "ph": "/ˈænjuəl rɪˈpɔːrt/",
+    "uk": "річний звіт",
+    "pos": "noun",
+    "example": "The annual report is published every January.",
+    "example2": "Investors read the annual report before making decisions.",
+    "note": ""
+  },
+  {
+    "id": "work_profit_margin",
+    "en": "profit margin",
+    "ph": "/ˈprɑːfɪt ˈmɑːrdʒɪn/",
+    "uk": "маржа прибутку",
+    "pos": "noun",
+    "example": "Rising costs have narrowed the company's profit margin.",
+    "example2": "The business has a healthy profit margin this year.",
+    "note": ""
+  },
+  {
+    "id": "work_turnover",
+    "en": "turnover",
+    "ph": "/ˈtɜrnˌoʊvər/",
+    "uk": "оборот компанії, плинність кадрів",
+    "pos": "noun",
+    "example": "The company reported a turnover of five million dollars.",
+    "example2": "High turnover made it hard to keep the team stable.",
+    "note": "Два різні значення залежно від контексту: фінансовий оборот або плинність кадрів."
+  },
+  {
+    "id": "work_staff_turnover",
+    "en": "staff turnover",
+    "ph": "/stæf ˈtɜrnˌoʊvər/",
+    "uk": "плинність кадрів",
+    "pos": "noun",
+    "example": "Staff turnover dropped after the new benefits were introduced.",
+    "example2": "High staff turnover can hurt team morale.",
+    "note": ""
+  },
+  {
+    "id": "work_retention",
+    "en": "retention",
+    "ph": "/rɪˈtɛnʃən/",
+    "uk": "утримання співробітників",
+    "pos": "noun",
+    "example": "The company improved retention by offering better pay.",
+    "example2": "Retention is a major challenge in fast-growing companies.",
+    "note": ""
+  },
+  {
+    "id": "work_employee_retention",
+    "en": "employee retention",
+    "ph": "/ˌɛmplɔɪˈiː rɪˈtɛnʃən/",
+    "uk": "утримання персоналу",
+    "pos": "noun",
+    "example": "Flexible hours have helped improve employee retention.",
+    "example2": "Employee retention is tracked as a key business metric.",
+    "note": ""
+  },
+  {
+    "id": "work_morale",
+    "en": "morale",
+    "ph": "/məˈræl/",
+    "uk": "моральний дух колективу",
+    "pos": "noun",
+    "example": "The layoffs badly affected team morale.",
+    "example2": "Small celebrations can boost office morale.",
+    "note": ""
+  },
+  {
+    "id": "work_team_building",
+    "en": "team building",
+    "ph": "/tiːm ˈbɪldɪŋ/",
+    "uk": "тімбілдинг",
+    "pos": "noun",
+    "example": "The company organized a team building day at the lake.",
+    "example2": "Team building activities can feel awkward at first.",
+    "note": ""
+  },
+  {
+    "id": "work_company_culture",
+    "en": "company culture",
+    "ph": "/ˈkʌmpəni ˈkʌltʃər/",
+    "uk": "корпоративна культура",
+    "pos": "noun",
+    "example": "She was drawn to the company because of its culture.",
+    "example2": "Company culture affects how satisfied employees feel at work.",
+    "note": ""
+  },
+  {
+    "id": "work_corporate_ladder",
+    "en": "corporate ladder",
+    "ph": "/ˈkɔːrpərət ˈlædər/",
+    "uk": "кар'єрні сходи в компанії",
+    "pos": "noun",
+    "example": "He worked his way up the corporate ladder over twenty years.",
+    "example2": "Climbing the corporate ladder often means longer hours.",
+    "note": ""
+  },
+  {
+    "id": "work_career_development",
+    "en": "career development",
+    "ph": "/kəˈrɪr dɪˈvɛləpmənt/",
+    "uk": "кар'єрний розвиток",
+    "pos": "noun",
+    "example": "The company invests heavily in career development.",
+    "example2": "She asked her manager about career development opportunities.",
+    "note": ""
+  },
+  {
+    "id": "work_skill_gap",
+    "en": "skill gap",
+    "ph": "/skɪl gæp/",
+    "uk": "дефіцит навичок",
+    "pos": "noun",
+    "example": "The training program was designed to close the skill gap.",
+    "example2": "There's a growing skill gap in the tech industry.",
+    "note": ""
+  },
+  {
+    "id": "work_upskilling",
+    "en": "upskilling",
+    "ph": "/ˈʌpˌskɪlɪŋ/",
+    "uk": "підвищення кваліфікації",
+    "pos": "noun",
+    "example": "The company offers upskilling courses for current employees.",
+    "example2": "Upskilling helps workers keep up with new technology.",
+    "note": ""
+  },
+  {
+    "id": "work_job_rotation",
+    "en": "job rotation",
+    "ph": "/dʒɑːb roʊˈteɪʃən/",
+    "uk": "ротація посад",
+    "pos": "noun",
+    "example": "Job rotation lets new hires try different departments.",
+    "example2": "She learned several roles through job rotation.",
+    "note": ""
+  },
+  {
+    "id": "work_secondment",
+    "en": "secondment",
+    "ph": "/sɪˈkɑːndmənt/",
+    "uk": "тимчасове відрядження в іншу структуру",
+    "pos": "noun",
+    "example": "She went on secondment to the company's Berlin office.",
+    "example2": "The secondment lasted six months.",
+    "note": ""
+  },
+  {
+    "id": "work_unpaid_leave",
+    "en": "unpaid leave",
+    "ph": "/ˌʌnˈpeɪd liːv/",
+    "uk": "неоплачувана відпустка",
+    "pos": "noun",
+    "example": "He took unpaid leave to care for a family member.",
+    "example2": "Unpaid leave is sometimes the only option after paid leave runs out.",
+    "note": ""
+  },
+  {
+    "id": "work_compassionate_leave",
+    "en": "compassionate leave",
+    "ph": "/kəmˈpæʃənət liːv/",
+    "uk": "відпустка через сімейні обставини",
+    "pos": "noun",
+    "example": "She was granted compassionate leave after the emergency.",
+    "example2": "Compassionate leave policies vary widely between companies.",
+    "note": ""
+  },
+  {
+    "id": "work_bereavement_leave",
+    "en": "bereavement leave",
+    "ph": "/bɪˈriːvmənt liːv/",
+    "uk": "відпустка через тяжку втрату",
+    "pos": "noun",
+    "example": "He took bereavement leave after his father passed away.",
+    "example2": "Most companies offer a few days of bereavement leave.",
+    "note": ""
+  },
+  {
+    "id": "work_jury_duty",
+    "en": "jury duty",
+    "ph": "/ˈdʒʊri ˈduːti/",
+    "uk": "обов'язки присяжного",
+    "pos": "noun",
+    "example": "She was called for jury duty last month.",
+    "example2": "Employers must allow time off for jury duty.",
+    "note": ""
+  },
+  {
+    "id": "work_workplace_safety",
+    "en": "workplace safety",
+    "ph": "/ˈwɜrkˌpleɪs ˈseɪfti/",
+    "uk": "безпека на робочому місці",
+    "pos": "noun",
+    "example": "The factory invested in better workplace safety equipment.",
+    "example2": "Workplace safety training is required for all new staff.",
+    "note": ""
+  },
+  {
+    "id": "work_health_and_safety",
+    "en": "health and safety",
+    "ph": "/hɛlθ ənd ˈseɪfti/",
+    "uk": "охорона праці",
+    "pos": "noun",
+    "example": "The site follows strict health and safety regulations.",
+    "example2": "A health and safety officer inspects the factory monthly.",
+    "note": ""
+  },
+  {
+    "id": "work_risk_assessment",
+    "en": "risk assessment",
+    "ph": "/rɪsk əˈsɛsmənt/",
+    "uk": "оцінка ризиків",
+    "pos": "noun",
+    "example": "A risk assessment was carried out before the project began.",
+    "example2": "The risk assessment identified several safety concerns.",
+    "note": ""
+  },
+  {
+    "id": "work_protective_equipment",
+    "en": "protective equipment",
+    "ph": "/prəˈtɛktɪv ɪˈkwɪpmənt/",
+    "uk": "засоби захисту",
+    "pos": "noun",
+    "example": "Workers must wear protective equipment on the site.",
+    "example2": "The company provides protective equipment free of charge.",
+    "note": ""
+  },
+  {
+    "id": "work_workplace_accident",
+    "en": "workplace accident",
+    "ph": "/ˈwɜrkˌpleɪs ˈæksədənt/",
+    "uk": "нещасний випадок на роботі",
+    "pos": "noun",
+    "example": "He was injured in a workplace accident last year.",
+    "example2": "Every workplace accident must be reported to management.",
+    "note": ""
+  },
+  {
+    "id": "work_workers_compensation",
+    "en": "workers' compensation",
+    "ph": "/ˈwɜrkərz ˌkɑːmpənˈseɪʃən/",
+    "uk": "компенсація працівникам за травму",
+    "pos": "noun",
+    "example": "She filed for workers' compensation after the injury.",
+    "example2": "Workers' compensation covers medical costs and lost wages.",
+    "note": ""
+  },
+  {
+    "id": "work_disability_insurance",
+    "en": "disability insurance",
+    "ph": "/ˌdɪsəˈbɪləti ɪnˈʃʊrəns/",
+    "uk": "страхування на випадок втрати працездатності",
+    "pos": "noun",
+    "example": "The company offers disability insurance as part of the benefits package.",
+    "example2": "Disability insurance replaces part of your income if you can't work.",
+    "note": ""
+  },
+  {
+    "id": "work_life_insurance",
+    "en": "life insurance",
+    "ph": "/laɪf ɪnˈʃʊrəns/",
+    "uk": "страхування життя",
+    "pos": "noun",
+    "example": "His job includes basic life insurance coverage.",
+    "example2": "She bought additional life insurance after having children.",
+    "note": ""
+  },
+  {
+    "id": "work_accountant",
+    "en": "accountant",
+    "ph": "/əˈkaʊntənt/",
+    "uk": "бухгалтер",
+    "pos": "noun",
+    "example": "The accountant prepared the company's tax return.",
+    "example2": "She has worked as an accountant for over a decade.",
+    "note": ""
+  },
+  {
+    "id": "work_architect",
+    "en": "architect",
+    "ph": "/ˈɑːrkəˌtɛkt/",
+    "uk": "архітектор",
+    "pos": "noun",
+    "example": "The architect designed a modern glass building downtown.",
+    "example2": "She studied to become an architect for six years.",
+    "note": ""
+  },
+  {
+    "id": "work_engineer",
+    "en": "engineer",
+    "ph": "/ˌɛndʒəˈnɪr/",
+    "uk": "інженер",
+    "pos": "noun",
+    "example": "The engineer inspected the bridge for structural damage.",
+    "example2": "He works as a software engineer at a startup.",
+    "note": ""
+  },
+  {
+    "id": "work_lawyer",
+    "en": "lawyer",
+    "ph": "/ˈlɔɪər/",
+    "uk": "юрист",
+    "pos": "noun",
+    "example": "She hired a lawyer to review the contract.",
+    "example2": "He became a lawyer after passing the bar exam.",
+    "note": ""
+  },
+  {
+    "id": "work_chef",
+    "en": "chef",
+    "ph": "/ʃɛf/",
+    "uk": "шеф-кухар",
+    "pos": "noun",
+    "example": "The chef prepared a new dish for the tasting menu.",
+    "example2": "She trained as a chef in Paris.",
+    "note": ""
+  },
+  {
+    "id": "work_journalist",
+    "en": "journalist",
+    "ph": "/ˈdʒɜrnəlɪst/",
+    "uk": "журналіст",
+    "pos": "noun",
+    "example": "The journalist interviewed several witnesses for the story.",
+    "example2": "She's worked as a journalist for a national newspaper.",
+    "note": ""
+  },
+  {
+    "id": "work_translator",
+    "en": "translator",
+    "ph": "/trænsˈleɪtər/",
+    "uk": "перекладач (письмовий)",
+    "pos": "noun",
+    "example": "The translator worked on the novel for almost a year.",
+    "example2": "She freelances as a translator for legal documents.",
+    "note": ""
+  },
+  {
+    "id": "work_interpreter",
+    "en": "interpreter",
+    "ph": "/ɪnˈtɜrprətər/",
+    "uk": "перекладач (усний)",
+    "pos": "noun",
+    "example": "An interpreter helped the two delegations communicate.",
+    "example2": "She works as an interpreter at international conferences.",
+    "note": ""
+  },
+  {
+    "id": "work_receptionist",
+    "en": "receptionist",
+    "ph": "/rɪˈsɛpʃənɪst/",
+    "uk": "адміністратор, ресепшн",
+    "pos": "noun",
+    "example": "The receptionist greeted every visitor with a smile.",
+    "example2": "She started as a receptionist before moving into sales.",
+    "note": ""
+  },
+  {
+    "id": "work_secretary",
+    "en": "secretary",
+    "ph": "/ˈsɛkrəˌtɛri/",
+    "uk": "секретар",
+    "pos": "noun",
+    "example": "The secretary organized the manager's schedule.",
+    "example2": "She worked as a secretary for over fifteen years.",
+    "note": ""
+  },
+  {
+    "id": "work_cashier",
+    "en": "cashier",
+    "ph": "/kæˈʃɪr/",
+    "uk": "касир",
+    "pos": "noun",
+    "example": "The cashier scanned each item quickly.",
+    "example2": "He got his first job as a cashier at sixteen.",
+    "note": ""
+  },
+  {
+    "id": "work_waiter",
+    "en": "waiter",
+    "ph": "/ˈweɪtər/",
+    "uk": "офіціант",
+    "pos": "noun",
+    "example": "The waiter recommended the soup of the day.",
+    "example2": "She worked as a waiter to pay for university.",
+    "note": ""
+  },
+  {
+    "id": "work_salesperson",
+    "en": "salesperson",
+    "ph": "/ˈseɪlzˌpɜrsən/",
+    "uk": "продавець, торговий представник",
+    "pos": "noun",
+    "example": "The salesperson explained the features of each model.",
+    "example2": "She's the top salesperson on her team this quarter.",
+    "note": ""
+  },
+  {
+    "id": "work_cleaner",
+    "en": "cleaner",
+    "ph": "/ˈkliːnər/",
+    "uk": "прибиральник",
+    "pos": "noun",
+    "example": "The cleaner comes to the office every evening.",
+    "example2": "He works as a cleaner at the local school.",
+    "note": ""
+  },
+  {
+    "id": "work_security_guard",
+    "en": "security guard",
+    "ph": "/sɪˈkjʊrəti gɑːrd/",
+    "uk": "охоронець",
+    "pos": "noun",
+    "example": "The security guard checked everyone's ID at the entrance.",
+    "example2": "She works as a security guard on the night shift.",
+    "note": ""
+  },
+  {
+    "id": "work_firefighter",
+    "en": "firefighter",
+    "ph": "/ˈfaɪərˌfaɪtər/",
+    "uk": "пожежник",
+    "pos": "noun",
+    "example": "The firefighter rescued the family from the burning building.",
+    "example2": "He has been a firefighter for over twenty years.",
+    "note": ""
+  },
+  {
+    "id": "work_police_officer",
+    "en": "police officer",
+    "ph": "/pəˈliːs ˈɔːfəsər/",
+    "uk": "поліцейський",
+    "pos": "noun",
+    "example": "The police officer directed traffic after the accident.",
+    "example2": "She became a police officer after finishing college.",
+    "note": ""
+  },
+  {
+    "id": "work_civil_servant",
+    "en": "civil servant",
+    "ph": "/ˈsɪvəl ˈsɜrvənt/",
+    "uk": "державний службовець",
+    "pos": "noun",
+    "example": "He works as a civil servant in the ministry of finance.",
+    "example2": "Civil servants often have stable, long-term positions.",
+    "note": ""
+  },
+  {
+    "id": "work_summer_job",
+    "en": "summer job",
+    "ph": "/ˈsʌmər dʒɑːb/",
+    "uk": "літня підробіток",
+    "pos": "noun",
+    "example": "She had a summer job at a local café.",
+    "example2": "His first summer job was mowing lawns in the neighbourhood.",
+    "note": ""
+  },
+  {
+    "id": "work_volunteer_work",
+    "en": "volunteer work",
+    "ph": "/ˌvɑːlənˈtɪr wɜrk/",
+    "uk": "волонтерська робота",
+    "pos": "noun",
+    "example": "She lists her volunteer work on her CV.",
+    "example2": "He does volunteer work at the animal shelter on weekends.",
+    "note": ""
+  },
+  {
+    "id": "work_volunteering",
+    "en": "volunteering",
+    "ph": "/ˌvɑːlənˈtɪrɪŋ/",
+    "uk": "волонтерство",
+    "pos": "noun",
+    "example": "Volunteering gave her valuable experience before her first job.",
+    "example2": "The company encourages volunteering during work hours.",
+    "note": ""
+  },
+  {
+    "id": "work_community_service",
+    "en": "community service",
+    "ph": "/kəˈmjuːnəti ˈsɜrvəs/",
+    "uk": "громадські роботи",
+    "pos": "noun",
+    "example": "Students are required to complete community service hours.",
+    "example2": "He organized a community service project at the school.",
+    "note": ""
+  },
+  {
+    "id": "work_charity",
+    "en": "charity",
+    "ph": "/ˈtʃærəti/",
+    "uk": "благодійність, благодійна організація",
+    "pos": "noun",
+    "example": "She donates part of her salary to charity every month.",
+    "example2": "He works for a charity that supports homeless youth.",
+    "note": ""
+  },
+  {
+    "id": "work_donation",
+    "en": "donation",
+    "ph": "/doʊˈneɪʃən/",
+    "uk": "пожертва",
+    "pos": "noun",
+    "example": "The company made a large donation to the local hospital.",
+    "example2": "Every donation helps fund the charity's programs.",
+    "note": ""
+  },
+  {
+    "id": "work_fundraising",
+    "en": "fundraising",
+    "ph": "/ˈfʌndˌreɪzɪŋ/",
+    "uk": "збір коштів",
+    "pos": "noun",
+    "example": "She organized a fundraising event for the shelter.",
+    "example2": "The team met its fundraising goal within a week.",
+    "note": ""
+  },
+  {
+    "id": "work_job_application",
+    "en": "job application",
+    "ph": "/dʒɑːb ˌæplɪˈkeɪʃən/",
+    "uk": "заява на роботу",
+    "pos": "noun",
+    "example": "She submitted her job application online.",
+    "example2": "The job application asked for two references.",
+    "note": ""
+  },
+  {
+    "id": "work_professional_network",
+    "en": "professional network",
+    "ph": "/prəˈfɛʃənəl ˈnɛtwɜrk/",
+    "uk": "професійна мережа контактів",
+    "pos": "noun",
+    "example": "She built a strong professional network over the years.",
+    "example2": "His professional network helped him find the new job.",
+    "note": ""
+  },
+  {
+    "id": "work_industry_expert",
+    "en": "industry expert",
+    "ph": "/ˈɪndəstri ˈɛkspɜrt/",
+    "uk": "експерт галузі",
+    "pos": "noun",
+    "example": "An industry expert was invited to speak at the conference.",
+    "example2": "She's considered an industry expert in renewable energy.",
+    "note": ""
+  },
+  {
+    "id": "work_guest_speaker",
+    "en": "guest speaker",
+    "ph": "/gɛst ˈspiːkər/",
+    "uk": "запрошений спікер",
+    "pos": "noun",
+    "example": "The guest speaker shared her experience starting a business.",
+    "example2": "Students asked the guest speaker several questions after the talk.",
+    "note": ""
+  },
+  {
+    "id": "work_conference",
+    "en": "conference",
+    "ph": "/ˈkɑːnfərəns/",
+    "uk": "конференція",
+    "pos": "noun",
+    "example": "She attended an industry conference last week.",
+    "example2": "The conference brought together experts from around the world.",
+    "note": ""
+  },
+  {
+    "id": "work_trade_show",
+    "en": "trade show",
+    "ph": "/treɪd ʃoʊ/",
+    "uk": "торгова виставка",
+    "pos": "noun",
+    "example": "The company showcased its new product at the trade show.",
+    "example2": "She met several new clients at the trade show.",
+    "note": ""
+  },
+  {
+    "id": "work_business_card",
+    "en": "business card",
+    "ph": "/ˈbɪznəs kɑːrd/",
+    "uk": "візитівка",
+    "pos": "noun",
+    "example": "He handed her his business card after the meeting.",
+    "example2": "She keeps a stack of business cards for networking events.",
+    "note": ""
+  },
+  {
+    "id": "work_handshake",
+    "en": "handshake",
+    "ph": "/ˈhændˌʃeɪk/",
+    "uk": "рукостискання",
+    "pos": "noun",
+    "example": "They closed the deal with a firm handshake.",
+    "example2": "A confident handshake makes a good first impression.",
+    "note": ""
+  },
+  {
+    "id": "work_small_talk",
+    "en": "small talk",
+    "ph": "/smɔːl tɔːk/",
+    "uk": "світська бесіда",
+    "pos": "noun",
+    "example": "They made small talk while waiting for the meeting to start.",
+    "example2": "She's not very comfortable with small talk.",
+    "note": ""
+  },
+  {
+    "id": "work_office_party",
+    "en": "office party",
+    "ph": "/ˈɔːfəs ˈpɑːrti/",
+    "uk": "корпоратив",
+    "pos": "noun",
+    "example": "The office party is held every December.",
+    "example2": "She organized this year's office party.",
+    "note": ""
+  },
+  {
+    "id": "work_team_meeting",
+    "en": "team meeting",
+    "ph": "/tiːm ˈmiːtɪŋ/",
+    "uk": "командна нарада",
+    "pos": "noun",
+    "example": "The team meeting starts every Monday at nine.",
+    "example2": "She raised the issue during the team meeting.",
+    "note": ""
+  },
+  {
+    "id": "work_one_on_one",
+    "en": "one-on-one",
+    "ph": "/wʌn ɔːn wʌn/",
+    "uk": "індивідуальна зустріч з керівником",
+    "pos": "noun",
+    "example": "She has a one-on-one with her manager every Friday.",
+    "example2": "The one-on-one gave her a chance to ask questions privately.",
+    "note": ""
+  },
+  {
+    "id": "work_check_in",
+    "en": "check-in",
+    "ph": "/ˈtʃɛk ɪn/",
+    "uk": "коротка зустріч для звірки статусу",
+    "pos": "noun",
+    "example": "The team does a quick check-in every morning.",
+    "example2": "Her manager schedules a weekly check-in on project progress.",
+    "note": ""
+  },
+  {
+    "id": "work_stand_up_meeting",
+    "en": "stand-up meeting",
+    "ph": "/stænd ʌp ˈmiːtɪŋ/",
+    "uk": "коротка нарада стоячи",
+    "pos": "noun",
+    "example": "The stand-up meeting lasts no more than ten minutes.",
+    "example2": "Everyone shares updates briefly during the stand-up meeting.",
+    "note": ""
+  },
+  {
+    "id": "work_brainstorming_session",
+    "en": "brainstorming session",
+    "ph": "/ˈbreɪnˌstɔːrmɪŋ ˈsɛʃən/",
+    "uk": "сесія мозкового штурму",
+    "pos": "noun",
+    "example": "The team held a brainstorming session for new ideas.",
+    "example2": "She wrote every idea on the board during the brainstorming session.",
+    "note": ""
+  },
+  {
+    "id": "work_action_item",
+    "en": "action item",
+    "ph": "/ˈækʃən ˈaɪtəm/",
+    "uk": "пункт плану дій",
+    "pos": "noun",
+    "example": "Each action item was assigned to a specific team member.",
+    "example2": "She reviewed the action items from last week's meeting.",
+    "note": ""
+  },
+  {
+    "id": "work_follow_up_email",
+    "en": "follow-up email",
+    "ph": "/ˈfɑːˌloʊ ʌp ˈiːmeɪl/",
+    "uk": "лист-нагадування",
+    "pos": "noun",
+    "example": "She sent a follow-up email after the interview.",
+    "example2": "A polite follow-up email can help keep you on the recruiter's radar.",
+    "note": ""
+  },
+  {
+    "id": "work_application_form",
+    "en": "application form",
+    "ph": "/ˌæplɪˈkeɪʃən fɔːrm/",
+    "uk": "форма заявки",
+    "pos": "noun",
+    "example": "She filled out the application form online.",
+    "example2": "The application form asked for previous work experience.",
+    "note": ""
   }
 ]
