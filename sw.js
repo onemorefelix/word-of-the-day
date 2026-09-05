@@ -1,4 +1,4 @@
-const CACHE_NAME = 'basis-v16';
+const CACHE_NAME = 'basis-v17';
 const SHELL = [
   './', './index.html', './trainer.html',
   './grammar.html', './grammar-tenses.html', './grammar-articles.html', './grammar-prepositions.html',
@@ -44,7 +44,10 @@ self.addEventListener('fetch', (event) => {
           caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
           return response;
         })
-        .catch(() => caches.match(event.request))
+        // ignoreSearch: trainer.html?topic=X has no exact cache entry until that
+        // topic was opened online once — fall back to the cached shell page
+        // (its own JS re-reads location.search on load) instead of failing.
+        .catch(() => caches.match(event.request, { ignoreSearch: true }))
     );
     return;
   }
