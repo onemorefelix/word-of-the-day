@@ -184,7 +184,14 @@ function renderCard(id){
   scroll.scrollTop = 0;
   if(updateFade) setTimeout(updateFade, 60);
 
+  if(isAutoSpeakOn()) speak(speakWord);
+
   renderActions(id);
+}
+
+// Налаштування "Автоматична вимова" (settings.html), вимкнено за замовчуванням.
+function isAutoSpeakOn(){
+  try{ return localStorage.getItem('basis_auto_speak') === '1'; }catch(e){ return false; }
 }
 
 // Вимова вголос через вбудований синтез мовлення браузера (без бекенду й аудіофайлів).

@@ -42,6 +42,35 @@
     font-size:calc(15px * var(--fs));
     line-height:1.5;
   }
+  .toggle{
+    flex:none;
+    width:48px; height:28px;
+    border-radius:14px;
+    border:1px solid var(--line);
+    background:rgba(236,230,216,0.05);
+    cursor:pointer;
+    position:relative;
+    padding:0;
+    transition:border-color 0.15s, background 0.15s;
+  }
+  .toggle::after{
+    content:"";
+    position:absolute;
+    top:2px; left:2px;
+    width:22px; height:22px;
+    border-radius:50%;
+    background:var(--dim);
+    transition:transform 0.15s, background 0.15s;
+  }
+  .toggle.on{
+    border-color:var(--moss);
+    background:rgba(95,184,173,0.14);
+    box-shadow:0 0 12px rgba(95,184,173,0.2);
+  }
+  .toggle.on::after{
+    transform:translateX(20px);
+    background:var(--moss);
+  }
 </style>
 </head>
 <body>
@@ -76,6 +105,14 @@
     <div class="preview-box" id="previewBox">
       Так виглядатиме текст карток і пояснень зі щойно обраним розміром.
     </div>
+
+    <div class="settings-row">
+      <div>
+        <div class="settings-label">Автоматична вимова</div>
+        <div class="settings-desc">Слово озвучується одразу, щойно відкривається картка в тренажері.</div>
+      </div>
+      <button class="toggle" id="autoSpeakToggle" type="button" aria-pressed="false"></button>
+    </div>
   </div>
 </div>
 
@@ -107,6 +144,22 @@ buttons.forEach(btn => {
 });
 
 setScale(currentScale());
+
+/* ---------- Автоматична вимова в тренажері ---------- */
+const AUTO_SPEAK_KEY = 'basis_auto_speak';
+const autoSpeakToggle = document.getElementById('autoSpeakToggle');
+
+function setAutoSpeak(on){
+  autoSpeakToggle.classList.toggle('on', on);
+  autoSpeakToggle.setAttribute('aria-pressed', String(on));
+  try{ localStorage.setItem(AUTO_SPEAK_KEY, on ? '1' : '0'); }catch(e){}
+}
+
+autoSpeakToggle.addEventListener('click', () => {
+  setAutoSpeak(!autoSpeakToggle.classList.contains('on'));
+});
+
+setAutoSpeak(localStorage.getItem(AUTO_SPEAK_KEY) === '1');
 </script>
 </body>
 </html>
