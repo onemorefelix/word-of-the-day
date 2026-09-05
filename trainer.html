@@ -27,6 +27,7 @@
   <div class="stats">
     <span>На повторення: <b id="dueCount">0</b></span>
     <span>Нових: <b id="newCount">0</b></span>
+    <span>У процесі: <b id="progressCount">0</b></span>
     <span>Вивчено: <b id="masteredCount">0</b></span>
   </div>
 
@@ -113,15 +114,18 @@ function buildQueue(){
 
 function updateStats(){
   const t = now();
-  let due = 0, fresh = 0, mastered = 0;
+  let due = 0, fresh = 0, mastered = 0, inProgress = 0;
   for(const item of ITEMS){
     const p = progress[item.id];
-    if(!p) fresh++;
-    else if(p.next <= t) due++;
-    if(p && p.box >= 5) mastered++;
+    if(!p){ fresh++; continue; }
+    if(p.next <= t) due++;
+    if(p.box >= 5) mastered++;
+    // "У процесі": прогрес уже є, слово ще не вивчене (box < 5) і зараз не чекає повторення.
+    else if(p.next > t) inProgress++;
   }
   document.getElementById('dueCount').textContent = due;
   document.getElementById('newCount').textContent = fresh;
+  document.getElementById('progressCount').textContent = inProgress;
   document.getElementById('masteredCount').textContent = mastered;
 }
 
