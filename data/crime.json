@@ -1,0 +1,1032 @@
+[
+  {
+    "id": "crime_crime",
+    "en": "crime",
+    "ph": "/kraɪm/",
+    "uk": "злочин",
+    "pos": "noun",
+    "example": "Crime rates have dropped in the city center over the past decade.",
+    "example2": "Committing a crime can lead to serious legal consequences.",
+    "note": ""
+  },
+  {
+    "id": "crime_theft",
+    "en": "theft",
+    "ph": "/θɛft/",
+    "uk": "крадіжка",
+    "pos": "noun",
+    "example": "The store installed cameras after a series of thefts.",
+    "example2": "Bicycle theft is common near the train station.",
+    "note": "Різниця з <b>robbery</b>: theft — крадіжка без прямого контакту з жертвою (напр. з машини), robbery — пограбування із застосуванням сили чи погрози."
+  },
+  {
+    "id": "crime_robbery",
+    "en": "robbery",
+    "ph": "/ˈrɑbəri/",
+    "uk": "пограбування",
+    "pos": "noun",
+    "example": "The bank robbery was caught on security cameras.",
+    "example2": "Armed robbery carries a much harsher sentence than theft.",
+    "note": ""
+  },
+  {
+    "id": "crime_burglary",
+    "en": "burglary",
+    "ph": "/ˈbɜrɡləri/",
+    "uk": "крадіжка зі зломом",
+    "pos": "noun",
+    "example": "Burglary usually involves entering a building illegally to steal something.",
+    "example2": "They installed an alarm system after a burglary last year.",
+    "note": "На відміну від <b>robbery</b>, burglary не вимагає присутності людини чи погроз — головна ознака: незаконне проникнення в приміщення."
+  },
+  {
+    "id": "crime_murder",
+    "en": "murder",
+    "ph": "/ˈmɜrdər/",
+    "uk": "вбивство (навмисне)",
+    "pos": "noun",
+    "example": "The detective spent months investigating the murder.",
+    "example2": "He was found guilty of murder and sentenced to life imprisonment.",
+    "note": "Навмисне вбивство. Порівняй з <b>manslaughter</b> — ненавмисне."
+  },
+  {
+    "id": "crime_manslaughter",
+    "en": "manslaughter",
+    "ph": "/ˈmænˌslɔtər/",
+    "uk": "ненавмисне вбивство",
+    "pos": "noun",
+    "example": "The driver was charged with manslaughter after the fatal accident.",
+    "example2": "Manslaughter usually carries a lighter sentence than murder because there's no intent to kill.",
+    "note": ""
+  },
+  {
+    "id": "crime_assault",
+    "en": "assault",
+    "ph": "/əˈsɔlt/",
+    "uk": "напад, побиття",
+    "pos": "noun",
+    "example": "He was arrested for assault after the bar fight.",
+    "example2": "Assault charges can range from minor to very serious, depending on the injury caused.",
+    "note": ""
+  },
+  {
+    "id": "crime_fraud",
+    "en": "fraud",
+    "ph": "/frɔd/",
+    "uk": "шахрайство",
+    "pos": "noun",
+    "example": "She lost her savings to an online investment fraud.",
+    "example2": "The company's accountant was convicted of fraud.",
+    "note": ""
+  },
+  {
+    "id": "crime_bribery",
+    "en": "bribery",
+    "ph": "/ˈbraɪbəri/",
+    "uk": "хабарництво",
+    "pos": "noun",
+    "example": "The official resigned after a bribery scandal.",
+    "example2": "Bribery of public officials is illegal in almost every country.",
+    "note": "Дієслово — <b>bribe (someone)</b>, а не <i>give bribery</i>."
+  },
+  {
+    "id": "crime_corruption",
+    "en": "corruption",
+    "ph": "/kəˈrʌpʃən/",
+    "uk": "корупція",
+    "pos": "noun",
+    "example": "The new government promised to fight corruption.",
+    "example2": "Corruption in the police force undermines public trust.",
+    "note": ""
+  },
+  {
+    "id": "crime_smuggling",
+    "en": "smuggling",
+    "ph": "/ˈsmʌɡəlɪŋ/",
+    "uk": "контрабанда",
+    "pos": "noun",
+    "example": "Customs officers caught them smuggling cigarettes across the border.",
+    "example2": "Smuggling of wildlife is a growing global problem.",
+    "note": "Дієслово — <b>smuggle something (into/out of a place)</b>."
+  },
+  {
+    "id": "crime_kidnapping",
+    "en": "kidnapping",
+    "ph": "/ˈkɪdnæpɪŋ/",
+    "uk": "викрадення людини",
+    "pos": "noun",
+    "example": "The kidnapping case remained unsolved for years.",
+    "example2": "Police negotiated with the kidnappers for the child's release.",
+    "note": ""
+  },
+  {
+    "id": "crime_arson",
+    "en": "arson",
+    "ph": "/ˈɑrsən/",
+    "uk": "підпал",
+    "pos": "noun",
+    "example": "Investigators determined the fire was caused by arson.",
+    "example2": "Arson is treated as a serious crime because it endangers lives.",
+    "note": ""
+  },
+  {
+    "id": "crime_vandalism",
+    "en": "vandalism",
+    "ph": "/ˈvændəˌlɪzəm/",
+    "uk": "вандалізм",
+    "pos": "noun",
+    "example": "The park benches were damaged by vandalism over the weekend.",
+    "example2": "Graffiti on private property is often classified as vandalism.",
+    "note": ""
+  },
+  {
+    "id": "crime_forgery",
+    "en": "forgery",
+    "ph": "/ˈfɔrdʒəri/",
+    "uk": "підробка (документів)",
+    "pos": "noun",
+    "example": "The signature on the check turned out to be a forgery.",
+    "example2": "He was charged with forgery for faking official documents.",
+    "note": ""
+  },
+  {
+    "id": "crime_embezzlement",
+    "en": "embezzlement",
+    "ph": "/ɪmˈbɛzəlmənt/",
+    "uk": "розтрата коштів",
+    "pos": "noun",
+    "example": "The manager was fired for embezzlement of company funds.",
+    "example2": "Embezzlement often goes undetected for years in large organizations.",
+    "note": "Крадіжка грошей, довірених людині за посадою (напр. бухгалтером), а не сторонньою особою."
+  },
+  {
+    "id": "crime_blackmail",
+    "en": "blackmail",
+    "ph": "/ˈblækmeɪl/",
+    "uk": "шантаж",
+    "pos": "noun",
+    "example": "She reported the blackmail attempt to the police immediately.",
+    "example2": "Blackmail involves threatening to reveal information unless demands are met.",
+    "note": ""
+  },
+  {
+    "id": "crime_extortion",
+    "en": "extortion",
+    "ph": "/ɪkˈstɔrʃən/",
+    "uk": "вимагання",
+    "pos": "noun",
+    "example": "The gang was arrested for extortion of local shop owners.",
+    "example2": "Extortion often involves threats of violence rather than exposing secrets.",
+    "note": "Порівняй з <b>blackmail</b>: extortion — вимагання через погрозу насильством, blackmail — через погрозу розголосити інформацію."
+  },
+  {
+    "id": "crime_trespassing",
+    "en": "trespassing",
+    "ph": "/ˈtrɛspəsɪŋ/",
+    "uk": "незаконне проникнення на територію",
+    "pos": "noun",
+    "example": "The sign warned that trespassing was not allowed.",
+    "example2": "He was fined for trespassing on private land.",
+    "note": ""
+  },
+  {
+    "id": "crime_shoplifting",
+    "en": "shoplifting",
+    "ph": "/ˈʃɑpˌlɪftɪŋ/",
+    "uk": "крадіжка в магазині",
+    "pos": "noun",
+    "example": "Shoplifting costs retailers billions of dollars every year.",
+    "example2": "The store hired extra security to prevent shoplifting.",
+    "note": ""
+  },
+  {
+    "id": "crime_mugging",
+    "en": "mugging",
+    "ph": "/ˈmʌɡɪŋ/",
+    "uk": "пограбування на вулиці",
+    "pos": "noun",
+    "example": "She was the victim of a mugging near the subway station.",
+    "example2": "Muggings tend to increase in poorly lit areas at night.",
+    "note": ""
+  },
+  {
+    "id": "crime_hijacking",
+    "en": "hijacking",
+    "ph": "/ˈhaɪdʒækɪŋ/",
+    "uk": "викрадення (транспорту)",
+    "pos": "noun",
+    "example": "The hijacking of the plane ended without any injuries.",
+    "example2": "Airport security was tightened after the hijacking attempt.",
+    "note": ""
+  },
+  {
+    "id": "crime_terrorism",
+    "en": "terrorism",
+    "ph": "/ˈtɛrərɪzəm/",
+    "uk": "тероризм",
+    "pos": "noun",
+    "example": "The attack was classified as an act of terrorism.",
+    "example2": "Governments around the world cooperate to prevent terrorism.",
+    "note": ""
+  },
+  {
+    "id": "crime_treason",
+    "en": "treason",
+    "ph": "/ˈtriːzən/",
+    "uk": "державна зрада",
+    "pos": "noun",
+    "example": "He was accused of treason for leaking state secrets to a foreign government.",
+    "example2": "Treason is considered one of the most serious crimes against a country.",
+    "note": ""
+  },
+  {
+    "id": "crime_perjury",
+    "en": "perjury",
+    "ph": "/ˈpɝdʒəri/",
+    "uk": "неправдиве свідчення під присягою",
+    "pos": "noun",
+    "example": "The witness was charged with perjury after lying in court.",
+    "example2": "Perjury undermines the entire justice system.",
+    "note": ""
+  },
+  {
+    "id": "crime_libel",
+    "en": "libel",
+    "ph": "/ˈlaɪbəl/",
+    "uk": "наклеп (письмовий)",
+    "pos": "noun",
+    "example": "The newspaper faced a libel lawsuit over the false article.",
+    "example2": "Libel refers specifically to written or published false statements.",
+    "note": "Усний наклеп — <b>slander</b>."
+  },
+  {
+    "id": "crime_slander",
+    "en": "slander",
+    "ph": "/ˈslændər/",
+    "uk": "наклеп (усний)",
+    "pos": "noun",
+    "example": "He sued his former colleague for slander.",
+    "example2": "Slander involves spoken false statements that damage someone's reputation.",
+    "note": "Письмовий наклеп — <b>libel</b>."
+  },
+  {
+    "id": "crime_harassment",
+    "en": "harassment",
+    "ph": "/həˈræsmənt/",
+    "uk": "переслідування, домагання",
+    "pos": "noun",
+    "example": "The company has a strict policy against workplace harassment.",
+    "example2": "She filed a complaint about harassment from a coworker.",
+    "note": ""
+  },
+  {
+    "id": "crime_stalking",
+    "en": "stalking",
+    "ph": "/ˈstɔkɪŋ/",
+    "uk": "нав'язливе переслідування",
+    "pos": "noun",
+    "example": "Stalking is a criminal offense in most countries.",
+    "example2": "She got a restraining order after months of stalking.",
+    "note": ""
+  },
+  {
+    "id": "crime_homicide",
+    "en": "homicide",
+    "ph": "/ˈhɑməˌsaɪd/",
+    "uk": "вбивство (юридичний термін)",
+    "pos": "noun",
+    "example": "The homicide detective examined the crime scene carefully.",
+    "example2": "The city's homicide rate dropped significantly last year.",
+    "note": "Загальний юридичний термін для будь-якого вбивства (включно з <b>murder</b> і <b>manslaughter</b>)."
+  },
+  {
+    "id": "crime_counterfeiting",
+    "en": "counterfeiting",
+    "ph": "/ˈkaʊntərfɪtɪŋ/",
+    "uk": "підробка (грошей/товарів)",
+    "pos": "noun",
+    "example": "Counterfeiting of designer handbags is a billion-dollar industry.",
+    "example2": "The police raided a warehouse full of counterfeit money.",
+    "note": ""
+  },
+  {
+    "id": "crime_money_laundering",
+    "en": "money laundering",
+    "ph": "/ˈmʌni ˌlɔndərɪŋ/",
+    "uk": "відмивання грошей",
+    "pos": "noun",
+    "example": "The businessman was arrested for money laundering.",
+    "example2": "Money laundering makes illegally earned money appear legitimate.",
+    "note": ""
+  },
+  {
+    "id": "crime_identity_theft",
+    "en": "identity theft",
+    "ph": "/aɪˈdɛntɪti θɛft/",
+    "uk": "крадіжка особистих даних",
+    "pos": "noun",
+    "example": "Identity theft can ruin a person's credit history for years.",
+    "example2": "Never share your passwords to avoid identity theft.",
+    "note": ""
+  },
+  {
+    "id": "crime_cybercrime",
+    "en": "cybercrime",
+    "ph": "/ˈsaɪbərˌkraɪm/",
+    "uk": "кіберзлочинність",
+    "pos": "noun",
+    "example": "Cybercrime has increased dramatically with the rise of online banking.",
+    "example2": "The police created a special unit to fight cybercrime.",
+    "note": ""
+  },
+  {
+    "id": "crime_drug_trafficking",
+    "en": "drug trafficking",
+    "ph": "/drʌɡ ˈtræfɪkɪŋ/",
+    "uk": "наркоторгівля",
+    "pos": "noun",
+    "example": "He was sentenced to twenty years for drug trafficking.",
+    "example2": "International cooperation is essential to stop drug trafficking.",
+    "note": ""
+  },
+  {
+    "id": "crime_human_trafficking",
+    "en": "human trafficking",
+    "ph": "/ˈhjuːmən ˈtræfɪkɪŋ/",
+    "uk": "торгівля людьми",
+    "pos": "noun",
+    "example": "Human trafficking is one of the most serious human rights violations today.",
+    "example2": "The organization works to rescue victims of human trafficking.",
+    "note": ""
+  },
+  {
+    "id": "crime_hate_crime",
+    "en": "hate crime",
+    "ph": "/heɪt kraɪm/",
+    "uk": "злочин на ґрунті ненависті",
+    "pos": "noun",
+    "example": "The attack was investigated as a hate crime.",
+    "example2": "Hate crimes are motivated by prejudice against a group.",
+    "note": ""
+  },
+  {
+    "id": "crime_domestic_violence",
+    "en": "domestic violence",
+    "ph": "/dəˈmɛstɪk ˈvaɪələns/",
+    "uk": "домашнє насильство",
+    "pos": "noun",
+    "example": "The shelter provides support for victims of domestic violence.",
+    "example2": "Domestic violence often goes unreported out of fear.",
+    "note": ""
+  },
+  {
+    "id": "crime_juvenile_delinquency",
+    "en": "juvenile delinquency",
+    "ph": "/ˈdʒuːvənaɪl dɪˈlɪŋkwənsi/",
+    "uk": "підліткова злочинність",
+    "pos": "noun",
+    "example": "Juvenile delinquency rates dropped after the new youth program started.",
+    "example2": "Juvenile delinquency refers to criminal behavior by minors.",
+    "note": ""
+  },
+  {
+    "id": "crime_criminal",
+    "en": "criminal",
+    "ph": "/ˈkrɪmɪnəl/",
+    "uk": "злочинець",
+    "pos": "noun",
+    "example": "The criminal was arrested within hours of the robbery.",
+    "example2": "Not every offender is a violent criminal.",
+    "note": "Також прикметник: <b>criminal record</b> (судимість)."
+  },
+  {
+    "id": "crime_offender",
+    "en": "offender",
+    "ph": "/əˈfɛndər/",
+    "uk": "правопорушник",
+    "pos": "noun",
+    "example": "First-time offenders are sometimes offered community service instead of jail.",
+    "example2": "The program helps offenders reintegrate into society.",
+    "note": ""
+  },
+  {
+    "id": "crime_suspect",
+    "en": "suspect",
+    "ph": "/ˈsʌspɛkt/",
+    "uk": "підозрюваний",
+    "pos": "noun",
+    "example": "Police brought the suspect in for questioning.",
+    "example2": "The suspect was released due to lack of evidence.",
+    "note": "Наголос на першому складі як іменник; як дієслово (<i>підозрювати</i>) наголос переходить на другий: <b>suspect</b> /səˈspɛkt/."
+  },
+  {
+    "id": "crime_defendant",
+    "en": "defendant",
+    "ph": "/dɪˈfɛndənt/",
+    "uk": "відповідач, підсудний",
+    "pos": "noun",
+    "example": "The defendant pleaded not guilty to all charges.",
+    "example2": "The defendant's lawyer requested more time to prepare.",
+    "note": "Протилежна сторона в цивільному процесі — <b>plaintiff</b>."
+  },
+  {
+    "id": "crime_plaintiff",
+    "en": "plaintiff",
+    "ph": "/ˈpleɪntɪf/",
+    "uk": "позивач",
+    "pos": "noun",
+    "example": "The plaintiff is suing the company for damages.",
+    "example2": "The plaintiff's lawyer presented evidence of the injury.",
+    "note": "Використовується в цивільних справах, на відміну від кримінальних."
+  },
+  {
+    "id": "crime_witness",
+    "en": "witness",
+    "ph": "/ˈwɪtnəs/",
+    "uk": "свідок",
+    "pos": "noun",
+    "example": "The witness described the suspect to the police.",
+    "example2": "Three witnesses confirmed the same version of events.",
+    "note": "Також дієслово: <b>to witness a crime</b> (стати свідком)."
+  },
+  {
+    "id": "crime_victim",
+    "en": "victim",
+    "ph": "/ˈvɪktɪm/",
+    "uk": "жертва",
+    "pos": "noun",
+    "example": "The victim was taken to the hospital after the attack.",
+    "example2": "Support groups help crime victims recover emotionally.",
+    "note": ""
+  },
+  {
+    "id": "crime_culprit",
+    "en": "culprit",
+    "ph": "/ˈkʌlprɪt/",
+    "uk": "винуватець",
+    "pos": "noun",
+    "example": "Police finally identified the culprit behind the break-ins.",
+    "example2": "The real culprit was never caught.",
+    "note": ""
+  },
+  {
+    "id": "crime_accomplice",
+    "en": "accomplice",
+    "ph": "/əˈkɑmplɪs/",
+    "uk": "спільник",
+    "pos": "noun",
+    "example": "The getaway driver was charged as an accomplice.",
+    "example2": "An accomplice helps someone commit a crime, even without doing it directly.",
+    "note": ""
+  },
+  {
+    "id": "crime_perpetrator",
+    "en": "perpetrator",
+    "ph": "/ˈpɝpɪˌtreɪtər/",
+    "uk": "виконавець злочину",
+    "pos": "noun",
+    "example": "The perpetrator fled the scene before police arrived.",
+    "example2": "Investigators are still searching for the perpetrator.",
+    "note": ""
+  },
+  {
+    "id": "crime_convict",
+    "en": "convict",
+    "ph": "/ˈkɑnvɪkt/",
+    "uk": "засуджений",
+    "pos": "noun",
+    "example": "The convict was released after serving ten years.",
+    "example2": "Former convicts often struggle to find employment.",
+    "note": "Як дієслово (<i>визнати винним</i>) наголос переходить на другий склад: <b>convict</b> /kənˈvɪkt/."
+  },
+  {
+    "id": "crime_felon",
+    "en": "felon",
+    "ph": "/ˈfɛlən/",
+    "uk": "особа, засуджена за тяжкий злочин",
+    "pos": "noun",
+    "example": "As a convicted felon, he lost his right to vote in some states.",
+    "example2": "Felons often face restrictions on gun ownership.",
+    "note": "Особа, засуджена саме за <b>felony</b> (тяжкий злочин)."
+  },
+  {
+    "id": "crime_fugitive",
+    "en": "fugitive",
+    "ph": "/ˈfjuːdʒɪtɪv/",
+    "uk": "втікач від правосуддя",
+    "pos": "noun",
+    "example": "The fugitive was captured after three years on the run.",
+    "example2": "Police issued a nationwide alert for the fugitive.",
+    "note": ""
+  },
+  {
+    "id": "crime_informant",
+    "en": "informant",
+    "ph": "/ɪnˈfɔrmənt/",
+    "uk": "інформатор",
+    "pos": "noun",
+    "example": "The police relied on an informant inside the gang.",
+    "example2": "Being an informant can be extremely dangerous.",
+    "note": ""
+  },
+  {
+    "id": "crime_juror",
+    "en": "juror",
+    "ph": "/ˈdʒʊrər/",
+    "uk": "присяжний",
+    "pos": "noun",
+    "example": "Each juror must swear to judge the case fairly.",
+    "example2": "The judge dismissed a juror for personal bias.",
+    "note": "Один присяжний — <b>a juror</b>; колективний орган — <b>the jury</b>."
+  },
+  {
+    "id": "crime_judge",
+    "en": "judge",
+    "ph": "/dʒʌdʒ/",
+    "uk": "суддя",
+    "pos": "noun",
+    "example": "The judge sentenced him to five years in prison.",
+    "example2": "The judge dismissed the case due to insufficient evidence.",
+    "note": ""
+  },
+  {
+    "id": "crime_lawyer",
+    "en": "lawyer",
+    "ph": "/ˈlɔjər/",
+    "uk": "юрист, адвокат",
+    "pos": "noun",
+    "example": "She hired a lawyer to represent her in court.",
+    "example2": "Every defendant has the right to a lawyer.",
+    "note": ""
+  },
+  {
+    "id": "crime_attorney",
+    "en": "attorney",
+    "ph": "/əˈtɜrni/",
+    "uk": "адвокат (амер. термін)",
+    "pos": "noun",
+    "example": "The district attorney decided to press charges.",
+    "example2": "He spoke to his attorney before answering any questions.",
+    "note": "Американський термін, часто взаємозамінний із <b>lawyer</b>."
+  },
+  {
+    "id": "crime_prosecutor",
+    "en": "prosecutor",
+    "ph": "/ˈprɑsɪˌkjuːtər/",
+    "uk": "прокурор",
+    "pos": "noun",
+    "example": "The prosecutor presented strong evidence against the defendant.",
+    "example2": "The prosecutor asked for the maximum sentence.",
+    "note": "Протилежна сторона в процесі — <b>defense attorney</b>."
+  },
+  {
+    "id": "crime_detective",
+    "en": "detective",
+    "ph": "/dɪˈtɛktɪv/",
+    "uk": "детектив",
+    "pos": "noun",
+    "example": "The detective questioned several witnesses at the scene.",
+    "example2": "She's been a detective for over fifteen years.",
+    "note": ""
+  },
+  {
+    "id": "crime_parolee",
+    "en": "parolee",
+    "ph": "/pəˌroʊˈliː/",
+    "uk": "умовно-достроково звільнений",
+    "pos": "noun",
+    "example": "The parolee must report to an officer every month.",
+    "example2": "Breaking the rules can send a parolee back to prison.",
+    "note": ""
+  },
+  {
+    "id": "crime_pickpocket",
+    "en": "pickpocket",
+    "ph": "/ˈpɪkˌpɑkɪt/",
+    "uk": "кишеньковий злодій",
+    "pos": "noun",
+    "example": "Tourists are warned about pickpockets in crowded markets.",
+    "example2": "A pickpocket stole his wallet on the subway.",
+    "note": ""
+  },
+  {
+    "id": "crime_burglar",
+    "en": "burglar",
+    "ph": "/ˈbɜrɡlər/",
+    "uk": "зломщик",
+    "pos": "noun",
+    "example": "The burglar broke a window to get inside.",
+    "example2": "Their dog scared the burglar away.",
+    "note": ""
+  },
+  {
+    "id": "crime_thief",
+    "en": "thief",
+    "ph": "/θiːf/",
+    "uk": "злодій",
+    "pos": "noun",
+    "example": "The thief ran away before anyone could catch him.",
+    "example2": "Store thieves are often caught on security cameras.",
+    "note": "Множина — <b>thieves</b>, не <i>thiefs</i>."
+  },
+  {
+    "id": "crime_arsonist",
+    "en": "arsonist",
+    "ph": "/ˈɑrsənɪst/",
+    "uk": "палій",
+    "pos": "noun",
+    "example": "The arsonist was identified through forensic evidence.",
+    "example2": "Arsonists often return to watch the fire they started.",
+    "note": ""
+  },
+  {
+    "id": "crime_court",
+    "en": "court",
+    "ph": "/kɔrt/",
+    "uk": "суд",
+    "pos": "noun",
+    "example": "The case will go to court next month.",
+    "example2": "She appeared in court to testify.",
+    "note": ""
+  },
+  {
+    "id": "crime_trial",
+    "en": "trial",
+    "ph": "/ˈtraɪəl/",
+    "uk": "судовий процес",
+    "pos": "noun",
+    "example": "The trial lasted almost three weeks.",
+    "example2": "He is awaiting trial in county jail.",
+    "note": ""
+  },
+  {
+    "id": "crime_verdict",
+    "en": "verdict",
+    "ph": "/ˈvɜrdɪkt/",
+    "uk": "вирок (рішення присяжних)",
+    "pos": "noun",
+    "example": "The jury reached a verdict after six hours of deliberation.",
+    "example2": "The court announced a not-guilty verdict.",
+    "note": "Рішення присяжних щодо винуватості. Покарання, яке призначає суддя, — <b>sentence</b>."
+  },
+  {
+    "id": "crime_sentence",
+    "en": "sentence",
+    "ph": "/ˈsɛntəns/",
+    "uk": "вирок, покарання",
+    "pos": "noun",
+    "example": "He received a ten-year sentence for armed robbery.",
+    "example2": "The judge reduced her sentence for good behavior.",
+    "note": ""
+  },
+  {
+    "id": "crime_appeal",
+    "en": "appeal",
+    "ph": "/əˈpiːl/",
+    "uk": "апеляція",
+    "pos": "noun",
+    "example": "His lawyer filed an appeal against the conviction.",
+    "example2": "The appeal was rejected by the higher court.",
+    "note": "Також дієслово: <b>to appeal a decision</b>."
+  },
+  {
+    "id": "crime_jury",
+    "en": "jury",
+    "ph": "/ˈdʒʊri/",
+    "uk": "присяжні",
+    "pos": "noun",
+    "example": "The jury deliberated for two days before reaching a decision.",
+    "example2": "Twelve members make up a typical jury in the US.",
+    "note": ""
+  },
+  {
+    "id": "crime_evidence",
+    "en": "evidence",
+    "ph": "/ˈɛvɪdəns/",
+    "uk": "докази",
+    "pos": "noun",
+    "example": "There wasn't enough evidence to convict him.",
+    "example2": "DNA evidence linked the suspect to the crime scene.",
+    "note": "Незлічуваний іменник: <b>a piece of evidence</b>, не <i>an evidence</i>."
+  },
+  {
+    "id": "crime_testimony",
+    "en": "testimony",
+    "ph": "/ˈtɛstɪˌmoʊni/",
+    "uk": "свідчення",
+    "pos": "noun",
+    "example": "Her testimony was crucial to the prosecution's case.",
+    "example2": "The witness gave testimony under oath.",
+    "note": ""
+  },
+  {
+    "id": "crime_alibi",
+    "en": "alibi",
+    "ph": "/ˈæləˌbaɪ/",
+    "uk": "алібі",
+    "pos": "noun",
+    "example": "He had a solid alibi for the night of the robbery.",
+    "example2": "Her alibi was confirmed by three coworkers.",
+    "note": ""
+  },
+  {
+    "id": "crime_warrant",
+    "en": "warrant",
+    "ph": "/ˈwɔrənt/",
+    "uk": "ордер",
+    "pos": "noun",
+    "example": "Police obtained a warrant to search the house.",
+    "example2": "There's an outstanding warrant for his arrest.",
+    "note": ""
+  },
+  {
+    "id": "crime_indictment",
+    "en": "indictment",
+    "ph": "/ɪnˈdaɪtmənt/",
+    "uk": "обвинувальний акт",
+    "pos": "noun",
+    "example": "The grand jury returned an indictment on all charges.",
+    "example2": "An indictment formally accuses someone of a crime.",
+    "note": "Літера <b>c</b> не вимовляється: /ɪnˈdaɪtmənt/."
+  },
+  {
+    "id": "crime_plea",
+    "en": "plea",
+    "ph": "/pliː/",
+    "uk": "заява (визнання вини/невинуватості)",
+    "pos": "noun",
+    "example": "He entered a plea of not guilty.",
+    "example2": "She accepted a plea deal to avoid a longer trial.",
+    "note": "<b>Plea bargain</b> — угода зі слідством: часткове визнання вини в обмін на менше покарання."
+  },
+  {
+    "id": "crime_acquittal",
+    "en": "acquittal",
+    "ph": "/əˈkwɪtəl/",
+    "uk": "виправдання",
+    "pos": "noun",
+    "example": "The jury's acquittal surprised many observers.",
+    "example2": "His acquittal came after new evidence was presented.",
+    "note": "Дієслово — <b>acquit (someone) of a charge</b>."
+  },
+  {
+    "id": "crime_conviction",
+    "en": "conviction",
+    "ph": "/kənˈvɪkʃən/",
+    "uk": "засудження, визнання винним",
+    "pos": "noun",
+    "example": "This was his second conviction for theft.",
+    "example2": "The appeal court overturned the conviction.",
+    "note": ""
+  },
+  {
+    "id": "crime_custody",
+    "en": "custody",
+    "ph": "/ˈkʌstədi/",
+    "uk": "варта, арешт",
+    "pos": "noun",
+    "example": "The suspect remained in police custody overnight.",
+    "example2": "He was taken into custody at the airport.",
+    "note": "Також означає опіку над дитиною після розлучення — <b>child custody</b>."
+  },
+  {
+    "id": "crime_arrest",
+    "en": "arrest",
+    "ph": "/əˈrɛst/",
+    "uk": "арешт",
+    "pos": "noun",
+    "example": "The arrest took place early in the morning.",
+    "example2": "Police made three arrests during the raid.",
+    "note": "Також дуже поширене дієслово: <b>to arrest someone</b>."
+  },
+  {
+    "id": "crime_interrogation",
+    "en": "interrogation",
+    "ph": "/ɪnˌtɛrəˈɡeɪʃən/",
+    "uk": "допит",
+    "pos": "noun",
+    "example": "The suspect confessed during the interrogation.",
+    "example2": "Interrogations must follow strict legal rules.",
+    "note": ""
+  },
+  {
+    "id": "crime_confession",
+    "en": "confession",
+    "ph": "/kənˈfɛʃən/",
+    "uk": "зізнання",
+    "pos": "noun",
+    "example": "The suspect signed a written confession.",
+    "example2": "His confession was later ruled inadmissible in court.",
+    "note": ""
+  },
+  {
+    "id": "crime_bail",
+    "en": "bail",
+    "ph": "/beɪl/",
+    "uk": "застава",
+    "pos": "noun",
+    "example": "The judge set bail at fifty thousand dollars.",
+    "example2": "He was released on bail while awaiting trial.",
+    "note": ""
+  },
+  {
+    "id": "crime_probation",
+    "en": "probation",
+    "ph": "/proʊˈbeɪʃən/",
+    "uk": "умовне засудження",
+    "pos": "noun",
+    "example": "She was sentenced to two years' probation instead of jail.",
+    "example2": "Breaking probation can result in immediate imprisonment.",
+    "note": ""
+  },
+  {
+    "id": "crime_parole",
+    "en": "parole",
+    "ph": "/pəˈroʊl/",
+    "uk": "умовно-дострокове звільнення",
+    "pos": "noun",
+    "example": "He was granted parole after serving half his sentence.",
+    "example2": "Parole allows early release under certain conditions.",
+    "note": "Не плутати з <b>probation</b>: probation — замість ув'язнення, parole — дострокове звільнення з в'язниці."
+  },
+  {
+    "id": "crime_fine",
+    "en": "fine",
+    "ph": "/faɪn/",
+    "uk": "штраф",
+    "pos": "noun",
+    "example": "She had to pay a fine for illegal parking.",
+    "example2": "The court imposed a heavy fine on the company.",
+    "note": ""
+  },
+  {
+    "id": "crime_penalty",
+    "en": "penalty",
+    "ph": "/ˈpɛnəlti/",
+    "uk": "покарання",
+    "pos": "noun",
+    "example": "The penalty for the offense was increased last year.",
+    "example2": "The death penalty remains legal in some states.",
+    "note": ""
+  },
+  {
+    "id": "crime_imprisonment",
+    "en": "imprisonment",
+    "ph": "/ɪmˈprɪzənmənt/",
+    "uk": "ув'язнення",
+    "pos": "noun",
+    "example": "He faces life imprisonment if convicted.",
+    "example2": "Imprisonment is meant to punish and deter crime.",
+    "note": ""
+  },
+  {
+    "id": "crime_deterrent",
+    "en": "deterrent",
+    "ph": "/dɪˈtɝənt/",
+    "uk": "засіб стримування",
+    "pos": "noun",
+    "example": "Harsh penalties are meant to act as a deterrent.",
+    "example2": "Some studies question whether prison is an effective deterrent.",
+    "note": ""
+  },
+  {
+    "id": "crime_rehabilitation",
+    "en": "rehabilitation",
+    "ph": "/ˌriːəˌbɪlɪˈteɪʃən/",
+    "uk": "реабілітація",
+    "pos": "noun",
+    "example": "The program focuses on rehabilitation rather than punishment.",
+    "example2": "Rehabilitation programs help reduce reoffending.",
+    "note": ""
+  },
+  {
+    "id": "crime_recidivism",
+    "en": "recidivism",
+    "ph": "/rɪˈsɪdəvɪzəm/",
+    "uk": "рецидив (злочину)",
+    "pos": "noun",
+    "example": "Recidivism rates are lower among those who complete education programs.",
+    "example2": "The study measured recidivism over a five-year period.",
+    "note": ""
+  },
+  {
+    "id": "crime_law",
+    "en": "law",
+    "ph": "/lɔ/",
+    "uk": "закон",
+    "pos": "noun",
+    "example": "It's against the law to drive without a license.",
+    "example2": "The new law takes effect next month.",
+    "note": ""
+  },
+  {
+    "id": "crime_felony",
+    "en": "felony",
+    "ph": "/ˈfɛləni/",
+    "uk": "тяжкий злочин",
+    "pos": "noun",
+    "example": "Burglary is classified as a felony in most states.",
+    "example2": "A felony conviction can affect future employment.",
+    "note": "Менш тяжкий злочин — <b>misdemeanor</b>."
+  },
+  {
+    "id": "crime_misdemeanor",
+    "en": "misdemeanor",
+    "ph": "/ˌmɪsdɪˈmiːnər/",
+    "uk": "незначне правопорушення",
+    "pos": "noun",
+    "example": "Shoplifting a small item is usually charged as a misdemeanor.",
+    "example2": "Misdemeanors carry lighter penalties than felonies.",
+    "note": ""
+  },
+  {
+    "id": "crime_jurisdiction",
+    "en": "jurisdiction",
+    "ph": "/ˌdʒʊrɪsˈdɪkʃən/",
+    "uk": "юрисдикція",
+    "pos": "noun",
+    "example": "The case falls outside the court's jurisdiction.",
+    "example2": "Different countries have different jurisdictions over international crimes.",
+    "note": ""
+  },
+  {
+    "id": "crime_lawsuit",
+    "en": "lawsuit",
+    "ph": "/ˈlɔˌsuːt/",
+    "uk": "позов",
+    "pos": "noun",
+    "example": "She filed a lawsuit against her former employer.",
+    "example2": "The lawsuit was settled out of court.",
+    "note": ""
+  },
+  {
+    "id": "crime_forensic",
+    "en": "forensic",
+    "ph": "/fəˈrɛnzɪk/",
+    "uk": "судово-медичний, криміналістичний",
+    "pos": "adjective",
+    "example": "Forensic scientists examined the fingerprints found at the scene.",
+    "example2": "Forensic evidence played a key role in the trial.",
+    "note": "Найчастіше в словосполученнях: <b>forensic evidence</b>, <b>forensic scientist</b>."
+  },
+  {
+    "id": "crime_crime_scene",
+    "en": "crime scene",
+    "ph": "/kraɪm siːn/",
+    "uk": "місце злочину",
+    "pos": "noun",
+    "example": "Police cordoned off the crime scene with yellow tape.",
+    "example2": "Investigators collected samples from the crime scene.",
+    "note": ""
+  },
+  {
+    "id": "crime_investigation",
+    "en": "investigation",
+    "ph": "/ɪnˌvɛstɪˈɡeɪʃən/",
+    "uk": "розслідування",
+    "pos": "noun",
+    "example": "The investigation lasted several months.",
+    "example2": "Detectives launched an investigation into the missing funds.",
+    "note": ""
+  },
+  {
+    "id": "crime_extradition",
+    "en": "extradition",
+    "ph": "/ˌɛkstrəˈdɪʃən/",
+    "uk": "екстрадиція",
+    "pos": "noun",
+    "example": "The two countries signed an extradition treaty.",
+    "example2": "He fought extradition to avoid facing trial abroad.",
+    "note": ""
+  },
+  {
+    "id": "crime_steal",
+    "en": "steal",
+    "ph": "/stiːl/",
+    "uk": "красти",
+    "pos": "verb",
+    "forms": {
+      "base": "steal",
+      "phBase": "/stiːl/",
+      "past": "stole",
+      "phPast": "/stoʊl/",
+      "part": "stolen",
+      "phPart": "/ˈstoʊlən/"
+    },
+    "examples": [
+      [
+        "Present Simple",
+        "Pickpockets steal wallets in crowded areas."
+      ],
+      [
+        "Past Simple",
+        "Someone stole her bike outside the library."
+      ],
+      [
+        "Present Perfect",
+        "The thief has stolen jewelry from three houses this month."
+      ]
+    ],
+    "note": "Неправильне дієслово: <b>steal - stole - stolen</b>. <b>Steal something</b> (красти щось), але <b>rob someone/somewhere</b> (грабувати когось/щось) — об'єкт різний."
+  }
+]
