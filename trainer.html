@@ -42,6 +42,10 @@
     <button class="btn-know" id="knowBtn">Знаю</button>
   </div>
 
+  <div class="reset-row" id="undoRow" style="display:none;">
+    <button class="reset-link" id="undoBtn">↩ Скасувати останню відповідь</button>
+  </div>
+
   <div class="reset-row">
     <button class="reset-link" id="resetBtn">Скинути прогрес цієї теми</button>
   </div>
@@ -199,6 +203,9 @@ function renderActions(id){
   const knowBtn = document.getElementById('knowBtn');
   const newForgot = forgotBtn.cloneNode(true);
   const newKnow = knowBtn.cloneNode(true);
+  // Слово ще жодного разу не показувалось (нема запису прогресу) — "не знав",
+  // а не "забув": це не одне й те саме, і "забув" тут звучить недоречно.
+  newForgot.textContent = progress[id] ? 'Забув' : 'Не знаю';
   forgotBtn.replaceWith(newForgot);
   knowBtn.replaceWith(newKnow);
   newForgot.addEventListener('click', () => answer(id, false));
@@ -232,7 +239,15 @@ function renderError(){
   removeActions();
 }
 
+// Однорівневе скасування: пам'ятаємо стан прогресу лише для останньої відповіді,
+// щоб можна було відкотити випадкове натискання не тієї кнопки.
+let lastAction = null; // {id, existed, prevProgress}
+
 function answer(id, knew){
+  const existed = Object.prototype.hasOwnProperty.call(progress, id);
+  lastAction = { id, existed, prevProgress: existed ? {...progress[id]} : null };
+  updateUndoUI();
+
   const p = progress[id] || {box: 0, next: 0};
   if(knew){
     p.box = Math.min((p.box || 0) + 1, 5);
@@ -247,6 +262,23 @@ function answer(id, knew){
   nextCard();
 }
 
+function undoLastAction(){
+  if(!lastAction) return;
+  const { id, existed, prevProgress } = lastAction;
+  if(existed){ progress[id] = prevProgress; }
+  else { delete progress[id]; }
+  saveProgress(progress);
+  lastAction = null;
+  updateUndoUI();
+  updateStats();
+  currentId = id;
+  renderCard(id);
+}
+
+function updateUndoUI(){
+  document.getElementById('undoRow').style.display = lastAction ? 'block' : 'none';
+}
+
 function nextCard(){
   const queue = buildQueue();
   if(queue.length === 0){
@@ -258,10 +290,14 @@ function nextCard(){
   renderCard(currentId);
 }
 
+document.getElementById('undoBtn').addEventListener('click', undoLastAction);
+
 document.getElementById('resetBtn').addEventListener('click', () => {
   if(confirm('Точно скинути прогрес цієї теми? Це не можна відмінити.')){
     progress = {};
     saveProgress(progress);
+    lastAction = null;
+    updateUndoUI();
     updateStats();
     nextCard();
   }
